@@ -7,3 +7,4 @@ Feature: Login Functionality
     When user enters valid username and password
     And user clicks on login button
     Then user should be navigated to dashboard page
+   
