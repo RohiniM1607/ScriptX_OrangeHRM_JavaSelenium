@@ -19,4 +19,5 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
 
     Examples:
       | role  | employeeName | status  | username | password   | confirmPassword |
-      | Admin | Rohini M     | Enabled | Rohini16 | Rohini@123 | Rohini@123      |
+      | ESS | Employee 1     | Enabled | Employee_1 | Employee@123 | Employee@123      |
+      | Admin | Admin 1      | Enabled | Admin_1    | Admin@123    | Admin@123     |
