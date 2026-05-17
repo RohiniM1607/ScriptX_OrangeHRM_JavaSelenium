@@ -7,15 +7,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.hooks.Hooks;
 import com.pages.DashBoardEmployeePage;
+import com.utilities.HelperClass;
 
 public class DashBoardActions {
 
     DashBoardEmployeePage dashBoardPage;
     WebDriverWait wait;
+    HelperClass helper=new HelperClass();
 
     public DashBoardActions() {
         dashBoardPage = new DashBoardEmployeePage();
-        wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(15));
+        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
     }
 
     public void navigateToMyInfo() {

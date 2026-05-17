@@ -11,10 +11,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.hooks.Hooks;
 import com.pages.Add_leave_entitlement_page;
+import com.utilities.HelperClass;
 
 public class Add_leave_entitlement_action {
 
-	Add_leave_entitlement_page ep = new Add_leave_entitlement_page();;
+	Add_leave_entitlement_page ep = new Add_leave_entitlement_page();
+	HelperClass helper=new HelperClass();
 	Hooks hooks = new Hooks();
 
 	public void leavePage() {
@@ -29,8 +31,8 @@ public class Add_leave_entitlement_action {
 
 	public void user_details(String name, String entitlement) {
 
-		WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
-		Actions actions = new Actions(Hooks.driver);
+		WebDriverWait wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(10));
+		Actions actions = new Actions(helper.getDriver());
 		ep.employee_name.click();
 		ep.employee_name.sendKeys(name);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role=\"listbox\"]")));

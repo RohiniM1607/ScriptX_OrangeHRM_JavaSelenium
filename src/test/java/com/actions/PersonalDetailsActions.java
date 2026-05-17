@@ -11,15 +11,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.hooks.Hooks;
 import com.pages.PersonalDetailsPage;
+import com.utilities.HelperClass;
 
 public class PersonalDetailsActions {
 
     PersonalDetailsPage personalDetailsPage = null;
     WebDriverWait wait;
+    HelperClass helper=new HelperClass();
 
     public PersonalDetailsActions() {
         this.personalDetailsPage = new PersonalDetailsPage();
-        wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(10));
     }
 
     private void waitForLoaderToDisappear() {
@@ -63,7 +65,7 @@ public class PersonalDetailsActions {
     }
 
     public String getSuccessMessage() {
-        WebDriverWait toastWait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(15));
+        WebDriverWait toastWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
         WebElement toast = toastWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]"))
 );
         return toast.getText().trim();
