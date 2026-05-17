@@ -1,3 +1,6 @@
-/target/
-/test-output/
-/ExtentReports/
+target/
+test-output/
+*.log
+.classpath
+.project
+.settings/

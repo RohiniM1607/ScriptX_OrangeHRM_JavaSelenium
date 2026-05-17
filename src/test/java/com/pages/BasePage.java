@@ -3,13 +3,15 @@ package com.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import com.hooks.Hooks;
+import com.utilities.HelperClass;
 
 public class BasePage {
     public WebDriver driver;
-
+    public HelperClass helper;
+    
     public BasePage() {
-        driver = Hooks.driver;
+    	driver = HelperClass.driver;
+    	helper = new HelperClass();
         PageFactory.initElements(driver, this);
     }
 }

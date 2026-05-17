@@ -3,7 +3,8 @@ package com.stepdefinitions;
 import org.testng.Assert;
 
 import com.actions.LoginActions;
-import com.hooks.Hooks;
+import com.utilities.HelperClass;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -29,6 +30,6 @@ public class LoginStepDefinition {
 
 	@Then("user should be navigated to dashboard page")
 	public void user_should_be_navigated_to_dashboard_page() {
-		Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("dashboard"));
+		Assert.assertTrue(HelperClass.driver.getCurrentUrl().contains("dashboard"));
 	}
 }

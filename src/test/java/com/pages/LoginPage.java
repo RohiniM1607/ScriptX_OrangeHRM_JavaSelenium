@@ -7,8 +7,6 @@ import com.utilities.HelperClass;
 
 public class LoginPage extends BasePage {
 
-	HelperClass helper = new HelperClass(driver);
-
 	@FindBy(name = "username")
 	WebElement username;
 

@@ -1,45 +1,30 @@
 package com.hooks;
 
-import java.io.File;
-import java.io.IOException;
-import java.time.Duration;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import com.utilities.ConfigReader;
+import com.utilities.HelperClass;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import com.utilities.ConfigReader;
 
 public class Hooks {
+	private static final Logger logger = LogManager.getLogger(Hooks.class);
 
-	public static WebDriver driver;
+    ConfigReader config = new ConfigReader("config.properties");
+    HelperClass helper = new HelperClass();
 
-	ConfigReader config = new ConfigReader("config.properties");
+    @Before
+    public void setup(Scenario scenario) {
+    	logger.info("Starting Scenario: " + scenario.getName());
+        helper.setupBrowser(config.getData("url"));
+    }
 
-	@Before
-	public void setup() {
-
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(config.getData("url"));
-	}
-
-	@After
-	public void tearDown(Scenario scenario) throws IOException {
-
-		if (scenario.isFailed()) {
-			TakesScreenshot ts = (TakesScreenshot) driver;
-			File src = ts.getScreenshotAs(OutputType.FILE);
-			File dest = new File("target/screenshots/" + scenario.getName() + ".png");
-			FileUtils.copyFile(src, dest);
-		}
-
-		driver.quit();
-	}
+    @After
+    public void tearDown(Scenario scenario) {
+    	logger.info("Ending Scenario: " + scenario.getName());
+        helper.tearDown(scenario);
+    }
 }
