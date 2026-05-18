@@ -16,7 +16,7 @@ public class DashBoardActions {
 
     public DashBoardActions() {
         dashBoardPage = new DashBoardEmployeePage();
-        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
+        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(30));
     }
 
     public void navigateToMyInfo() {

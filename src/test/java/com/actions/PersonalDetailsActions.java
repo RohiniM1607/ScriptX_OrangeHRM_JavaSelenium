@@ -19,18 +19,14 @@ public class PersonalDetailsActions {
 
     public PersonalDetailsActions() {
         this.personalDetailsPage = new PersonalDetailsPage();
-        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(10));
-    }
-
-    private void waitForLoaderToDisappear() {
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-form-loader")));
+        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(30));
     }
 
     public void updatePersonalDetails(List<Map<String, String>> data) {
-
-        Map<String, String> row = data.get(0);
-
-        waitForLoaderToDisappear();
+    	
+    	Map<String, String> row = data.get(0);
+    	
+    	wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-loading-spinner-container")));
 
         wait.until(ExpectedConditions.visibilityOf(personalDetailsPage.LicenseExpiryDate));
         personalDetailsPage.LicenseExpiryDate.click();

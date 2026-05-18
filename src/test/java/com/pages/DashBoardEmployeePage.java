@@ -8,7 +8,7 @@ public class DashBoardEmployeePage extends BasePage {
     @FindBy(xpath = "//span[normalize-space()='My Info']")
     public WebElement menuMyInfo;
 
-    @FindBy(xpath = "//span[text()='Dashboard']")
+    @FindBy(xpath = "//span[text() = 'Dashboard']")
     public WebElement dashboardHeader;
 
     @FindBy(xpath = "//img[@class=\"employee-image\"]")
