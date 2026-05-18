@@ -1751,3 +1751,10 @@
 [INFO ] 2026-05-18 19:17:46.351 [main] Hooks - Ending Scenario: Changing the profile picture without saving
 [INFO ] 2026-05-18 19:17:46.351 [main] HelperClass - Scenario passed: Changing the profile picture without saving
 [INFO ] 2026-05-18 19:17:46.351 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 19:48:40.630 [main] Hooks - Starting Scenario: Update contact details with valid data
+[INFO ] 2026-05-18 19:48:40.633 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 19:48:42.134 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 19:48:42.184 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 19:49:01.925 [main] Hooks - Ending Scenario: Update contact details with valid data
+[INFO ] 2026-05-18 19:49:01.928 [main] HelperClass - Scenario passed: Update contact details with valid data
+[INFO ] 2026-05-18 19:49:01.928 [main] HelperClass - Closing browser
