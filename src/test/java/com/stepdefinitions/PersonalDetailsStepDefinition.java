@@ -69,7 +69,7 @@ public class PersonalDetailsStepDefinition {
     @Then("Personal details should be updated successfully")
     public void personal_details_should_be_updated_successfully() {
         String message = personalDetailsActions.getSuccessMessage();
-        Assert.assertEquals(message, "Success", "Success message mismatch!");
+        Assert.assertEquals(message, "Success", "Successfully updated");
     }
     @When("Employee moves to My Info page")
     public void employee_moves_to_my_info_page() {
@@ -90,7 +90,6 @@ public class PersonalDetailsStepDefinition {
 
     @Then("Personal details should not saved successfully")
     public void personal_details_should_not_saved_successfully() {
-        Assert.assertFalse(personalDetailsActions.isSuccessMessageDisplayed(),
-            "Success message should NOT appear as Save was not clicked!");
+        Assert.assertFalse(personalDetailsActions.isSuccessMessageDisplayed(),"Success message should NOT appear as Save was not clicked!");
     }
 }
