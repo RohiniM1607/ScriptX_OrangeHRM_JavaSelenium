@@ -1,10 +1,10 @@
-Feature: Reshma_13May2026_ScriptX_OrangeHRM File for PersonalDetails
+ Feature: Reshma_13May2026_ScriptX_OrangeHRM File for PersonalDetails
 
   Background:
     Given Employee is on OrangeHRM login page
     When Employee enters valid username and password
-    |username    |   password     |
-    |Renukka R   | RenukkaR@123   |
+    |username     |   password      |
+    |Renukkka R   | RenukkkaR@123   |
     And Employee clicks on login button
     And the Employee is on the Dashboard page
 

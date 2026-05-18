@@ -25,10 +25,9 @@ public class Add_leave_entitlement_Steps {
 
     @When("Admin enters valid employee leave entitlement details")
     public void admin_enters_valid_employee_leave_entitlement_details() {
-
-        aa.Name_field("thomas kutty benny");
+        aa.Name_field();
         aa.leaveType_field();
-        aa.entitlement_field("10");
+        aa.entitlement_field();
     }
 
     @When("clicks on the Save button")
@@ -38,15 +37,14 @@ public class Add_leave_entitlement_Steps {
 
     @Then("the Updating Entitlement pop-up should be displayed and  leave entitlement should be added successfully")
     public void the_updating_entitlement_pop_up_should_be_displayed_and_leave_entitlement_should_be_added_successfully() {
-    	aa.confirmation_message();
+        aa.confirmation_message();
     }
 
     @When("Admin leaves the employee name field empty”")
     public void admin_leaves_the_employee_name_field_empty() {
     	 aa.leaveType_field();
-         aa.entitlement_field("10");
+         aa.entitlement_field();
     }
-
     @Then("the error message should be displayed")
     public void the_error_message_should_be_displayed() {
         aa.nameField_Error_message();
