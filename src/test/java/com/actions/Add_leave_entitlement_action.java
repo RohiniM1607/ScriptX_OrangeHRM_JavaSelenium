@@ -17,10 +17,10 @@ public class Add_leave_entitlement_action {
 
 	Add_leave_entitlement_page ep = new Add_leave_entitlement_page();
 	HelperClass helper=new HelperClass();
-	Hooks hooks = new Hooks();
+	WebDriverWait wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(10));
+	Actions actions = new Actions(helper.getDriver());
 
 	public void leavePage() {
-
 		ep.leave_page.click();
 	}
 
@@ -29,23 +29,15 @@ public class Add_leave_entitlement_action {
 		ep.add_entitlement.click();
 	}
 
-	public void user_details(String name, String entitlement) {
+	public void leaveType_field() {
 
-		WebDriverWait wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(10));
-		Actions actions = new Actions(helper.getDriver());
-		ep.employee_name.click();
-		ep.employee_name.sendKeys(name);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role=\"listbox\"]")));
-		actions.sendKeys(Keys.ARROW_DOWN).perform();
-		actions.sendKeys(Keys.ENTER).perform();
-		// wait.until(ExpectedConditions.elementToBeClickable(ep.leave_type));
-		ep.leave_type.click();
-		for (int i = 0; i < 4; i++) {
-			actions.sendKeys(Keys.ARROW_DOWN).perform();
-		}
+	    ep.leave_type.click();
 
-		actions.sendKeys(Keys.ENTER).perform();
-
+	    WebDriverWait wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(10));
+	    wait.until(ExpectedConditions.visibilityOf(ep.empOption));
+	    ep.leaveType_listBox.click();
+	}
+	public void entitlement_field(String entitlement) {
 		ep.entitlement.sendKeys(entitlement);
 	}
 
@@ -56,6 +48,20 @@ public class Add_leave_entitlement_action {
 	public void confirmation_message() {
 		Assert.assertTrue(ep.confirm.isDisplayed());
 		ep.confirm.click();
+	}
+	
+	public void nameField_Error_message() {
+		Assert.assertTrue(ep.name_require_field.isDisplayed());
+	}
+
+	public void Name_field(String name) {
+		ep.employee_name.click();
+		ep.employee_name.sendKeys(name);
+		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
+		wait.until(ExpectedConditions.invisibilityOf(ep.searching));
+		actions.sendKeys(Keys.ARROW_DOWN).perform();
+		actions.sendKeys(Keys.ENTER).perform();
+		
 	}
 
 }

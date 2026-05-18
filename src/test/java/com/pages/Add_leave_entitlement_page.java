@@ -18,11 +18,14 @@ public class Add_leave_entitlement_page extends BasePage {
 	@FindBy(xpath="//input[@placeholder='Type for hints...']")
 	public WebElement employee_name;
 	
-	@FindBy(xpath="//div[@role=\"listbox\"]")
+	@FindBy(xpath="//div[@role='listbox']")
 	public WebElement empOption;
 	
 	@FindBy(xpath="//div[contains(text(),'-- Select --')]")
 	public WebElement leave_type;
+	
+	@FindBy(xpath="//div[text()='CAN - Bereavement']")
+	public WebElement leaveType_listBox;
 	
 	@FindBy(xpath="//div[contains(text(),'2026-01-01 - 2026-31-12')]")
 	public WebElement leave_period;
@@ -36,6 +39,10 @@ public class Add_leave_entitlement_page extends BasePage {
 	@FindBy(xpath="//button[normalize-space()='Confirm']")
 	public WebElement confirm;
 
+	@FindBy(xpath="//div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//span[1]")
+	public WebElement name_require_field;
 	
+	@FindBy(xpath="//div[text()='Searching...']")
+	public WebElement searching;
 	 
 }
