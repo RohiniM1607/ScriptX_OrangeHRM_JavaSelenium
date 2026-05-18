@@ -56,7 +56,8 @@ public class PIMPage extends BasePage {
     public boolean isPersonalDetailsDisplayed() {
         try {
             return personalDetailsHeader.isDisplayed();
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             return false;
         }
     }
@@ -64,7 +65,8 @@ public class PIMPage extends BasePage {
     public boolean isRequiredMessageDisplayed() {
         try {
             return requiredMsg.isDisplayed();
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             return false;
         }
     }

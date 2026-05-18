@@ -11,51 +11,41 @@ import io.cucumber.java.en.When;
 
 public class PIMStepDefinition {
 
-    LoginActions login = new LoginActions();
-    PIMActions pim = new PIMActions();
+	LoginActions login = new LoginActions();
+	PIMActions pim = new PIMActions();
 
-    @Given("admin is logged into OrangeHRM")
-    public void admin_is_logged_into_orangehrm() {
+	@Given("admin is logged into OrangeHRM")
+	public void admin_is_logged_into_orangehrm() {
 
-        login.enterValidCredentials();
-        login.clickLogin();
+		login.enterValidCredentials();
+		login.clickLogin();
 
-        pim.navigateToAddEmployee();
-    }
+		pim.navigateToAddEmployee();
+	}
 
-    @When("admin enters employee details {string} {string} {string}")
-    public void admin_enters_employee_details(
-            String firstName,
-            String lastName,
-            String employeeId) {
+	@When("admin enters employee details {string} {string} {string}")
+	public void admin_enters_employee_details(String firstName, String lastName, String employeeId) {
 
-        pim.enterEmployeeDetails(
-                firstName,
-                lastName,
-                employeeId);
-    }
+		pim.enterEmployeeDetails(firstName, lastName, employeeId);
+	}
 
-    @When("admin clicks save button")
-    public void admin_clicks_save_button() {
+	@When("admin clicks save button")
+	public void admin_clicks_save_button() {
 
-        pim.clickSaveButton();
-    }
+		pim.clickSaveButton();
+	}
 
-    @Then("employee result should be {string}")
-    public void employee_result_should_be(String result) {
+	@Then("employee result should be {string}")
+	public void employee_result_should_be(String result) {
 
-        if (result.equalsIgnoreCase("success")) {
+		if (result.equalsIgnoreCase("success")) {
 
-            Assert.assertTrue(
-                    pim.verifyEmployeeCreated(),
-                    "Employee creation failed");
-        }
+			Assert.assertTrue(pim.verifyEmployeeCreated(), "Employee creation failed");
+		}
 
-        else if (result.equalsIgnoreCase("required")) {
+		else if (result.equalsIgnoreCase("required")) {
 
-            Assert.assertTrue(
-                    pim.verifyRequiredMessage(),
-                    "Required validation message not displayed");
-        }
-    }
+			Assert.assertTrue(pim.verifyRequiredMessage(), "Required validation message not displayed");
+		}
+	}
 }

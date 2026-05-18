@@ -1,4 +1,4 @@
-Feature: Create Employee Functionality
+Feature: Jagadeep_15-05-2026_ScriptX_OrangeHRm_Create_Employee_Functionality
 
   @CreateEmployee
   Scenario Outline: Create employee with multiple data combinations
