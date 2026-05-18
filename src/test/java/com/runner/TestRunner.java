@@ -5,7 +5,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
+
 		features = "src/test/resources/features/Login.feature", 
+
 		glue = { "com.stepdefinitions","com.hooks" }, 
 		plugin = { "pretty", "html:target/CucumberReports/Cucumber.html",
 						"json:target/CucumberReports/Cucumber.json",
