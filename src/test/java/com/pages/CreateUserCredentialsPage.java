@@ -79,7 +79,8 @@ public class CreateUserCredentialsPage extends BasePage {
 
         if (role.equalsIgnoreCase("Admin")) {
             pressDownAndEnter(1);
-        } else if (role.equalsIgnoreCase("ESS")) {
+        } 
+        else if (role.equalsIgnoreCase("ESS")) {
             pressDownAndEnter(2);
         }
     }
@@ -97,7 +98,8 @@ public class CreateUserCredentialsPage extends BasePage {
 
         if (status.equalsIgnoreCase("Enabled")) {
             pressDownAndEnter(1);
-        } else if (status.equalsIgnoreCase("Disabled")) {
+        } 
+        else if (status.equalsIgnoreCase("Disabled")) {
             pressDownAndEnter(2);
         }
     }
