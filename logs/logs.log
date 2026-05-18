@@ -1575,3 +1575,179 @@
 [INFO ] 2026-05-18 14:58:49.237 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
 [INFO ] 2026-05-18 14:58:49.238 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
 [INFO ] 2026-05-18 14:58:49.238 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:07:34.930 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 17:07:34.935 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:07:37.610 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:07:37.692 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:07:43.403 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 17:07:43.403 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:07:44.514 [main] HelperClass - Entering text: RenukkaR@123
+[INFO ] 2026-05-18 17:07:44.514 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:07:44.811 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:07:44.811 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:08:16.532 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[ERROR] 2026-05-18 17:08:16.537 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:08:16.538 [main] HelperClass - Scenario failed: Upload profile picture successfully
+[INFO ] 2026-05-18 17:08:16.538 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:08:17.119 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_profile_picture_successfully.png
+[INFO ] 2026-05-18 17:08:17.119 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:08:17.572 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:08:17.572 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:08:19.013 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:08:19.127 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:08:27.815 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 17:08:27.816 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:08:28.757 [main] HelperClass - Entering text: RenukkaR@123
+[INFO ] 2026-05-18 17:08:28.757 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:08:29.094 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:08:29.095 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:09:00.644 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[ERROR] 2026-05-18 17:09:00.645 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:09:00.646 [main] HelperClass - Scenario failed: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:09:00.646 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:09:00.986 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Changing_the_profile_picture_without_saving.png
+[INFO ] 2026-05-18 17:09:00.986 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:12:36.442 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 17:12:36.448 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:12:38.584 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:12:38.658 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:12:45.928 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 17:12:45.929 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:12:46.614 [main] HelperClass - Entering text: RenukkaR@123
+[INFO ] 2026-05-18 17:12:46.615 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:12:46.905 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:12:46.905 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:13:18.611 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[ERROR] 2026-05-18 17:13:18.616 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:13:18.616 [main] HelperClass - Scenario failed: Upload profile picture successfully
+[INFO ] 2026-05-18 17:13:18.617 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:13:18.986 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_profile_picture_successfully.png
+[INFO ] 2026-05-18 17:13:18.986 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:13:19.386 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:13:19.386 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:13:20.669 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:13:20.753 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:13:29.726 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 17:13:29.726 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:13:30.451 [main] HelperClass - Entering text: RenukkaR@123
+[INFO ] 2026-05-18 17:13:30.452 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:13:30.732 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:13:30.733 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:14:02.692 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[ERROR] 2026-05-18 17:14:02.694 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:14:02.694 [main] HelperClass - Scenario failed: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:14:02.695 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:14:02.977 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Changing_the_profile_picture_without_saving.png
+[INFO ] 2026-05-18 17:14:02.977 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:16:19.245 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 17:16:19.251 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:16:21.332 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:16:21.436 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:16:28.650 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 17:16:28.650 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:16:29.342 [main] HelperClass - Entering text: RenukkaR@123
+[INFO ] 2026-05-18 17:16:29.342 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:16:29.597 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:16:29.598 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:17:01.449 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[ERROR] 2026-05-18 17:17:01.452 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:17:01.452 [main] HelperClass - Scenario failed: Upload profile picture successfully
+[INFO ] 2026-05-18 17:17:01.453 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:17:01.805 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_profile_picture_successfully.png
+[INFO ] 2026-05-18 17:17:01.806 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:17:02.213 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:17:02.213 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:17:03.670 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:17:03.800 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:17:05.941 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 17:17:05.947 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:17:08.181 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:17:08.283 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:17:11.607 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 17:17:11.607 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:17:12.462 [main] HelperClass - Entering text: RenukkaR@123
+[INFO ] 2026-05-18 17:17:12.462 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:17:12.659 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:17:12.659 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:17:16.493 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-18 17:17:16.494 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:17:17.355 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-18 17:17:17.356 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:17:17.599 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:17:17.601 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:17:21.867 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[ERROR] 2026-05-18 17:17:21.868 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:17:21.868 [main] HelperClass - Scenario failed: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:17:21.868 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:17:28.112 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 17:17:28.114 [main] HelperClass - Scenario passed: Upload profile picture successfully
+[INFO ] 2026-05-18 17:17:28.115 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:17:29.823 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:17:29.823 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:17:30.957 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:17:31.026 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:17:37.162 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-18 17:17:37.163 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:17:37.819 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-18 17:17:37.819 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:17:38.081 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:17:38.081 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:17:54.737 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:17:54.737 [main] HelperClass - Scenario passed: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:17:54.737 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 17:31:16.059 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 17:31:16.064 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:31:17.792 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:31:17.860 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:31:26.437 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-18 17:31:26.437 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:31:27.832 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-18 17:31:27.832 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:31:28.100 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:31:28.100 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:31:42.046 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[ERROR] 2026-05-18 17:31:42.049 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:31:42.050 [main] HelperClass - Scenario failed: Upload profile picture successfully
+[INFO ] 2026-05-18 17:31:42.051 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:31:42.235 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:31:42.235 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 17:31:43.374 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 17:31:43.451 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 17:31:45.421 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-18 17:31:45.421 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:31:51.641 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-18 17:31:51.642 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 17:31:51.875 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 17:31:51.876 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 17:32:23.566 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[ERROR] 2026-05-18 17:32:23.568 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 17:32:23.568 [main] HelperClass - Scenario failed: Changing the profile picture without saving
+[INFO ] 2026-05-18 17:32:23.569 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 17:32:23.868 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Changing_the_profile_picture_without_saving.png
+[INFO ] 2026-05-18 17:32:23.869 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 19:16:49.825 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 19:16:49.830 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 19:16:56.829 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 19:16:56.875 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 19:17:07.300 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-18 19:17:07.301 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 19:17:07.968 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-18 19:17:07.968 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 19:17:08.127 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 19:17:08.128 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 19:17:16.922 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[INFO ] 2026-05-18 19:17:16.923 [main] HelperClass - Scenario passed: Upload profile picture successfully
+[INFO ] 2026-05-18 19:17:16.924 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 19:17:17.258 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 19:17:17.258 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 19:17:18.063 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 19:17:18.099 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 19:17:27.541 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-18 19:17:27.542 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 19:17:28.254 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-18 19:17:28.254 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 19:17:28.369 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 19:17:28.369 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 19:17:46.351 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-18 19:17:46.351 [main] HelperClass - Scenario passed: Changing the profile picture without saving
+[INFO ] 2026-05-18 19:17:46.351 [main] HelperClass - Closing browser

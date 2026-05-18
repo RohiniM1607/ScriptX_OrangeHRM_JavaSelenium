@@ -50,16 +50,14 @@ public class ProfilePictureStepDefinition {
 
     @When("Employee navigates to Profile Picture page")
     public void employee_navigates_to_profile_picture_page() {
-    	dashBoardActions.navigateToMyInfo();
+        dashBoardActions.navigateToMyInfo();
         dashBoardActions.navigateToProfilePicture();
         profilePictureActions = new ProfilePictureActions();
     }
 
-    @When("Employee uploads a profile picture with following data")
-    public void employee_uploads_a_profile_picture_with_following_data(DataTable dataTable) {
-        List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
-        String filePath = data.get(0).get("FilePath").trim();
-        profilePictureActions.uploadProfilePicture(filePath);
+    @When("Employee uploads a profile picture with {string}")
+    public void employee_uploads_a_profile_picture_with(String filePath) {
+        profilePictureActions.uploadProfilePicture(filePath.trim());
     }
 
     @When("Employee clicks on the Save button")
@@ -67,9 +65,32 @@ public class ProfilePictureStepDefinition {
         profilePictureActions.clickSave();
     }
 
-    @Then("Profile picture should be uploaded successfully")
-    public void profile_picture_should_be_uploaded_successfully() {
+    @Then("Profile picture should be uploaded successfully with {string}")
+    public void profile_picture_should_be_uploaded_successfully_with(String successMessage) {
         String message = profilePictureActions.getSuccessMessage();
-        Assert.assertEquals(message, "Success", "Sucessfully Saved");
+        Assert.assertEquals(message, successMessage, "Success message mismatch!");
     }
+
+    @When("Employee moves to Profile Picture page")
+    public void employee_moves_to_profile_picture_page() {
+        dashBoardActions.navigateToMyInfo();
+        dashBoardActions.navigateToProfilePicture();
+        profilePictureActions = new ProfilePictureActions();
+    }
+
+    @When("Employee uploads a profile picture using {string}")
+    public void employee_uploads_a_profile_picture_using(String filePath) {
+        profilePictureActions.uploadProfilePicture(filePath.trim());
+    }
+
+    @When("Employee forgot to click on the Save button")
+    public void employee_forgot_to_click_on_the_save_button() {
+
+    }
+
+    @Then("Profile picture should not be updated with {string}")
+    public void profile_picture_should_not_be_updated_with(String errorMessage) {
+        Assert.assertFalse(profilePictureActions.isSuccessMessageDisplayed(), errorMessage);
+    }
+
 }

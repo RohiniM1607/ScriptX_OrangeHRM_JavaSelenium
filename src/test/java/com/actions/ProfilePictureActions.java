@@ -21,8 +21,6 @@ public class ProfilePictureActions {
     }
 
     public void uploadProfilePicture(String filePath) {
-        wait.until(ExpectedConditions.elementToBeClickable(profilePicturePage.addIcon));
-        profilePicturePage.addIcon.click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
         ((JavascriptExecutor) HelperClass.driver).executeScript("arguments[0].style.display='block';", profilePicturePage.fileInput);
         profilePicturePage.fileInput.sendKeys(filePath);
@@ -34,8 +32,18 @@ public class ProfilePictureActions {
     }
 
     public String getSuccessMessage() {
-        WebDriverWait toastWait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(15));
-        return toastWait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage)).getText().trim();
+        WebDriverWait MWait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(15));
+        return MWait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage)).getText().trim();
+    }
+
+    public boolean isSuccessMessageDisplayed() {
+        try {
+            WebDriverWait wait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(5));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
 }
