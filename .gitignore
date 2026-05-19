@@ -1,8 +1,12 @@
+# Logs
+logs/
+*.log
+
+# Test Runner
+src/test/java/com/runner/TestRunner.java
+
+# Reports
 target/
 test-output/
-*.log
-.classpath
-.project
-.settings/
-.ExtentReports
-.allure-results
+ExtentReports/
+allure-results/
