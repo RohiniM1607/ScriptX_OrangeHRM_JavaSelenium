@@ -86,7 +86,7 @@ public class AdminLeaveManagement_LeaveApprovel_Steps {
 	}
 
 	@And("selects a Rejected leave status")
-	public void selects_a_rejected_leave_status() {
+	public void selects_a_rejected_leave_status(){
 		actions.selectStatus("Rejected");
 		actions.clickSearch();
 	}

@@ -1,4 +1,4 @@
-Feature: Login Functionality
+Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Login Functionality
 
   Background:
     Given user is on OrangeHRM login page
