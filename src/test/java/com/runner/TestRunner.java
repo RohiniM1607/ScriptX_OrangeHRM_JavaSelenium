@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 		monochrome = true,
 
 		publish = true,
-		 tags = "@Rohini")
+)
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
