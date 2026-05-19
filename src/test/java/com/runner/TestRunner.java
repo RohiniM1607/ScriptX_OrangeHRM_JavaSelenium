@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/features", 
+		features = "src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature", 
 
 		glue = { "com.stepdefinitions","com.hooks" }, 
 		plugin = { "pretty", "html:target/CucumberReports/Cucumber.html",

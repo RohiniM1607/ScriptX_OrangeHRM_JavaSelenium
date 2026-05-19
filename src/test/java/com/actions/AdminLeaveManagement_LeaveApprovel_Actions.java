@@ -3,6 +3,8 @@ package com.actions;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -21,37 +23,48 @@ public class AdminLeaveManagement_LeaveApprovel_Actions extends BaseActions {
    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
    HelperClass helper = new HelperClass();
     JavascriptExecutor js;
-    
+    private static final Logger log=LogManager.getLogger(AdminLeaveManagement_LeaveApprovel_Actions.class); 
     public static List<String> collectedStatuses = new ArrayList<>();
 
+    //Constructor
     public AdminLeaveManagement_LeaveApprovel_Actions() {
         super();
         pages = new AdminLeaveManagement_LeaveApprovel_Pages();
         js = (JavascriptExecutor) driver;
     }
 
+    // click leaveMenu in Dash board page
+    public void clickLeaveMenu() {
+		pages.leaveMenu.click();
+	}
+    
+    //click Leave List menu
     public void navigateToLeaveList() {
         helper.clickElement(pages.leaveListSubMenu);
     }
 
+    //Set From date and To date 
     public void setDateRange(String fromDate, String toDate) {
         setDateField(pages.fromDateInput, fromDate);
         setDateField(pages.toDateInput, toDate);
     }
 
     private void setDateField(WebElement dateInput, String dateValue) {
-//        js.executeScript("arguments[0].scrollIntoView({block:'center'});", dateInput);
-//
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        wait.until(ExpectedConditions.elementToBeClickable(dateInput));
+    	log.info("Send From and To date for input field");
+       /* js.executeScript("arguments[0].scrollIntoView({block:'center'});", dateInput);
 
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(dateInput));
+        */
         dateInput.click();
         dateInput.sendKeys(Keys.chord(Keys.CONTROL, "a"), dateValue);
         dateInput.sendKeys(Keys.TAB);
     }
 
+    //Select Show Leave with Status 
     public void selectStatus(String statusLabel) {
-    	
+    	log.info("Select which type leave type to filter");
+    	//Remove if any status is selected
     	for(WebElement op:pages.selectedStatusOption) {
     		pages.removeSelectedStatus.click();
     	}
@@ -59,7 +72,7 @@ public class AdminLeaveManagement_LeaveApprovel_Actions extends BaseActions {
         js.executeScript("arguments[0].scrollIntoView({block:'center'});", pages.statusDropdown);
         helper.clickElement(pages.statusDropdown);
         wait.until(ExpectedConditions.visibilityOfAllElements(pages.statusDropdownOptions));
-
+        //Select the status type
         for (WebElement option : pages.statusDropdownOptions) {
             if (option.getText().equalsIgnoreCase(statusLabel)) {
                 option.click();
@@ -69,7 +82,6 @@ public class AdminLeaveManagement_LeaveApprovel_Actions extends BaseActions {
     }
 
     public void clickSearch() {
-        // Scroll the search button into view before clicking
         js.executeScript("arguments[0].scrollIntoView({block:'center'});", pages.searchButton);
         HelperClass helper = new HelperClass();
         helper.clickElement(pages.searchButton);
@@ -85,29 +97,26 @@ public class AdminLeaveManagement_LeaveApprovel_Actions extends BaseActions {
 
     public void clickApprove() {
         wait.until(ExpectedConditions.visibilityOf(pages.approveButton));
-
-        js.executeScript("arguments[0].scrollIntoView({block:'center'});", pages.approveButton);
         js.executeScript("arguments[0].click();", pages.approveButton);
+        log.info("Leave Approved");
     }
 
     public void clickReject() {
         wait.until(ExpectedConditions.visibilityOf(pages.rejectButton));
-
-        js.executeScript("arguments[0].scrollIntoView({block:'center'});", pages.rejectButton);
         js.executeScript("arguments[0].click();", pages.rejectButton);
+        log.info("Leave Rejected");
     }
 
     public String getSuccessMessage() {
         wait.until(ExpectedConditions.visibilityOf(pages.successToastMessage));
-        return pages.successToastMessage.getText().trim();
+        return pages.successToastMessage.getText();
     }
 
+    //Verify success message
     public void verifySuccessMessageContains(String expectedText) {
         String actual = getSuccessMessage();
-        Assert.assertTrue(
-            actual.toLowerCase().contains(expectedText.toLowerCase()),
-            "Expected toast to contain '" + expectedText + "' but got: '" + actual + "'"
-        );
+        Assert.assertTrue(actual.toLowerCase().contains(expectedText.toLowerCase()));
+        log.info("Verified successfully");
     }
 
     public void collectLeaveStatuses() {
@@ -135,7 +144,4 @@ public class AdminLeaveManagement_LeaveApprovel_Actions extends BaseActions {
         }
     }
 
-	public void clickLeaveMenu() {
-		pages.leaveMenu.click();
-	}
 }

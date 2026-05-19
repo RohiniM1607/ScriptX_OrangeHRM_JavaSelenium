@@ -1751,6 +1751,227 @@
 [INFO ] 2026-05-18 19:17:46.351 [main] Hooks - Ending Scenario: Changing the profile picture without saving
 [INFO ] 2026-05-18 19:17:46.351 [main] HelperClass - Scenario passed: Changing the profile picture without saving
 [INFO ] 2026-05-18 19:17:46.351 [main] HelperClass - Closing browser
+<<<<<<< HEAD
+[INFO ] 2026-05-19 14:26:58.031 [main] Hooks - Starting Scenario: Approve employee leave request
+[INFO ] 2026-05-19 14:26:58.035 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:27:01.933 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:27:01.997 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:27:08.649 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:27:08.650 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:27:08.954 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:27:08.954 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:27:09.091 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:27:09.092 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:27:20.451 [main] Hooks - Ending Scenario: Approve employee leave request
+[ERROR] 2026-05-19 14:27:20.454 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 14:27:20.455 [main] HelperClass - Scenario failed: Approve employee leave request
+[INFO ] 2026-05-19 14:27:20.455 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 14:27:20.851 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Approve_employee_leave_request.png
+[INFO ] 2026-05-19 14:27:20.851 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:27:21.108 [main] Hooks - Starting Scenario: Reject employee leave request
+[INFO ] 2026-05-19 14:27:21.109 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:27:21.914 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:27:21.958 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:27:32.585 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:27:32.586 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:27:33.170 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:27:33.171 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:27:33.323 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:27:33.323 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:27:44.873 [main] Hooks - Ending Scenario: Reject employee leave request
+[ERROR] 2026-05-19 14:27:44.873 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 14:27:44.873 [main] HelperClass - Scenario failed: Reject employee leave request
+[INFO ] 2026-05-19 14:27:44.874 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 14:27:45.178 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Reject_employee_leave_request.png
+[INFO ] 2026-05-19 14:27:45.178 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:27:45.481 [main] Hooks - Starting Scenario: Verify approved status in Leave List
+[INFO ] 2026-05-19 14:27:45.481 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:27:46.209 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:27:46.272 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:27:53.761 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:27:53.762 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:27:54.398 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:27:54.399 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:27:54.593 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:27:54.594 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:28:06.016 [main] Hooks - Ending Scenario: Verify approved status in Leave List
+[ERROR] 2026-05-19 14:28:06.020 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 14:28:06.020 [main] HelperClass - Scenario failed: Verify approved status in Leave List
+[INFO ] 2026-05-19 14:28:06.020 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 14:28:06.238 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Verify_approved_status_in_Leave_List.png
+[INFO ] 2026-05-19 14:28:06.238 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:28:06.462 [main] Hooks - Starting Scenario: Verify rejected status in Leave List
+[INFO ] 2026-05-19 14:28:06.462 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:28:07.254 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:28:07.302 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:28:11.789 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:28:11.789 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:28:12.333 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:28:12.333 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:28:12.474 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:28:12.474 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:28:24.791 [main] Hooks - Ending Scenario: Verify rejected status in Leave List
+[ERROR] 2026-05-19 14:28:24.792 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 14:28:24.792 [main] HelperClass - Scenario failed: Verify rejected status in Leave List
+[INFO ] 2026-05-19 14:28:24.792 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 14:28:25.034 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Verify_rejected_status_in_Leave_List.png
+[INFO ] 2026-05-19 14:28:25.035 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 15:24:41.349 [main] Hooks - Starting Scenario: Approve employee leave request
+[INFO ] 2026-05-19 15:24:41.352 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 15:24:42.696 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 15:24:42.741 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 15:24:48.226 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 15:24:48.226 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:24:48.706 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 15:24:48.706 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:24:48.949 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:24:48.949 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:24:52.390 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:24:52.391 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:24:54.493 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:24:54.493 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:25:14.999 [main] Hooks - Ending Scenario: Approve employee leave request
+[ERROR] 2026-05-19 15:25:15.004 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 15:25:15.004 [main] HelperClass - Scenario failed: Approve employee leave request
+[INFO ] 2026-05-19 15:25:15.005 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 15:25:15.290 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Approve_employee_leave_request.png
+[INFO ] 2026-05-19 15:25:15.290 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 15:25:15.564 [main] Hooks - Starting Scenario: Reject employee leave request
+[INFO ] 2026-05-19 15:25:15.564 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 15:25:16.458 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 15:25:16.503 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 15:25:22.972 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 15:25:22.973 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:25:23.643 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 15:25:23.643 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:25:23.850 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:25:23.850 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:25:28.934 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:25:28.935 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:25:31.016 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:25:31.016 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:25:51.518 [main] Hooks - Ending Scenario: Reject employee leave request
+[ERROR] 2026-05-19 15:25:51.519 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 15:25:51.519 [main] HelperClass - Scenario failed: Reject employee leave request
+[INFO ] 2026-05-19 15:25:51.519 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 15:25:51.819 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Reject_employee_leave_request.png
+[INFO ] 2026-05-19 15:25:51.819 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 15:25:52.159 [main] Hooks - Starting Scenario: Verify approved status in Leave List
+[INFO ] 2026-05-19 15:25:52.160 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 15:25:53.022 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 15:25:53.071 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 15:26:03.633 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 15:26:03.636 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:26:07.531 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 15:26:07.531 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:26:07.732 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:26:07.732 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:26:12.164 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:26:12.164 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:26:14.553 [main] Hooks - Ending Scenario: Verify approved status in Leave List
+[INFO ] 2026-05-19 15:26:14.553 [main] HelperClass - Scenario passed: Verify approved status in Leave List
+[INFO ] 2026-05-19 15:26:14.553 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 15:26:14.818 [main] Hooks - Starting Scenario: Verify rejected status in Leave List
+[INFO ] 2026-05-19 15:26:14.818 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 15:26:15.739 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 15:26:15.782 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 15:26:22.301 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 15:26:22.301 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:26:22.943 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 15:26:22.944 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 15:26:23.167 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:26:23.167 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:26:27.010 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 15:26:27.010 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 15:26:44.288 [main] Hooks - Ending Scenario: Verify rejected status in Leave List
+[ERROR] 2026-05-19 15:26:44.291 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 15:26:44.291 [main] HelperClass - Scenario failed: Verify rejected status in Leave List
+[INFO ] 2026-05-19 15:26:44.292 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 15:26:44.598 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Verify_rejected_status_in_Leave_List.png
+[INFO ] 2026-05-19 15:26:44.598 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 16:15:05.332 [main] Hooks - Starting Scenario: Approve employee leave request
+[INFO ] 2026-05-19 16:15:05.337 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 16:15:06.915 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 16:15:06.985 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 16:15:12.187 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 16:15:12.187 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:15:12.794 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 16:15:12.794 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:15:13.021 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:15:13.021 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:15:17.521 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:15:17.521 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:15:19.330 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:15:20.393 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:15:20.719 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:15:20.720 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:15:41.333 [main] Hooks - Ending Scenario: Approve employee leave request
+[ERROR] 2026-05-19 16:15:41.340 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 16:15:41.341 [main] HelperClass - Scenario failed: Approve employee leave request
+[INFO ] 2026-05-19 16:15:41.342 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 16:15:41.677 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Approve_employee_leave_request.png
+[INFO ] 2026-05-19 16:15:41.677 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 16:15:42.163 [main] Hooks - Starting Scenario: Reject employee leave request
+[INFO ] 2026-05-19 16:15:42.164 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 16:15:43.019 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 16:15:43.071 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 16:15:48.424 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 16:15:48.425 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:15:49.148 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 16:15:49.148 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:15:49.312 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:15:49.312 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:15:52.874 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:15:52.875 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:15:53.926 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:15:54.562 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:15:54.870 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:15:54.870 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:16:15.780 [main] Hooks - Ending Scenario: Reject employee leave request
+[ERROR] 2026-05-19 16:16:15.790 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 16:16:15.790 [main] HelperClass - Scenario failed: Reject employee leave request
+[INFO ] 2026-05-19 16:16:15.790 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 16:16:16.060 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Reject_employee_leave_request.png
+[INFO ] 2026-05-19 16:16:16.060 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 16:16:16.486 [main] Hooks - Starting Scenario: Verify approved status in Leave List
+[INFO ] 2026-05-19 16:16:16.486 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 16:16:17.413 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 16:16:17.468 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 16:16:22.287 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 16:16:22.287 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:16:22.802 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 16:16:22.802 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:16:23.019 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:16:23.019 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:16:26.300 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:16:26.300 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:16:27.400 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:16:28.110 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:16:28.381 [main] Hooks - Ending Scenario: Verify approved status in Leave List
+[INFO ] 2026-05-19 16:16:28.382 [main] HelperClass - Scenario passed: Verify approved status in Leave List
+[INFO ] 2026-05-19 16:16:28.383 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 16:16:28.635 [main] Hooks - Starting Scenario: Verify rejected status in Leave List
+[INFO ] 2026-05-19 16:16:28.635 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 16:16:29.514 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 16:16:29.568 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 16:16:35.601 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 16:16:35.601 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:16:36.150 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 16:16:36.150 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 16:16:36.381 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:16:36.382 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:16:39.115 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 16:16:39.116 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 16:16:40.653 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:16:41.848 [main] AdminLeaveManagement_LeaveApprovel_Actions - Send From and To date for input field
+[INFO ] 2026-05-19 16:16:42.117 [main] AdminLeaveManagement_LeaveApprovel_Actions - Select which type leave type to filter
+[INFO ] 2026-05-19 16:16:52.295 [main] Hooks - Ending Scenario: Verify rejected status in Leave List
+[ERROR] 2026-05-19 16:16:52.296 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 16:16:52.296 [main] HelperClass - Scenario failed: Verify rejected status in Leave List
+[INFO ] 2026-05-19 16:16:52.296 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 16:16:52.548 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Verify_rejected_status_in_Leave_List.png
+[INFO ] 2026-05-19 16:16:52.549 [main] HelperClass - Closing browser
+=======
 [INFO ] 2026-05-19 09:15:31.019 [main] Hooks - Starting Scenario: Create user login credential
 [INFO ] 2026-05-19 09:15:31.025 [main] HelperClass - Launching Chrome browser
 [INFO ] 2026-05-19 09:15:36.610 [main] HelperClass - Maximize the Browser window
@@ -2677,3 +2898,4 @@
 [INFO ] 2026-05-19 14:05:49.345 [main] Hooks - Ending Scenario: Create user without mandatory fields
 [INFO ] 2026-05-19 14:05:49.346 [main] HelperClass - Scenario passed: Create user without mandatory fields
 [INFO ] 2026-05-19 14:05:49.346 [main] HelperClass - Closing browser
+>>>>>>> main
