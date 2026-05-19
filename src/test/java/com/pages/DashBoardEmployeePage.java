@@ -13,5 +13,8 @@ public class DashBoardEmployeePage extends BasePage {
 
     @FindBy(xpath = "//img[@class=\"employee-image\"]")
     public WebElement Profile;
+    
+    @FindBy(xpath = "//a[normalize-space()='Contact Details']")
+    public WebElement menuContactDetails;
 
 }

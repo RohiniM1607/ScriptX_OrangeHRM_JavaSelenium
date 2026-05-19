@@ -3,7 +3,7 @@ Feature: Reshma_17May2026_ScriptX_OrangeHRM File for ProfilePicture
   Background:
     Given Employee is on OrangeHRM Profile Picture login page
     When Employee enters valid username and password for profile
-      | username   | password      |
+      | username    | password       |
       | Renukkka R  | RenukkkaR@123  |
     And Employee clicks on login
     And the Employee is on the OrangeHRM Dashboard page
