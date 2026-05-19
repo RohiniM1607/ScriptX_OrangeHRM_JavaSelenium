@@ -26,5 +26,5 @@ public class Hooks {
     public void tearDown(Scenario scenario) {
     	logger.info("Ending Scenario: " + scenario.getName());
         helper.tearDown(scenario);
-    }
+    }	
 }
