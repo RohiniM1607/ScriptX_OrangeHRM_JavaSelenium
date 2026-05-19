@@ -30,7 +30,7 @@ public class Add_leave_entitlement_action {
         helper.clickElement(ep.entitlement_link);
         helper.clickElement(ep.add_entitlement);
     }
-
+ 
     public void leaveType_field() {
     	String expectedType = testData.getData("expectedType");
         helper.clickElement(ep.leave_type);
@@ -50,9 +50,7 @@ public class Add_leave_entitlement_action {
         }
 
         if (!matched) {
-            throw new RuntimeException(
-                    "Leave type '" + expectedType + "' was not found in the dropdown. "
-                    + "Check the exact label in OrangeHRM.");
+            throw new RuntimeException( "Leave type '" + expectedType + "' was not found in the dropdown. "+ "Check the exact label in OrangeHRM.");
         }
     }
 

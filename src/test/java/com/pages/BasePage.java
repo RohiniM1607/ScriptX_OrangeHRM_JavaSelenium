@@ -12,6 +12,6 @@ public class BasePage {
     public BasePage() {
     	driver = HelperClass.driver;
     	helper = new HelperClass();
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(helper.getDriver(), this);
     }
 }
