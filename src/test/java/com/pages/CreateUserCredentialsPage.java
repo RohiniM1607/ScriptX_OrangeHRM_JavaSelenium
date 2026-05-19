@@ -8,6 +8,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CreateUserCredentialsPage extends BasePage {
 
@@ -126,17 +128,14 @@ public class CreateUserCredentialsPage extends BasePage {
     }
 
     public boolean isRequiredValidationMessageDisplayed() {
+    	String expectedValidation = "Required";
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
-        String expectedValidation = "Required";
+        wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//span[text()='Required']"), 0));
+        List<WebElement> messages = driver.findElements(By.xpath("//span[text()='Required']"));
 
-        if (requiredValidationMessages.size() == 0) {
-            return false;
-        }
-
-        helper.waitForElement(requiredValidationMessages.get(0));
-
-        for (WebElement message : requiredValidationMessages) {
-            if (!message.getText().equalsIgnoreCase(expectedValidation)) {
+        for (WebElement message : messages) {
+            if (!message.getText().trim().equalsIgnoreCase(expectedValidation)) {
                 return false;
             }
         }

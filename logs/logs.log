@@ -2424,3 +2424,256 @@
 [INFO ] 2026-05-19 11:11:35.148 [main] Hooks - Ending Scenario: Create user without mandatory fields
 [INFO ] 2026-05-19 11:11:35.152 [main] HelperClass - Scenario passed: Create user without mandatory fields
 [INFO ] 2026-05-19 11:11:35.153 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 13:15:58.009 [main] Hooks - Starting Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 13:15:58.082 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 13:15:59.535 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 13:15:59.587 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 13:16:05.773 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 13:16:05.775 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 13:16:07.200 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 13:16:07.200 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 13:16:07.402 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 13:16:07.402 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 13:16:10.429 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 13:16:10.429 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 13:16:10.429 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 13:16:14.007 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 13:16:14.007 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 13:16:14.007 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 13:16:15.983 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 13:16:15.983 [main] HelperClass - Waiting for element visibility
+[DEBUG] 2026-05-19 13:16:17.370 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-19 13:16:17.374 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-19 13:16:18.107 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 13:16:18.108 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-05-19 13:16:18.108 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 13:16:18.108 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 13:16:19.271 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-05-19 13:16:19.272 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 13:16:19.272 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 13:16:20.428 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-05-19 13:16:20.429 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 13:16:20.429 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 13:16:20.573 [main] CreateUserCredentialsActions - Verifying required validation message is displayed
+[INFO ] 2026-05-19 13:16:20.606 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 13:16:20.666 [main] Hooks - Ending Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 13:16:20.667 [main] HelperClass - Scenario passed: Create user without mandatory fields
+[INFO ] 2026-05-19 13:16:20.667 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:00:02.770 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-05-19 14:00:02.852 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:00:08.156 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:00:08.236 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:00:21.223 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:00:21.224 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:00:22.868 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:00:22.868 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:00:23.306 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:00:23.306 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:00:28.998 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 14:00:28.999 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:00:28.999 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:00:38.318 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 14:00:38.320 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:00:38.320 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:00:41.339 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 14:00:41.340 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:00:42.687 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 14:00:42.688 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-05-19 14:00:42.688 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:00:42.688 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:00:45.158 [main] CreateUserCredentialsActions - Employee Name: Employee 1
+[INFO ] 2026-05-19 14:00:45.159 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:00:45.160 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:00:56.031 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-05-19 14:00:56.036 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 14:00:56.037 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-05-19 14:00:56.038 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 14:00:56.468 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Create_user_login_credential.png
+[INFO ] 2026-05-19 14:00:56.468 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:00:56.998 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-05-19 14:00:56.999 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:00:58.738 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:00:58.823 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:01:03.040 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:01:03.043 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:01:03.855 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:01:03.855 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:01:04.291 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:04.292 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:06.052 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 14:01:06.054 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:06.055 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:08.020 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 14:01:08.020 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:08.020 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:09.699 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 14:01:09.700 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:01:10.403 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 14:01:10.404 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-05-19 14:01:10.404 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:10.405 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:11.904 [main] CreateUserCredentialsActions - Employee Name: Admin 1
+[INFO ] 2026-05-19 14:01:11.906 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:11.907 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:22.641 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-05-19 14:01:22.642 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 14:01:22.643 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-05-19 14:01:22.644 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 14:01:23.141 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Create_user_login_credential.png
+[INFO ] 2026-05-19 14:01:23.141 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:01:23.562 [main] Hooks - Starting Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 14:01:23.563 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:01:25.251 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:01:25.316 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:01:30.491 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:01:30.491 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:01:31.517 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:01:31.518 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:01:31.952 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:31.953 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:33.398 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 14:01:33.399 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:33.399 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:36.237 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 14:01:36.237 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:36.238 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:38.022 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 14:01:38.023 [main] HelperClass - Waiting for element visibility
+[DEBUG] 2026-05-19 14:01:39.376 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-19 14:01:39.384 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-19 14:01:40.534 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 14:01:40.534 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-05-19 14:01:40.535 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:40.535 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:41.946 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-05-19 14:01:41.947 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:41.947 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:43.300 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-05-19 14:01:43.300 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:01:43.301 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:01:43.713 [main] CreateUserCredentialsActions - Verifying required validation message is displayed
+[INFO ] 2026-05-19 14:01:43.970 [main] Hooks - Ending Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 14:01:43.971 [main] HelperClass - Scenario passed: Create user without mandatory fields
+[INFO ] 2026-05-19 14:01:43.971 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:04:45.096 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-05-19 14:04:45.106 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:04:47.923 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:04:47.996 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:04:52.582 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:04:52.582 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:04:53.689 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:04:53.690 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:04:54.026 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:04:54.027 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:04:55.807 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 14:04:55.808 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:04:55.808 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:04:57.846 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 14:04:57.847 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:04:57.847 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:04:59.226 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 14:04:59.226 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:04:59.828 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 14:04:59.828 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-05-19 14:04:59.829 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:04:59.829 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:02.168 [main] CreateUserCredentialsActions - Employee Name: Employee 1
+[INFO ] 2026-05-19 14:05:02.172 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:02.173 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:03.959 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:05.070 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-05-19 14:05:05.072 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:05.073 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:06.465 [main] CreateUserCredentialsActions - Generated unique username: Employee_11779179706457
+[INFO ] 2026-05-19 14:05:06.465 [main] HelperClass - Entering text: Employee_11779179706457
+[INFO ] 2026-05-19 14:05:06.466 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:06.719 [main] HelperClass - Entering text: Employee@123
+[INFO ] 2026-05-19 14:05:06.720 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:07.004 [main] HelperClass - Entering text: Employee@123
+[INFO ] 2026-05-19 14:05:07.005 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:07.253 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-05-19 14:05:07.253 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:07.253 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:07.474 [main] CreateUserCredentialsActions - Verifying success message is displayed
+[INFO ] 2026-05-19 14:05:07.475 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:09.185 [main] Hooks - Ending Scenario: Create user login credential
+[INFO ] 2026-05-19 14:05:09.190 [main] HelperClass - Scenario passed: Create user login credential
+[INFO ] 2026-05-19 14:05:09.191 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:05:09.696 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-05-19 14:05:09.698 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:05:11.073 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:05:11.141 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:05:16.150 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:05:16.151 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:17.083 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:05:17.083 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:17.400 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:17.401 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:18.960 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 14:05:18.961 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:18.961 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:21.070 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 14:05:21.071 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:21.071 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:22.322 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 14:05:22.323 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:23.030 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 14:05:23.031 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-05-19 14:05:23.032 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:23.032 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:24.571 [main] CreateUserCredentialsActions - Employee Name: Admin 1
+[INFO ] 2026-05-19 14:05:24.571 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:24.571 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:26.098 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:27.193 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-05-19 14:05:27.193 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:27.194 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:28.485 [main] CreateUserCredentialsActions - Generated unique username: Admin_11779179728484
+[INFO ] 2026-05-19 14:05:28.485 [main] HelperClass - Entering text: Admin_11779179728484
+[INFO ] 2026-05-19 14:05:28.485 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:28.790 [main] HelperClass - Entering text: Admin@123
+[INFO ] 2026-05-19 14:05:28.792 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:29.010 [main] HelperClass - Entering text: Admin@123
+[INFO ] 2026-05-19 14:05:29.010 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:29.251 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-05-19 14:05:29.251 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:29.252 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:29.447 [main] CreateUserCredentialsActions - Verifying success message is displayed
+[INFO ] 2026-05-19 14:05:29.447 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:31.140 [main] Hooks - Ending Scenario: Create user login credential
+[INFO ] 2026-05-19 14:05:31.141 [main] HelperClass - Scenario passed: Create user login credential
+[INFO ] 2026-05-19 14:05:31.141 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 14:05:31.578 [main] Hooks - Starting Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 14:05:31.578 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 14:05:33.039 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 14:05:33.108 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 14:05:37.730 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 14:05:37.730 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:38.519 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 14:05:38.521 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 14:05:38.877 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:38.877 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:40.720 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 14:05:40.721 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:40.721 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:42.604 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 14:05:42.605 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:42.605 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:44.026 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 14:05:44.027 [main] HelperClass - Waiting for element visibility
+[DEBUG] 2026-05-19 14:05:45.124 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-19 14:05:45.134 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-19 14:05:46.217 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 14:05:46.218 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-05-19 14:05:46.218 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:46.218 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:47.600 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-05-19 14:05:47.602 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:47.602 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:48.847 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-05-19 14:05:48.848 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 14:05:48.850 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 14:05:49.208 [main] CreateUserCredentialsActions - Verifying required validation message is displayed
+[INFO ] 2026-05-19 14:05:49.345 [main] Hooks - Ending Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 14:05:49.346 [main] HelperClass - Scenario passed: Create user without mandatory fields
+[INFO ] 2026-05-19 14:05:49.346 [main] HelperClass - Closing browser
