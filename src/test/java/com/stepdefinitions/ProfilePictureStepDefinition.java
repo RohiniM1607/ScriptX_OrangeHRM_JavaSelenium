@@ -20,8 +20,6 @@ public class ProfilePictureStepDefinition {
     ProfilePictureActions profilePictureActions;
     LoginPage loginPage;
 
-    // ── Background steps ──────────────────────────────────────────────────────────
-
     @Given("Employee is on OrangeHRM Profile Picture login page")
     public void employee_is_on_orange_hrm_profile_picture_login_page() {
         loginActions = new LoginActions();

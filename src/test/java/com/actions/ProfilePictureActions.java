@@ -23,14 +23,7 @@ public class ProfilePictureActions {
 
     public void uploadProfilePicture(String relativePath) {
         String absolutePath = System.getProperty("user.dir") + relativePath;
-
-        wait.until(ExpectedConditions.elementToBeClickable(profilePicturePage.addIcon));
-        profilePicturePage.addIcon.click();
-
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
-
-        ((JavascriptExecutor) helper.getDriver()).executeScript("arguments[0].style.display='block';", profilePicturePage.fileInput);
-
         profilePicturePage.fileInput.sendKeys(absolutePath);
     }
 
