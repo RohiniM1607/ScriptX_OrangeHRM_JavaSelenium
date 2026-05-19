@@ -1,5 +1,5 @@
+@Rohini
 Feature: Rohini_14May2026_OrangeHRM_Create User Credential
-
   Description:
   This feature verifies whether Admin can create user login credentials
   for ESS employee and Admin user in OrangeHRM.
@@ -10,7 +10,8 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
     And user clicks on login button
     Then user should be navigated to dashboard page
     Given user is on OrangeHRM Admin User Management page
-
+    
+  @Valid
   Scenario Outline: Create user login credential
     When user clicks on Add button
     And user enters user credential details "<role>" "<employeeName>" "<status>" "<username>" "<password>" "<confirmPassword>"
@@ -18,5 +19,12 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
     Then user credential should be created successfully
 
     Examples:
-      | role  | employeeName | status  | username | password   | confirmPassword |
-      | Admin | Rohini M     | Enabled | Rohini16 | Rohini@123 | Rohini@123      |
+      | role  | employeeName | status  | username   | password     | confirmPassword |
+      | ESS   | Employee 1   | Enabled | Employee_1 | Employee@123 | Employee@123    |
+      | Admin | Admin 1      | Enabled | Admin_1    | Admin@123    | Admin@123       |
+      
+  @Without_Mandatory_Field
+  Scenario: Create user without mandatory fields 
+  When user clicks on Add button 
+  And user clicks on Save button without entering mandatory fields 
+  Then required validation message should be displayed for mandatory fields
