@@ -56,7 +56,10 @@ public class EmployeeEntitlementPage extends BasePage {
 
     @FindBy(xpath = "//div[@role='listbox']//span")
     List<WebElement> dropdownOptions;
-
+    
+    @FindBy(xpath = "//label[text()='Employee Name']/ancestor::div[contains(@class,'oxd-input-group')]//span[contains(@class,'oxd-input-field-error-message')]")
+    WebElement employeeNameRequiredMessage;
+    
     public void navigateToLeaveEntitlementsPage() {
 
         helper.clickElement(leaveMenu);
@@ -86,6 +89,12 @@ public class EmployeeEntitlementPage extends BasePage {
         catch (Exception e) {
             System.out.println("Employee suggestion not selected: " + e.getMessage());
         }
+    }
+    
+    public String getEmployeeNameRequiredMessage() {
+
+        helper.waitForElement(employeeNameRequiredMessage);
+        return employeeNameRequiredMessage.getText();
     }
 
     public void enterInvalidEmployeeName(String employeeName) {

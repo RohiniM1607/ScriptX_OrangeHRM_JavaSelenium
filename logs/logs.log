@@ -3105,3 +3105,420 @@
 [INFO ] 2026-05-20 07:03:46.830 [main] Hooks - Ending Scenario: Changing the profile picture without saving
 [INFO ] 2026-05-20 07:03:46.830 [main] HelperClass - Scenario passed: Changing the profile picture without saving
 [INFO ] 2026-05-20 07:03:46.831 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 10:58:59.436 [main] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 10:58:59.486 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 10:59:04.784 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 10:59:04.826 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 10:59:04.838 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 10:59:18.013 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 10:59:18.014 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 10:59:23.461 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 10:59:23.461 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 10:59:23.601 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 10:59:23.602 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 10:59:40.643 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 10:59:40.644 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 10:59:40.644 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 10:59:57.339 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 10:59:59.531 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:04.430 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:00:04.431 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:00:07.964 [main] EmployeeEntitlementActions - Searching employee entitlement using Property File, DataTable and CSV
+[INFO ] 2026-05-20 11:00:07.996 [main] EmployeeEntitlementActions - Employee Name: Ranga Akunuri
+[INFO ] 2026-05-20 11:00:08.006 [main] EmployeeEntitlementActions - Leave Type: CAN - Maternity
+[INFO ] 2026-05-20 11:00:08.007 [main] EmployeeEntitlementActions - Leave Period: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 11:00:08.007 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:00:08.007 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:08.268 [main] HelperClass - Waiting for element located by: By.xpath: //div[@role='listbox']//span
+[INFO ] 2026-05-20 11:00:12.879 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:00:12.879 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:13.538 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:00:13.538 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:13.689 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:00:13.752 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:13.826 [main] EmployeeEntitlementActions - Verifying employee entitlement search result is displayed
+[INFO ] 2026-05-20 11:00:13.827 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:00:16.281 [main] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:00:16.283 [main] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:00:16.283 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:00:16.578 [main] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:00:16.579 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:00:17.570 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:00:17.610 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:00:17.614 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:00:25.084 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:00:25.085 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:00:27.138 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:00:27.138 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:00:27.276 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:00:27.276 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:32.983 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:00:32.983 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:00:32.983 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:40.924 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:00:44.575 [main] HelperClass - Waiting for element to be clickable
+[ERROR] 2026-05-20 11:01:04.883 [main] EmployeeEntitlementActions - Failed to navigate to Employee Entitlements page
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not visible.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52611}, goog:processID: 19636, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52611/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3dd20c0e8df2fc8bc10bc6f81bf1deae
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.utilities.HelperClass.waitForElementToBeClickable(HelperClass.java:74)
+	at com.pages.EmployeeEntitlementPage.navigateToLeaveEntitlementsPage(EmployeeEntitlementPage.java:67)
+	at com.actions.EmployeeEntitlementActions.navigateToEmployeeEntitlementsPage(EmployeeEntitlementActions.java:32)
+	at com.stepdefinitions.EmployeeEntitlementSteps.user_is_on_orange_hrm_leave_entitlements_page(EmployeeEntitlementSteps.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:55)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:108)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:108)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:281)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:90)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1686)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:147)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:588)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:91)
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:79)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:79)
+	at io.cucumber.core.cli.Main.run(Main.java:87)
+	at io.cucumber.core.cli.Main.main(Main.java:30)
+[INFO ] 2026-05-20 11:01:04.904 [main] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[ERROR] 2026-05-20 11:01:04.904 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 11:01:04.904 [main] HelperClass - Scenario failed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:01:04.904 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 11:01:05.404 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_entitlement_with_invalid_employee_name.png
+[INFO ] 2026-05-20 11:01:05.404 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:01:05.695 [main] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:01:05.695 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:01:06.560 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:01:06.609 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:01:06.613 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:01:15.776 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:01:15.776 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:18.113 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:01:18.113 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:18.249 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:18.250 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:24.281 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:01:24.283 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:24.283 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:33.576 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:34.628 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:36.058 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:01:36.059 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:36.547 [main] EmployeeEntitlementActions - Searching entitlement with invalid employee name: TestUser123
+[INFO ] 2026-05-20 11:01:36.547 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:36.547 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:36.792 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:36.792 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:37.442 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:37.443 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:37.568 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:01:37.628 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:37.686 [main] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 11:01:37.686 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:37.726 [main] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:01:37.726 [main] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:01:37.726 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:01:37.975 [main] Hooks - Starting Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 11:01:37.976 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:01:38.817 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:01:38.869 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:01:38.873 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:01:43.400 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:01:43.400 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:44.184 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:01:44.184 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:44.357 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:44.357 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:46.005 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:01:46.006 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:46.006 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:50.161 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:50.750 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:51.864 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:01:51.864 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:52.343 [main] EmployeeEntitlementActions - Searching entitlement without employee name using Excel data
+[DEBUG] 2026-05-20 11:01:52.694 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-20 11:01:52.698 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-05-20 11:01:52.700 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-20 11:01:53.056 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[INFO ] 2026-05-20 11:01:53.149 [main] EmployeeEntitlementActions - Employee Name from Excel: 
+[INFO ] 2026-05-20 11:01:53.150 [main] EmployeeEntitlementActions - Leave Type from Excel: CAN - Maternity
+[INFO ] 2026-05-20 11:01:53.150 [main] EmployeeEntitlementActions - Leave Period from Excel: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 11:01:53.150 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:53.150 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:53.794 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:01:53.795 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:53.969 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:01:54.029 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:01:54.081 [main] EmployeeEntitlementActions - Verifying required employee name validation message is displayed
+[INFO ] 2026-05-20 11:01:54.081 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:01:54.125 [main] Hooks - Ending Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 11:01:54.125 [main] HelperClass - Scenario passed: Search entitlement without employee name
+[INFO ] 2026-05-20 11:01:54.125 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:18:01.070 [main] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:18:01.081 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:18:03.601 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:18:03.645 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:18:03.652 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:18:08.180 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:18:08.181 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:08.830 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:18:08.831 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:08.972 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:08.972 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:10.728 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:18:10.728 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:10.728 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:12.363 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:12.872 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:13.971 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:18:13.972 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:14.409 [main] EmployeeEntitlementActions - Searching employee entitlement using Property File, DataTable and CSV
+[INFO ] 2026-05-20 11:18:14.411 [main] EmployeeEntitlementActions - Employee Name: Ranga Akunuri
+[INFO ] 2026-05-20 11:18:14.411 [main] EmployeeEntitlementActions - Leave Type: CAN - Maternity
+[INFO ] 2026-05-20 11:18:14.411 [main] EmployeeEntitlementActions - Leave Period: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 11:18:14.411 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:14.411 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:14.640 [main] HelperClass - Waiting for element located by: By.xpath: //div[@role='listbox']//span
+[INFO ] 2026-05-20 11:18:16.938 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:16.938 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:17.610 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:17.610 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:17.763 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:18:17.821 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:17.881 [main] EmployeeEntitlementActions - Verifying employee entitlement search result is displayed
+[INFO ] 2026-05-20 11:18:17.881 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:18.302 [main] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:18:18.304 [main] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:18:18.304 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:18:18.580 [main] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:18:18.581 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:18:19.472 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:18:19.511 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:18:19.514 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:18:23.362 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:18:23.362 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:23.977 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:18:23.977 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:24.135 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:24.135 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:25.290 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:18:25.290 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:25.290 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:26.908 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:27.355 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:28.444 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:18:28.444 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:28.841 [main] EmployeeEntitlementActions - Searching entitlement with invalid employee name: InvalidEmp
+[INFO ] 2026-05-20 11:18:28.841 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:28.841 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:29.087 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:29.087 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:29.747 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:29.748 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:29.906 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:18:29.965 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:30.023 [main] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 11:18:30.024 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:30.064 [main] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:18:30.064 [main] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:18:30.065 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:18:30.301 [main] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:18:30.302 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:18:31.153 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:18:31.208 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:18:31.211 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:18:37.268 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:18:37.268 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:37.849 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:18:37.849 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:37.998 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:37.998 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:39.342 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:18:39.342 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:39.342 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:42.879 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:43.337 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:44.923 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:18:44.923 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:45.808 [main] EmployeeEntitlementActions - Searching entitlement with invalid employee name: TestUser123
+[INFO ] 2026-05-20 11:18:45.808 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:45.808 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:46.049 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:46.050 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:46.708 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:46.709 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:46.835 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:18:46.895 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:46.971 [main] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 11:18:46.971 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:47.015 [main] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:18:47.015 [main] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:18:47.015 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:18:47.264 [main] Hooks - Starting Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 11:18:47.265 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:18:48.045 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:18:48.089 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:18:48.097 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:18:52.282 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:18:52.283 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:53.003 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:18:53.003 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:18:53.202 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:18:53.202 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:18:53.352 [main] Hooks - Ending Scenario: Search entitlement without employee name
+[ERROR] 2026-05-20 11:18:53.353 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 11:18:53.354 [main] HelperClass - Scenario failed: Search entitlement without employee name
+[INFO ] 2026-05-20 11:18:53.354 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 11:18:55.945 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_entitlement_without_employee_name.png
+[INFO ] 2026-05-20 11:18:55.945 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:32:35.781 [main] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:32:35.796 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:32:37.542 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:32:37.585 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:32:37.591 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:32:41.268 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:32:41.268 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:32:41.841 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:32:41.842 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:32:41.982 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:32:41.982 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:43.258 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:32:43.259 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:32:43.259 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:45.498 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:45.941 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:46.961 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:32:46.962 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:32:47.381 [main] EmployeeEntitlementActions - Searching employee entitlement using Property File, DataTable and CSV
+[INFO ] 2026-05-20 11:32:47.383 [main] EmployeeEntitlementActions - Employee Name: Ranga Akunuri
+[INFO ] 2026-05-20 11:32:47.383 [main] EmployeeEntitlementActions - Leave Type: CAN - Maternity
+[INFO ] 2026-05-20 11:32:47.383 [main] EmployeeEntitlementActions - Leave Period: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 11:32:47.384 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:32:47.384 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:47.630 [main] HelperClass - Waiting for element located by: By.xpath: //div[@role='listbox']//span
+[INFO ] 2026-05-20 11:32:49.882 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:32:49.883 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:50.559 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:32:50.559 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:50.729 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:32:50.788 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:50.847 [main] EmployeeEntitlementActions - Verifying employee entitlement search result is displayed
+[INFO ] 2026-05-20 11:32:50.847 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:32:51.273 [main] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:32:51.275 [main] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 11:32:51.275 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:32:51.551 [main] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:32:51.552 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:32:53.323 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:32:53.352 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:32:53.356 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:32:57.405 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:32:57.405 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:32:58.028 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:32:58.028 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:32:58.202 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:32:58.202 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:32:59.505 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:32:59.505 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:32:59.505 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:02.635 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:03.500 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:06.773 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:33:06.773 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:08.265 [main] EmployeeEntitlementActions - Searching entitlement with invalid employee name: InvalidEmp
+[INFO ] 2026-05-20 11:33:08.265 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:08.265 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:08.502 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:08.503 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:09.148 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:09.148 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:09.309 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:33:09.372 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:09.431 [main] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 11:33:09.431 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:09.474 [main] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:33:09.474 [main] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:33:09.474 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:33:09.776 [main] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:33:09.776 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:33:10.701 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:33:10.753 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:33:10.756 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:33:16.224 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:33:16.225 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:17.053 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:33:17.053 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:17.193 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:17.194 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:18.334 [main] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 11:33:18.335 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:18.335 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:20.001 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:20.399 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:21.703 [main] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 11:33:21.703 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:22.242 [main] EmployeeEntitlementActions - Searching entitlement with invalid employee name: TestUser123
+[INFO ] 2026-05-20 11:33:22.242 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:22.242 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:22.475 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:22.475 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:23.137 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:23.138 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:23.304 [main] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 11:33:23.361 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:23.417 [main] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 11:33:23.417 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:23.459 [main] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:33:23.460 [main] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 11:33:23.460 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 11:33:23.689 [main] Hooks - Starting Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 11:33:23.690 [main] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 11:33:24.572 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 11:33:24.630 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 11:33:24.635 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 11:33:28.552 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 11:33:28.554 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:29.195 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 11:33:29.196 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 11:33:29.326 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 11:33:29.327 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 11:33:29.500 [main] Hooks - Ending Scenario: Search entitlement without employee name
+[ERROR] 2026-05-20 11:33:29.501 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 11:33:29.501 [main] HelperClass - Scenario failed: Search entitlement without employee name
+[INFO ] 2026-05-20 11:33:29.501 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 11:33:31.740 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_entitlement_without_employee_name.png
+[INFO ] 2026-05-20 11:33:31.740 [main] HelperClass - Closing browser
