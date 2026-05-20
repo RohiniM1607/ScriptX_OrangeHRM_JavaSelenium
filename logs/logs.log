@@ -4512,3 +4512,219 @@ Session ID: 3dd20c0e8df2fc8bc10bc6f81bf1deae
 [INFO ] 2026-05-20 11:49:56.656 [main] HelperClass - Entering text: Admin
 [INFO ] 2026-05-20 11:49:56.658 [main] HelperClass - Waiting for element visibility
 
+[INFO ] 2026-05-20 15:16:10.599 [TestNG-PoolService-6] Hooks - Starting Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-20 15:16:10.598 [TestNG-PoolService-3] Hooks - Starting Scenario: Login with empty username and password
+[INFO ] 2026-05-20 15:16:10.599 [TestNG-PoolService-2] Hooks - Starting Scenario: Login with invalid username and password
+[INFO ] 2026-05-20 15:16:10.599 [TestNG-PoolService-4] Hooks - Starting Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-20 15:16:10.599 [TestNG-PoolService-5] Hooks - Starting Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-20 15:16:10.599 [TestNG-PoolService-7] Hooks - Starting Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-20 15:16:10.598 [TestNG-PoolService-1] Hooks - Starting Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-20 15:16:10.617 [TestNG-PoolService-6] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:16:10.617 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:16:10.617 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:16:10.617 [TestNG-PoolService-3] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:16:10.617 [TestNG-PoolService-7] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:16:10.617 [TestNG-PoolService-5] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:16:10.617 [TestNG-PoolService-4] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:16:15.692 [TestNG-PoolService-6] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:16:15.692 [TestNG-PoolService-5] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:16:15.692 [TestNG-PoolService-7] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:16:15.692 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:16:15.692 [TestNG-PoolService-4] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:16:15.692 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:16:15.692 [TestNG-PoolService-3] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:16:15.810 [TestNG-PoolService-5] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:16:15.839 [TestNG-PoolService-5] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:16:15.865 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:16:15.901 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:16:15.910 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:16:15.920 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:16:16.162 [TestNG-PoolService-7] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:16:16.176 [TestNG-PoolService-7] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:16:16.417 [TestNG-PoolService-3] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:16:16.433 [TestNG-PoolService-3] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:16:17.290 [TestNG-PoolService-4] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:16:17.300 [TestNG-PoolService-4] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:16:17.996 [TestNG-PoolService-6] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:16:18.016 [TestNG-PoolService-6] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:16:18.411 [TestNG-PoolService-3] HelperClass - Entering text: 
+[INFO ] 2026-05-20 15:16:18.411 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:19.128 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:16:19.128 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:19.978 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:16:19.978 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:20.305 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:20.305 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:20.614 [TestNG-PoolService-5] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-20 15:16:20.615 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:21.049 [TestNG-PoolService-4] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:16:21.049 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:21.194 [TestNG-PoolService-6] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:16:21.196 [TestNG-PoolService-6] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:21.380 [TestNG-PoolService-2] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-20 15:16:21.381 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:21.443 [TestNG-PoolService-5] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:16:21.443 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:21.496 [TestNG-PoolService-7] HelperClass - Entering text: Employee1
+[INFO ] 2026-05-20 15:16:21.497 [TestNG-PoolService-7] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:22.028 [TestNG-PoolService-1] Hooks - Ending Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-20 15:16:22.042 [TestNG-PoolService-1] HelperClass - Scenario passed: Login with valid default admin credentials
+[INFO ] 2026-05-20 15:16:22.049 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:16:22.275 [TestNG-PoolService-5] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:22.275 [TestNG-PoolService-5] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:22.475 [TestNG-PoolService-4] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-20 15:16:22.475 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:22.599 [TestNG-PoolService-6] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:16:22.599 [TestNG-PoolService-6] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:22.640 [TestNG-PoolService-3] HelperClass - Entering text: 
+[INFO ] 2026-05-20 15:16:22.640 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:22.674 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:22.748 [TestNG-PoolService-2] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-20 15:16:22.748 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:22.787 [TestNG-PoolService-7] HelperClass - Entering text: Employee123
+[INFO ] 2026-05-20 15:16:22.787 [TestNG-PoolService-7] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:22.919 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:22.920 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:23.010 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:23.011 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:23.024 [TestNG-PoolService-6] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:23.025 [TestNG-PoolService-6] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:23.116 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:23.116 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:23.187 [TestNG-PoolService-7] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:23.187 [TestNG-PoolService-7] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:23.427 [TestNG-PoolService-3] Hooks - Ending Scenario: Login with empty username and password
+[INFO ] 2026-05-20 15:16:23.428 [TestNG-PoolService-3] HelperClass - Scenario passed: Login with empty username and password
+[INFO ] 2026-05-20 15:16:23.428 [TestNG-PoolService-3] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:16:23.920 [TestNG-PoolService-5] Hooks - Ending Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-20 15:16:23.920 [TestNG-PoolService-5] HelperClass - Scenario passed: Login with invalid username and valid password
+[INFO ] 2026-05-20 15:16:23.920 [TestNG-PoolService-5] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:16:24.261 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:24.396 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:16:24.549 [TestNG-PoolService-7] Hooks - Ending Scenario: Login with valid Employee credentials
+[ERROR] 2026-05-20 15:16:24.549 [TestNG-PoolService-7] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 15:16:24.550 [TestNG-PoolService-7] HelperClass - Scenario failed: Login with valid Employee credentials
+[INFO ] 2026-05-20 15:16:24.550 [TestNG-PoolService-7] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 15:16:24.560 [TestNG-PoolService-6] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:24.561 [TestNG-PoolService-6] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:24.765 [TestNG-PoolService-4] Hooks - Ending Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-20 15:16:24.765 [TestNG-PoolService-4] HelperClass - Scenario passed: Login with valid username and invalid password
+[INFO ] 2026-05-20 15:16:24.766 [TestNG-PoolService-4] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:16:24.926 [TestNG-PoolService-2] Hooks - Ending Scenario: Login with invalid username and password
+[INFO ] 2026-05-20 15:16:24.927 [TestNG-PoolService-2] HelperClass - Scenario passed: Login with invalid username and password
+[INFO ] 2026-05-20 15:16:24.927 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:16:25.107 [TestNG-PoolService-7] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Login_with_valid_Employee_credentials.png
+[INFO ] 2026-05-20 15:16:25.107 [TestNG-PoolService-7] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:16:25.228 [TestNG-PoolService-6] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:16:25.229 [TestNG-PoolService-6] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:16:26.958 [TestNG-PoolService-6] Hooks - Ending Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-20 15:16:26.958 [TestNG-PoolService-6] HelperClass - Scenario passed: Verify logout functionality after successful login
+[INFO ] 2026-05-20 15:16:26.959 [TestNG-PoolService-6] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:57:06.567 [TestNG-PoolService-2] Hooks - Starting Scenario: Login with invalid username and password
+[INFO ] 2026-05-20 15:57:06.567 [TestNG-PoolService-4] Hooks - Starting Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-20 15:57:06.567 [TestNG-PoolService-6] Hooks - Starting Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-20 15:57:06.567 [TestNG-PoolService-1] Hooks - Starting Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-20 15:57:06.567 [TestNG-PoolService-3] Hooks - Starting Scenario: Login with empty username and password
+[INFO ] 2026-05-20 15:57:06.567 [TestNG-PoolService-7] Hooks - Starting Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-20 15:57:06.567 [TestNG-PoolService-5] Hooks - Starting Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-20 15:57:06.582 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 15:57:06.582 [TestNG-PoolService-6] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 15:57:06.582 [TestNG-PoolService-7] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 15:57:06.582 [TestNG-PoolService-4] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 15:57:06.582 [TestNG-PoolService-3] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 15:57:06.582 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 15:57:06.582 [TestNG-PoolService-5] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 15:57:10.774 [TestNG-PoolService-6] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:57:10.774 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:57:10.774 [TestNG-PoolService-7] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:57:10.774 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:57:10.774 [TestNG-PoolService-4] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:57:10.774 [TestNG-PoolService-5] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:57:10.774 [TestNG-PoolService-3] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:57:10.850 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:57:10.864 [TestNG-PoolService-7] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:57:10.866 [TestNG-PoolService-5] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:57:10.885 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:57:10.885 [TestNG-PoolService-7] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:57:10.885 [TestNG-PoolService-5] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:57:10.896 [TestNG-PoolService-6] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:57:10.896 [TestNG-PoolService-4] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:57:10.896 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:57:10.896 [TestNG-PoolService-3] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:57:10.909 [TestNG-PoolService-3] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:57:10.910 [TestNG-PoolService-6] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:57:10.916 [TestNG-PoolService-4] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:57:10.928 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:57:16.049 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:57:16.049 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:16.918 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:57:16.918 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:17.082 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:17.082 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:18.252 [TestNG-PoolService-4] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:57:18.252 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:18.987 [TestNG-PoolService-1] Hooks - Ending Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-20 15:57:18.990 [TestNG-PoolService-1] HelperClass - Scenario passed: Login with valid default admin credentials
+[INFO ] 2026-05-20 15:57:18.991 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:57:19.393 [TestNG-PoolService-4] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-20 15:57:19.393 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:19.537 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:19.538 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:19.553 [TestNG-PoolService-2] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-20 15:57:19.553 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:19.691 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:20.001 [TestNG-PoolService-7] HelperClass - Entering text: Employee1
+[INFO ] 2026-05-20 15:57:20.001 [TestNG-PoolService-7] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:20.530 [TestNG-PoolService-6] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:57:20.530 [TestNG-PoolService-6] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:20.624 [TestNG-PoolService-2] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-20 15:57:20.625 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:20.680 [TestNG-PoolService-5] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-20 15:57:20.680 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:20.784 [TestNG-PoolService-7] HelperClass - Entering text: Employee123
+[INFO ] 2026-05-20 15:57:20.784 [TestNG-PoolService-7] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:20.832 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:20.833 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:20.956 [TestNG-PoolService-7] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:20.956 [TestNG-PoolService-7] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:20.996 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:21.336 [TestNG-PoolService-3] HelperClass - Entering text: 
+[INFO ] 2026-05-20 15:57:21.336 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:21.441 [TestNG-PoolService-6] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:57:21.442 [TestNG-PoolService-6] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:21.522 [TestNG-PoolService-5] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:57:21.522 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:21.566 [TestNG-PoolService-4] Hooks - Ending Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-20 15:57:21.566 [TestNG-PoolService-4] HelperClass - Scenario passed: Login with valid username and invalid password
+[INFO ] 2026-05-20 15:57:21.566 [TestNG-PoolService-4] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:57:21.660 [TestNG-PoolService-6] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:21.660 [TestNG-PoolService-6] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:21.771 [TestNG-PoolService-5] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:21.772 [TestNG-PoolService-5] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:21.957 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:22.008 [TestNG-PoolService-7] Hooks - Ending Scenario: Login with valid Employee credentials
+[ERROR] 2026-05-20 15:57:22.008 [TestNG-PoolService-7] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 15:57:22.009 [TestNG-PoolService-7] HelperClass - Scenario failed: Login with valid Employee credentials
+[INFO ] 2026-05-20 15:57:22.009 [TestNG-PoolService-7] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 15:57:22.013 [TestNG-PoolService-3] HelperClass - Entering text: 
+[INFO ] 2026-05-20 15:57:22.013 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:57:22.168 [TestNG-PoolService-2] Hooks - Ending Scenario: Login with invalid username and password
+[INFO ] 2026-05-20 15:57:22.169 [TestNG-PoolService-2] HelperClass - Scenario passed: Login with invalid username and password
+[INFO ] 2026-05-20 15:57:22.169 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:57:22.203 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:22.204 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:22.218 [TestNG-PoolService-7] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Login_with_valid_Employee_credentials.png
+[INFO ] 2026-05-20 15:57:22.218 [TestNG-PoolService-7] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:57:22.374 [TestNG-PoolService-3] Hooks - Ending Scenario: Login with empty username and password
+[INFO ] 2026-05-20 15:57:22.374 [TestNG-PoolService-3] HelperClass - Scenario passed: Login with empty username and password
+[INFO ] 2026-05-20 15:57:22.374 [TestNG-PoolService-3] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:57:23.549 [TestNG-PoolService-6] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:23.550 [TestNG-PoolService-6] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:23.579 [TestNG-PoolService-5] Hooks - Ending Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-20 15:57:23.580 [TestNG-PoolService-5] HelperClass - Scenario passed: Login with invalid username and valid password
+[INFO ] 2026-05-20 15:57:23.580 [TestNG-PoolService-5] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:57:23.977 [TestNG-PoolService-6] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:57:23.978 [TestNG-PoolService-6] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:57:25.605 [TestNG-PoolService-6] Hooks - Ending Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-20 15:57:25.605 [TestNG-PoolService-6] HelperClass - Scenario passed: Verify logout functionality after successful login
+[INFO ] 2026-05-20 15:57:25.606 [TestNG-PoolService-6] HelperClass - Closing browser

@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 @Jagadeep_K_C
 Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Login Functionality
 
 	Description: This feature tests all the login ways including both admin and employee login
 	 	
-=======
-Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Login Functionality
->>>>>>> 15a3839f2a1977048e179f59319bab79736e2829
 
   Background:
     Given user is on OrangeHRM login page

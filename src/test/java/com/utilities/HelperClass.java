@@ -22,125 +22,152 @@ import io.cucumber.java.Scenario;
 
 public class HelperClass {
 
-    public static WebDriver driver;
-    private static final Logger logger = LogManager.getLogger(HelperClass.class);
+	public static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-    public void setupBrowser(String url, String headless) {
+	private static final Logger logger = LogManager.getLogger(HelperClass.class);
 
-        ChromeOptions options = new ChromeOptions();
+	public void setupBrowser(String url, String headless) {
 
-        if (headless.equalsIgnoreCase("true")) {
+		ChromeOptions options = new ChromeOptions();
 
-            logger.info("Launching Chrome browser in headless mode");
+			logger.info("Launching Chrome browser in headless mode");
 
-            options.addArguments("--headless=new");
-            options.addArguments("--window-size=1920,1080");
+			options.addArguments("--headless=new");
+			options.addArguments("--window-size=1920,1080");
 
-        } 
-        else {
+		driver.set(new ChromeDriver(options));
 
-            logger.info("Launching Chrome browser in normal GUI mode");
-        }
+		if (!headless.equalsIgnoreCase("true")) {
 
-        driver = new ChromeDriver(options);
+			logger.info("Maximize the Browser window");
 
-        if (!headless.equalsIgnoreCase("true")) {
-            logger.info("Maximize the Browser window");
-            driver.manage().window().maximize();
-        }
+			driver.get().manage().window().maximize();
+		}
 
-        logger.info("Applying implicit wait");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		logger.info("Applying implicit wait");
 
-        logger.info("Opening URL: " + url);
-        driver.get(url);
-    }
+		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-    public WebDriver getDriver() {
-        return driver;
-    }
+		logger.info("Opening URL: " + url);
 
-    public void waitForElement(WebElement element) {
+		driver.get().get(url);
+	}
 
-        logger.info("Waiting for element visibility");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.visibilityOf(element));
-    }
+	public WebDriver getDriver() {
 
-    public void waitForElementToBeClickable(WebElement element) {
+		return driver.get();
+	}
 
-        logger.info("Waiting for element to be clickable");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.elementToBeClickable(element));
-    }
+	public void waitForElement(WebElement element) {
 
-    public WebElement waitForElementLocated(By locator) {
+		logger.info("Waiting for element visibility");
 
-        logger.info("Waiting for element located by: " + locator);
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-    }
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
 
-    public void enterText(WebElement element, String value) {
+		wait.until(ExpectedConditions.visibilityOf(element));
+	}
 
-        logger.info("Entering text: " + value);
-        waitForElement(element);
-        element.clear();
-        element.sendKeys(value);
-    }
+	public void waitForElementToBeClickable(WebElement element) {
 
-    public void clickElement(WebElement element) {
+		logger.info("Waiting for element to be clickable");
 
-        logger.info("Clicking on element");
-        waitForElementToBeClickable(element);
-        element.click();
-    }
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
 
-    public void takeScreenshotOnFailure(Scenario scenario) {
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
 
-        if (scenario.isFailed() && driver != null) {
+	public WebElement waitForElementLocated(By locator) {
 
-            try {
-                logger.error("Scenario failed: " + scenario.getName());
-                logger.info("Capturing screenshot for failed scenario");
+		logger.info("Waiting for element located by: " + locator);
 
-                byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-                scenario.attach(screenshotBytes, "image/png", scenario.getName());
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
 
-                File folder = new File("target/screenshots");
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
 
-                if (!folder.exists()) {
-                    folder.mkdirs();
-                }
+	public void enterText(WebElement element, String value) {
 
-                String screenshotName = scenario.getName().replaceAll(" ", "_");
-                File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-                File destination = new File(folder, screenshotName + ".png");
+		logger.info("Entering text: " + value);
 
-                FileUtils.copyFile(source, destination);
+		waitForElement(element);
 
-                logger.info("Screenshot saved at: " + destination.getAbsolutePath());
+		element.clear();
 
-            } catch (IOException e) {
-                logger.error("Failed to save screenshot", e);
-                e.printStackTrace();
-            }
-        }
-    }
+		element.sendKeys(value);
+	}
 
-    public void tearDown(Scenario scenario) {
+	public void clickElement(WebElement element) {
 
-        if (scenario.isFailed()) {
-            logger.error("Scenario failed. Taking screenshot.");
-            takeScreenshotOnFailure(scenario);
-        } else {
-            logger.info("Scenario passed: " + scenario.getName());
-        }
+		logger.info("Clicking on element");
 
-        if (driver != null) {
-            logger.info("Closing browser");
-            driver.quit();
-            driver = null;
-        }
-    }
+		waitForElementToBeClickable(element);
+
+		element.click();
+	}
+
+	public void takeScreenshotOnFailure(Scenario scenario) {
+
+		if (scenario.isFailed() && driver.get() != null) {
+
+			try {
+
+				logger.error("Scenario failed: " + scenario.getName());
+
+				logger.info("Capturing screenshot for failed scenario");
+
+				byte[] screenshotBytes = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.BYTES);
+
+				scenario.attach(screenshotBytes, "image/png", scenario.getName());
+
+				File folder = new File("target/screenshots");
+
+				if (!folder.exists()) {
+
+					folder.mkdirs();
+				}
+
+				String screenshotName = scenario.getName().replaceAll(" ", "_");
+
+				File source = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.FILE);
+
+				File destination = new File(folder, screenshotName + ".png");
+
+				FileUtils.copyFile(source, destination);
+
+				logger.info("Screenshot saved at: " + destination.getAbsolutePath());
+
+			} catch (IOException e) {
+
+				logger.error("Failed to save screenshot", e);
+
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public void tearDown(Scenario scenario) {
+
+		if (scenario.isFailed()) {
+
+			logger.error("Scenario failed. Taking screenshot.");
+
+			takeScreenshotOnFailure(scenario);
+
+		} else {
+
+			logger.info("Scenario passed: " + scenario.getName());
+		}
+
+		if (driver.get() != null) {
+
+			logger.info("Closing browser");
+
+			driver.get().quit();
+
+			// CHANGED:
+			// remove thread local instance
+
+			driver.remove();
+		}
+	}
 }

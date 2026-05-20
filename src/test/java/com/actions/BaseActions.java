@@ -9,6 +9,6 @@ public class BaseActions {
     public WebDriver driver;
 
     public BaseActions() {
-        driver = HelperClass.driver;
+        driver = HelperClass.driver.get();
     }
 }
