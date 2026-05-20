@@ -65,7 +65,7 @@ OrangeHRM_Automation_Project
 │
 └── pom.xml
 ```
-
+---
 Features Automated
 
 The following functionalities are automated in this project:
@@ -78,6 +78,8 @@ Employee Entitlement Search
 Create Employee
 Search Employee
 Framework Design
+
+---
 
 This automation framework follows the Page Object Model design pattern.
 
@@ -95,6 +97,8 @@ Maven Dependencies
 The project uses Maven for dependency management.
 All required dependencies are maintained in the pom.xml file.
 
+--- 
+
 Common dependencies used in this project include:
 
 Selenium Java
@@ -104,6 +108,8 @@ WebDriverManager
 Log4j
 Apache Commons IO
 Prerequisites
+
+---
 
 Before running this project, make sure the following software is installed:
 
@@ -135,6 +141,8 @@ Save the job.
 Click Build Now.
 Check the console output for execution results.
 Reports and Screenshots
+
+---
 
 After test execution:
 
