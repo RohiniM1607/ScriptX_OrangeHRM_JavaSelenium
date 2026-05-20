@@ -9,7 +9,7 @@ The project is developed using Java, Selenium WebDriver, Cucumber, TestNG/JUnit,
 
 ---
 
-## Tools and Technologies Used
+Tools and Technologies Used
 
 - Java
 - Selenium WebDriver
