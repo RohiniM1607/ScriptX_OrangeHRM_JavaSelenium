@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features/EmployeeEntitlement.feature",
+        features = "src/test/resources/features/Add_leave_entitlement.feature",
         glue = {
                 "com.stepdefinitions",
                 "com.hooks"

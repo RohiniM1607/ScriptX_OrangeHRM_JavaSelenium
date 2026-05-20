@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -83,6 +84,8 @@ public class Add_leave_entitlement_action {
 		for (WebElement suggestion : suggestions) {
 			if (suggestion.getText().contains(employeeName.toLowerCase())) {
 				suggestion.click();
+				actions.sendKeys(Keys.ARROW_DOWN).perform();
+				actions.sendKeys(Keys.ENTER).perform();
 				matched = true;
 				break;
 			}
