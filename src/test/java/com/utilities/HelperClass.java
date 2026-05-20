@@ -22,7 +22,7 @@ import io.cucumber.java.Scenario;
 
 public class HelperClass {
 
-    public static WebDriver driver;
+    public static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private static final Logger logger = LogManager.getLogger(HelperClass.class);
 
     public void setupBrowser(String url, String headless) {
@@ -33,7 +33,7 @@ public class HelperClass {
 
             logger.info("Launching Chrome browser in headless mode");
 
-            options.addArguments("--headless=new");
+            options.addArguments("--headless");
             options.addArguments("--window-size=1920,1080");
 
         } 
@@ -42,42 +42,42 @@ public class HelperClass {
             logger.info("Launching Chrome browser in normal GUI mode");
         }
 
-        driver = new ChromeDriver(options);
+        driver.set(new ChromeDriver(options)); 
 
         if (!headless.equalsIgnoreCase("true")) {
             logger.info("Maximize the Browser window");
-            driver.manage().window().maximize();
+            driver.get().manage().window().maximize();
         }
 
         logger.info("Applying implicit wait");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         logger.info("Opening URL: " + url);
-        driver.get(url);
+        driver.get().get(url);
     }
 
     public WebDriver getDriver() {
-        return driver;
+        return driver.get();
     }
 
     public void waitForElement(WebElement element) {
 
         logger.info("Waiting for element visibility");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     public void waitForElementToBeClickable(WebElement element) {
 
         logger.info("Waiting for element to be clickable");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public WebElement waitForElementLocated(By locator) {
 
         logger.info("Waiting for element located by: " + locator);
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
@@ -139,8 +139,8 @@ public class HelperClass {
 
         if (driver != null) {
             logger.info("Closing browser");
-            driver.quit();
-            driver = null;
+            driver.get().quit();
+            driver.set(null);
         }
     }
 }

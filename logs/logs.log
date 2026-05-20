@@ -3531,3 +3531,279 @@ Session ID: 3dd20c0e8df2fc8bc10bc6f81bf1deae
 [INFO ] 2026-05-20 11:49:55.147 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 [INFO ] 2026-05-20 11:49:56.656 [main] HelperClass - Entering text: Admin
 [INFO ] 2026-05-20 11:49:56.658 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:50:42.658 [TestNG-PoolService-3] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:50:42.658 [TestNG-PoolService-4] Hooks - Starting Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 15:50:42.658 [TestNG-PoolService-1] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 15:50:42.658 [TestNG-PoolService-2] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:50:42.721 [TestNG-PoolService-4] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:50:42.721 [TestNG-PoolService-3] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:50:42.721 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:50:42.721 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:50:57.287 [TestNG-PoolService-3] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:50:57.288 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:50:57.287 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:50:57.290 [TestNG-PoolService-4] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:50:57.526 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:50:57.577 [TestNG-PoolService-3] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:50:57.579 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:50:57.609 [TestNG-PoolService-4] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:50:57.609 [TestNG-PoolService-3] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:50:57.645 [TestNG-PoolService-4] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:50:57.673 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:50:57.876 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:51:11.347 [TestNG-PoolService-2] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:51:11.352 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:11.402 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:51:11.404 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:11.406 [TestNG-PoolService-4] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:51:11.407 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:11.447 [TestNG-PoolService-3] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:51:11.447 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:12.586 [TestNG-PoolService-2] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:51:12.587 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:13.024 [TestNG-PoolService-4] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:51:13.024 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:13.181 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:51:13.181 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:13.494 [TestNG-PoolService-3] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:51:13.494 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:13.670 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:13.670 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:13.849 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:13.849 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:13.939 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:13.941 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:14.629 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:14.636 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:16.381 [TestNG-PoolService-1] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:51:16.382 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:16.382 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:16.544 [TestNG-PoolService-2] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:51:16.544 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:16.545 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:16.817 [TestNG-PoolService-4] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:51:16.817 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:16.820 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:17.592 [TestNG-PoolService-3] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:51:17.593 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:17.593 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:21.657 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:24.226 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:25.206 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:25.546 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:25.760 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:26.116 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:26.489 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:26.983 [TestNG-PoolService-1] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:51:26.984 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:27.378 [TestNG-PoolService-2] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:51:27.378 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:27.444 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:27.784 [TestNG-PoolService-1] EmployeeEntitlementActions - Searching employee entitlement using Property File, DataTable and CSV
+[INFO ] 2026-05-20 15:51:27.808 [TestNG-PoolService-4] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:51:27.809 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:27.823 [TestNG-PoolService-1] EmployeeEntitlementActions - Employee Name: Ranga Akunuri
+[INFO ] 2026-05-20 15:51:27.824 [TestNG-PoolService-1] EmployeeEntitlementActions - Leave Type: CAN - Maternity
+[INFO ] 2026-05-20 15:51:27.824 [TestNG-PoolService-1] EmployeeEntitlementActions - Leave Period: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 15:51:27.825 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:27.825 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:28.434 [TestNG-PoolService-1] HelperClass - Waiting for element located by: By.xpath: //div[@role='listbox']//span
+[INFO ] 2026-05-20 15:51:28.624 [TestNG-PoolService-2] EmployeeEntitlementActions - Searching entitlement with invalid employee name: InvalidEmp
+[INFO ] 2026-05-20 15:51:28.625 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:28.625 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:28.827 [TestNG-PoolService-3] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:51:28.828 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:28.853 [TestNG-PoolService-4] EmployeeEntitlementActions - Searching entitlement without employee name using Excel data
+[INFO ] 2026-05-20 15:51:29.299 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:29.300 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[DEBUG] 2026-05-20 15:51:29.515 [TestNG-PoolService-4] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-20 15:51:29.526 [TestNG-PoolService-4] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-05-20 15:51:29.531 [TestNG-PoolService-4] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-20 15:51:29.910 [TestNG-PoolService-3] EmployeeEntitlementActions - Searching entitlement with invalid employee name: TestUser123
+[INFO ] 2026-05-20 15:51:29.911 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:29.911 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:30.360 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:30.361 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:30.787 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:30.787 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:30.797 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:30.798 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:30.943 [TestNG-PoolService-2] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[DEBUG] 2026-05-20 15:51:31.176 [TestNG-PoolService-4] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[INFO ] 2026-05-20 15:51:31.209 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:31.401 [TestNG-PoolService-2] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 15:51:31.401 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:31.529 [TestNG-PoolService-4] EmployeeEntitlementActions - Leave Type from Excel: CAN - Maternity
+[INFO ] 2026-05-20 15:51:31.530 [TestNG-PoolService-4] EmployeeEntitlementActions - Leave Period from Excel: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 15:51:31.530 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:31.530 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:31.531 [TestNG-PoolService-2] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:51:31.534 [TestNG-PoolService-2] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:51:31.535 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:51:31.829 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:31.829 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:31.926 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:31.927 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:32.427 [TestNG-PoolService-1] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 15:51:32.626 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:32.649 [TestNG-PoolService-3] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 15:51:32.796 [TestNG-PoolService-1] EmployeeEntitlementActions - Verifying employee entitlement search result is displayed
+[INFO ] 2026-05-20 15:51:32.796 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:32.810 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:32.939 [TestNG-PoolService-3] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 15:51:32.939 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:33.034 [TestNG-PoolService-3] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:51:33.035 [TestNG-PoolService-3] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:51:33.035 [TestNG-PoolService-3] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:51:33.086 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:51:33.087 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:33.359 [TestNG-PoolService-1] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 15:51:33.359 [TestNG-PoolService-1] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 15:51:33.359 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:51:33.610 [TestNG-PoolService-4] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 15:51:33.746 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:51:33.948 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:34.048 [TestNG-PoolService-4] EmployeeEntitlementActions - Actual validation message: Required
+[INFO ] 2026-05-20 15:51:34.050 [TestNG-PoolService-4] EmployeeEntitlementActions - Verifying required employee name validation message is displayed
+[INFO ] 2026-05-20 15:51:34.051 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:51:34.133 [TestNG-PoolService-4] Hooks - Ending Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 15:51:34.134 [TestNG-PoolService-4] HelperClass - Scenario passed: Search entitlement without employee name
+[INFO ] 2026-05-20 15:51:34.134 [TestNG-PoolService-4] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:52:25.563 [TestNG-PoolService-3] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:52:25.563 [TestNG-PoolService-1] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 15:52:25.563 [TestNG-PoolService-2] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:52:25.563 [TestNG-PoolService-4] Hooks - Starting Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 15:52:25.617 [TestNG-PoolService-3] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:52:25.617 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:52:25.617 [TestNG-PoolService-4] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:52:25.617 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in normal GUI mode
+[INFO ] 2026-05-20 15:52:31.620 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:52:31.620 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:52:31.620 [TestNG-PoolService-4] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:52:31.668 [TestNG-PoolService-3] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:52:31.867 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:52:31.876 [TestNG-PoolService-3] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:52:31.898 [TestNG-PoolService-4] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:52:31.901 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:52:31.902 [TestNG-PoolService-3] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:52:31.916 [TestNG-PoolService-4] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:52:31.939 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:52:32.082 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:52:34.444 [TestNG-PoolService-3] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:52:34.444 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:34.445 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:52:34.445 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:34.447 [TestNG-PoolService-4] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:52:34.447 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:37.705 [TestNG-PoolService-2] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:52:37.706 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:39.267 [TestNG-PoolService-3] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:52:39.267 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:39.373 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:52:39.373 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:39.386 [TestNG-PoolService-4] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:52:39.387 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:39.412 [TestNG-PoolService-2] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:52:39.412 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:39.592 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:39.593 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:39.721 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:39.723 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:39.738 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:39.739 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:39.755 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:39.756 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:41.407 [TestNG-PoolService-3] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:52:41.409 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:41.409 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:41.521 [TestNG-PoolService-4] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:52:41.522 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:41.522 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:41.539 [TestNG-PoolService-2] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:52:41.540 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:41.541 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:41.581 [TestNG-PoolService-1] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-05-20 15:52:41.582 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:41.582 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:45.235 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:45.647 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:45.699 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:45.714 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:46.420 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:46.530 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:46.533 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:46.624 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:48.480 [TestNG-PoolService-3] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:52:48.480 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:49.317 [TestNG-PoolService-1] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:52:49.318 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:49.352 [TestNG-PoolService-2] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:52:49.352 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:49.498 [TestNG-PoolService-4] EmployeeEntitlementActions - Verifying Employee Entitlements page is displayed
+[INFO ] 2026-05-20 15:52:49.499 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:50.709 [TestNG-PoolService-3] EmployeeEntitlementActions - Searching entitlement with invalid employee name: TestUser123
+[INFO ] 2026-05-20 15:52:50.710 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:50.710 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:50.927 [TestNG-PoolService-2] EmployeeEntitlementActions - Searching entitlement with invalid employee name: InvalidEmp
+[INFO ] 2026-05-20 15:52:50.928 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:50.928 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:51.324 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:51.324 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:51.608 [TestNG-PoolService-1] EmployeeEntitlementActions - Searching employee entitlement using Property File, DataTable and CSV
+[INFO ] 2026-05-20 15:52:51.640 [TestNG-PoolService-1] EmployeeEntitlementActions - Employee Name: Ranga Akunuri
+[INFO ] 2026-05-20 15:52:51.642 [TestNG-PoolService-1] EmployeeEntitlementActions - Leave Type: CAN - Maternity
+[INFO ] 2026-05-20 15:52:51.642 [TestNG-PoolService-1] EmployeeEntitlementActions - Leave Period: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 15:52:51.642 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:51.643 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:51.697 [TestNG-PoolService-4] EmployeeEntitlementActions - Searching entitlement without employee name using Excel data
+[INFO ] 2026-05-20 15:52:51.960 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:51.960 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:52.410 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:52.410 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[DEBUG] 2026-05-20 15:52:52.459 [TestNG-PoolService-4] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-20 15:52:52.469 [TestNG-PoolService-4] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-05-20 15:52:52.476 [TestNG-PoolService-4] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-20 15:52:52.612 [TestNG-PoolService-1] HelperClass - Waiting for element located by: By.xpath: //div[@role='listbox']//span
+[INFO ] 2026-05-20 15:52:52.705 [TestNG-PoolService-3] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 15:52:52.829 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:52.954 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:52.954 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:52.979 [TestNG-PoolService-3] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 15:52:52.979 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:53.095 [TestNG-PoolService-3] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:52:53.096 [TestNG-PoolService-3] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:52:53.097 [TestNG-PoolService-3] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:52:53.374 [TestNG-PoolService-2] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 15:52:53.516 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:53.660 [TestNG-PoolService-2] EmployeeEntitlementActions - Verifying invalid employee validation message is displayed
+[INFO ] 2026-05-20 15:52:53.660 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[DEBUG] 2026-05-20 15:52:53.735 [TestNG-PoolService-4] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[INFO ] 2026-05-20 15:52:53.812 [TestNG-PoolService-2] Hooks - Ending Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:52:53.813 [TestNG-PoolService-2] HelperClass - Scenario passed: Search entitlement with invalid employee name
+[INFO ] 2026-05-20 15:52:53.813 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:52:54.014 [TestNG-PoolService-4] EmployeeEntitlementActions - Leave Type from Excel: CAN - Maternity
+[INFO ] 2026-05-20 15:52:54.014 [TestNG-PoolService-4] EmployeeEntitlementActions - Leave Period from Excel: 2025-01-01 - 2025-31-12
+[INFO ] 2026-05-20 15:52:54.015 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:54.015 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:54.889 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:54.891 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:54.962 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:54.964 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:55.371 [TestNG-PoolService-4] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 15:52:55.552 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:55.668 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:55.788 [TestNG-PoolService-4] EmployeeEntitlementActions - Actual validation message: Required
+[INFO ] 2026-05-20 15:52:55.791 [TestNG-PoolService-4] EmployeeEntitlementActions - Verifying required employee name validation message is displayed
+[INFO ] 2026-05-20 15:52:55.792 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:55.894 [TestNG-PoolService-4] Hooks - Ending Scenario: Search entitlement without employee name
+[INFO ] 2026-05-20 15:52:55.894 [TestNG-PoolService-4] HelperClass - Scenario passed: Search entitlement without employee name
+[INFO ] 2026-05-20 15:52:55.894 [TestNG-PoolService-4] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:52:56.112 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:52:56.112 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:56.468 [TestNG-PoolService-1] HelperClass - Waiting for element located by: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+[INFO ] 2026-05-20 15:52:56.592 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:52:56.771 [TestNG-PoolService-1] EmployeeEntitlementActions - Verifying employee entitlement search result is displayed
+[INFO ] 2026-05-20 15:52:56.772 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:52:57.240 [TestNG-PoolService-1] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 15:52:57.241 [TestNG-PoolService-1] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-05-20 15:52:57.242 [TestNG-PoolService-1] HelperClass - Closing browser
