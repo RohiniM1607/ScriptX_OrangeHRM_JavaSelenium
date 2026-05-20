@@ -4085,7 +4085,6 @@
 [INFO ] 2026-05-20 07:03:46.830 [main] Hooks - Ending Scenario: Changing the profile picture without saving
 [INFO ] 2026-05-20 07:03:46.830 [main] HelperClass - Scenario passed: Changing the profile picture without saving
 [INFO ] 2026-05-20 07:03:46.831 [main] HelperClass - Closing browser
-<<<<<<< HEAD
 [INFO ] 2026-05-20 15:52:59.422 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
 [INFO ] 2026-05-20 15:52:59.425 [main] HelperClass - Launching Chrome browser
 [INFO ] 2026-05-20 15:53:01.136 [main] HelperClass - Maximize the Browser window
@@ -4148,7 +4147,6 @@
 [INFO ] 2026-05-20 16:00:31.388 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
 [INFO ] 2026-05-20 16:00:31.389 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
 [INFO ] 2026-05-20 16:00:31.389 [main] HelperClass - Closing browser
-=======
 [INFO ] 2026-05-20 10:58:59.436 [main] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 10:58:59.486 [main] HelperClass - Launching Chrome browser in normal GUI mode
 [INFO ] 2026-05-20 10:59:04.784 [main] HelperClass - Maximize the Browser window
@@ -6460,4 +6458,3 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-05-20 17:09:54.904 [TestNG-PoolService-1] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 17:09:54.905 [TestNG-PoolService-1] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 17:09:54.906 [TestNG-PoolService-1] HelperClass - Closing browser
->>>>>>> refs/remotes/origin/main
