@@ -40,11 +40,15 @@ public class Add_leave_entitlement_Steps {
         aa.confirmation_message();
     }
 
-    @When("Admin leaves the employee name field empty”")
-    public void admin_leaves_the_employee_name_field_empty() {
-    	 aa.leaveType_field();
-         aa.entitlement_field();
+    @When("Admin enters {string}, {string}, {string} in input field")
+    public void admin_enters_in_input_field(String EmployeeName, String LeaveType, String Entitlement) {
+       aa.blankField(EmployeeName,LeaveType, Entitlement);
     }
+//    @When("Admin leaves the employee name field empty”")
+//    public void admin_leaves_the_employee_name_field_empty() {
+//    	 aa.leaveType_field();
+//         aa.entitlement_field();
+//    }
     @Then("the error message should be displayed")
     public void the_error_message_should_be_displayed() {
         aa.nameField_Error_message();

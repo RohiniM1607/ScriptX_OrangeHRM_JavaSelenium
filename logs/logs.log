@@ -2677,3 +2677,57 @@
 [INFO ] 2026-05-19 14:05:49.345 [main] Hooks - Ending Scenario: Create user without mandatory fields
 [INFO ] 2026-05-19 14:05:49.346 [main] HelperClass - Scenario passed: Create user without mandatory fields
 [INFO ] 2026-05-19 14:05:49.346 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 12:08:23.728 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 12:08:23.732 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 12:08:26.952 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 12:08:27.001 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 12:08:31.982 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 12:08:31.982 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 12:08:32.232 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 12:08:32.233 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 12:08:32.430 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:32.432 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:32.636 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:32.637 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:35.452 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:35.452 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:35.990 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:35.990 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:36.635 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:36.635 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:47.406 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:47.406 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:47.971 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:47.972 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:48.108 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:48.108 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:49.987 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 12:08:49.990 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-05-20 12:08:49.990 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 12:08:50.273 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 12:08:50.273 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 12:08:51.199 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 12:08:51.239 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 12:08:56.019 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 12:08:56.020 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 12:08:57.005 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 12:08:57.005 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 12:08:57.163 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:57.164 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:08:59.691 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:08:59.691 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:09:05.401 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:09:05.403 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:09:07.314 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:09:07.314 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:09:09.957 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:09:09.958 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:09:11.272 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:09:11.272 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:09:12.590 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:09:12.590 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:09:12.839 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 12:09:12.840 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 12:09:13.067 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 12:09:13.068 [main] HelperClass - Scenario passed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 12:09:13.068 [main] HelperClass - Closing browser
