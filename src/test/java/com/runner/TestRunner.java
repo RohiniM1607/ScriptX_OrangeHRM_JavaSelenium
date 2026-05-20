@@ -20,7 +20,7 @@ import io.cucumber.testng.CucumberOptions;
         },
         monochrome = true,
         publish = true
-        //tags = "@EmployeeEntitlements"
+        tags = "@Reshmavalid"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
