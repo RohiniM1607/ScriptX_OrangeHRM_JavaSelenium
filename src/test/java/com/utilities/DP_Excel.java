@@ -3,35 +3,33 @@ package com.utilities;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.xssf.usermodel.*;
-import org.testng.annotations.DataProvider;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DP_Excel {
 
-    @DataProvider(name = "createUserWithoutMandatoryFieldData")
-    public Object[][] createUserMandatoryFieldData() throws IOException {
-        return getExcelData("src/test/resources/TestData/CreateUserCredential.xlsx","Sheet1");
-    }
+    public Object[][] getExcelData(String filePath, String sheetName) throws IOException {
 
-    public Object[][] getExcelData(String fileName, String sheetName) throws IOException {
+        FileInputStream fis = new FileInputStream(filePath);
 
-        FileInputStream fis = new FileInputStream(fileName);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
         XSSFSheet sheet = workbook.getSheet(sheetName);
 
-        XSSFRow row = sheet.getRow(0);
+        int rowCount = sheet.getPhysicalNumberOfRows();
 
-        int rows = sheet.getPhysicalNumberOfRows();
-        int cols = row.getPhysicalNumberOfCells();
+        int cellCount = sheet.getRow(0).getPhysicalNumberOfCells();
 
-        Object[][] data = new Object[rows - 1][cols];
+        Object[][] data = new Object[rowCount - 1][cellCount];
 
-        for (int i = 1; i < rows; i++) {
-            row = sheet.getRow(i);
-            for (int j = 0; j < cols; j++) {
-                Cell cell = row.getCell(j);
-                data[i - 1][j] = (cell != null) ? cell.toString() : "";
+        DataFormatter formatter = new DataFormatter();
+
+        for (int i = 1; i < rowCount; i++) {
+
+            for (int j = 0; j < cellCount; j++) {
+
+                data[i - 1][j] = formatter.formatCellValue(sheet.getRow(i).getCell(j));
             }
         }
 

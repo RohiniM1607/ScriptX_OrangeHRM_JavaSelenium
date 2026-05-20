@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.runner.TestRunner"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="OrangeHRM Suite" parallel="tests" thread-count="2">
+
+    <test name="Employee Entitlement Test">
+        <classes>
+            <class name="com.runner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>

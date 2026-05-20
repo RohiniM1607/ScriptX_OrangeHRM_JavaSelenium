@@ -6,12 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 import com.utilities.HelperClass;
 
 public class BasePage {
-    public WebDriver driver;
+    public static WebDriver driver;
     public HelperClass helper;
-    
+
     public BasePage() {
-    	driver = HelperClass.driver;
-    	helper = new HelperClass();
-        PageFactory.initElements(helper.getDriver(), this);
+        helper = new HelperClass();
+        driver = helper.getDriver();
+        PageFactory.initElements(driver, this);
     }
 }
