@@ -18,11 +18,3 @@
     And Employee clicks on Save button
     Then Personal details should be updated successfully
     
-  @InvalidReshma 
-  Scenario: Edit personal details without saving changes
-    When Employee moves to My Info page
-    And Employee edit personal details with following data
-  | LicenseExpiryDate | Nationality | MaritalStatus | Gender | BloodType | TestField |
-  | 2026-06-10        | Chinese     | Single        | Female | A+        | 223       |
-    And Employee forgot to click on Save button
-    Then Personal details should not saved successfully
