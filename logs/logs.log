@@ -2731,6 +2731,513 @@
 [INFO ] 2026-05-20 12:09:13.067 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
 [INFO ] 2026-05-20 12:09:13.068 [main] HelperClass - Scenario passed: Add leave entitlement without mandatory fields
 [INFO ] 2026-05-20 12:09:13.068 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:22:39.842 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 15:22:39.847 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 15:22:43.011 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:22:43.071 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:22:47.267 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:22:47.267 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:22:47.995 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:22:47.996 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:22:48.184 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:22:48.184 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:22:48.368 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:22:48.368 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:22:51.396 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:22:51.397 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:22:52.049 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:22:52.049 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:22:52.706 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:22:52.708 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:03.529 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:03.530 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:04.072 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:04.072 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:04.189 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:04.189 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:04.950 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 15:23:04.952 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-05-20 15:23:04.953 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:23:05.291 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 15:23:05.292 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 15:23:06.245 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:23:06.298 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:23:11.498 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 15:23:11.499 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:23:12.077 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 15:23:12.077 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:23:12.311 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:12.311 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:12.529 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:12.530 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:17.172 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:17.172 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:17.642 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:17.644 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:18.528 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:18.528 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:19.245 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:19.245 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:20.188 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:20.188 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:20.304 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:23:20.305 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:23:20.490 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 15:23:20.490 [main] HelperClass - Scenario passed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 15:23:20.490 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:01:17.789 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:01:17.794 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:01:19.260 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:01:19.313 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:01:23.374 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:01:23.374 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:01:23.717 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:01:23.718 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:01:23.899 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:23.899 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:01:24.063 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:24.064 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:01:26.481 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:26.482 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:01:27.084 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:27.084 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:01:27.747 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:27.748 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:01:38.520 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:38.520 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:01:39.283 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:39.285 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:01:39.456 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:01:39.456 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:10.331 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-05-20 16:02:10.335 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 16:02:10.336 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:02:10.336 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 16:02:10.689 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_successfully.png
+[INFO ] 2026-05-20 16:02:10.689 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:02:11.056 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:02:11.057 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:02:11.950 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:02:12.008 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:02:16.656 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:02:16.656 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:02:17.204 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:02:17.205 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:02:17.424 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:17.424 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:17.502 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:17.507 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:20.767 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:20.767 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:21.332 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:21.332 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:21.903 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:21.904 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:22.441 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:22.441 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:23.088 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:23.088 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:23.223 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:02:23.224 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:02:23.436 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:02:23.437 [main] HelperClass - Scenario passed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:02:23.437 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:27:58.129 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:27:58.133 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:28:00.606 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:28:00.665 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:28:04.488 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:28:04.488 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:28:04.714 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:28:04.714 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:28:04.941 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:04.941 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:05.160 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:05.161 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:10.892 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:10.893 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:12.407 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:12.408 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:14.844 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:14.845 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:26.334 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:26.335 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:26.890 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:26.890 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:27.075 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:28:27.075 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:28:57.829 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-05-20 16:28:57.834 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 16:28:57.835 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:28:57.836 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 16:28:58.168 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_successfully.png
+[INFO ] 2026-05-20 16:28:58.169 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:28:58.639 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:28:58.639 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:28:59.644 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:28:59.692 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:29:06.003 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:29:06.006 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:29:08.371 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:29:08.371 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:29:08.632 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:08.633 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:08.900 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:08.901 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:19.718 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:19.719 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:21.840 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:21.840 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:23.692 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:23.692 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:24.818 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:24.819 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:27.346 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:27.346 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:27.535 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:29:27.535 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:29:58.398 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 16:29:58.399 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 16:29:58.399 [main] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:29:58.399 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 16:29:58.600 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 16:29:58.600 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:32:33.481 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:32:33.486 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:32:34.941 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:32:34.996 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:32:41.531 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:32:41.531 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:32:42.196 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:32:42.197 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:32:42.438 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:42.439 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:32:42.626 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:42.626 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:32:45.922 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:45.922 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:32:46.605 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:46.605 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:32:47.810 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:47.811 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:32:58.901 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:58.901 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:32:59.402 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:59.402 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:32:59.521 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:32:59.521 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:00.221 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:33:00.227 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:33:00.228 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:33:00.576 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:33:00.576 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:33:01.452 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:33:01.510 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:33:06.416 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:33:06.417 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:33:07.117 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:33:07.117 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:33:07.330 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:07.330 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:07.487 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:07.488 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:11.515 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:11.515 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:12.004 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:12.005 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:13.145 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:13.145 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:13.973 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:13.973 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:15.245 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:15.245 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:15.370 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:33:15.370 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:33:46.182 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 16:33:46.182 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 16:33:46.183 [main] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:33:46.183 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 16:33:46.492 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 16:33:46.492 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:39:21.416 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:39:21.423 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:39:22.859 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:39:22.928 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:39:28.221 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:39:28.221 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:39:30.624 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:39:30.625 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:39:30.790 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:30.791 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:30.909 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:30.910 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:40.027 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:40.028 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:40.810 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:40.810 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:43.404 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:43.404 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:54.390 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:54.391 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:54.906 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:54.907 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:55.032 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:39:55.032 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:39:56.303 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:39:56.310 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-05-20 16:39:56.311 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:39:56.657 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:39:56.657 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:39:57.602 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:39:57.654 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:40:02.921 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 16:40:02.926 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:40:04.212 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 16:40:04.212 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:40:04.438 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:04.439 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:07.714 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:07.714 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:10.274 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:10.274 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:10.957 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:10.959 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:13.840 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:13.840 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:15.143 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:15.143 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:17.224 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:17.224 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:17.472 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:40:17.472 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:40:48.272 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 16:40:48.273 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 16:40:48.273 [main] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 16:40:48.273 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 16:40:48.597 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 16:40:48.597 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:36:56.166 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:36:56.170 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:36:58.350 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:36:58.401 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:37:03.023 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:37:03.023 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:37:03.456 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:37:03.456 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:37:03.595 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:03.595 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:03.697 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:03.698 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:07.651 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:07.651 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:08.795 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:08.796 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:10.904 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:10.904 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:22.227 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:22.227 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:23.042 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:23.043 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:23.170 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:23.171 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:24.150 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:37:24.154 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:37:24.155 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:37:24.490 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:37:24.490 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:37:25.430 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:37:25.476 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:37:31.316 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:37:31.316 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:37:31.861 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:37:31.862 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:37:32.049 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:32.049 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:32.225 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:32.226 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:39.943 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:39.943 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:40.712 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:40.712 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:42.152 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:42.152 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:43.393 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:43.394 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:44.888 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:44.888 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:37:45.015 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:37:45.016 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:38:15.778 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 17:38:15.782 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 17:38:15.782 [main] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:38:15.782 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 17:38:16.077 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 17:38:16.078 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:42:01.753 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:42:01.756 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:42:03.150 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:42:03.190 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:42:09.097 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:42:09.098 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:42:12.834 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:42:12.834 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:42:13.048 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:13.048 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:13.156 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:13.157 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:30.702 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:30.702 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:32.791 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:32.791 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:35.413 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:35.414 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:47.376 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:47.376 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:47.928 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:47.928 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:48.079 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:48.079 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:48.956 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:42:48.958 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:42:48.958 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:42:49.261 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:42:49.261 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:42:50.197 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:42:50.235 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:42:54.219 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:42:54.219 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:42:54.733 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:42:54.734 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:42:54.921 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:54.921 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:55.019 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:55.019 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:58.652 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:58.652 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:59.177 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:59.177 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:42:59.750 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:42:59.750 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:43:00.926 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:43:00.928 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:43:01.142 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:43:01.142 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:43:31.984 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 17:43:31.986 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 17:43:31.986 [main] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:43:31.986 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 17:43:32.239 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 17:43:32.240 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:49:12.974 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:49:12.978 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:49:14.461 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:49:14.504 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:49:18.789 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:49:18.790 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:49:19.478 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:49:19.479 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:49:19.678 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:49:19.678 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:49:19.866 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:49:19.867 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:49:26.795 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:49:26.795 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:49:27.829 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:49:27.829 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:49:29.362 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:49:29.364 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:10.460 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-05-20 17:50:10.465 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 17:50:10.466 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:50:10.466 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 17:50:10.815 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_successfully.png
+[INFO ] 2026-05-20 17:50:10.815 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:50:11.145 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:50:11.145 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:50:12.117 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:50:12.175 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:50:16.788 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:50:16.788 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:50:17.318 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:50:17.319 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:50:17.529 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:50:17.529 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:17.628 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:50:17.629 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:22.106 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:50:22.107 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:23.218 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:50:23.218 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:24.789 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:50:24.789 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:26.155 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:50:26.156 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:26.288 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:50:26.288 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:50:57.003 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 17:50:57.004 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 17:50:57.004 [main] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:50:57.004 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 17:50:57.352 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 17:50:57.352 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:51:20.658 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:51:20.662 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:51:22.108 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:51:22.173 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:51:27.108 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:51:27.108 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:51:27.636 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:51:27.636 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:51:27.864 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:27.865 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:51:27.966 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:27.967 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:51:32.313 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:32.313 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:51:32.849 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:32.850 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:51:33.692 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:33.694 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:51:44.439 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:44.440 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:51:45.213 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:45.213 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:51:45.395 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:51:45.396 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:52:16.198 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-05-20 17:52:16.205 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 17:52:16.206 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-05-20 17:52:16.207 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 17:52:16.535 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_successfully.png
+[INFO ] 2026-05-20 17:52:16.536 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 17:52:16.934 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:52:16.934 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 17:52:17.839 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 17:52:17.879 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 17:52:21.282 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 17:52:21.282 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:52:22.016 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 17:52:22.017 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 17:52:22.113 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:52:22.114 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:52:22.193 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:52:22.194 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:52:26.434 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:52:26.434 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:52:26.996 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:52:26.997 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:52:28.122 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:52:28.122 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:52:29.315 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:52:29.315 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:52:29.438 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 17:52:29.438 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 17:53:00.138 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 17:53:00.141 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 17:53:00.141 [main] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 17:53:00.143 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 17:53:00.365 [main] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 17:53:00.365 [main] HelperClass - Closing browser
 [INFO ] 2026-05-18 19:48:40.630 [main] Hooks - Starting Scenario: Update contact details with valid data
 [INFO ] 2026-05-18 19:48:40.633 [main] HelperClass - Launching Chrome browser
 [INFO ] 2026-05-18 19:48:42.134 [main] HelperClass - Maximize the Browser window
@@ -4573,7 +5080,6 @@ Session ID: 3dd20c0e8df2fc8bc10bc6f81bf1deae
 [INFO ] 2026-05-20 11:49:55.147 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 [INFO ] 2026-05-20 11:49:56.656 [main] HelperClass - Entering text: Admin
 [INFO ] 2026-05-20 11:49:56.658 [main] HelperClass - Waiting for element visibility
-<<<<<<< HEAD
 [INFO ] 2026-05-20 15:50:42.658 [TestNG-PoolService-3] Hooks - Starting Scenario: Search entitlement with invalid employee name
 [INFO ] 2026-05-20 15:50:42.658 [TestNG-PoolService-4] Hooks - Starting Scenario: Search entitlement without employee name
 [INFO ] 2026-05-20 15:50:42.658 [TestNG-PoolService-1] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
@@ -4850,8 +5356,6 @@ Session ID: 3dd20c0e8df2fc8bc10bc6f81bf1deae
 [INFO ] 2026-05-20 15:52:57.240 [TestNG-PoolService-1] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 15:52:57.241 [TestNG-PoolService-1] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 15:52:57.242 [TestNG-PoolService-1] HelperClass - Closing browser
-=======
-
 [INFO ] 2026-05-20 15:16:10.599 [TestNG-PoolService-6] Hooks - Starting Scenario: Verify logout functionality after successful login
 [INFO ] 2026-05-20 15:16:10.598 [TestNG-PoolService-3] Hooks - Starting Scenario: Login with empty username and password
 [INFO ] 2026-05-20 15:16:10.599 [TestNG-PoolService-2] Hooks - Starting Scenario: Login with invalid username and password
@@ -5068,7 +5572,6 @@ Session ID: 3dd20c0e8df2fc8bc10bc6f81bf1deae
 [INFO ] 2026-05-20 15:57:25.605 [TestNG-PoolService-6] Hooks - Ending Scenario: Verify logout functionality after successful login
 [INFO ] 2026-05-20 15:57:25.605 [TestNG-PoolService-6] HelperClass - Scenario passed: Verify logout functionality after successful login
 [INFO ] 2026-05-20 15:57:25.606 [TestNG-PoolService-6] HelperClass - Closing browser
->>>>>>> origin
 [INFO ] 2026-05-20 16:25:50.867 [main] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 16:25:50.939 [main] HelperClass - Launching Chrome browser in headless mode
 [INFO ] 2026-05-20 16:25:55.530 [main] HelperClass - Maximize the Browser window
@@ -6458,6 +6961,187 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-05-20 17:09:54.904 [TestNG-PoolService-1] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 17:09:54.905 [TestNG-PoolService-1] HelperClass - Scenario passed: Search employee entitlement by employee name leave type and leave period
 [INFO ] 2026-05-20 17:09:54.906 [TestNG-PoolService-1] HelperClass - Closing browser
+
+[INFO ] 2026-05-20 18:02:15.488 [TestNG-PoolService-2] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 18:02:15.488 [TestNG-PoolService-1] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 18:02:15.509 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 18:02:15.509 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 18:02:18.933 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 18:02:18.933 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 18:02:18.991 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 18:02:19.008 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 18:02:19.028 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 18:02:19.034 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 18:02:22.124 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 18:02:22.124 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:02:25.840 [TestNG-PoolService-2] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 18:02:25.840 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:02:27.556 [TestNG-PoolService-2] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 18:02:27.557 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:02:27.710 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 18:02:27.711 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:02:27.817 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:27.817 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:27.972 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:27.972 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:28.051 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:28.052 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:35.339 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:35.339 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:43.189 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:43.189 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:44.216 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:44.217 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:45.937 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:45.937 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:46.033 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:46.033 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:47.632 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:47.633 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:51.027 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:51.027 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:54.405 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:54.405 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:02:54.538 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:02:54.538 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:03:03.569 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:03:03.573 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:03:04.400 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:03:04.400 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:03:04.596 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:03:04.596 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:03:25.431 [TestNG-PoolService-2] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 18:03:25.435 [TestNG-PoolService-2] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 18:03:25.436 [TestNG-PoolService-2] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 18:03:25.436 [TestNG-PoolService-2] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 18:03:25.763 [TestNG-PoolService-2] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 18:03:25.763 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-05-20 18:03:35.362 [TestNG-PoolService-1] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-05-20 18:03:35.362 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 18:03:35.362 [TestNG-PoolService-1] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-05-20 18:03:35.362 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 18:03:35.721 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_successfully.png
+[INFO ] 2026-05-20 18:03:35.721 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-05-20 18:07:48.860 [TestNG-PoolService-1] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 18:07:48.861 [TestNG-PoolService-2] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 18:07:48.879 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 18:07:48.879 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 18:07:50.664 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 18:07:50.664 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 18:07:50.721 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 18:07:50.734 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 18:07:50.743 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 18:07:50.761 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 18:07:57.117 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 18:07:57.117 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:07:57.530 [TestNG-PoolService-2] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 18:07:57.531 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:08:00.149 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 18:08:00.150 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:08:00.360 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:00.361 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:00.610 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:00.611 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:01.815 [TestNG-PoolService-2] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 18:08:01.815 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:08:02.105 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:02.105 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:08.888 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:08.888 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:17.288 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:17.288 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:18.636 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:18.636 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:21.441 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:21.441 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:23.163 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:23.163 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:24.314 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:24.315 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:28.307 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:28.307 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:35.389 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:35.389 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:35.591 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:35.592 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:38.048 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:38.049 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:38.747 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:38.747 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:08:38.888 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:08:38.888 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:09:06.406 [TestNG-PoolService-2] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 18:09:06.415 [TestNG-PoolService-2] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 18:09:06.416 [TestNG-PoolService-2] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 18:09:06.417 [TestNG-PoolService-2] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 18:09:06.798 [TestNG-PoolService-2] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields.png
+[INFO ] 2026-05-20 18:09:06.798 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-05-20 18:09:09.672 [TestNG-PoolService-1] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-05-20 18:09:09.673 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 18:09:09.673 [TestNG-PoolService-1] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-05-20 18:09:09.673 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 18:09:09.923 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_successfully.png
+[INFO ] 2026-05-20 18:09:09.923 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-05-20 18:11:33.201 [TestNG-PoolService-1] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-20 18:11:33.201 [TestNG-PoolService-2] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 18:11:33.220 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 18:11:33.220 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-20 18:11:34.997 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 18:11:34.997 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 18:11:35.045 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 18:11:35.059 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 18:11:35.089 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 18:11:35.096 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 18:11:41.082 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 18:11:41.083 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:11:43.017 [TestNG-PoolService-2] HelperClass - Entering text: Admin
+[INFO ] 2026-05-20 18:11:43.018 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:11:44.985 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 18:11:44.985 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:11:45.185 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:11:45.186 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:11:45.418 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:11:45.419 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:11:49.411 [TestNG-PoolService-2] HelperClass - Entering text: admin123
+[INFO ] 2026-05-20 18:11:49.412 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 18:11:49.717 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:11:49.717 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:00.106 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:00.107 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:06.224 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:06.224 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:09.118 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:09.118 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:13.264 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:13.264 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:14.583 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:14.584 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:16.353 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:16.354 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:22.746 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:22.747 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:26.570 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:26.570 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:27.271 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:27.272 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:27.419 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:27.419 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:28.644 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:28.645 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:29.011 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-20 18:12:29.012 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 18:12:58.171 [TestNG-PoolService-1] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-05-20 18:12:58.173 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 18:12:58.174 [TestNG-PoolService-1] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-05-20 18:12:58.174 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 18:12:58.556 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_successfully_20260520_181258.png
+[INFO ] 2026-05-20 18:12:58.557 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-05-20 18:12:59.932 [TestNG-PoolService-2] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[ERROR] 2026-05-20 18:12:59.932 [TestNG-PoolService-2] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 18:12:59.932 [TestNG-PoolService-2] HelperClass - Scenario failed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-20 18:12:59.932 [TestNG-PoolService-2] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 18:13:00.143 [TestNG-PoolService-2] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_leave_entitlement_without_mandatory_fields_20260520_181300.png
+[INFO ] 2026-05-20 18:13:00.145 [TestNG-PoolService-2] HelperClass - Closing browser
 [INFO ] 2026-05-20 17:29:33.157 [TestNG-PoolService-4] Hooks - Starting Scenario: Search entitlement without employee name
 [INFO ] 2026-05-20 17:29:33.157 [TestNG-PoolService-3] Hooks - Starting Scenario: Search entitlement with invalid employee name
 [INFO ] 2026-05-20 17:29:33.157 [TestNG-PoolService-2] Hooks - Starting Scenario: Search entitlement with invalid employee name
