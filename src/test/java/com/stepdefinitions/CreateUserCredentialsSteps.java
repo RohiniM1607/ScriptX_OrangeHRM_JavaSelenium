@@ -33,8 +33,8 @@ public class CreateUserCredentialsSteps {
 
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
     }
-    @When("user clicks on Save button without entering mandatory fields")
-    public void user_clicks_on_save_button_without_entering_mandatory_fields() throws IOException {
+    @When("user enters user credential details from Excel file {string}")
+    public void user_enters_user_credential_details_from_excel_file(String fileName) throws IOException {
 
         DP_Excel excel = new DP_Excel();
 
@@ -48,9 +48,12 @@ public class CreateUserCredentialsSteps {
         String confirmPassword = getCellValue(data[0][5]);
 
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
+    }
+    
+    @When("user clicks on Save button without entering mandatory fields")
+    public void user_clicks_on_save_button_without_entering_mandatory_fields() {
         createUserActions.clickSaveButton();
     }
-
 
     @When("user clicks on Save button")
     public void user_clicks_on_save_button() {
