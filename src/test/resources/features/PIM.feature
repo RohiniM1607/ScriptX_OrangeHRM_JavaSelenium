@@ -1,4 +1,7 @@
+@Jagadeep_K_C
 Feature: Jagadeep_15-05-2026_ScriptX_OrangeHRm_PIM_Functionality
+
+	Description: This feature tests create and search of employee
 
   @CreateEmployee
   Scenario: Create employee with multiple data combinations

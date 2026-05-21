@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class ContactDetailsPage extends BasePage {
 
-    @FindBy(xpath = "//label[text()='Street 1']/following::input[1]")
+    @FindBy(xpath = "//label[text()='Street 1']//following::input[contains(@class, 'oxd-input')][1]")
     public WebElement street1;
 
     @FindBy(xpath = "//label[text()='Street 2']/following::input[1]")

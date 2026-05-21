@@ -1,13 +1,10 @@
 package com.actions;
 
 import com.pages.PIMPage;
-import com.utilities.ExcelUtility;
 
 public class PIMActions extends BaseActions {
 
 	PIMPage pimPage = new PIMPage();
-
-	ExcelUtility excel = new ExcelUtility("src/test/resources/testdata/PIMData.xlsx");
 
 	public void navigateToAddEmployee() {
 
@@ -45,36 +42,28 @@ public class PIMActions extends BaseActions {
 		pimPage.clickPIMMenu();
 	}
 
-	public void searchEmployeeByName() {
-
-		String employeeName = excel.getData("SearchEmployee", 1, 0);
+	public void searchEmployeeByName(String employeeName) {
 
 		pimPage.enterSearchEmployeeName(employeeName);
 
 		pimPage.clickSearchButton();
 	}
 
-	public void searchEmployeeById() {
-
-		String employeeId = excel.getData("SearchEmployee", 1, 1);
+	public void searchEmployeeById(String employeeId) {
 
 		pimPage.enterSearchEmployeeName(employeeId);
 
 		pimPage.clickSearchButton();
 	}
 
-	public void searchInvalidEmployeeName() {
-
-		String employeeName = excel.getData("SearchEmployee", 4, 0);
+	public void searchInvalidEmployeeName(String employeeName) {
 
 		pimPage.enterSearchEmployeeName(employeeName);
 
 		pimPage.clickSearchButton();
 	}
 
-	public void searchInvalidEmployeeId() {
-
-		String employeeId = excel.getData("SearchEmployee", 4, 1);
+	public void searchInvalidEmployeeId(String employeeId) {
 
 		pimPage.enterSearchEmployeeName(employeeId);
 

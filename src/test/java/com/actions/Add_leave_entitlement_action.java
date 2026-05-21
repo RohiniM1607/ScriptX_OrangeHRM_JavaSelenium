@@ -36,8 +36,6 @@ public class Add_leave_entitlement_action {
         helper.clickElement(ep.leave_type);
         wait.until(ExpectedConditions.visibilityOf(ep.empOption));
         wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
-
-        String username = testData.getData("username");
         boolean matched = false;
         for (WebElement option : ep.leaveTypeOptions) {
             String actualText = option.getText().trim();
@@ -100,5 +98,25 @@ public class Add_leave_entitlement_action {
             actions.sendKeys(Keys.ENTER).perform();
         }
 		
+	}
+	
+	public void blankField(String Name,String expectedType,String entitlement) {
+		helper.clickElement(ep.employee_name);
+        ep.employee_name.sendKeys(Name);
+		helper.clickElement(ep.leave_type);
+		 wait.until(ExpectedConditions.visibilityOf(ep.empOption));
+	        wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
+	        boolean matched = false;
+	        for (WebElement option : ep.leaveTypeOptions) {
+	            String actualText = option.getText();
+	            System.out.println("[LeaveType] Found option: " + actualText);
+	            if (actualText.equalsIgnoreCase(expectedType)) {
+	                option.click();
+	                matched = true;
+	                break;
+	            }
+	        }
+	        helper.clickElement(ep.entitlement);
+	        ep.entitlement.sendKeys(entitlement);
 	}
 }

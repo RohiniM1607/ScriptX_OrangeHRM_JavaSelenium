@@ -1,9 +1,13 @@
+@Jagadeep_K_C
 Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Login Functionality
+
+	Description: This feature tests all the login ways including both admin and employee login
+	 	
 
   Background:
     Given user is on OrangeHRM login page
+# Login with default credentials
 
-#Login with default credentials
   @ValidLogin
   Scenario: Login with valid default admin credentials
     When user enters valid username and password
@@ -41,11 +45,10 @@ Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Login Functionality
     And user clicks on login button
     Then user should be navigated to dashboard page
     And user should be logged out successfully
-    
-#Login with created employee credentials
-	@EmployeeValidLogin
+# Login with created employee credentials
+
+  @EmployeeValidLogin
   Scenario: Login with valid Employee credentials
     When user enters valid employee_username and employee_password
     And user clicks on login button
     Then user should be navigated to dashboard page
- 

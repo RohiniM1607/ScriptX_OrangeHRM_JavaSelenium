@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 
 import com.pages.EmployeeEntitlementPage;
 import com.utilities.CSVReader;
@@ -116,19 +117,16 @@ public class EmployeeEntitlementActions {
 
         DP_Excel excel = new DP_Excel();
 
-        Object[][] data = excel.getExcelData("src/test/resources/testdata/EmployeeEntitlement.xlsx","Sheet1"); 
+        Object[][] data = excel.getExcelData(
+                "src/test/resources/testdata/EmployeeEntitlement.xlsx",
+                "Sheet1"
+        );
 
-        String employeeName = getCellValue(data[0][0]);
         String leaveType = getCellValue(data[0][1]);
         String leavePeriod = getCellValue(data[0][2]);
 
-        logger.info("Employee Name from Excel: " + employeeName);
         logger.info("Leave Type from Excel: " + leaveType);
         logger.info("Leave Period from Excel: " + leavePeriod);
-
-        if (employeeName != null && !employeeName.trim().isEmpty()) {
-            employeeEntitlementPage.enterEmployeeName(employeeName);
-        }
 
         if (leaveType != null && !leaveType.trim().isEmpty()) {
             employeeEntitlementPage.selectLeaveType(leaveType);
@@ -139,6 +137,12 @@ public class EmployeeEntitlementActions {
         }
 
         employeeEntitlementPage.clickSearchButton();
+
+        String actualMessage = employeeEntitlementPage.getEmployeeNameRequiredMessage();
+
+        logger.info("Actual validation message: " + actualMessage);
+
+        Assert.assertEquals(actualMessage, "Required", "Employee name required validation message is not displayed");
     }
 
     public boolean verifySearchResultDisplayed() {

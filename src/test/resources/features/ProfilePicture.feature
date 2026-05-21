@@ -8,7 +8,7 @@ Feature: Reshma_19May2026_ScriptX_OrangeHRM File for ProfilePicture
       | Renukkka R  | RenukkkaR@123  |
     And Employee clicks on login
     And the Employee is on the OrangeHRM Dashboard page
-
+    
   @ReshmaProfilePicture 
   Scenario: Upload profile picture successfully
     When Employee navigates to Profile Picture page

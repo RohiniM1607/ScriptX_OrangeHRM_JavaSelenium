@@ -62,14 +62,13 @@ public class PersonalDetailsActions {
 
     public String successisDisplayed() {
         WebDriverWait MWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
-        WebElement msg = MWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]"))
-);
+        WebElement msg = MWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
         return msg.getText().trim();
     }
 
 	public boolean SuccesssisnotDisplayed() {
     try {
-        WebDriverWait MesWait = new WebDriverWait(helper.driver, Duration.ofSeconds(5));
+        WebDriverWait MesWait = new WebDriverWait(helper.driver.get(), Duration.ofSeconds(5));
         MesWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
         return true;
     } catch (Exception e) {

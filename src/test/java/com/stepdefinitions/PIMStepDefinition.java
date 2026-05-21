@@ -1,5 +1,6 @@
 package com.stepdefinitions;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
@@ -7,6 +8,7 @@ import org.testng.Assert;
 
 import com.actions.LoginActions;
 import com.actions.PIMActions;
+import com.utilities.DP_Excel;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
@@ -18,6 +20,8 @@ public class PIMStepDefinition {
 	LoginActions login = new LoginActions();
 
 	PIMActions pim = new PIMActions();
+
+	DP_Excel excel = new DP_Excel();
 
 	@Given("admin is logged into OrangeHRM")
 	public void admin_is_logged_into_orangehrm() {
@@ -43,8 +47,10 @@ public class PIMStepDefinition {
 
 			if (firstName == null)
 				firstName = "";
+
 			if (lastName == null)
 				lastName = "";
+
 			if (employeeId == null)
 				employeeId = "";
 
@@ -59,7 +65,6 @@ public class PIMStepDefinition {
 			} else {
 
 				Assert.assertTrue(pim.verifyRequiredMessage());
-
 			}
 		}
 	}
@@ -75,27 +80,54 @@ public class PIMStepDefinition {
 	}
 
 	@When("admin searches employee by employee name")
-	public void admin_searches_employee_by_employee_name() {
+	public void admin_searches_employee_by_employee_name() throws IOException {
 
-		pim.searchEmployeeByName();
+		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
+
+
+			String employeeName = data[0][0].toString();
+
+			pim.searchEmployeeByName(employeeName);
+		
 	}
 
 	@When("admin searches employee by employee ID")
-	public void admin_searches_employee_by_employee_id() {
+	public void admin_searches_employee_by_employee_id() throws IOException {
 
-		pim.searchEmployeeById();
+		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
+
+		
+
+			String employeeId = data[1][1].toString();
+
+			pim.searchEmployeeById(employeeId);
+		
 	}
 
 	@When("admin searches employee with invalid employee name")
-	public void admin_searches_employee_with_invalid_employee_name() {
+	public void admin_searches_employee_with_invalid_employee_name() throws IOException {
 
-		pim.searchInvalidEmployeeName();
+		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
+
+		
+
+			String employeeName = data[2][0].toString();
+
+			pim.searchInvalidEmployeeName(employeeName);
+		
 	}
 
 	@When("admin searches employee with invalid employee ID")
-	public void admin_searches_employee_with_invalid_employee_id() {
+	public void admin_searches_employee_with_invalid_employee_id() throws IOException {
 
-		pim.searchInvalidEmployeeId();
+		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
+
+		
+
+			String employeeId = data[3][1].toString();
+
+			pim.searchInvalidEmployeeId(employeeId);
+		
 	}
 
 	@Then("employee search result should be displayed")

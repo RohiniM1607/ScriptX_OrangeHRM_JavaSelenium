@@ -12,7 +12,7 @@ Feature: Rohini_19May2026_OrangeHRM_EmployeeEntitlement
     Then user should be navigated to dashboard page
     Given user is on OrangeHRM Leave Entitlements page
 
-  @High @PropertyFile @DataTable @CSV
+  @Employee_Details
   Scenario: Search employee entitlement by employee name leave type and leave period
     When user searches employee entitlement
       | fieldName    |
@@ -21,7 +21,7 @@ Feature: Rohini_19May2026_OrangeHRM_EmployeeEntitlement
       | leavePeriod  |
     Then employee entitlement search result should be displayed
 
-  @Medium @ScenarioOutline
+  @Invalid_Employee_Name
   Scenario Outline: Search entitlement with invalid employee name
     When user searches entitlement with invalid employee name "<employeeName>"
     Then invalid employee name validation should be displayed
@@ -31,7 +31,7 @@ Feature: Rohini_19May2026_OrangeHRM_EmployeeEntitlement
       | InvalidEmp   |
       | TestUser123  |
 
-  @Medium @ExcelDataProvider
+  @Without_Employee_Name
   Scenario: Search entitlement without employee name
     When user searches entitlement without employee name
     Then required employee name validation should be displayed

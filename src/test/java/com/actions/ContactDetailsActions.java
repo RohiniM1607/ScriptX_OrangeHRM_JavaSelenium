@@ -25,8 +25,7 @@ public class ContactDetailsActions {
 
     public void updateContactDetails() {
 
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(
-                By.cssSelector("div.oxd-loading-spinner-container")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-loading-spinner-container")));
 
         wait.until(ExpectedConditions.visibilityOf(contactDetailsPage.street1));
 

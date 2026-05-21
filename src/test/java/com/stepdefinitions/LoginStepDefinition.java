@@ -55,12 +55,12 @@ public class LoginStepDefinition {
 
 	@Then("user should be navigated to dashboard page")
 	public void user_should_be_navigated_to_dashboard_page() {
-		Assert.assertTrue(HelperClass.driver.getCurrentUrl().contains("dashboard"));
+		Assert.assertTrue(HelperClass.driver.get().getCurrentUrl().contains("dashboard"));
 	}
 
 	@Then("employee should be navigated to dashboard page")
 	public void employee_should_be_navigated_to_dashboard_page() {
-		Assert.assertTrue(HelperClass.driver.getCurrentUrl().contains("dashboard"));
+		Assert.assertTrue(HelperClass.driver.get().getCurrentUrl().contains("dashboard"));
 	}
 
 	@Then("user should see invalid credentials error message")
@@ -72,13 +72,13 @@ public class LoginStepDefinition {
 	@Then("user should remain on login page")
 	public void user_should_remain_on_login_page() {
 
-		Assert.assertTrue(HelperClass.driver.getCurrentUrl().contains("auth/login"));
+		Assert.assertTrue(HelperClass.driver.get().getCurrentUrl().contains("auth/login"));
 	}
 
 	@Then("user should see required field validation message")
 	public void user_should_see_required_field_validation_message() {
 
-		Assert.assertTrue(HelperClass.driver.getPageSource().contains("Required"));
+		Assert.assertTrue(HelperClass.driver.get().getPageSource().contains("Required"));
 	}
 
 	@Then("user should be logged out successfully")
@@ -86,6 +86,6 @@ public class LoginStepDefinition {
 
 		action.logout();
 
-		Assert.assertTrue(HelperClass.driver.getCurrentUrl().contains("auth/login"));
+		Assert.assertTrue(HelperClass.driver.get().getCurrentUrl().contains("auth/login"));
 	}
 }
