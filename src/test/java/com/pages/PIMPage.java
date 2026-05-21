@@ -22,16 +22,16 @@ public class PIMPage extends BasePage {
 	@FindBy(name = "lastName")
 	WebElement lastNameTxt;
 
-	@FindBy(xpath = "//label[text()='Employee Id']/following-sibling::div/child::input")
+	@FindBy(xpath = "//label[text()='Employee Id']/parent::div/following-sibling::div/input")
 	WebElement employeeIdTxt;
 
-	@FindBy( xpath = "//div[contains(@class,'oxd-form-actions')]/child::button[@type='submit']")
-    WebElement saveBtn;
+	@FindBy(xpath = "//button[@type='submit']")
+	WebElement saveBtn;
 
-	@FindBy( xpath = "//div[contains(@class,'orangehrm-edit-employee-content')]/descendant::h6")
+	@FindBy(xpath = "//h6[text()='Personal Details']")
 	WebElement personalDetailsHeader;
 
-	@FindBy(xpath = "//input[@name='firstName']/ancestor::form//span[text()='Required']")
+	@FindBy(xpath = "//span[text()='Required']")
 	List<WebElement> requiredMsg;
 
 	@FindBy(xpath = "(//input[@placeholder='Type for hints...'])[1]")
