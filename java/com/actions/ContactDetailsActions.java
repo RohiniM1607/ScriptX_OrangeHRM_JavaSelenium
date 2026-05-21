@@ -1,4 +1,5 @@
 package com.actions;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -8,8 +9,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.pages.ContactDetailsPage;
-import com.utilities.HelperClass;
 import com.utilities.ConfigReader;
+import com.utilities.HelperClass;
 
 public class ContactDetailsActions {
 
@@ -25,7 +26,8 @@ public class ContactDetailsActions {
 
     public void updateContactDetails() {
 
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-loading-spinner-container")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(
+                By.cssSelector("div.oxd-loading-spinner-container")));
 
         wait.until(ExpectedConditions.visibilityOf(contactDetailsPage.street1));
 
@@ -88,15 +90,12 @@ public class ContactDetailsActions {
     }
 
     public void clickAddAttachment() {
-
         wait.until(ExpectedConditions.elementToBeClickable(contactDetailsPage.addIcon));
         contactDetailsPage.addIcon.click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
     }
 
     public void uploadAttachment() {
-
-        String filePath = System.getProperty("user.dir")+ "\\src\\test\\resources\\testfile.txt";
+        String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\testfile.txt";
         WebElement fileInput = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
         fileInput.sendKeys(filePath);
         wait.until(ExpectedConditions.attributeContains(fileInput, "value", "testfile.txt"));

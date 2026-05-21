@@ -20,7 +20,7 @@ public class ContactDetailsPage extends BasePage {
     @FindBy(xpath = "//label[text()='Zip/Postal Code']/following::input[1]")
     public WebElement zipCode;
 
-    @FindBy(xpath = "//label[text()='Country']//following :: div[1]")
+    @FindBy(xpath = "//label[text()='Country']//following::div[1]")
     public WebElement country;
 
     @FindBy(xpath = "//label[text()='Home']/following::input[1]")
@@ -43,11 +43,8 @@ public class ContactDetailsPage extends BasePage {
 
     @FindBy(xpath = "//h6[text()='Attachments']/following::button[1]")
     public WebElement addIcon;
-    
-    @FindBy(xpath = "//div[text()='Browse']")
-    public WebElement btnBrowse;
 
-    @FindBy(xpath = "//input[@type='file']")
+   @FindBy(xpath = "//input[@type='file']")
     public WebElement fileInput;
 
     @FindBy(xpath = "(//button[normalize-space()='Save'])[last()]")
