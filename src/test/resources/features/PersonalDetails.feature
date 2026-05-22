@@ -17,4 +17,3 @@
   | 2026-06-12        | Indian      | Single        | Female | O+        | 234       |
     And Employee clicks on Save button
     Then Personal details should be updated successfully
-    

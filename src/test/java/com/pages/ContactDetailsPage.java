@@ -20,7 +20,7 @@ public class ContactDetailsPage extends BasePage {
     @FindBy(xpath = "//label[text()='Zip/Postal Code']/following::input[1]")
     public WebElement zipCode;
 
-    @FindBy(xpath = "//label[text()='Country']/parent::div/following-sibling::div//div[contains(@class,'oxd-select-text')]")
+    @FindBy(xpath = "//label[text()='Country']//following :: div[1]")
     public WebElement country;
 
     @FindBy(xpath = "//label[text()='Home']/following::input[1]")

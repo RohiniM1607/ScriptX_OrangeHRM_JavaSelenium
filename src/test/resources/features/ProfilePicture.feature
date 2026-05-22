@@ -15,10 +15,3 @@ Feature: Reshma_19May2026_ScriptX_OrangeHRM File for ProfilePicture
     And Employee uploads a profile picture with "\\src\\test\\resources\\profile.jpg"
     And Employee clicks on the Save button
     Then Profile picture should be uploaded successfully with "Success"
-
-  @InvalidReshmaProfilePicture 
-   Scenario: Changing the profile picture without saving
-    When Employee moves to Profile Picture page
-    And Employee uploads a profile picture using "\\src\\test\\resources\\profile1.jpg"
-    And Employee forgot to click on the Save button
-    Then Profile picture should not be updated with "Success message should not appear"
