@@ -10,7 +10,6 @@ Feature: Reshma_19May2026_ScriptX_OrangeHRM File for ContactDetails
     And the Employee is on the Contact Details Dashboard page
 
   @ReshmaContactDetails
-
   Scenario: Update contact details and add attachment successfully
     When the Employee navigates to Contact Details page
     And Employee updates contact details from test data
