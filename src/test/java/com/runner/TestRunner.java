@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-        features = "src/test/resources/features/CreateUserCredentials.feature",
+        features = "src/test/resources/features/",
         glue = {
                 "com.stepdefinitions",
                 "com.hooks"
