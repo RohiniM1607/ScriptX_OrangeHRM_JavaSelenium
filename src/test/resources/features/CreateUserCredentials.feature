@@ -19,9 +19,11 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
     Then user credential should be created successfully
 
     Examples:
-      | role  | employeeName | status  | username   | password     | confirmPassword |
-      | ESS   | Employee 1   | Enabled | Employee_1 | Employee@123 | Employee@123    |
-      | Admin | Admin 1      | Enabled | Admin_1    | Admin@123    | Admin@123       |
+      | role  | employeeName | status  | username   | password      | confirmPassword |
+      | ESS   | Employee 1   | Enabled | Employee_1 | Employee1@123 | Employee1@123   |
+      | Admin | Admin 1      | Enabled | Admin_1    | Admin1@123    | Admin1@123      |
+      | ESS   | Employee 2   | Enabled | Employee_2 | Employee2@123 | Employee2@123   |
+      | Admin | Admin 2      | Enabled | Admin_2    | Admin2@123    | Admin2@123      |
       
   @Rohini @CreateCredential @Invalid
   Scenario: Create user without mandatory fields 
