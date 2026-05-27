@@ -22,7 +22,7 @@ public class DependentsStepDefinition {
     public void employee_navigates_to_dependents_page() {
         log.info("Navigating to Dependents page via My Info");
         dashBoardActions = new DashBoardActions();
-        dashBoardActions.navigateToDependents();
+        dashBoardActions.navigateToMyInfo();
         dependentsActions = new DependentsActions();
         log.info("Successfully landed on Dependents page");
     }
