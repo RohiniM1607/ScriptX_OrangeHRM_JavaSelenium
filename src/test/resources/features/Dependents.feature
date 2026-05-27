@@ -8,7 +8,7 @@ Feature: Reshma_15May2026_ScriptX_OrangeHRM File for Dependents
     And Employee clicks on login button
     And the Employee is on the Dashboard page
 
-  @ReshmaDependents @Reshma
+  @ReshmaDependents
   Scenario Outline: Add dependent details with valid data
     When Employee navigates to Dependents page
     And Employee clicks on Add icon in Dependents section
