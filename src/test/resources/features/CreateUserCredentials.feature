@@ -53,3 +53,4 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
       | role  | employeeName | status  | username   | password      | confirmPassword |
       | ESS   | Employee 2   | Enabled | Employee@2 | Employee2@123 | Employee2@321   |
       | Admin | Admin 2      | Enabled | Admin@2    | Admin2@123    | Admin2@321      |
+

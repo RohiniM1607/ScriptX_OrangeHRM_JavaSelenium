@@ -98,7 +98,7 @@ public class HelperClass {
 
 				String screenshotName = scenario.getName().replaceAll(" ", "_");
 				File source = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.FILE);
-				String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+				String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HHmmss"));
 				File destination = new File(folder,screenshotName + "_" + timeStamp + ".png");
 				FileUtils.copyFile(source, destination);
 				logger.info("Screenshot saved at: " + destination.getAbsolutePath());

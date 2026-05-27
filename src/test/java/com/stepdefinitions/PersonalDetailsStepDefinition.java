@@ -26,7 +26,7 @@ public class PersonalDetailsStepDefinition {
     LoginActions loginActions;
     DashBoardActions dashBoardActions;
     PersonalDetailsActions personalDetailsActions;
-    LoginPage loginPage;
+    LoginPage loginPage = new LoginPage();
     HelperClass helper = new HelperClass();
 
     @Given("Employee is on OrangeHRM login page")
@@ -36,7 +36,7 @@ public class PersonalDetailsStepDefinition {
         loginPage = new LoginPage();
     }
 
-    @When("Employee enters valid username and password")
+     @When("Employee enters valid username and password")
     public void employee_enters_valid_username_and_password(DataTable dataTable) {
         List<Map<String, String>> credentials = dataTable.asMaps(String.class, String.class);
         String username = credentials.get(0).get("username").trim();
@@ -93,32 +93,34 @@ public class PersonalDetailsStepDefinition {
         log.info("Personal details updated successfully as expected");
     }
 
-    @When("Employee moves to My Info page")
-    public void employee_moves_to_my_info_page() {
-        log.info("Navigating to My Info page for the negative scenario");
-        dashBoardActions.navigateToMyInfo();
+    @When("Employee navigates to Profile Picture page")
+    public void employee_navigates_to_profile_picture_page() {
+        log.info("Navigating to the Profile Picture page via My Info");
+        dashBoardActions.navigateToProfilePicture();
         personalDetailsActions = new PersonalDetailsActions();
-        log.info("Landed on My Info - Personal Details page");
+        log.info("Successfully landed on the Profile Picture page");
     }
 
-    @And("Employee edit personal details with following data")
-    public void employee_edit_personal_details_with_following_data(DataTable dataTable) {
-        log.info("Editing personal details fields without saving");
-        List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
-        personalDetailsActions.updatePersonalDetails(data);
-        log.info("Personal details fields edited but Save will not be clicked");
+    @When("Employee uploads a profile picture with {string}")
+    public void employee_uploads_a_profile_picture_with(String filePath) {
+        log.info("Uploading profile picture using file: {}", filePath);
+        personalDetailsActions.uploadProfilePicture(filePath);
+        log.info("Profile picture sent to file input successfully");
     }
 
-    @And("Employee forgot to click on Save button")
-    public void employee_forgot_to_click_on_save_button() {
-        log.info("Save button intentionally not clicked — simulating user forgetting to save");
+   @When("Employee clicks on the Save button")
+    public void employee_clicks_on_the_save_button() {
+        log.info("Clicking Save button to upload the profile picture");
+        personalDetailsActions.clickSave1();
     }
 
-    @Then("Personal details should not saved successfully")
-    public void personal_details_should_not_saved_successfully() {
-        log.info("Verifying that no success message appears since Save was not clicked");
-        boolean isMessageShown = personalDetailsActions.SuccesssisnotDisplayed();
-        Assert.assertFalse(isMessageShown, "Success message should NOT appear as Save was not clicked!");
-        log.info("Confirmed — success message did not appear as expected");
+    @Then("Profile picture should be uploaded successfully with {string}")
+    public void profile_picture_should_be_uploaded_successfully_with(String expectedMessage) {
+        log.info("Verifying success message after profile picture upload");
+        String actual = personalDetailsActions.getSuccessMessage();
+        log.info("Success message received: {}", actual);
+        Assert.assertEquals(actual, expectedMessage,
+                "Expected success message '" + expectedMessage + "' but got '" + actual + "'");
+        log.info("Profile picture uploaded successfully as expected");
     }
 }

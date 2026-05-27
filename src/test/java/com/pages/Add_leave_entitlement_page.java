@@ -7,10 +7,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class Add_leave_entitlement_page extends BasePage {
 
-    @FindBy(xpath = "//li[@class=\"oxd-main-menu-item-wrapper\"]/descendant::span[text()='Leave']")
+    @FindBy(xpath = "//span[normalize-space()='Leave']")
     public WebElement leave_page;
 
-    @FindBy(xpath = "//li[@class=\"oxd-topbar-body-nav-tab --parent\"]/child::span[normalize-space()='Entitlements']")
+    @FindBy(xpath = "//span[normalize-space()='Entitlements']")
     public WebElement entitlement_link;
 
     @FindBy(xpath = "//a[normalize-space()='Add Entitlements']")
@@ -19,8 +19,11 @@ public class Add_leave_entitlement_page extends BasePage {
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     public WebElement employee_name;
 
-    @FindBy(xpath = "//div[@role='listbox']//div[@role='option']")
+    @FindBy(xpath = "//div[@role='option']")
     public List<WebElement> employeeSuggestions;
+    
+    @FindBy(xpath = "//div[@role='listbox']")
+    public WebElement suggestionBox;
 
     @FindBy(xpath = "//div[@role='listbox']")
     public WebElement empOption;
@@ -46,6 +49,6 @@ public class Add_leave_entitlement_page extends BasePage {
     @FindBy(xpath = "//button[normalize-space()='Confirm']")
     public WebElement confirm;
 
-    @FindBy(xpath = "//div[@class=\"oxd-input-group__label-wrapper\"]//following-sibling::span")
+    @FindBy(xpath = "//div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//span[1]")
     public WebElement name_require_field;
 }

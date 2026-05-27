@@ -55,7 +55,7 @@ public class AdminLeaveManagement_LeaveApprovel_Pages extends BasePage {
 	@FindBy(xpath = "//span[contains(text(),'No Records Found')]")
 	public WebElement noRecordsFound;
 
-	@FindBy(xpath = "//label[text()='Leave Type']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-wrapper')]")
+	@FindBy(xpath = "//body/div[@id='app']/div[@class='oxd-layout orangehrm-upgrade-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[4]/div[1]/div[2]/div[1]/div[1]")
 	public WebElement leaveType;
 
 	@FindBy(xpath = "//input[@placeholder='Type for hints...']")

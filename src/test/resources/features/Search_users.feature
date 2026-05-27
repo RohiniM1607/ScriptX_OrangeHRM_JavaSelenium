@@ -19,10 +19,10 @@ To serach user by User name, User role, Employee name
     And click on search button
     Then the admin can see the result based on the selected user role
 
-  Scenario: Search user by Employee name
-    When the admin enters "<employee name>"  in the input field
+  Scenario Outline: Search user by Employee name
+    When the admin enters "<employeeName>"  in the input field
     And click on search button
-    Then the Admin can see the result of enterd "<employee name>"
+    Then the Admin can see the result of enterd "<employeeName>"
 
     Examples:
       | employeeName |

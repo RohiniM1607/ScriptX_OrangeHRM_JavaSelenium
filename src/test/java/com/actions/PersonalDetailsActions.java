@@ -15,7 +15,7 @@ public class PersonalDetailsActions {
 
     PersonalDetailsPage personalDetailsPage = null;
     WebDriverWait wait;
-    HelperClass helper=new HelperClass();
+    HelperClass helper = new HelperClass();
 
     public PersonalDetailsActions() {
         this.personalDetailsPage = new PersonalDetailsPage();
@@ -23,56 +23,98 @@ public class PersonalDetailsActions {
     }
 
     public void updatePersonalDetails(List<Map<String, String>> data) {
-    	
-    	Map<String, String> row = data.get(0);
-    	
-    	wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-loading-spinner-container")));
+        Map<String, String> row = data.get(0);
+
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-loading-spinner-container")));
 
         wait.until(ExpectedConditions.visibilityOf(personalDetailsPage.LicenseExpiryDate));
         personalDetailsPage.LicenseExpiryDate.click();
         personalDetailsPage.LicenseExpiryDate.sendKeys(Keys.CONTROL + "a");
         personalDetailsPage.LicenseExpiryDate.sendKeys(Keys.DELETE);
         personalDetailsPage.LicenseExpiryDate.sendKeys(row.get("LicenseExpiryDate"));
-        
+
         personalDetailsPage.Nationality.click();
-        selectDropdown(row.get("Nationality"));
+        wait.until(ExpectedConditions.visibilityOf(personalDetailsPage.dropdownListbox));
+        List<WebElement> nationalityOptions = wait.until(ExpectedConditions.visibilityOfAllElements(personalDetailsPage.dropdownOptions));
+        for (WebElement option : nationalityOptions) {
+            if (option.getText().trim().equalsIgnoreCase(row.get("Nationality"))) {
+                option.click();
+                break;
+            }
+        }
 
         personalDetailsPage.MaritalStatus.click();
-        selectDropdown(row.get("MaritalStatus"));
+        wait.until(ExpectedConditions.visibilityOf(personalDetailsPage.dropdownListbox));
+        List<WebElement> maritalOptions = wait.until(ExpectedConditions.visibilityOfAllElements(personalDetailsPage.dropdownOptions));
+        for (WebElement option : maritalOptions) {
+            if (option.getText().trim().equalsIgnoreCase(row.get("MaritalStatus"))) {
+                option.click();
+                break;
+            }
+        }
 
         if (row.get("Gender").equalsIgnoreCase("Female")) {
             personalDetailsPage.radioFemale.click();
         }
 
         personalDetailsPage.BloodType.click();
-        selectDropdown(row.get("BloodType"));
+        wait.until(ExpectedConditions.visibilityOf(personalDetailsPage.dropdownListbox));
+        List<WebElement> bloodTypeOptions = wait.until(ExpectedConditions.visibilityOfAllElements(personalDetailsPage.dropdownOptions));
+        for (WebElement option : bloodTypeOptions) {
+            if (option.getText().trim().equalsIgnoreCase(row.get("BloodType"))) {
+                option.click();
+                break;
+            }
+        }
 
         personalDetailsPage.TestField.clear();
         personalDetailsPage.TestField.sendKeys(row.get("TestField"));
     }
 
-    public void selectDropdown(String value) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='listbox']//span[text()='" + value + "']"))).click();
-    }
-
     public void clickSave() {
-        wait.until(ExpectedConditions.elementToBeClickable(personalDetailsPage.btnSave));
-        personalDetailsPage.btnSave.click();
+        wait.until(ExpectedConditions.elementToBeClickable(personalDetailsPage.Pdsave));
+        personalDetailsPage.Pdsave.click();
     }
 
     public String successisDisplayed() {
-        WebDriverWait MWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
-        WebElement msg = MWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
+        WebDriverWait mWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
+        WebElement msg = mWait.until(ExpectedConditions.visibilityOf(personalDetailsPage.Pdsuccess));
         return msg.getText().trim();
     }
 
-	public boolean SuccesssisnotDisplayed() {
-    try {
-        WebDriverWait MesWait = new WebDriverWait(helper.driver.get(), Duration.ofSeconds(5));
-        MesWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
-        return true;
-    } catch (Exception e) {
-        return false;
+    public boolean SuccesssisnotDisplayed() {
+        try {
+            WebDriverWait mesWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(5));
+            mesWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
-}
+
+    public void uploadProfilePicture(String relativePath) {
+        String absolutePath = System.getProperty("user.dir") + relativePath;
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
+        personalDetailsPage.fileinput.sendKeys(absolutePath);
+    }
+
+    public void clickSave1() {
+        wait.until(ExpectedConditions.elementToBeClickable(personalDetailsPage.Ppsave));
+        personalDetailsPage.Ppsave.click();
+    }
+
+    public String getSuccessMessage() {
+        return wait.until(ExpectedConditions.visibilityOf(
+                personalDetailsPage.Ppsuccess)).getText().trim();
+    }
+
+    public boolean isSuccessMessageDisplayed() {
+        try {
+            WebDriverWait shortWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(5));
+            shortWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
 }

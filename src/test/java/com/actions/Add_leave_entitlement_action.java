@@ -1,18 +1,13 @@
 package com.actions;
 
 import java.time.Duration;
-import java.util.List;
-
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.pages.Add_leave_entitlement_page;
-import com.utilities.ConfigReader;
 import com.utilities.HelperClass;
 
 public class Add_leave_entitlement_action {
@@ -67,36 +62,27 @@ public class Add_leave_entitlement_action {
 		Assert.assertTrue(ep.name_require_field.isDisplayed());
 	}
 
-//	public void blankField(String Name, String expectedType, String entitlement) {
-//		helper.clickElement(ep.leave_type);
-//		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
-//		wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
-//		
-//		for (WebElement option : ep.leaveTypeOptions) {
-//			String actualText = option.getText();
-//			System.out.println("[LeaveType] Found option: " + actualText);
-//			if (actualText.equalsIgnoreCase(expectedType)) {
-//				option.click();
-//				break;
-//			}
-//		}
-//		helper.clickElement(ep.entitlement);
-//		ep.entitlement.sendKeys(entitlement);
-//	}
+	public void employeeNameField(String employeeName) {
+	    wait.until(ExpectedConditions.elementToBeClickable(ep.employee_name));
+	    ep.employee_name.clear();
+	    ep.employee_name.sendKeys(employeeName);
+	    wait.until(ExpectedConditions.visibilityOfAllElements(ep.employeeSuggestions));
+	    wait.until(ExpectedConditions.invisibilityOf(ep.searching));
 
-	public void Name_field(String employeeName) {
-		helper.clickElement(ep.employee_name);
-		ep.employee_name.sendKeys(employeeName);
-		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
-		wait.until(ExpectedConditions.invisibilityOf(ep.searching));
-		//wait.until(ExpectedConditions.visibilityOfAllElements(ep.employeeSuggestions));
+	    for (WebElement suggestion : ep.employeeSuggestions) {
+	        String actualName = suggestion.getText().trim();
+	        System.out.println("Suggestion : " + actualName);
+	        if (actualName.toLowerCase().contains(employeeName.toLowerCase())) {
+	            wait.until(ExpectedConditions.elementToBeClickable(suggestion));
+	        	System.out.println("Get mathch!");
+	        	 //js.executeScript("arguments[0].click();", suggestion);
+	        	suggestion.click();
+//	        	 ep.employee_name.sendKeys(Keys.ARROW_DOWN);
+//	        	 suggestion.sendKeys(Keys.ENTER);
+	            break;
+	        }
+	    }
 
-		for (WebElement option : ep.employeeSuggestions) {
-			String actualText = option.getText();
-			if (actualText.equalsIgnoreCase(employeeName)) {
-				option.click();
-				break;
-			}
-		}
+	    wait.until(ExpectedConditions.invisibilityOf(ep.suggestionBox));
 	}
 }
