@@ -6,8 +6,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-
-        features = "src/test/resources/features/",
+        features = "src/test/resources/features",
+        tags = "@Reshma",
         glue = {
                 "com.stepdefinitions",
                 "com.hooks"
@@ -21,12 +21,11 @@ import io.cucumber.testng.CucumberOptions;
         },
         monochrome = true,
         publish = true
-
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	@Override
-	@DataProvider(parallel = false)
+	@DataProvider(parallel = true)
 	public Object[][] scenarios(){
 		return super.scenarios();
 	}

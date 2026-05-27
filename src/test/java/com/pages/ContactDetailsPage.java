@@ -1,5 +1,7 @@
 package com.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -20,7 +22,7 @@ public class ContactDetailsPage extends BasePage {
     @FindBy(xpath = "//label[text()='Zip/Postal Code']/following::input[1]")
     public WebElement zipCode;
 
-    @FindBy(xpath = "//label[text()='Country']/parent::div/following-sibling::div//div[contains(@class,'oxd-select-text')]")
+    @FindBy(xpath = "//label[text()='Country']//following::div[1]")
     public WebElement country;
 
     @FindBy(xpath = "//label[text()='Home']/following::input[1]")
@@ -43,13 +45,16 @@ public class ContactDetailsPage extends BasePage {
 
     @FindBy(xpath = "//h6[text()='Attachments']/following::button[1]")
     public WebElement addIcon;
-    
-    @FindBy(xpath = "//div[text()='Browse']")
-    public WebElement btnBrowse;
 
-    @FindBy(xpath = "//input[@type='file']")
+   @FindBy(xpath = "//input[@type='file']")
     public WebElement fileInput;
 
     @FindBy(xpath = "(//button[normalize-space()='Save'])[last()]")
     public WebElement btnAttachmentSave;
+    
+    @FindBy(xpath = "//div[@role='listbox']")
+    public WebElement dropdownListbox;
+    
+    @FindBy(xpath = "//div[@role='listbox']//span")
+    public List<WebElement> dropdownOptions;
 }

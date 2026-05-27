@@ -3,8 +3,6 @@ package com.utilities;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -98,8 +96,7 @@ public class HelperClass {
 
 				String screenshotName = scenario.getName().replaceAll(" ", "_");
 				File source = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.FILE);
-				String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
-				File destination = new File(folder,screenshotName + "_" + timeStamp + ".png");
+				File destination = new File(folder, screenshotName + ".png");
 				FileUtils.copyFile(source, destination);
 				logger.info("Screenshot saved at: " + destination.getAbsolutePath());
 			} 
