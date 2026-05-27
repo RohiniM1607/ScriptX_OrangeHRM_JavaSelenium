@@ -38,7 +38,7 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
     Then required validation message should be displayed for duplicate username
      Examples:
      | role  | employeeName | status  | username   | password      | confirmPassword |
-     | Admin |  Admin 1      | Enabled | Admin@1    | Admin1@123    | Admin1@123      |
-     | Admin |  Admin 2      | Enabled | Admin@2    | Admin2@123    | Admin2@123      |
-     | ESS |  Employee 1      | Enabled | Employee@1    | Employee1@123    | Employee1@123      |
-     | ESS |  Employee 2      | Enabled | Employee@2    | Employee2@123    | Employee2@123      |
+     | Admin |  Admin 1      | Enabled | Admin    | Admin1@123    | Admin1@123      |
+     | Admin |  Admin 2      | Enabled | Admin    | Admin2@123    | Admin2@123      |
+     | ESS |  Employee 1      | Enabled | Admin    | Employee1@123    | Employee1@123      |
+     | ESS |  Employee 2      | Enabled | Admin    | Employee2@123    | Employee2@123      |
