@@ -42,12 +42,12 @@ public class AdminLeaveManagement_LeaveApprovel_Steps {
 		String toDate = data[0][1].toString();
 		String status = data[0][2].toString();
 		String leaveType = data[0][3].toString();
-		String empName = data[0][4].toString();
+		String employeeName = data[0][4].toString();
 
 		leaveAction.setDateRange(fromDate, toDate);
 		leaveAction.selectStatus(status);
 		leaveAction.selectLeaveType(leaveType);
-		leaveAction.enterEmployeeName(empName);
+		leaveAction.enterEmployeeName(employeeName);
 	}
 
 	@When("User clicks on the Approve button")

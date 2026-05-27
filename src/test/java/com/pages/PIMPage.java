@@ -22,10 +22,10 @@ public class PIMPage extends BasePage {
 	@FindBy(name = "lastName")
 	WebElement lastNameTxt;
 
-	@FindBy(xpath = "//label[text()='Employee Id']/parent::div/following-sibling::div/input")
+	@FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
 	WebElement employeeIdTxt;
 
-	@FindBy(xpath = "//button[@type='submit']")
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]")
 	WebElement saveBtn;
 
 	@FindBy(xpath = "//h6[text()='Personal Details']")
