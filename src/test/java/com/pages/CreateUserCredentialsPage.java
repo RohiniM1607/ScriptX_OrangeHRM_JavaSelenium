@@ -55,6 +55,9 @@ public class CreateUserCredentialsPage extends BasePage {
 
     @FindBy(xpath = "//span[text()='Required']")
     List<WebElement> requiredValidationMessages;
+    
+    @FindBy(xpath = "//span[text()='Already exists']")
+    public WebElement duplicateUsernameValidationMessage;
 
     public void navigateToAdmin() {
         helper.clickElement(adminMenu);
@@ -141,5 +144,9 @@ public class CreateUserCredentialsPage extends BasePage {
         }
 
         return true;
+    }
+    public boolean isDuplicateUsernameValidationMessageDisplayed() {
+        helper.waitForElement(duplicateUsernameValidationMessage);
+        return duplicateUsernameValidationMessage.isDisplayed();
     }
 }

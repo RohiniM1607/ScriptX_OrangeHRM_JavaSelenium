@@ -1,6 +1,7 @@
 package com.stepdefinitions;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.testng.Assert;
 
@@ -72,5 +73,10 @@ public class CreateUserCredentialsSteps {
             return "";
         }
         return value.toString().trim();
+    }
+    
+    @Then("required validation message should be displayed for duplicate username")
+    public void required_validation_message_should_be_displayed_for_duplicate_username() {
+    	createUserActions.verifyDuplicateUsernameValidationMessage();
     }
 }
