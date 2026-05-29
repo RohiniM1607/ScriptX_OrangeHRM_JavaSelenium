@@ -75,21 +75,14 @@ public class CreateUserCredentialsPage extends BasePage {
         return addUserTitle.isDisplayed();
     }
 
-    public void pressDownAndEnter(int count) {
-        for (int i = 0; i < count; i++) {
-            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofSeconds(1));
-        }
-        actions.sendKeys(Keys.ENTER).perform();
-    }
-
     public void selectUserRole(String role) {
         helper.clickElement(userRoleDropDown);
 
         if (role.equalsIgnoreCase("Admin")) {
-            pressDownAndEnter(1);
+            helper.pressDownAndEnter(1);
         } 
         else if (role.equalsIgnoreCase("ESS")) {
-            pressDownAndEnter(2);
+            helper.pressDownAndEnter(2);
         }
     }
 
@@ -98,17 +91,17 @@ public class CreateUserCredentialsPage extends BasePage {
         empName.sendKeys(employeeName);
 
         helper.waitForElement(driver.findElement(By.xpath("//div[@role='listbox']//span")));
-        pressDownAndEnter(1);
+        helper.pressDownAndEnter(1);
     }
 
     public void selectStatus(String status) {
         helper.clickElement(statusDropDown);
 
         if (status.equalsIgnoreCase("Enabled")) {
-            pressDownAndEnter(1);
+            helper.pressDownAndEnter(1);
         } 
         else if (status.equalsIgnoreCase("Disabled")) {
-            pressDownAndEnter(2);
+            helper.pressDownAndEnter(2);
         }
     }
 
