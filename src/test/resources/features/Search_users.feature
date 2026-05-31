@@ -1,4 +1,4 @@
-Feature: Search user based on different fields
+Feature: Mylambigai_28May2026_OrangeHRM_Search user based on different fields
 To serach user by User name, User role, Employee name
 
   Background:

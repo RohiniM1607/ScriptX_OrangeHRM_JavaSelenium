@@ -30,6 +30,9 @@ public class Add_leave_entitlement_page extends BasePage {
 
     @FindBy(xpath = "//div[text()='Searching...']")
     public WebElement searching;
+    
+    @FindBy(xpath="//div[@role='option']")
+    public WebElement noRecordFound;
 
     @FindBy(xpath = "//div[@class='oxd-select-text-input'][contains(.,'-- Select --') or text()]")
     public WebElement leave_type;

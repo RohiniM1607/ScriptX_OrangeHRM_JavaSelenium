@@ -85,4 +85,16 @@ public class Add_leave_entitlement_action {
 
 	    wait.until(ExpectedConditions.invisibilityOf(ep.suggestionBox));
 	}
+
+	public void invalidEmployeeName(String empName) {
+		ep.employee_name.sendKeys(empName);
+		wait.until(ExpectedConditions.visibilityOfAllElements(ep.employeeSuggestions));
+	    wait.until(ExpectedConditions.invisibilityOf(ep.searching));
+	}
+	
+	public void invalidNameMsg(String errorMsg) {
+	    wait.until(ExpectedConditions.visibilityOf(ep.noRecordFound));
+	    Assert.assertEquals(errorMsg, ep.noRecordFound.getText().trim());
+	}
+
 }

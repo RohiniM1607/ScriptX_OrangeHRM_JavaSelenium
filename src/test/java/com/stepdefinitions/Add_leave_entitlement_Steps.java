@@ -55,4 +55,14 @@ public class Add_leave_entitlement_Steps {
 	public void the_error_message_should_be_displayed() {
 		aa.nameField_Error_message();
 	}
+	
+	@When("the Admin enters invalid {string}")
+	public void the_admin_enters_invalid(String empName) {
+	    aa.invalidEmployeeName(empName);
+	}
+
+	@Then("the {string} should be displayed")
+	public void the_should_be_displayed(String errorMsg) {
+	   aa.invalidNameMsg(errorMsg);
+	}
 }
