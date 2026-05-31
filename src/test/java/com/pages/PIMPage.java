@@ -8,146 +8,152 @@ import org.openqa.selenium.support.FindBy;
 
 public class PIMPage extends BasePage {
 
-	JavascriptExecutor js = (JavascriptExecutor) driver;
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	@FindBy(xpath = "//span[text()='PIM']")
-	WebElement pimMenu;
+    @FindBy(xpath = "//span[text()='PIM']")
+    WebElement pimMenu;
 
-	@FindBy(xpath = "//a[text()='Add Employee']")
-	WebElement addEmployeeMenu;
+    @FindBy(xpath = "//a[text()='Add Employee']")
+    WebElement addEmployeeMenu;
 
-	@FindBy(name = "firstName")
-	WebElement firstNameTxt;
+    @FindBy(name = "firstName")
+    WebElement firstNameTxt;
 
-	@FindBy(name = "lastName")
-	WebElement lastNameTxt;
+    @FindBy(name = "lastName")
+    WebElement lastNameTxt;
 
-	@FindBy(xpath = "//label[text()='Employee Id']/following-sibling::div/child::input")
-	WebElement employeeIdTxt;
+    @FindBy(xpath = "//label[text()='Employee Id']/parent::div/following-sibling::div/input")
+    WebElement employeeIdTxt;
 
-	@FindBy( xpath = "//div[contains(@class,'oxd-form-actions')]/child::button[@type='submit']")
+    @FindBy(xpath = "//button[@type='submit']")
     WebElement saveBtn;
 
-	@FindBy( xpath = "//div[contains(@class,'orangehrm-edit-employee-content')]/descendant::h6")
-	WebElement personalDetailsHeader;
+    @FindBy(xpath = "//h6[text()='Personal Details']")
+    WebElement personalDetailsHeader;
 
-	@FindBy(xpath = "//input[@name='firstName']/ancestor::form//span[text()='Required']")
-	List<WebElement> requiredMsg;
+    @FindBy(xpath = "//span[text()='Required']")
+    List<WebElement> requiredMsg;
 
-	@FindBy(xpath = "(//input[@placeholder='Type for hints...'])[1]")
-	WebElement employeeNameSearchTxt;
+    @FindBy(xpath = "(//input[@placeholder='Type for hints...'])[1]")
+    WebElement employeeNameSearchTxt;
 
-	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[2]/button[2]")
-	WebElement searchBtn;
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
+    WebElement employeeIdSearchTxt;
 
-	@FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']")
-	WebElement searchResultTable;
+    @FindBy(xpath = "//button[@type='submit']")
+    WebElement searchBtn;
 
-	@FindBy(xpath = "//*[text()='No Records Found']")
-	WebElement noRecordsFoundTxt;
+    @FindBy(xpath = "//div[@class='oxd-table-body']")
+    WebElement searchResultTable;
 
-	public void clickByJS(WebElement element) {
+    @FindBy(xpath = "//*[text()='No Records Found']")
+    WebElement noRecordsFoundTxt;
 
-		helper.waitForElementToBeClickable(element);
+    public void clickByJS(WebElement element) {
 
-		js.executeScript("arguments[0].click();", element);
-	}
+        helper.waitForElementToBeClickable(element);
 
-	public void enterText(WebElement element, String value) {
+        js.executeScript("arguments[0].click();", element);
+    }
 
-		helper.waitForElement(element);
+    public void enterText(WebElement element, String value) {
 
-		element.clear();
+        helper.waitForElement(element);
 
-		element.sendKeys(value);
-	}
+        element.clear();
 
-	public void clickPIMMenu() {
+        element.sendKeys(value);
+    }
 
-		clickByJS(pimMenu);
-	}
+    public void clickPIMMenu() {
 
-	public void clickAddEmployee() {
+        clickByJS(pimMenu);
+    }
 
-		clickByJS(addEmployeeMenu);
-	}
+    public void clickAddEmployee() {
 
-	public void enterFirstName(String firstName) {
+        clickByJS(addEmployeeMenu);
+    }
 
-		enterText(firstNameTxt, firstName);
-	}
+    public void enterFirstName(String firstName) {
 
-	public void enterLastName(String lastName) {
+        enterText(firstNameTxt, firstName);
+    }
 
-		enterText(lastNameTxt, lastName);
-	}
+    public void enterLastName(String lastName) {
 
-	public void enterEmployeeId(String employeeId) {
+        enterText(lastNameTxt, lastName);
+    }
 
-		enterText(employeeIdTxt, employeeId);
-	}
+    public void enterEmployeeId(String employeeId) {
 
-	public void clickSaveButton() {
+        enterText(employeeIdTxt, employeeId);
+    }
 
-		clickByJS(saveBtn);
-	}
+    public void clickSaveButton() {
 
-	public boolean isPersonalDetailsDisplayed() {
+        clickByJS(saveBtn);
+    }
 
-		try {
+    public boolean isPersonalDetailsDisplayed() {
 
-			helper.waitForElement(personalDetailsHeader);
+        try {
 
-			return personalDetailsHeader.isDisplayed();
-		}
+            helper.waitForElement(personalDetailsHeader);
 
-		catch (Exception e) {
+            return personalDetailsHeader.isDisplayed();
 
-			return false;
-		}
-	}
+        } catch (Exception e) {
 
-	public boolean isRequiredMessageDisplayed() {
+            return false;
+        }
+    }
 
-		return requiredMsg.size() > 0;
-	}
+    public boolean isRequiredMessageDisplayed() {
 
-	public void enterSearchEmployeeName(String employeeName) {
+        return requiredMsg.size() > 0;
+    }
 
-		enterText(employeeNameSearchTxt, employeeName);
-	}
+    public void enterSearchEmployeeName(String employeeName) {
 
-	public void clickSearchButton() {
+        enterText(employeeNameSearchTxt, employeeName);
+    }
 
-		clickByJS(searchBtn);
-	}
+    public void enterSearchEmployeeId(String employeeId) {
 
-	public boolean isSearchResultDisplayed() {
+        enterText(employeeIdSearchTxt, employeeId);
+    }
 
-		try {
+    public void clickSearchButton() {
 
-			helper.waitForElement(searchResultTable);
+        clickByJS(searchBtn);
+    }
 
-			return searchResultTable.isDisplayed();
-		}
+    public boolean isSearchResultDisplayed() {
 
-		catch (Exception e) {
+        try {
 
-			return false;
-		}
-	}
+            helper.waitForElement(searchResultTable);
 
-	public boolean isNoRecordFoundDisplayed() {
+            return searchResultTable.isDisplayed();
 
-		try {
-			
-			helper.waitForElement(noRecordsFoundTxt);
-			return noRecordsFoundTxt.isDisplayed();
-		}
+        } catch (Exception e) {
 
-		catch (Exception e) {
+            return false;
+        }
+    }
 
-			return false;
-		}
-	}
+    public boolean isNoRecordFoundDisplayed() {
+
+        try {
+
+            helper.waitForElement(noRecordsFoundTxt);
+
+            return noRecordsFoundTxt.isDisplayed();
+
+        } catch (Exception e) {
+
+            return false;
+        }
+    }
 }

@@ -1,6 +1,7 @@
 package com.stepdefinitions;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.testng.Assert;
 
@@ -33,6 +34,13 @@ public class CreateUserCredentialsSteps {
 
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
     }
+    
+    @When("user enters user credential details with duplicate username {string} {string} {string} {string} {string} {string}")
+    public void user_enters_user_credential_details_with_duplicate_username(String role, String employeeName, String status,
+                                                    String username, String password, String confirmPassword) {
+
+        createUserActions.duplicateUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
+    }
     @When("user clicks on Save button without entering mandatory fields")
     public void user_clicks_on_save_button_without_entering_mandatory_fields() throws IOException {
 
@@ -50,8 +58,15 @@ public class CreateUserCredentialsSteps {
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
         createUserActions.clickSaveButton();
     }
+    
+    @When("user enters user credential details with password mismatch {string} {string} {string} {string} {string} {string}")
+    public void user_enters_user_credential_details_with_password_mismatch(String role, String employeeName,
+            String status, String username, String password, String confirmPassword) {
 
-
+        createUserActions.passwordMismatchUserCredentialDetails(role, employeeName, status,
+                username, password, confirmPassword);
+    }
+ 
     @When("user clicks on Save button")
     public void user_clicks_on_save_button() {
         createUserActions.clickSaveButton();
@@ -72,5 +87,14 @@ public class CreateUserCredentialsSteps {
             return "";
         }
         return value.toString().trim();
+    }
+    
+    @Then("required validation message should be displayed for duplicate username")
+    public void required_validation_message_should_be_displayed_for_duplicate_username() {
+    	createUserActions.verifyDuplicateUsernameValidationMessage();
+    }
+    @Then("required validation message should be displayed for password mismatch")
+    public void required_validation_message_should_be_displayed_for_password_mismatch() {
+        createUserActions.verifyPasswordMismatchValidationMessage();
     }
 }
