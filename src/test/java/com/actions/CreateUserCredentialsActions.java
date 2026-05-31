@@ -98,6 +98,41 @@ public class CreateUserCredentialsActions {
 			createUserPage.enterConfirmPassword(confirmPassword);
 		}
 	}
+	
+	public void passwordMismatchUserCredentialDetails(String role, String employeeName, String status,
+	        String username, String password, String confirmPassword) {
+
+	    logger.info("Entering user credential details with password mismatch");
+
+	    if (role != null && !role.trim().isEmpty()) {
+	        logger.info("Role: " + role);
+	        createUserPage.selectUserRole(role);
+	    }
+
+	    if (employeeName != null && !employeeName.trim().isEmpty()) {
+	        logger.info("Employee Name: " + employeeName);
+	        createUserPage.enterEmployeeName(employeeName);
+	    }
+
+	    if (status != null && !status.trim().isEmpty()) {
+	        logger.info("Status: " + status);
+	        createUserPage.selectStatus(status);
+	    }
+
+	    if (username != null && !username.trim().isEmpty()) {
+	        String uniqueUsername = username + System.currentTimeMillis();
+	        logger.info("Generated unique username: " + uniqueUsername);
+	        createUserPage.enterUsername(uniqueUsername);
+	    }
+
+	    if (password != null && !password.trim().isEmpty()) {
+	        createUserPage.enterPassword(password);
+	    }
+
+	    if (confirmPassword != null && !confirmPassword.trim().isEmpty()) {
+	        createUserPage.enterConfirmPassword(confirmPassword);
+	    }
+	}
 
 	public void clickSaveButton() {
 		logger.info("Clicking Save button");
@@ -116,5 +151,9 @@ public class CreateUserCredentialsActions {
 
 	public void verifyDuplicateUsernameValidationMessage() {
 		Assert.assertTrue(createUserPage.isDuplicateUsernameValidationMessageDisplayed());
+	}
+	
+	public void verifyPasswordMismatchValidationMessage() {
+	    Assert.assertTrue(createUserPage.isPasswordMismatchValidationMessageDisplayed());
 	}
 }

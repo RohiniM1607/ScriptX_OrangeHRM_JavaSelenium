@@ -6,9 +6,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "src/test/resources/features/Add_leave_entitlement.feature", 
-        tags = "@myl", 
+		features = "src/test/resources/features/", 
         glue = {"com.stepdefinitions", "com.hooks" }, 
+        tags = "@Rohini",
         plugin = { "pretty", "html:target/CucumberReports/Cucumber.html",
 				        "json:target/CucumberReports/Cucumber.json",
 				        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
@@ -18,7 +18,7 @@ import io.cucumber.testng.CucumberOptions;
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	@Override
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}
