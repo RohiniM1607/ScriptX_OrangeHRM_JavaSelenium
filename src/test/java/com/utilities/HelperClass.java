@@ -145,4 +145,10 @@ public class HelperClass {
 			driver.remove();
 		}
 	}
-}
+	public void waitForElementToDisappear(WebElement element) {
+	    WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(15));
+	    wait.until(ExpectedConditions.invisibilityOf(element));
+	}
+
+	}
+
