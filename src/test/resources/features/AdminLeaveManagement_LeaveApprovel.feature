@@ -24,6 +24,6 @@ Scenario: Reject employee leave request
 Scenario: Invalid search by leaving mandatory field blank
   When User enters invalid data
     | From date   | To date        | Leave status          | Leave type      | Employee name |
-    | 2026-01-01 |                   | Pending Approval |CAN - Personal  | emp 1     |
+    | 2026-01-01 |                   | Pending Approval |CAN - Personal  | Ravi M B     |
   And click on search button
   Then user get error message for blank field
