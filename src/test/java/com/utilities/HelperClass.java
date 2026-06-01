@@ -3,6 +3,8 @@ package com.utilities;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -30,7 +32,7 @@ public class HelperClass {
 		ChromeOptions options = new ChromeOptions();
 		logger.info("Launching Chrome browser in headless mode");
 
-		//options.addArguments("--headless=new");
+		options.addArguments("--headless=new");
 		options.addArguments("--window-size=1920,1080");
 
 		driver.set(new ChromeDriver(options));
@@ -96,7 +98,8 @@ public class HelperClass {
 
 				String screenshotName = scenario.getName().replaceAll(" ", "_");
 				File source = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.FILE);
-				File destination = new File(folder, screenshotName + ".png");
+				String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HHmmss"));
+				File destination = new File(folder,screenshotName + "_" + timeStamp + ".png");
 				FileUtils.copyFile(source, destination);
 				logger.info("Screenshot saved at: " + destination.getAbsolutePath());
 			} 

@@ -50,9 +50,13 @@ public class AdminLeaveManagement_LeaveApprovel_Steps {
 		leaveAction.enterEmployeeName(employeeName);
 	}
 
+	@And("User clicks on search button")
+	public void user_clicks_on_search_button() {
+		leaveAction.clickSearch();
+	}
+
 	@When("User clicks on the Approve button")
 	public void user_clicks_on_the_approve_button() {
-		leaveAction.clickSearch();
 		leaveAction.clickApprove();
 	}
 
@@ -85,7 +89,6 @@ public class AdminLeaveManagement_LeaveApprovel_Steps {
 		leaveAction.withoutSelectStatus(status);
 		leaveAction.selectLeaveType(leaveType);
 		leaveAction.enterEmployeeName(employeeName);
-
 	}
 
 	@Then("user get error message for blank field")

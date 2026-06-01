@@ -19,8 +19,11 @@ public class Add_leave_entitlement_page extends BasePage {
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     public WebElement employee_name;
 
-    @FindBy(xpath = "//div[@role='listbox']//div[@role='option']")
+    @FindBy(xpath = "//div[@role='option']")
     public List<WebElement> employeeSuggestions;
+    
+    @FindBy(xpath = "//div[@role='listbox']")
+    public WebElement suggestionBox;
 
     @FindBy(xpath = "//div[@role='listbox']")
     public WebElement empOption;

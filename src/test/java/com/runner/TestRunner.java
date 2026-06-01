@@ -6,12 +6,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
-        tags = "@Reshma",
-        glue = {
-                "com.stepdefinitions",
-                "com.hooks"
-        },
+        features = "src/test/resources/features/PersonalDetails.feature",
+        glue = {"com.stepdefinitions", "com.hooks"},
         plugin = {
                 "pretty",
                 "html:target/CucumberReports/Cucumber.html",
@@ -24,10 +20,9 @@ import io.cucumber.testng.CucumberOptions;
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
-	@Override
-	@DataProvider(parallel = true)
-	public Object[][] scenarios(){
-		return super.scenarios();
-	}
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }
-
