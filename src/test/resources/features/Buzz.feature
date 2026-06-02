@@ -1,4 +1,4 @@
-@Jagadeep
+@Jagadeep_K_C
 Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Buzz_feature
 
   Background:
@@ -17,3 +17,7 @@ Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Buzz_feature
   Scenario: Verify newly published post appears in feed
     When admin publishes a buzz post
     Then the post should be visible in the buzz feed
+    
+  Scenario: Delete a buzz post successfully
+    When admin creates and deletes a buzz post
+    Then the buzz post should be removed from the feed
