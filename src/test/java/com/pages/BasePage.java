@@ -6,8 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.utilities.HelperClass;
 
 public class BasePage {
-    public static WebDriver driver;
-    public HelperClass helper;
+	protected  WebDriver driver;
+	protected  HelperClass helper;
 
     public BasePage() {
         helper = new HelperClass();

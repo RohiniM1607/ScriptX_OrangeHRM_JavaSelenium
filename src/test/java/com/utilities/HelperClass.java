@@ -67,7 +67,7 @@ public class HelperClass {
 
 	public WebElement waitForElementLocated(By locator) {
 		logger.info("Waiting for element located by: " + locator);
-		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(40));
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 

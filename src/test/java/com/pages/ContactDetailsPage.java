@@ -49,8 +49,8 @@ public class ContactDetailsPage extends BasePage {
    @FindBy(xpath = "//input[@type='file']")
     public WebElement fileInput;
 
-    @FindBy(xpath = "(//button[normalize-space()='Save'])[last()]")
-    public WebElement btnAttachmentSave;
+   @FindBy(xpath = "//div[contains(@class,'orangehrm-attachment')]//button[normalize-space()='Save']")
+   public WebElement btnAttachmentSave;
     
     @FindBy(xpath = "//div[@role='listbox']")
     public WebElement dropdownListbox;
