@@ -1,5 +1,9 @@
 package com.stepdefinitions;
 
+import java.util.List;
+import io.cucumber.datatable.DataTable;
+import java.util.Map;
+
 import com.actions.Add_leave_entitlement_action;
 import com.actions.LoginActions;
 import com.utilities.ConfigReader;
@@ -64,5 +68,24 @@ public class Add_leave_entitlement_Steps {
 	@Then("the {string} should be displayed")
 	public void the_should_be_displayed(String errorMsg) {
 	   aa.invalidNameMsg(errorMsg);
+	}
+	
+	@When("the admin enters details in input fields")
+	public void the_admin_enters_details_in_input_fields(io.cucumber.datatable.DataTable dataTable) {
+		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+
+	    String employeeName = data.get(0).get("EmployeeName");
+	    String leaveType = data.get(0).get("LeaveType");
+	    String invalidEntitlementValue = data.get(0).get("InvalidEntitlementValue");
+
+	    aa.employeeNameField(employeeName);
+	    aa.leaveType_field(leaveType);
+	    aa.entitlement_field(invalidEntitlementValue);
+	}
+
+	@Then("the invalid message is displayed")
+	public void the_invalid_message_is_displayed() {
+		aa.EntitlementExceedErrorMessage();
+	   
 	}
 }

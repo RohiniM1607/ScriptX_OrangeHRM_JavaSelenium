@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature", 
+		features = "src/test/resources/features/Add_leave_entitlement.feature", 
         glue = {"com.stepdefinitions", "com.hooks" }, 
         tags = "@myl",
         plugin = { "pretty", "html:target/CucumberReports/Cucumber.html",
