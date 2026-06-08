@@ -9608,3 +9608,198 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-06-03 23:53:28.767 [main] HelperClass - Capturing screenshot for failed scenario
 [INFO ] 2026-06-03 23:53:29.203 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_an_invalid_file_size_in_Dependents_Attachments_section_2026-06-03_235329.png
 [INFO ] 2026-06-03 23:53:29.203 [main] HelperClass - Closing browser
+[INFO ] 2026-06-01 21:51:10.029 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-06-01 21:51:10.059 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-06-01 21:51:17.065 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-06-01 21:51:17.128 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-06-01 21:51:17.142 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-06-01 21:51:23.800 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-06-01 21:51:23.800 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:24.856 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-06-01 21:51:24.857 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:25.391 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:25.391 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:27.220 [main] LeaveListActions - Navigating to Leave List page
+[INFO ] 2026-06-01 21:51:27.221 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:27.222 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:29.213 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:29.213 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:30.601 [main] LeaveListActions - Verifying Leave List page displayed
+[INFO ] 2026-06-01 21:51:30.602 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:31.305 [main] LeaveListActions - Filtering leave request by status : Pending Approval
+[INFO ] 2026-06-01 21:51:31.306 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:31.306 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:32.465 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:32.466 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:32.728 [main] LeaveListActions - Verifying search result displayed
+[INFO ] 2026-06-01 21:51:32.729 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:32.824 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[INFO ] 2026-06-01 21:51:32.828 [main] HelperClass - Scenario passed: Filter leave request by leave status
+[INFO ] 2026-06-01 21:51:32.828 [main] HelperClass - Closing browser
+[INFO ] 2026-06-01 21:51:33.196 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-06-01 21:51:33.196 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-06-01 21:51:35.134 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-06-01 21:51:35.184 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-06-01 21:51:35.193 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-06-01 21:51:46.967 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-06-01 21:51:46.968 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:47.758 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-06-01 21:51:47.758 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:48.128 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:48.128 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:49.664 [main] LeaveListActions - Navigating to Leave List page
+[INFO ] 2026-06-01 21:51:49.665 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:49.665 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:52.215 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:52.215 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:53.719 [main] LeaveListActions - Verifying Leave List page displayed
+[INFO ] 2026-06-01 21:51:53.719 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:54.458 [main] LeaveListActions - Filtering leave request by status : Scheduled
+[INFO ] 2026-06-01 21:51:54.458 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:54.459 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:56.219 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:51:56.220 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:51:56.719 [main] LeaveListActions - Verifying search result displayed
+[INFO ] 2026-06-01 21:51:56.720 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:51:56.915 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[INFO ] 2026-06-01 21:51:56.917 [main] HelperClass - Scenario passed: Filter leave request by leave status
+[INFO ] 2026-06-01 21:51:56.917 [main] HelperClass - Closing browser
+[INFO ] 2026-06-01 21:51:57.361 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-06-01 21:51:57.362 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-06-01 21:51:58.964 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-06-01 21:51:59.042 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-06-01 21:51:59.059 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-06-01 21:52:02.310 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-06-01 21:52:02.313 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:52:03.284 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-06-01 21:52:03.286 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:52:03.706 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:52:03.707 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:52:05.406 [main] LeaveListActions - Navigating to Leave List page
+[INFO ] 2026-06-01 21:52:05.407 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:52:05.407 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:52:07.430 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:52:07.431 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:52:09.052 [main] LeaveListActions - Verifying Leave List page displayed
+[INFO ] 2026-06-01 21:52:09.052 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:52:09.661 [main] LeaveListActions - Filtering leave request by status : Taken
+[INFO ] 2026-06-01 21:52:09.662 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:52:09.662 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:52:11.587 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-01 21:52:11.588 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-01 21:52:12.077 [main] LeaveListActions - Verifying search result displayed
+[INFO ] 2026-06-01 21:52:12.078 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-01 21:52:12.179 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[INFO ] 2026-06-01 21:52:12.180 [main] HelperClass - Scenario passed: Filter leave request by leave status
+[INFO ] 2026-06-01 21:52:12.180 [main] HelperClass - Closing browser
+[INFO ] 2026-06-02 19:54:10.118 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-06-02 19:54:10.167 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-06-02 19:54:22.268 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-06-02 19:54:22.323 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-06-02 19:54:22.335 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-06-02 19:54:38.591 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-06-02 19:54:38.592 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:54:39.759 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-06-02 19:54:39.760 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:54:40.246 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:54:40.247 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:54:42.264 [main] LeaveListActions - Navigating to Leave List page
+[INFO ] 2026-06-02 19:54:42.266 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:54:42.266 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:54:44.873 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:54:44.876 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:54:46.593 [main] LeaveListActions - Verifying Leave List page displayed
+[INFO ] 2026-06-02 19:54:46.595 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:54:47.228 [main] LeaveListActions - Filtering leave request by status : Pending Approval
+[INFO ] 2026-06-02 19:54:47.229 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:54:47.229 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:54:48.116 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:54:48.117 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:54:48.600 [main] LeaveListActions - Verifying search result displayed
+[INFO ] 2026-06-02 19:54:48.601 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:54:48.782 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[INFO ] 2026-06-02 19:54:48.787 [main] HelperClass - Scenario passed: Filter leave request by leave status
+[INFO ] 2026-06-02 19:54:48.788 [main] HelperClass - Closing browser
+[INFO ] 2026-06-02 19:54:49.233 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-06-02 19:54:49.234 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-06-02 19:54:50.880 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-06-02 19:54:50.935 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-06-02 19:54:50.950 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-06-02 19:54:57.468 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-06-02 19:54:57.468 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:54:58.506 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-06-02 19:54:58.629 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:54:59.214 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:54:59.214 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:00.929 [main] LeaveListActions - Navigating to Leave List page
+[INFO ] 2026-06-02 19:55:00.936 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:00.937 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:02.857 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:02.858 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:04.194 [main] LeaveListActions - Verifying Leave List page displayed
+[INFO ] 2026-06-02 19:55:04.196 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:04.797 [main] LeaveListActions - Filtering leave request by status : Scheduled
+[INFO ] 2026-06-02 19:55:04.798 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:04.798 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:06.308 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:06.309 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:06.773 [main] LeaveListActions - Verifying search result displayed
+[INFO ] 2026-06-02 19:55:06.773 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:06.996 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[INFO ] 2026-06-02 19:55:06.997 [main] HelperClass - Scenario passed: Filter leave request by leave status
+[INFO ] 2026-06-02 19:55:06.998 [main] HelperClass - Closing browser
+[INFO ] 2026-06-02 19:55:07.408 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-06-02 19:55:07.409 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-06-02 19:55:08.986 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-06-02 19:55:09.040 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-06-02 19:55:09.046 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-06-02 19:55:17.872 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-06-02 19:55:17.872 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:18.884 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-06-02 19:55:18.884 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:19.361 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:19.362 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:21.104 [main] LeaveListActions - Navigating to Leave List page
+[INFO ] 2026-06-02 19:55:21.105 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:21.106 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:23.114 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:23.115 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:24.573 [main] LeaveListActions - Verifying Leave List page displayed
+[INFO ] 2026-06-02 19:55:24.574 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:25.193 [main] LeaveListActions - Filtering leave request by status : Taken
+[INFO ] 2026-06-02 19:55:25.194 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:25.194 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:27.212 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:27.213 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:27.668 [main] LeaveListActions - Verifying search result displayed
+[INFO ] 2026-06-02 19:55:27.669 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:27.839 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[INFO ] 2026-06-02 19:55:27.840 [main] HelperClass - Scenario passed: Filter leave request by leave status
+[INFO ] 2026-06-02 19:55:27.841 [main] HelperClass - Closing browser
+[INFO ] 2026-06-02 19:55:28.391 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-06-02 19:55:28.392 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-06-02 19:55:30.021 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-06-02 19:55:30.071 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-06-02 19:55:30.077 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-06-02 19:55:36.905 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-06-02 19:55:36.906 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:37.982 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-06-02 19:55:37.982 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:38.389 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:38.390 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:40.287 [main] LeaveListActions - Navigating to Leave List page
+[INFO ] 2026-06-02 19:55:40.288 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:40.289 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:43.661 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:43.662 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:45.088 [main] LeaveListActions - Verifying Leave List page displayed
+[INFO ] 2026-06-02 19:55:45.089 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:45.682 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:46.153 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:46.724 [main] HelperClass - Clicking on element
+[INFO ] 2026-06-02 19:55:46.724 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-06-02 19:55:47.115 [main] LeaveListActions - Verifying search result displayed
+[INFO ] 2026-06-02 19:55:47.115 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-06-02 19:55:47.262 [main] Hooks - Ending Scenario: Filter leave request by date range
+[INFO ] 2026-06-02 19:55:47.263 [main] HelperClass - Scenario passed: Filter leave request by date range
+[INFO ] 2026-06-02 19:55:47.263 [main] HelperClass - Closing browser
