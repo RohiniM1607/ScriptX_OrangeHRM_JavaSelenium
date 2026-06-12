@@ -38,4 +38,15 @@ public class LeaveListSteps {
                 "Leave request results are not displayed for status : "
                         + status);
     }
+    
+    @When("user filters leave request by date range")
+    public void user_filters_leave_request_by_date_range() {
+        leaveListActions.filterLeaveRequestByDateRange();
+    }
+
+    @Then("leave requests within selected date range should be displayed")
+    public void leave_requests_within_selected_date_range_should_be_displayed() {
+
+        Assert.assertTrue(leaveListActions.verifySearchResultDisplayed(), "Leave requests are not displayed");
+    }
 }

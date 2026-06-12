@@ -97,4 +97,8 @@ public class Add_leave_entitlement_action {
 	    Assert.assertEquals(errorMsg, ep.noRecordFound.getText().trim());
 	}
 
+	public void EntitlementExceedErrorMessage() {
+		Boolean present = wait.until(ExpectedConditions.visibilityOf(ep.entitlement_exceed_err)).isDisplayed();
+		Assert.assertTrue(present);
+	}
 }

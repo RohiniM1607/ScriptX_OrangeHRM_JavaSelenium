@@ -19,6 +19,15 @@ public class BuzzPage extends BasePage {
 
 	@FindBy(xpath = "//div[contains(@class,'orangehrm-buzz-post-body')]")
 	List<WebElement> posts;
+	
+	@FindBy(xpath = "(//i[contains(@class,'bi-three-dots')])[1]")
+	WebElement postOptions;
+
+	@FindBy(xpath = "//p[text()='Delete Post']")
+	WebElement deletePostOption;
+
+	@FindBy(xpath = "//button[contains(.,'Yes, Delete')]")
+	WebElement confirmDeleteBtn;
 
 	public void clickByJS(WebElement element) {
 
@@ -80,5 +89,35 @@ public class BuzzPage extends BasePage {
 	public int getPostCount() {
 
 	    return posts.size();
+	}
+	
+	public void clickPostOptions() {
+
+	    helper.waitForElement(postOptions);
+
+	    clickByJS(postOptions);
+	}
+
+	public void clickDeletePost() {
+
+	    helper.waitForElement(deletePostOption);
+
+	    clickByJS(deletePostOption);
+	}
+
+	public void clickConfirmDelete() {
+
+	    helper.waitForElement(confirmDeleteBtn);
+
+	    clickByJS(confirmDeleteBtn);
+	}
+
+	public void deleteLatestPost() {
+
+	    clickPostOptions();
+
+	    clickDeletePost();
+
+	    clickConfirmDelete();
 	}
 }

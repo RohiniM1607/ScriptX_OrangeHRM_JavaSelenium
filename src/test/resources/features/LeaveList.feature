@@ -1,6 +1,5 @@
 @Rohini @LeaveList
 Feature: Rohini_01Jun2026_OrangeHRM_LeaveList
-
 Description:
 This feature verifies whether Admin can search and filter
 employee leave requests in OrangeHRM.
@@ -22,3 +21,8 @@ employee leave requests in OrangeHRM.
       | Pending Approval |
       | Scheduled        |
       | Taken            |
+
+  @Rohini @Filter_By_Date_Range
+  Scenario: Filter leave request by date range
+    When user filters leave request by date range
+    Then leave requests within selected date range should be displayed

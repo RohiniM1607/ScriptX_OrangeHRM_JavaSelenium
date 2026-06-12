@@ -35,4 +35,9 @@ public class BuzzActions extends BaseActions {
 
 	    return buzzPage.getPostCount();
 	}
+	
+	public void deleteLatestBuzzPost() {
+
+	    buzzPage.deleteLatestPost();
+	}
 }

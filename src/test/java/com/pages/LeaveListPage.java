@@ -1,5 +1,6 @@
 package com.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -26,6 +27,14 @@ public class LeaveListPage extends BasePage {
 
     @FindBy(xpath = "//div[@class='orangehrm-container']")
     WebElement searchResultContainer;
+    
+    @FindBy(xpath = "(//input[@placeholder='yyyy-dd-mm'])[1]")
+    WebElement fromDate;
+
+    @FindBy(xpath = "(//input[@placeholder='yyyy-dd-mm'])[2]")
+    WebElement toDate;
+
+    
 
     public void navigateToLeaveListPage() {
 
@@ -67,4 +76,26 @@ public class LeaveListPage extends BasePage {
         helper.waitForElement(searchResultContainer);
         return searchResultContainer.isDisplayed();
     }
+    
+    public void enterFromDate(String date) {
+
+        helper.waitForElement(fromDate);
+
+        fromDate.sendKeys(Keys.CONTROL + "a");
+        fromDate.sendKeys(Keys.DELETE);
+
+        fromDate.sendKeys(date);
+    }
+
+    public void enterToDate(String date) {
+
+        helper.waitForElement(toDate);
+
+        toDate.sendKeys(Keys.CONTROL + "a");
+        toDate.sendKeys(Keys.DELETE);
+
+        toDate.sendKeys(date);
+    }
+
+    
 }
