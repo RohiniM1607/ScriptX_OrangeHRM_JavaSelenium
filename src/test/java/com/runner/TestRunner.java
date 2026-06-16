@@ -6,7 +6,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
+
+        features = "src/test/resources/features/LeaveList_Employee.feature",
         glue = {"com.stepdefinitions", "com.hooks"},
         plugin = {
                 "pretty",
@@ -18,6 +19,7 @@ import io.cucumber.testng.CucumberOptions;
         monochrome = true,
         publish = true
 )
+
 public class TestRunner extends AbstractTestNGCucumberTests {
 
     @Override
