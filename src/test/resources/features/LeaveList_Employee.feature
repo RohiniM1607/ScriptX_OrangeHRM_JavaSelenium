@@ -16,3 +16,4 @@ Feature: Employee Leave List
       | leaveType         |
       | CAN - Personal    |
     Then remaining leave balance should be greater than 0
+    

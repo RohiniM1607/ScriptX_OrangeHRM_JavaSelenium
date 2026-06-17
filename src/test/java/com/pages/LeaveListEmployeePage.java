@@ -25,8 +25,6 @@ public class LeaveListEmployeePage extends BasePage {
     @FindBy(xpath = "//div[@role='row']")
     public List<WebElement> tableRows;
 
-    @FindBy(xpath = "//div[contains(@class,'orangehrm-header-container')]//span[contains(@class,'oxd-text--span')]")
-    public WebElement recordCountText;
 
     public String leaveTypeOption = "//div[@role='listbox']//span[text()='%s']";
 

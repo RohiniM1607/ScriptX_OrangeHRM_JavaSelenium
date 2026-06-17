@@ -89,12 +89,8 @@ public class LeaveListEmployeeActions {
         return getStatusForLeaveType(leaveTypeName);
     }
 
-    public String withoutApplyingLeave() {
-        navigateToMyLeavePage();
-        clickSearch();
-        return getElementText(page.recordCountText);
-    }
-
+ 
+    
     public String getLeaveBalanceForLeaveType(String leaveTypeName) {
         selectLeaveType(leaveTypeName);
         clickSearch();

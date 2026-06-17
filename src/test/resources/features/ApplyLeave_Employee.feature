@@ -6,7 +6,7 @@ Background:
   Given Employee login with valid credentials
   And Employee is on the dashboard page
 
-@Subha
+@ApplyLeave
 Scenario Outline: Apply leave successfully
   When the user navigates to Apply Leave and selects "<leaveType>" leave type
   And selects "<from date>" "<To date>"
