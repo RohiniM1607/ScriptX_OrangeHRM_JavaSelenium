@@ -80,7 +80,7 @@ public class Add_leave_entitlement_action {
 //	        	 ep.employee_name.sendKeys(Keys.ARROW_DOWN);
 //	        	 suggestion.sendKeys(Keys.ENTER);
 	            break;
-	        }
+	        } 
 	    }
 
 	    wait.until(ExpectedConditions.invisibilityOf(ep.suggestionBox));
