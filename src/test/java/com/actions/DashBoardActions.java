@@ -50,4 +50,11 @@ public class DashBoardActions {
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuEmergencyContacts));
         dashBoardPage.menuEmergencyContacts.click();
     }
+
+	public void navigateToDependents() {
+		wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
+        dashBoardPage.menuMyInfo.click();
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuDependents));
+        dashBoardPage.menuDependents.click();
+	}
 }

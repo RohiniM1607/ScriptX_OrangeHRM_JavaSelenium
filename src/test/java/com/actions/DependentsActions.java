@@ -14,30 +14,35 @@ import com.utilities.HelperClass;
 
 public class DependentsActions {
 
-    DependentsPage dependentsPage = null;
+    DependentsPage dependentsPage;
     WebDriverWait wait;
     HelperClass helper = new HelperClass();
 
     public DependentsActions() {
-        this.dependentsPage = new DependentsPage();
+        dependentsPage = new DependentsPage();
         wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(30));
     }
 
     public void clickAddIcon() {
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-loading-spinner-container")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(
+                By.cssSelector("div.oxd-loading-spinner-container")));
         wait.until(ExpectedConditions.elementToBeClickable(dependentsPage.addIcon));
         dependentsPage.addIcon.click();
     }
 
     public void fillDependentDetails(String name, String relationship, String dateOfBirth) {
+
         wait.until(ExpectedConditions.visibilityOf(dependentsPage.nameInput));
         dependentsPage.nameInput.clear();
         dependentsPage.nameInput.sendKeys(name);
 
         dependentsPage.relationshipDropdown.click();
+
         wait.until(ExpectedConditions.visibilityOf(dependentsPage.dropdownListbox));
-        List<WebElement> relationshipOptions = wait.until(ExpectedConditions.visibilityOfAllElements(dependentsPage.dropdownOptions));
-        for (WebElement option : relationshipOptions) {
+        List<WebElement> options = wait.until(
+                ExpectedConditions.visibilityOfAllElements(dependentsPage.dropdownOptions));
+
+        for (WebElement option : options) {
             if (option.getText().trim().equalsIgnoreCase(relationship)) {
                 option.click();
                 break;
@@ -56,8 +61,59 @@ public class DependentsActions {
     }
 
     public String getSuccessMessage() {
-        WebDriverWait msgWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
-        return msgWait.until(ExpectedConditions.visibilityOf(dependentsPage.successMessage))
+        return wait.until(ExpectedConditions.visibilityOf(dependentsPage.successMessage))
+                .getText().trim();
+    }
+
+   
+    public void clickAttachmentAddButton() {
+
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(
+            By.cssSelector("div.oxd-loading-spinner-container")));
+
+        wait.until(ExpectedConditions.visibilityOf(dependentsPage.attachmentAddButton));
+
+        wait.until(ExpectedConditions.elementToBeClickable(dependentsPage.attachmentAddButton));
+
+        dependentsPage.attachmentAddButton.click();
+    }
+
+    public void uploadAttachment() {
+        String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\testfile1.txt";
+
+        WebElement fileInput = wait.until(
+                ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
+
+        fileInput.sendKeys(filePath);
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//*[contains(text(),'testfile2.txt')]")));
+    }
+
+    public void uploadInvalidAttachment() {
+        String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\Large_file.txt";
+
+        WebElement fileInput = wait.until(
+                ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
+
+        fileInput.sendKeys(filePath);
+    }
+
+    public void clickSaveAttachment() {
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(
+            By.cssSelector("div.oxd-loading-spinner-container")));
+        wait.until(ExpectedConditions.elementToBeClickable(dependentsPage.saveButton1));
+        dependentsPage.saveButton1.click();
+    }
+
+    public String getAttachmentSuccessMessage() {
+        return wait.until(ExpectedConditions.presenceOfElementLocated(
+            By.xpath("//div[contains(@class,'oxd-toast')]//p")))
+            .getText().trim();
+    }
+
+    public String getFileSizeErrorMessage() {
+        return wait.until(ExpectedConditions.visibilityOf(dependentsPage.fileSizeErrorMessage))
                 .getText().trim();
     }
 }
