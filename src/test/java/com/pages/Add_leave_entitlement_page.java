@@ -54,4 +54,7 @@ public class Add_leave_entitlement_page extends BasePage {
 
     @FindBy(xpath = "//div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//span[1]")
     public WebElement name_require_field;
+    
+    @FindBy(xpath = "//span[text()=\"Should be less than 10000\"]")
+    public WebElement entitlement_exceed_err; 
 }

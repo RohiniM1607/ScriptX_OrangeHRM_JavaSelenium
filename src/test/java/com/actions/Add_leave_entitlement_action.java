@@ -30,7 +30,7 @@ public class Add_leave_entitlement_action {
 	public void leaveType_field(String expectedType) {
 		helper.clickElement(ep.leave_type);
 		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
-		wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
+		//wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
 
 		for (WebElement option : ep.leaveTypeOptions) {
 			String actualText = option.getText();
@@ -54,7 +54,7 @@ public class Add_leave_entitlement_action {
 	public void confirmation_message() {
 		wait.until(ExpectedConditions.visibilityOf(ep.confirm));
 		Assert.assertTrue(ep.confirm.isDisplayed());
-		ep.confirm.click();
+		//ep.confirm.click();
 	}
 
 	public void nameField_Error_message() {
@@ -97,4 +97,8 @@ public class Add_leave_entitlement_action {
 	    Assert.assertEquals(errorMsg, ep.noRecordFound.getText().trim());
 	}
 
+	public void EntitlementExceedErrorMessage() {
+		Boolean present = wait.until(ExpectedConditions.visibilityOf(ep.entitlement_exceed_err)).isDisplayed();
+		Assert.assertTrue(present);
+	}
 }
