@@ -66,9 +66,9 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
     
 
     public void confirmation_message() {
-		wait.until(ExpectedConditions.visibilityOf(page.confirm));
+	    wait.until(ExpectedConditions.visibilityOf(page.confirm));
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),'Successfully Saved')]")));
 		Assert.assertTrue(page.confirm.isDisplayed());
-		//page.confirm.click();
 	}
     
     public void setDateRange(String fromDate, String toDate) {
