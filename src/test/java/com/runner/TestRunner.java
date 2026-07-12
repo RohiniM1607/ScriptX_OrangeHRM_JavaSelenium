@@ -7,7 +7,11 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
+<<<<<<< HEAD
         features = "src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature",
+=======
+        features = "src/test/resources/features/",
+>>>>>>> 35d5476099b8f7a352de9ebc38e47efc349be1c5
         glue = {"com.stepdefinitions", "com.hooks"},
         plugin = { 
                 "pretty",
