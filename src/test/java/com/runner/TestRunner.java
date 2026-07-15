@@ -15,11 +15,12 @@ import io.cucumber.testng.CucumberOptions;
         monochrome = true,
         tags = "@LeaveList"
         )
+
 public class TestRunner extends AbstractTestNGCucumberTests {
 
-	@Override
-	@DataProvider(parallel = false)
-	public Object[][] scenarios() {
-		return super.scenarios();
-	}
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }
