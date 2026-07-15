@@ -7,9 +7,17 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+        features = "src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature",
+=======
         features = "src/test/resources/features/",
+>>>>>>> 35d5476099b8f7a352de9ebc38e47efc349be1c5
+=======
+        features = "src/test/resources/features/",
+>>>>>>> 8b5629efbd301692b7211fa875f1343619a651d8
         glue = {"com.stepdefinitions", "com.hooks"},
-        plugin = {
+        plugin = { 
                 "pretty",
                 "html:target/CucumberReports/Cucumber.html",
                 "json:target/CucumberReports/Cucumber.json",
@@ -27,4 +35,5 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     public Object[][] scenarios() {
         return super.scenarios();
     }
+
 }
