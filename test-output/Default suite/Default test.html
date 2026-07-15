@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 15 14:14:24 IST 2026</td>
+<td>Started on:</td><td>Thu Jul 09 17:23:59 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>44 seconds (44502 ms)</td>
+<tr><td>Total time:</td><td>87 seconds (87892 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,15 +76,187 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify leave status for applied leave", "Employee Leave List"</td>
-<td></td>
-<td>37</td>
-<td>com.runner.TestRunner@42b21d99</td></tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Reject employee leave request", "Mylambigai_18May2026_ScriptXOrangeHRM file for Approve or Reject Employee Leave Request"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: div[role=&apos;table&apos;] div:nth-child(1) div:nth-child(1) div:nth-child(9) div:nth-child(1) button:nth-child(2)&apos;
+(tried for 15 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.AdminLeaveManagement_LeaveApprovel_Actions.clickReject(AdminLeaveManagement_LeaveApprovel_Actions.java:158)
+	at com.stepdefinitions.AdminLeaveManagement_LeaveApprovel_Steps.user_clicks_on_the_reject_button(AdminLeaveManagement_LeaveApprovel_Steps.java:70)
+	at ✽.User clicks on the Reject button(file:///C:/Users/Mylambigai/Selenium_basic/ScriptX_OrangeHRM/src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[role=&apos;table&apos;] div:nth-child(1) div:nth-child(1) div:nth-child(9) div:nth-child(1) button:nth-child(2)&quot;}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fb13dd6e098fc999105c68862f890d5, findElement {using=css selector, value=div[role=&apos;table&apos;] div:nth-child(1) div:nth-child(1) div:nth-child(9) div:nth-child(1) button:nth-child(2)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\MYLAMB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54319}, goog:processID: 27572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54319/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb13dd6e098fc999105c68862f890d5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1936718904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1936718904'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: div[role=&apos;table&apos;] div:nth-child(1) div:nth-child(1) div:nth-child(9) div:nth-child(1) button:nth-child(2)&apos;
+(tried for 15 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.AdminLeaveManagement_LeaveApprovel_Actions.clickReject(AdminLeaveManagement_LeaveApprovel_Actions.java:158)
+	at com.stepdefinitions.AdminLeaveManagement_LeaveApprovel_Steps.user_clicks_on_the_reject_button(AdminLeaveManagement_LeaveApprovel_Steps.java:70)
+	at ✽.User clicks on the Reject button(file:///C:/Users/Mylambigai/Selenium_basic/ScriptX_OrangeHRM/src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[role=&apos;table&apos;] div:nth-child(1) div:nth-child(1) div:nth-child(9) div:nth-child(1) button:nth-child(2)&quot;}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fb13dd6e098fc999105c68862f890d5, findElement {using=css selector, value=div[role=&apos;table&apos;] div:nth-child(1) div:nth-child(1) div:nth-child(9) div:nth-child(1) button:nth-child(2)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\MYLAMB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54319}, goog:processID: 27572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54319/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb13dd6e098fc999105c68862f890d5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</pre></div></td>
+<td>78</td>
+<td>com.runner.TestRunner@59532566</td></tr>
 <tr>
-<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify remaining leave balance", "Employee Leave List"</td>
-<td></td>
-<td>35</td>
-<td>com.runner.TestRunner@42b21d99</td></tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid search by leaving mandatory field blank", "Mylambigai_18May2026_ScriptXOrangeHRM file for Approve or Reject Employee Leave Request"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all 0 elements, but no elements were found
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\MYLAMB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54321}, goog:processID: 20056, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54321/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d23ece6dfd21de58c31752349985692c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.AdminLeaveManagement_LeaveApprovel_Actions.enterEmployeeName(AdminLeaveManagement_LeaveApprovel_Actions.java:136)
+	at com.stepdefinitions.AdminLeaveManagement_LeaveApprovel_Steps.user_enters_invalid_data(AdminLeaveManagement_LeaveApprovel_Steps.java:91)
+	at ✽.User enters invalid data(file:///C:/Users/Mylambigai/Selenium_basic/ScriptX_OrangeHRM/src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1408970854", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1408970854'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all 0 elements, but no elements were found
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\MYLAMB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54321}, goog:processID: 20056, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54321/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d23ece6dfd21de58c31752349985692c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.AdminLeaveManagement_LeaveApprovel_Actions.enterEmployeeName(AdminLeaveManagement_LeaveApprovel_Actions.java:136)
+	at com.stepdefinitions.AdminLeaveManagement_LeaveApprovel_Steps.user_enters_invalid_data(AdminLeaveManagement_LeaveApprovel_Steps.java:91)
+	at ✽.User enters invalid data(file:///C:/Users/Mylambigai/Selenium_basic/ScriptX_OrangeHRM/src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature:25)
+</pre></div></td>
+<td>78</td>
+<td>com.runner.TestRunner@59532566</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Approve employee leave request", "Mylambigai_18May2026_ScriptXOrangeHRM file for Approve or Reject Employee Leave Request"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //body/div[@id=&apos;app&apos;]/div[@class=&apos;oxd-layout orangehrm-upgrade-layout&apos;]/div[@class=&apos;oxd-layout-container&apos;]/div[@class=&apos;oxd-layout-context&apos;]/div[@class=&apos;orangehrm-background-container&apos;]/div[@class=&apos;orangehrm-paper-container&apos;]/div[@class=&apos;orangehrm-container&apos;]/div[@role=&apos;table&apos;]/div[@role=&apos;rowgroup&apos;]/div[1]/div[1]/div[9]/div[1]/button[1]&apos;
+(tried for 15 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.AdminLeaveManagement_LeaveApprovel_Actions.clickApprove(AdminLeaveManagement_LeaveApprovel_Actions.java:152)
+	at com.stepdefinitions.AdminLeaveManagement_LeaveApprovel_Steps.user_clicks_on_the_approve_button(AdminLeaveManagement_LeaveApprovel_Steps.java:60)
+	at ✽.User clicks on the Approve button(file:///C:/Users/Mylambigai/Selenium_basic/ScriptX_OrangeHRM/src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature:13)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;app&apos;]/div[@class=&apos;oxd-layout orangehrm-upgrade-layout&apos;]/div[@class=&apos;oxd-layout-container&apos;]/div[@class=&apos;oxd-layout-context&apos;]/div[@class=&apos;orangehrm-background-container&apos;]/div[@class=&apos;orangehrm-paper-container&apos;]/div[@class=&apos;orangehrm-container&apos;]/div[@role=&apos;table&apos;]/div[@role=&apos;rowgroup&apos;]/div[1]/div[1]/div[9]/div[1]/button[1]&quot;}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0d55a771a83bd40132031d098d2dc22, findElement {using=xpath, value=//body/div[@id=&apos;app&apos;]/div[@class=&apos;oxd-layout orangehrm-upgrade-layout&apos;]/div[@class=&apos;oxd-layout-container&apos;]/div[@class=&apos;oxd-layout-context&apos;]/div[@class=&apos;orangehrm-background-container&apos;]/div[@class=&apos;orangehrm-paper-container&apos;]/div[@class=&apos;orangehrm-container&apos;]/div[@role=&apos;table&apos;]/div[@role=&apos;rowgroup&apos;]/div[1]/div[1]/div[9]/div[1]/button[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\MYLAMB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54320}, goog:processID: 16580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54320/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0d55a771a83bd40132031d098d2dc22
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1262993272", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1262993272'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //body/div[@id=&apos;app&apos;]/div[@class=&apos;oxd-layout orangehrm-upgrade-layout&apos;]/div[@class=&apos;oxd-layout-container&apos;]/div[@class=&apos;oxd-layout-context&apos;]/div[@class=&apos;orangehrm-background-container&apos;]/div[@class=&apos;orangehrm-paper-container&apos;]/div[@class=&apos;orangehrm-container&apos;]/div[@role=&apos;table&apos;]/div[@role=&apos;rowgroup&apos;]/div[1]/div[1]/div[9]/div[1]/button[1]&apos;
+(tried for 15 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.AdminLeaveManagement_LeaveApprovel_Actions.clickApprove(AdminLeaveManagement_LeaveApprovel_Actions.java:152)
+	at com.stepdefinitions.AdminLeaveManagement_LeaveApprovel_Steps.user_clicks_on_the_approve_button(AdminLeaveManagement_LeaveApprovel_Steps.java:60)
+	at ✽.User clicks on the Approve button(file:///C:/Users/Mylambigai/Selenium_basic/ScriptX_OrangeHRM/src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature:13)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;app&apos;]/div[@class=&apos;oxd-layout orangehrm-upgrade-layout&apos;]/div[@class=&apos;oxd-layout-container&apos;]/div[@class=&apos;oxd-layout-context&apos;]/div[@class=&apos;orangehrm-background-container&apos;]/div[@class=&apos;orangehrm-paper-container&apos;]/div[@class=&apos;orangehrm-container&apos;]/div[@role=&apos;table&apos;]/div[@role=&apos;rowgroup&apos;]/div[1]/div[1]/div[9]/div[1]/button[1]&quot;}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0d55a771a83bd40132031d098d2dc22, findElement {using=xpath, value=//body/div[@id=&apos;app&apos;]/div[@class=&apos;oxd-layout orangehrm-upgrade-layout&apos;]/div[@class=&apos;oxd-layout-container&apos;]/div[@class=&apos;oxd-layout-context&apos;]/div[@class=&apos;orangehrm-background-container&apos;]/div[@class=&apos;orangehrm-paper-container&apos;]/div[@class=&apos;orangehrm-container&apos;]/div[@role=&apos;table&apos;]/div[@role=&apos;rowgroup&apos;]/div[1]/div[1]/div[9]/div[1]/button[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\MYLAMB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54320}, goog:processID: 16580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54320/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0d55a771a83bd40132031d098d2dc22
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</pre></div></td>
+<td>78</td>
+<td>com.runner.TestRunner@59532566</td></tr>
 </table><p>
 </body>
 </html>
