@@ -9803,6 +9803,1607 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-06-02 19:55:47.262 [main] Hooks - Ending Scenario: Filter leave request by date range
 [INFO ] 2026-06-02 19:55:47.263 [main] HelperClass - Scenario passed: Filter leave request by date range
 [INFO ] 2026-06-02 19:55:47.263 [main] HelperClass - Closing browser
+<<<<<<< HEAD
+[INFO ] 2026-07-06 22:40:29.976 [main] Hooks - Starting Scenario: Login with valid default admin credentials
+[INFO ] 2026-07-06 22:40:30.001 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:40:34.524 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:40:34.566 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:40:34.583 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:45:51.276 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-06 22:45:51.287 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:45:52.889 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:45:52.933 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:45:52.947 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:45:59.336 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:45:59.337 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:00.322 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:46:00.325 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:00.466 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:46:00.467 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:46:02.181 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-06 22:46:02.183 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:46:02.183 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-06 22:46:02.184 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:46:02.418 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-06_224602.png
+[INFO ] 2026-07-06 22:46:02.418 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:46:02.641 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-06 22:46:02.642 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:46:03.476 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:46:03.520 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:46:03.529 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:46:09.564 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:46:09.564 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:10.250 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:46:10.250 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:10.371 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:46:10.371 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:46:11.907 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-06 22:46:11.908 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:46:11.908 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-06 22:46:11.908 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:46:12.116 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-06_224612.png
+[INFO ] 2026-07-06 22:46:12.116 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:46:12.285 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-06 22:46:12.286 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:46:13.106 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:46:13.150 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:46:13.156 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:46:18.308 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:46:18.308 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:19.059 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:46:19.059 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:19.210 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:46:19.210 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:46:21.482 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-06 22:46:21.482 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:46:21.483 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-06 22:46:21.483 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:46:21.694 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-06_224621.png
+[INFO ] 2026-07-06 22:46:21.694 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:46:21.860 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 22:46:21.861 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:46:22.694 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:46:22.746 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:46:22.749 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:46:33.311 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:46:33.312 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:34.012 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:46:34.012 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:34.126 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:46:34.126 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:46:35.744 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 22:46:35.744 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:46:35.744 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 22:46:35.744 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:46:35.997 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_224635.png
+[INFO ] 2026-07-06 22:46:35.997 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:46:36.192 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 22:46:36.193 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:46:37.036 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:46:37.081 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:46:37.084 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:46:40.594 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:46:40.594 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:41.148 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:46:41.148 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:41.364 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:46:41.364 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:46:43.039 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 22:46:43.039 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:46:43.039 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 22:46:43.039 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:46:43.232 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_224643.png
+[INFO ] 2026-07-06 22:46:43.232 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:46:43.403 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 22:46:43.403 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:46:44.262 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:46:44.301 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:46:44.306 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:46:48.451 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:46:48.451 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:49.129 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:46:49.129 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:46:49.282 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:46:49.282 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:46:50.704 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 22:46:50.704 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:46:50.704 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 22:46:50.704 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:46:50.895 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_224650.png
+[INFO ] 2026-07-06 22:46:50.895 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:46:51.148 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-06 22:46:51.148 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:46:51.960 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:46:52.005 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:46:52.009 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:47:00.027 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:47:00.029 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:00.698 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:47:00.698 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:00.813 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:47:00.813 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:47:02.113 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-06 22:47:02.113 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:47:02.114 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-06 22:47:02.114 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:47:02.305 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-06_224702.png
+[INFO ] 2026-07-06 22:47:02.305 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:47:02.485 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-06 22:47:02.487 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:47:03.351 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:47:03.404 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:47:03.413 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:47:09.842 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:47:09.842 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:11.123 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:47:11.123 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:11.247 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:47:11.247 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:47:12.710 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-06 22:47:12.711 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:47:12.711 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-06 22:47:12.711 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:47:12.886 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-06_224712.png
+[INFO ] 2026-07-06 22:47:12.886 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:47:13.047 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 22:47:13.047 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:47:13.895 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:47:13.935 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:47:13.937 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:47:23.397 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:47:23.397 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:24.036 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:47:24.036 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:24.159 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:47:24.160 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:47:25.789 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[ERROR] 2026-07-06 22:47:25.789 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:47:25.790 [main] HelperClass - Scenario failed: Search leave request with invalid employee name
+[INFO ] 2026-07-06 22:47:25.790 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:47:25.996 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_with_invalid_employee_name_2026-07-06_224725.png
+[INFO ] 2026-07-06 22:47:25.996 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 22:47:26.184 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 22:47:26.184 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 22:47:27.048 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 22:47:27.095 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 22:47:27.102 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 22:47:36.415 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 22:47:36.415 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:37.113 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 22:47:37.113 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 22:47:37.250 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 22:47:37.250 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 22:47:39.152 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[ERROR] 2026-07-06 22:47:39.152 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 22:47:39.152 [main] HelperClass - Scenario failed: Search leave request with invalid employee name
+[INFO ] 2026-07-06 22:47:39.152 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 22:47:39.483 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_with_invalid_employee_name_2026-07-06_224739.png
+[INFO ] 2026-07-06 22:47:39.484 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:09:56.232 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-06 23:09:56.239 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:09:57.520 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:09:57.561 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:09:57.566 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:10:03.064 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:10:03.066 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:10:03.539 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:10:03.539 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:10:03.683 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:10:03.683 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:10:04.945 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:10:04.945 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:10:06.699 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:10:06.700 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:10:07.862 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:10:08.365 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:10:08.365 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:10:08.464 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:10:18.907 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-06 23:10:18.912 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:10:18.913 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-06 23:10:18.914 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:10:19.184 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-06_231019.png
+[INFO ] 2026-07-06 23:10:19.184 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:10:19.457 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-06 23:10:19.457 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:10:20.287 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:10:20.331 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:10:20.336 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:11:07.983 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:11:07.984 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:11:19.817 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:11:19.817 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:11:19.943 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:11:19.943 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:11:54.846 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:11:54.846 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:11:57.005 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:11:57.005 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:11:58.116 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:11:58.614 [main] HelperClass - Entering text: Linda Anderson
+[INFO ] 2026-07-06 23:11:58.614 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:11:59.297 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:11:59.297 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:11:59.424 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:12:09.536 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-06 23:12:09.539 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:12:09.539 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-06 23:12:09.540 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:12:09.798 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-06_231209.png
+[INFO ] 2026-07-06 23:12:09.798 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:12:10.064 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-06 23:12:10.064 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:12:11.178 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:12:11.222 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:12:11.230 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:15:10.250 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:15:10.251 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:10.857 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:15:10.858 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:11.109 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:11.109 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:12.361 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:12.361 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:14.085 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:14.086 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:15.137 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:15.625 [main] HelperClass - Entering text: Peter Anderson
+[INFO ] 2026-07-06 23:15:15.626 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:16.267 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:16.268 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:16.395 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:26.464 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-06 23:15:26.465 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:15:26.465 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-06 23:15:26.465 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:15:26.707 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-06_231526.png
+[INFO ] 2026-07-06 23:15:26.707 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:15:26.977 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 23:15:26.977 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:15:28.412 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:15:28.453 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:15:28.463 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:15:31.925 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:15:31.927 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:32.507 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:15:32.507 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:32.683 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:32.684 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:34.234 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:34.234 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:36.175 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:36.175 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:37.416 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:38.025 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:38.025 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:38.679 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:38.679 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:38.798 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:49.213 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 23:15:49.213 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:15:49.213 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 23:15:49.213 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:15:49.443 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_231549.png
+[INFO ] 2026-07-06 23:15:49.443 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:15:49.713 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 23:15:49.713 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:15:50.739 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:15:50.787 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:15:50.792 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:15:53.852 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:15:53.852 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:54.376 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:15:54.376 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:54.528 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:54.528 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:55.888 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:55.888 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:57.529 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:57.529 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:15:58.603 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:15:59.048 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:15:59.048 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:00.224 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:00.226 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:00.324 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:10.833 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 23:16:10.834 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:16:10.834 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 23:16:10.834 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:16:11.055 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_231611.png
+[INFO ] 2026-07-06 23:16:11.055 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:16:11.310 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 23:16:11.311 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:16:12.187 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:16:12.236 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:16:12.241 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:16:16.044 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:16:16.045 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:16.622 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:16:16.622 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:16.774 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:16.775 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:16.913 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 23:16:16.914 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:16:16.914 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 23:16:16.914 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:16:18.163 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_231618.png
+[INFO ] 2026-07-06 23:16:18.163 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:16:18.388 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-06 23:16:18.388 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:16:19.288 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:16:19.320 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:16:19.322 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:16:22.860 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:16:22.860 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:23.461 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:16:23.462 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:23.608 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:23.608 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:24.805 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:24.806 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:26.398 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:26.398 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:27.607 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:28.079 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:28.220 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:28.351 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:28.351 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:28.480 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:38.873 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-06 23:16:38.873 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:16:38.874 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-06 23:16:38.874 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:16:39.101 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-06_231639.png
+[INFO ] 2026-07-06 23:16:39.101 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:16:39.330 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-06 23:16:39.331 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:16:40.192 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:16:40.243 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:16:40.249 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:16:45.368 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:16:45.368 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:46.044 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:16:46.045 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:46.164 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:46.164 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:47.427 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:47.427 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:49.052 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:49.053 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:50.129 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:50.656 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:50.783 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:16:50.909 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:16:50.909 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:16:51.001 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:01.209 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-06 23:17:01.210 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:17:01.210 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-06 23:17:01.211 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:17:01.424 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-06_231701.png
+[INFO ] 2026-07-06 23:17:01.424 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:17:01.688 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:17:01.688 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:17:02.519 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:17:02.557 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:17:02.559 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:17:05.795 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:17:05.796 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:06.710 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:17:06.710 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:06.842 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:06.842 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:08.304 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:08.305 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:10.320 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:10.320 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:12.037 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:12.798 [main] HelperClass - Entering text: ABCXYZ
+[INFO ] 2026-07-06 23:17:12.798 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:13.451 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:13.452 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:13.574 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:13.617 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:17:13.617 [main] HelperClass - Scenario passed: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:17:13.617 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:17:13.838 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:17:13.838 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:17:14.691 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:17:14.737 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:17:14.739 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:17:18.167 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:17:18.168 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:18.850 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:17:18.850 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:18.999 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:18.999 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:20.431 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:20.431 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:22.102 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:22.103 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:23.514 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:23.990 [main] HelperClass - Entering text: Dummy Employee
+[INFO ] 2026-07-06 23:17:23.990 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:24.645 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:17:24.645 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:17:24.769 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:17:24.806 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:17:24.806 [main] HelperClass - Scenario passed: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:17:24.806 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:26:12.487 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-06 23:26:12.510 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:26:15.400 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:26:15.456 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:26:15.463 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:26:21.707 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:26:21.708 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:26:22.393 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:26:22.394 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:26:22.935 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:22.936 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:24.846 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:24.847 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:26.777 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:26.777 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:28.544 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:26:29.315 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:29.318 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:30.000 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-06 23:26:30.005 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:26:30.006 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-06 23:26:30.006 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:26:30.608 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-06_232630.png
+[INFO ] 2026-07-06 23:26:30.609 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:26:30.975 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-06 23:26:30.975 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:26:32.965 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:26:33.006 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:26:33.013 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:26:45.817 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:26:45.818 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:26:49.180 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:26:49.180 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:26:49.476 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:49.476 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:50.925 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:50.925 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:52.667 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:52.667 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:54.103 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:26:54.923 [main] HelperClass - Entering text: Linda Anderson
+[INFO ] 2026-07-06 23:26:54.924 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:26:56.131 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:26:56.132 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:26:56.740 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-06 23:26:56.741 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:26:56.741 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-06 23:26:56.742 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:26:57.360 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-06_232657.png
+[INFO ] 2026-07-06 23:26:57.361 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:26:57.803 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-06 23:26:57.804 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:26:59.840 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:26:59.885 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:26:59.894 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:27:05.135 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:27:05.139 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:06.637 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:27:06.638 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:07.034 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:07.035 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:09.297 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:09.297 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:11.602 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:11.604 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:13.268 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:14.178 [main] HelperClass - Entering text: Peter Anderson
+[INFO ] 2026-07-06 23:27:14.179 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:15.376 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:15.376 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:15.959 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-06 23:27:15.960 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:27:15.960 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-06 23:27:15.961 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:27:16.358 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-06_232716.png
+[INFO ] 2026-07-06 23:27:16.359 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:27:16.707 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 23:27:16.707 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:27:18.507 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:27:18.558 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:27:18.564 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:27:23.699 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:27:23.699 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:24.514 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:27:24.514 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:24.895 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:24.896 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:26.896 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:26.897 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:29.347 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:29.349 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:31.049 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:31.809 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:31.810 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:32.900 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:32.901 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:33.428 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 23:27:33.428 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:27:33.429 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 23:27:33.429 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:27:33.848 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_232733.png
+[INFO ] 2026-07-06 23:27:33.848 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:27:34.191 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 23:27:34.192 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:27:35.907 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:27:35.963 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:27:35.966 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:27:44.752 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:27:44.753 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:46.208 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:27:46.209 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:27:46.636 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:46.636 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:27:58.999 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:27:59.000 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:28:24.501 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:28:24.503 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:28:33.609 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:28:34.126 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:28:34.127 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:28:35.441 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:28:35.442 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:28:35.851 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 23:28:35.852 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:28:35.852 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 23:28:35.852 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:28:36.343 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_232836.png
+[INFO ] 2026-07-06 23:28:36.344 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:28:38.286 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-06 23:28:38.287 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:28:39.940 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:28:39.988 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:28:39.993 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:28:45.657 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:28:45.658 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:28:47.381 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:28:47.381 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:28:47.668 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:28:47.668 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:28:50.351 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:28:50.352 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:28:54.296 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:28:54.297 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:28:57.645 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:28:59.101 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:28:59.102 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:01.174 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:01.179 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:01.736 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-06 23:29:01.737 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:29:01.738 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-06 23:29:01.738 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:29:02.216 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-06_232902.png
+[INFO ] 2026-07-06 23:29:02.216 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:29:02.617 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-06 23:29:02.619 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:29:04.242 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:29:04.292 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:29:04.302 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:29:10.757 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:29:10.758 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:11.844 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:29:11.844 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:12.180 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:12.180 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:13.880 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:13.880 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:15.801 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:15.801 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:17.513 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:18.240 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:18.950 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:19.600 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:19.601 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:20.221 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-06 23:29:20.222 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:29:20.223 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-06 23:29:20.223 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:29:20.667 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-06_232920.png
+[INFO ] 2026-07-06 23:29:20.667 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:29:20.984 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-06 23:29:20.984 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:29:22.894 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:29:22.942 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:29:22.948 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:29:27.769 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:29:27.770 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:28.860 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:29:28.860 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:29.347 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:29.347 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:31.208 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:31.209 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:33.319 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:33.320 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:34.945 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:35.829 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:36.526 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:37.207 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:37.207 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:37.736 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-06 23:29:37.737 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:29:37.737 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-06 23:29:37.737 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:29:38.266 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-06_232938.png
+[INFO ] 2026-07-06 23:29:38.266 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:29:38.680 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:29:38.681 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:29:40.672 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:29:40.725 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:29:40.730 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:29:44.919 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:29:44.920 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:45.784 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:29:45.784 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:46.130 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:46.131 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:47.997 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:47.998 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:50.227 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:50.227 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:52.023 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:52.755 [main] HelperClass - Entering text: ABCXYZ
+[INFO ] 2026-07-06 23:29:52.756 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:53.875 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:29:53.875 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:29:54.322 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:29:54.484 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:29:54.485 [main] HelperClass - Scenario passed: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:29:54.486 [main] HelperClass - Closing browser
+[INFO ] 2026-07-06 23:29:54.904 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:29:54.905 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-06 23:29:56.686 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-06 23:29:56.740 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-06 23:29:56.745 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-06 23:30:01.743 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-06 23:30:01.746 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:30:03.121 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-06 23:30:03.121 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-06 23:30:03.589 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-06 23:30:03.590 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-06 23:30:05.041 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[ERROR] 2026-07-06 23:30:05.042 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-06 23:30:05.042 [main] HelperClass - Scenario failed: Search leave request with invalid employee name
+[INFO ] 2026-07-06 23:30:05.042 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-06 23:30:05.404 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_with_invalid_employee_name_2026-07-06_233005.png
+[INFO ] 2026-07-06 23:30:05.404 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:07:16.119 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-07-07 08:07:16.150 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:07:27.461 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:07:27.547 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:07:27.559 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:07:34.839 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:07:34.840 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:07:36.957 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:07:36.957 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:07:37.448 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:07:37.448 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:07:38.950 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-07-07 08:07:38.951 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:07:38.951 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:07:41.939 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-07-07 08:07:41.940 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:07:41.940 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:07:43.572 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-07-07 08:07:43.572 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:07:44.066 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-07-07 08:07:44.067 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-07-07 08:07:44.067 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:07:44.068 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:07:45.556 [main] CreateUserCredentialsActions - Employee Name: Employee 1
+[INFO ] 2026-07-07 08:07:45.556 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:07:45.557 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:07:56.259 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-07-07 08:07:56.263 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:07:56.264 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-07-07 08:07:56.264 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:07:57.045 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Create_user_login_credential_2026-07-07_080756.png
+[INFO ] 2026-07-07 08:07:57.045 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:07:57.623 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-07-07 08:07:57.623 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:07:59.992 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:08:00.064 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:08:00.085 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:08:04.480 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:08:04.481 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:08:05.294 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:08:05.294 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:08:05.742 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:05.743 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:07.523 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-07-07 08:08:07.524 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:07.526 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:09.518 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-07-07 08:08:09.518 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:09.519 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:10.878 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-07-07 08:08:10.879 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:08:11.774 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-07-07 08:08:11.775 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-07-07 08:08:11.776 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:11.776 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:12.793 [main] CreateUserCredentialsActions - Employee Name: Admin 1
+[INFO ] 2026-07-07 08:08:12.794 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:12.795 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:23.549 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-07-07 08:08:23.550 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:08:23.550 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-07-07 08:08:23.551 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:08:24.095 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Create_user_login_credential_2026-07-07_080824.png
+[INFO ] 2026-07-07 08:08:24.096 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:08:24.523 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-07-07 08:08:24.525 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:08:25.815 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:08:25.881 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:08:25.898 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:08:29.750 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:08:29.750 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:08:30.676 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:08:30.677 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:08:31.069 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:31.070 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:32.958 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-07-07 08:08:32.959 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:32.959 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:34.969 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-07-07 08:08:34.970 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:34.970 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:36.505 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-07-07 08:08:36.507 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:08:37.200 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-07-07 08:08:37.200 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-07-07 08:08:37.201 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:37.202 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:38.786 [main] CreateUserCredentialsActions - Employee Name: Employee 2
+[INFO ] 2026-07-07 08:08:38.787 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:08:38.788 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:08:49.482 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-07-07 08:08:49.484 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:08:49.484 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-07-07 08:08:49.485 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:08:50.088 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Create_user_login_credential_2026-07-07_080850.png
+[INFO ] 2026-07-07 08:08:50.089 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:08:50.500 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-07-07 08:08:50.501 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:08:52.202 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:08:52.255 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:08:52.265 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:09:24.983 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-07 08:09:24.994 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:09:28.294 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:09:28.342 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:09:28.353 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:09:35.642 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:09:35.643 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:36.388 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:09:36.388 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:36.875 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:09:36.877 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:09:38.787 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:09:38.788 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:09:40.497 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:09:40.497 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:09:42.363 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:42.993 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:43.097 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:09:43.098 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:09:43.621 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-07 08:09:43.628 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:09:43.629 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-07 08:09:43.630 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:09:44.453 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-07_080944.png
+[INFO ] 2026-07-07 08:09:44.454 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:09:45.059 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-07 08:09:45.060 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:09:46.665 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:09:46.719 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:09:46.727 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:09:51.146 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:09:51.146 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:52.271 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:09:52.271 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:52.758 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:09:52.760 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:09:54.992 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:09:54.994 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:09:56.993 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:09:56.994 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:09:59.157 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:59.740 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:09:59.825 [main] HelperClass - Entering text: Linda Anderson
+[INFO ] 2026-07-07 08:09:59.825 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:00.168 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:00.805 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:00.806 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:01.329 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-07 08:10:01.330 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:10:01.331 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-07 08:10:01.331 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:10:01.841 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-07_081001.png
+[INFO ] 2026-07-07 08:10:01.841 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:10:02.206 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-07 08:10:02.206 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:10:03.948 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:10:03.992 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:10:04.003 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:10:08.190 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:10:08.190 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:09.359 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:10:09.360 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:09.865 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:09.866 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:11.819 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:11.820 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:13.953 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:13.954 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:15.725 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:16.400 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:16.542 [main] HelperClass - Entering text: Peter Anderson
+[INFO ] 2026-07-07 08:10:16.542 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:17.182 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:17.844 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:17.845 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:18.386 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-07 08:10:18.387 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:10:18.388 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-07 08:10:18.388 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:10:18.831 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_by_employee_name_2026-07-07_081018.png
+[INFO ] 2026-07-07 08:10:18.832 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:10:19.222 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-07 08:10:19.222 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:10:21.004 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:10:21.064 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:10:21.074 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:10:26.155 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:10:26.156 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:27.479 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:10:27.481 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:27.971 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:27.971 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:30.017 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:30.019 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:31.973 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:31.973 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:33.742 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:34.432 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:34.593 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:34.594 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:35.133 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:35.813 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:35.813 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:36.078 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-07 08:10:36.078 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:10:36.079 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-07 08:10:36.079 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:10:36.671 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-07_081036.png
+[INFO ] 2026-07-07 08:10:36.672 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:10:37.096 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-07 08:10:37.097 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:10:38.574 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:10:38.626 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:10:38.633 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:10:46.625 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:10:46.625 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:47.956 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:10:47.958 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:48.328 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:48.329 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:50.192 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:50.193 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:52.510 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:52.511 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:53.679 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:54.268 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:54.410 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:54.410 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:54.757 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:10:55.937 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:10:55.937 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:10:56.289 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-07 08:10:56.290 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:10:56.290 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-07 08:10:56.290 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:10:56.744 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-07_081056.png
+[INFO ] 2026-07-07 08:10:56.745 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:10:57.261 [main] Hooks - Starting Scenario: Filter leave request by leave status
+[INFO ] 2026-07-07 08:10:57.261 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:10:58.524 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:10:58.655 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:10:58.671 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:10:59.956 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:10:59.958 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:03.971 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:11:03.973 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:04.276 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:04.276 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:05.962 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:05.963 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:07.943 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:07.943 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:09.495 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:09.998 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:10.062 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:10.062 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:10.291 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:11.990 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:11.991 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:12.254 [main] Hooks - Ending Scenario: Filter leave request by leave status
+[ERROR] 2026-07-07 08:11:12.254 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:11:12.255 [main] HelperClass - Scenario failed: Filter leave request by leave status
+[INFO ] 2026-07-07 08:11:12.255 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:11:12.706 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_leave_status_2026-07-07_081112.png
+[INFO ] 2026-07-07 08:11:12.706 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:11:13.051 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-07 08:11:13.051 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:11:14.935 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:11:14.992 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:11:14.998 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:11:20.190 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:11:20.190 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:21.178 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:11:21.178 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:21.526 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:21.526 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:23.315 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:23.316 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:25.137 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:11:25.137 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:11:26.784 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:27.419 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:27.548 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:11:58.241 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-07 08:11:58.241 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:11:58.242 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-07 08:11:58.242 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:11:58.740 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-07_081158.png
+[INFO ] 2026-07-07 08:11:58.740 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:11:59.132 [main] Hooks - Starting Scenario: Filter leave request by date range
+[INFO ] 2026-07-07 08:11:59.132 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:12:00.855 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:12:00.899 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:12:00.905 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:12:06.531 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:12:06.531 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:12:07.533 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:12:07.533 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:12:07.816 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:12:07.816 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:12:09.765 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:12:09.765 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:12:11.963 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:12:11.964 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:12:13.694 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:12:14.439 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:12:14.573 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:12:45.297 [main] Hooks - Ending Scenario: Filter leave request by date range
+[ERROR] 2026-07-07 08:12:45.298 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:12:45.298 [main] HelperClass - Scenario failed: Filter leave request by date range
+[INFO ] 2026-07-07 08:12:45.298 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:12:45.815 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Filter_leave_request_by_date_range_2026-07-07_081245.png
+[INFO ] 2026-07-07 08:12:45.816 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:12:46.296 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-07 08:12:46.296 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:12:48.185 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:12:48.270 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:12:48.276 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:12:57.206 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:12:57.206 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:27.884 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[ERROR] 2026-07-07 08:13:27.889 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:13:27.890 [main] HelperClass - Scenario failed: Search leave request with invalid employee name
+[INFO ] 2026-07-07 08:13:27.890 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:13:28.198 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Search_leave_request_with_invalid_employee_name_2026-07-07_081328.png
+[INFO ] 2026-07-07 08:13:28.198 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:13:28.579 [main] Hooks - Starting Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-07 08:13:28.580 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:13:30.197 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:13:30.308 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:13:30.318 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:13:41.642 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:13:41.642 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:43.035 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:13:43.035 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:43.508 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:13:43.509 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:13:45.521 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:13:45.521 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:13:48.197 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:13:48.197 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:13:50.321 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:51.011 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:51.069 [main] HelperClass - Entering text: Dummy Employee
+[INFO ] 2026-07-07 08:13:51.070 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:51.292 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:51.880 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:13:51.880 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:13:52.166 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:13:52.255 [main] Hooks - Ending Scenario: Search leave request with invalid employee name
+[INFO ] 2026-07-07 08:13:52.255 [main] HelperClass - Scenario passed: Search leave request with invalid employee name
+[INFO ] 2026-07-07 08:13:52.256 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:20:12.759 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-07 08:20:12.771 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:20:16.082 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:20:16.139 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:20:16.153 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:20:22.730 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:20:22.730 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:20:23.614 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:20:23.615 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:20:24.128 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:20:24.129 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:20:25.958 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-07 08:20:25.961 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:20:25.962 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-07 08:20:25.962 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:20:26.237 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-07_082026.png
+[INFO ] 2026-07-07 08:20:26.237 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:21:26.093 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-07 08:21:26.109 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:21:29.374 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:21:29.434 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:21:29.446 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:21:35.956 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:21:35.956 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:21:37.082 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:21:37.082 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:21:37.655 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:21:37.657 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:21:39.784 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:21:39.784 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:21:41.984 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:21:41.985 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:21:43.850 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:21:44.693 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:21:44.863 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:21:44.865 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:21:55.563 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-07 08:21:55.566 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:21:55.567 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-07 08:21:55.567 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:21:56.190 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-07_082156.png
+[INFO ] 2026-07-07 08:21:56.191 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:26:33.621 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-07 08:26:33.633 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:26:38.214 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:26:38.278 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:26:38.290 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:26:45.522 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:26:45.525 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:26:46.214 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:26:46.216 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:26:46.741 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:26:46.742 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:26:48.865 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:26:48.865 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:26:51.230 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:26:51.231 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:26:52.933 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:26:53.706 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:26:53.868 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:26:53.868 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:26:54.384 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-07 08:26:54.390 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:26:54.390 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-07 08:26:54.391 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:26:55.072 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-07_082655.png
+[INFO ] 2026-07-07 08:26:55.073 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:29:44.830 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-07 08:29:44.854 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:29:48.283 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:29:48.335 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:29:48.346 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:30:21.775 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:30:21.778 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:30:52.615 [main] Hooks - Ending Scenario: View all employee leave requests
+[ERROR] 2026-07-07 08:30:52.619 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-07 08:30:52.620 [main] HelperClass - Scenario failed: View all employee leave requests
+[INFO ] 2026-07-07 08:30:52.621 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-07 08:30:53.080 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\View_all_employee_leave_requests_2026-07-07_083053.png
+[INFO ] 2026-07-07 08:30:53.082 [main] HelperClass - Closing browser
+[INFO ] 2026-07-07 08:31:33.349 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-07 08:31:33.377 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-07 08:31:36.475 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-07 08:31:36.533 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-07 08:31:36.544 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-07 08:31:42.639 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-07 08:31:42.640 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:31:43.750 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-07 08:31:43.750 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:31:44.140 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:31:44.141 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:31:46.139 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:31:46.140 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:31:48.605 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:31:48.606 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:31:50.249 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:31:50.921 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-07 08:31:51.084 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-07 08:31:51.085 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-07 08:32:01.793 [main] Hooks - Ending Scenario: View all employee leave requests
+[INFO ] 2026-07-07 08:32:01.804 [main] HelperClass - Scenario passed: View all employee leave requests
+[INFO ] 2026-07-07 08:32:01.805 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:17:44.287 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-15 22:17:44.306 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:17:53.915 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:17:53.979 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:17:53.995 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:17:58.593 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:17:58.593 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:17:59.381 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:17:59.382 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:17:59.723 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:17:59.724 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:18:01.458 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:18:01.464 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:18:03.955 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:18:03.956 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:18:05.928 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:18:06.662 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:18:06.847 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:18:06.848 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:18:17.496 [main] Hooks - Ending Scenario: View all employee leave requests
+[INFO ] 2026-07-15 22:18:17.498 [main] HelperClass - Scenario passed: View all employee leave requests
+[INFO ] 2026-07-15 22:18:17.499 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:19:47.552 [main] Hooks - Starting Scenario: View all employee leave requests
+[INFO ] 2026-07-15 22:19:47.570 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:19:50.810 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:19:50.875 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:19:50.887 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:19:58.105 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:19:58.106 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:19:59.809 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:19:59.811 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:00.115 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:00.118 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:02.193 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:02.195 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:04.703 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:04.704 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:06.737 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:07.537 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:07.713 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:07.714 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:18.370 [main] Hooks - Ending Scenario: View all employee leave requests
+[INFO ] 2026-07-15 22:20:18.375 [main] HelperClass - Scenario passed: View all employee leave requests
+[INFO ] 2026-07-15 22:20:18.377 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:20:20.625 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:20:20.625 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:20:22.618 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:20:22.672 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:20:22.683 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:20:28.942 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:20:28.944 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:30.590 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:20:30.590 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:30.992 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:30.992 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:32.836 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:32.837 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:35.732 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:35.733 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:37.674 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:38.387 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:38.577 [main] Hooks - Ending Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:20:38.579 [main] HelperClass - Scenario passed: Search leave request by employee name
+[INFO ] 2026-07-15 22:20:38.580 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:20:38.999 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:20:39.000 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:20:40.943 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:20:41.023 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:20:41.029 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:20:45.924 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:20:45.924 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:47.182 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:20:47.182 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:47.586 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:47.587 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:49.501 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:49.503 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:51.807 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:20:51.808 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:20:53.850 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:54.579 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:20:54.776 [main] Hooks - Ending Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:20:54.777 [main] HelperClass - Scenario passed: Search leave request by employee name
+[INFO ] 2026-07-15 22:20:54.778 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:27:17.771 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:27:17.785 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:27:22.196 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:27:22.277 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:27:22.292 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:27:38.884 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:27:38.885 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:27:41.444 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:27:41.445 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:27:41.752 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:27:41.753 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:27:44.042 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:27:44.043 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:27:46.023 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:27:46.024 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:27:47.735 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:27:48.271 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:27:48.372 [main] HelperClass - Entering text: Linda Anderson
+[INFO ] 2026-07-15 22:27:48.373 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:27:48.637 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:27:49.251 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:27:49.251 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:27:49.531 [main] Hooks - Ending Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:27:49.533 [main] HelperClass - Scenario passed: Search leave request by employee name
+[INFO ] 2026-07-15 22:27:49.534 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:27:50.061 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:27:50.061 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:27:51.343 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:27:51.420 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:27:51.433 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:27:58.434 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:27:58.435 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:27:59.960 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:27:59.961 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:28:00.296 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:28:00.300 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:28:02.331 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:28:02.332 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:28:04.669 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:28:04.669 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:28:07.083 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:28:07.827 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:28:07.972 [main] HelperClass - Entering text: Peter Anderson
+[INFO ] 2026-07-15 22:28:07.974 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:28:08.600 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:28:09.215 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:28:09.215 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:28:09.693 [main] Hooks - Ending Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:28:09.694 [main] HelperClass - Scenario passed: Search leave request by employee name
+[INFO ] 2026-07-15 22:28:09.694 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:29:19.264 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:29:19.291 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:29:22.510 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:29:22.576 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:29:22.589 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:29:30.253 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:29:30.254 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:29:31.539 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:29:31.539 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:29:31.952 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:29:31.953 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:29:33.775 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:29:33.776 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:29:36.052 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:29:36.053 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:29:37.905 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:29:38.844 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:29:39.016 [main] HelperClass - Entering text: Linda Anderson
+[INFO ] 2026-07-15 22:29:39.017 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:29:39.668 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:29:40.404 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:29:40.405 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:29:51.069 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:29:51.074 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:29:51.075 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:29:51.077 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:29:51.559 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_222951.png
+[INFO ] 2026-07-15 22:29:51.560 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:29:52.613 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:29:52.614 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:29:54.376 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:29:54.442 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:29:54.449 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:29:59.291 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:29:59.292 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:30:00.654 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:30:00.658 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:30:01.096 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:30:01.098 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:30:03.227 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:30:03.228 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:30:05.435 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:30:05.436 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:30:06.836 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:30:07.552 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:30:07.735 [main] HelperClass - Entering text: Peter Anderson
+[INFO ] 2026-07-15 22:30:07.737 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:30:08.180 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:30:08.790 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:30:08.791 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:30:19.446 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:30:19.446 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:30:19.447 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:30:19.447 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:30:19.851 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_223019.png
+[INFO ] 2026-07-15 22:30:19.851 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:39:19.072 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:39:19.106 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:39:22.289 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:39:22.354 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:39:22.371 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:39:26.242 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:39:26.243 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:27.526 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:39:27.526 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:28.024 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:39:28.025 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:39:29.932 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:39:29.933 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:39:32.206 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:39:32.207 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:39:34.096 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:34.790 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:34.977 [main] HelperClass - Entering text: Admin 1
+[INFO ] 2026-07-15 22:39:34.978 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:35.617 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:36.365 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:39:36.366 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:39:47.007 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:39:47.012 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:39:47.013 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:39:47.013 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:39:47.930 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_223947.png
+[INFO ] 2026-07-15 22:39:47.931 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:39:48.441 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:39:48.441 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:39:50.257 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:39:50.335 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:39:50.349 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:39:55.771 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:39:55.772 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:57.189 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:39:57.189 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:39:57.567 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:39:57.567 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:39:59.551 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:39:59.552 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:40:02.340 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:40:02.349 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:40:04.330 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:40:05.045 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:40:05.199 [main] HelperClass - Entering text: Employee 1
+[INFO ] 2026-07-15 22:40:05.200 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:40:05.843 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:40:06.525 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:40:06.525 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:40:17.103 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:40:17.103 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:40:17.103 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:40:17.104 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:40:17.420 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_224017.png
+[INFO ] 2026-07-15 22:40:17.421 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:41:31.999 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:41:32.030 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:41:35.606 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:41:35.658 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:41:35.671 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:41:42.957 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:41:42.957 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:41:44.248 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:41:44.248 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:41:44.772 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:41:44.773 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:41:46.398 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:41:46.399 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:41:48.867 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:41:48.868 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:41:51.120 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:41:52.024 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:41:52.108 [main] HelperClass - Entering text: Admin 1
+[INFO ] 2026-07-15 22:41:52.108 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:41:52.587 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:41:53.244 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:41:53.245 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:42:04.012 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:42:04.039 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:42:04.040 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:42:04.040 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:42:04.792 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_224204.png
+[INFO ] 2026-07-15 22:42:04.793 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:42:06.763 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:42:06.765 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:42:09.192 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:42:09.288 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:42:09.304 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:42:13.989 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:42:13.990 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:42:15.245 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:42:15.245 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:42:15.675 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:42:15.675 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:42:17.447 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:42:17.447 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:42:20.035 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:42:20.036 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:42:21.678 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:42:22.587 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:42:22.676 [main] HelperClass - Entering text: Employee 1
+[INFO ] 2026-07-15 22:42:22.676 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:42:22.961 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:42:23.588 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:42:23.588 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:42:34.181 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:42:34.183 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:42:34.184 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:42:34.185 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:42:34.787 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_224234.png
+[INFO ] 2026-07-15 22:42:34.788 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:43:04.824 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:43:04.843 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:43:08.169 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:43:08.214 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:43:08.229 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:43:14.993 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:43:14.994 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:16.354 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:43:16.355 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:16.782 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:43:16.783 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:43:19.174 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:43:19.175 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:43:21.766 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:43:21.770 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:43:23.721 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:24.641 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:24.812 [main] HelperClass - Entering text: Admin 1
+[INFO ] 2026-07-15 22:43:24.813 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:25.437 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:26.156 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:43:26.157 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:43:36.878 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:43:36.880 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:43:36.881 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:43:36.882 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:43:37.327 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_224337.png
+[INFO ] 2026-07-15 22:43:37.327 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:43:38.166 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:43:38.166 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:43:40.131 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:43:40.185 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:43:40.192 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:43:57.062 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:43:57.063 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:58.211 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:43:58.212 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:43:58.441 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:43:58.442 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:44:00.045 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:44:00.047 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:44:02.774 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:44:02.775 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:44:04.780 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:44:05.582 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:44:05.755 [main] HelperClass - Entering text: Employee 1
+[INFO ] 2026-07-15 22:44:05.755 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:44:06.389 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:44:07.064 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:44:07.064 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:44:17.773 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:44:17.775 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:44:17.776 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:44:17.779 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:44:18.242 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_224418.png
+[INFO ] 2026-07-15 22:44:18.242 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:44:53.633 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:44:53.667 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:44:56.126 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:44:56.191 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:44:56.204 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:45:03.819 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:45:03.822 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:05.113 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:45:05.113 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:05.437 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:05.437 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:45:07.756 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:07.759 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:45:10.084 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:10.085 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:45:12.119 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:13.039 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:13.186 [main] HelperClass - Entering text: Admin 1
+[INFO ] 2026-07-15 22:45:13.187 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:13.791 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:14.463 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:14.463 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:45:25.146 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:45:25.155 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:45:25.162 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:45:25.164 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:45:25.704 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_224525.png
+[INFO ] 2026-07-15 22:45:25.705 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:45:26.255 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:45:26.256 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:45:28.197 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:45:28.251 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:45:28.256 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:45:35.914 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:45:35.915 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:37.243 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:45:37.243 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:37.673 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:37.673 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:45:39.797 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:39.798 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:45:44.203 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:44.204 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:45:48.087 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:49.049 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:49.201 [main] HelperClass - Entering text: Employee 1
+[INFO ] 2026-07-15 22:45:49.202 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:49.815 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:45:50.483 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:45:50.484 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:46:01.073 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:46:01.075 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:46:01.076 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:46:01.076 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:46:01.417 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_224601.png
+[INFO ] 2026-07-15 22:46:01.418 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:57:15.343 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:57:15.372 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:57:18.944 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:57:19.006 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:57:19.018 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:57:27.543 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:57:27.544 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:57:32.504 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:57:32.504 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:57:32.924 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:57:32.927 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:57:39.838 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:57:39.838 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:57:45.296 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:57:45.297 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:57:55.500 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:57:57.483 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:57:57.554 [main] HelperClass - Entering text: Orange Test
+[INFO ] 2026-07-15 22:57:57.555 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:57:57.983 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:57:58.749 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:57:58.750 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:58:09.484 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:58:09.494 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:58:09.495 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:58:09.495 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:58:09.911 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_225809.png
+[INFO ] 2026-07-15 22:58:09.912 [main] HelperClass - Closing browser
+[INFO ] 2026-07-15 22:58:10.320 [main] Hooks - Starting Scenario: Search leave request by employee name
+[INFO ] 2026-07-15 22:58:10.320 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-07-15 22:58:12.371 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-07-15 22:58:12.434 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-07-15 22:58:12.439 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-07-15 22:58:19.335 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-07-15 22:58:19.336 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:58:21.101 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-07-15 22:58:21.102 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:58:21.512 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:58:21.513 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:58:24.269 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:58:24.270 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:58:26.369 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:58:26.369 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:58:28.521 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:58:29.324 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:58:29.474 [main] HelperClass - Entering text: Ranga Akunuri
+[INFO ] 2026-07-15 22:58:29.476 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:58:30.109 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-07-15 22:58:30.783 [main] HelperClass - Clicking on element
+[INFO ] 2026-07-15 22:58:30.783 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-07-15 22:58:41.425 [main] Hooks - Ending Scenario: Search leave request by employee name
+[ERROR] 2026-07-15 22:58:41.426 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-07-15 22:58:41.427 [main] HelperClass - Scenario failed: Search leave request by employee name
+[INFO ] 2026-07-15 22:58:41.428 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-07-15 22:58:41.888 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_leave_request_by_employee_name_2026-07-15_225841.png
+[INFO ] 2026-07-15 22:58:41.889 [main] HelperClass - Closing browser
+=======
 [INFO ] 2026-06-15 11:26:37.630 [main] Hooks - Starting Scenario: Verify leave status for applied leave
 [INFO ] 2026-06-15 11:26:37.651 [main] HelperClass - Launching Chrome browser in headless mode
 [INFO ] 2026-06-15 11:26:41.822 [main] HelperClass - Maximize the Browser window
@@ -9999,6 +11600,9 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-06-15 14:15:04.882 [TestNG-PoolService-1] Hooks - Ending Scenario: Verify leave status for applied leave
 [INFO ] 2026-06-15 14:15:04.882 [TestNG-PoolService-1] HelperClass - Scenario passed: Verify leave status for applied leave
 [INFO ] 2026-06-15 14:15:04.883 [TestNG-PoolService-1] HelperClass - Closing browser
+<<<<<<< HEAD
+>>>>>>> 35d5476099b8f7a352de9ebc38e47efc349be1c5
+=======
 [INFO ] 2026-07-06 21:20:49.059 [TestNG-PoolService-1] Hooks - Starting Scenario: Add leave entitlement successfully
 [INFO ] 2026-07-06 21:20:49.059 [TestNG-PoolService-3] Hooks - Starting Scenario: Add Leave entitlement with invalid employee name
 [INFO ] 2026-07-06 21:20:49.059 [TestNG-PoolService-2] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
@@ -10992,3 +12596,4 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-07-09 17:25:18.675 [TestNG-PoolService-2] HelperClass - Closing browser
 [INFO ] 2026-07-09 17:25:18.954 [TestNG-PoolService-3] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Invalid_search_by_leaving_mandatory_field_blank_2026-07-09_172518.png
 [INFO ] 2026-07-09 17:25:18.954 [TestNG-PoolService-3] HelperClass - Closing browser
+>>>>>>> b1c48272aea3b6dc71051f80f015f2199af6b357
