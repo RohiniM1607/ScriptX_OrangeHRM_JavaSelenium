@@ -19,8 +19,8 @@ import io.cucumber.testng.CucumberOptions;
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true,
-        publish = true
-        //tags = "@EmployeeEntitlements"
+        publish = true,
+        tags = "@Rohini"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
