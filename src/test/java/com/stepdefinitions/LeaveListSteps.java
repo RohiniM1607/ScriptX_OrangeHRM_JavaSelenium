@@ -34,60 +34,59 @@ public class LeaveListSteps {
         }
     }
 
-//    @When("user searches leave request using {string}")
-//    public void user_searches_leave_request_using(String employeeName) {
-//
-//        leaveActions.searchLeaveRequestByEmployee(employeeName);
-//
-//    }
-//
-//    @Then("leave requests of {string} should be displayed")
-//    public void leave_requests_of_should_be_displayed(String employeeName) {
-//
-//        Assert.assertTrue(leaveActions.verifySearchResultDisplayed());
-//
-//    }
-//
-//    @When("user filters leave request by status {string}")
-//    public void user_filters_leave_request_by_status(String status) {
-//
-//        leaveActions.filterLeaveRequestByStatus(status);
-//
-//    }
-//
-//    @Then("leave requests with {string} should be displayed")
-//    public void leave_requests_with_should_be_displayed(String status) {
-//
-//        Assert.assertTrue(leaveActions.verifySearchResultDisplayed());
-//
-//    }
-//
-//    @When("user enters From Date {string}")
-//    public void user_enters_from_date(String fromDate) {
-//
-//        leaveActions.enterFromDate(fromDate);
-//
-//    }
-//
-//    @When("user enters To Date {string}")
-//    public void user_enters_to_date(String toDate) {
-//
-//        leaveActions.enterToDate(toDate);
-//
-//    }
-//
-//    @Then("leave requests within selected date range should be displayed")
-//    public void leave_requests_within_selected_date_range_should_be_displayed() {
-//
-//        Assert.assertTrue(leaveActions.verifySearchResultDisplayed());
-//
-//    }
-//
-//    @Then("no leave request should be displayed")
-//    public void no_leave_request_should_be_displayed() {
-//
-//        Assert.assertTrue(leaveActions.verifyNoRecordFound());
-//
-//    }
+    @When("user searches leave request using {string}")
+    public void user_searches_leave_request_using(String employeeName) {
+        leaveActions.searchLeaveRequestByEmployee(employeeName);
+
+    }
+
+    @Then("leave requests of {string} should be displayed")
+    public void leave_requests_of_should_be_displayed(String employeeName) {
+
+        Assert.assertTrue(leaveActions.verifySearchResultDisplayed());
+
+    }
+
+    @When("user filters leave request by status {string}")
+    public void user_filters_leave_request_by_status(String status) {
+
+        leaveActions.filterLeaveRequestByStatus(status);
+
+    }
+
+    @Then("leave requests with {string} should be displayed")
+    public void leave_requests_with_should_be_displayed(String status) {
+
+        Assert.assertTrue(leaveActions.verifySearchResultDisplayed());
+
+    }
+
+    @When("user enters From Date {string}")
+    public void user_enters_from_date(String fromDate) {
+
+        leaveActions.enterFromDate(fromDate);
+
+    }
+
+    @When("user enters To Date {string}")
+    public void user_enters_to_date(String toDate) {
+
+        leaveActions.enterToDate(toDate);
+
+    }
+
+    @Then("leave requests within selected date range should be displayed")
+    public void leave_requests_within_selected_date_range_should_be_displayed() {
+
+        Assert.assertTrue(leaveActions.verifySearchResultDisplayed());
+
+    }
+
+    @Then("no leave request should be displayed")
+    public void no_leave_request_should_be_displayed() {
+
+        Assert.assertTrue(leaveActions.verifyNoRecordFound());
+
+    }
 
 }

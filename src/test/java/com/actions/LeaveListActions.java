@@ -26,68 +26,68 @@ public class LeaveListActions extends BaseActions {
         helper.clickElement(page.searchButton);
     }
 
-//    public void searchLeaveRequestByEmployee(String employeeName) {
-//
-//        helper.enterText(page.employeeNameTextbox, employeeName);
-//
-//        helper.waitForElement(page.employeeSuggestion);
-//
-//        helper.pressDownAndEnter(1);
-//
-//        helper.clickElement(page.searchButton);
-//
-//    }
+    public void searchLeaveRequestByEmployee(String employeeName) {
 
-//    public void filterLeaveRequestByStatus(String status) {
-//
-//        helper.clickElement(page.statusDropdown);
-//
-//        helper.waitForElement(page.statusList);
-//
-//        helper.pressDownAndEnter(getStatusIndex(status));
-//
-//        helper.clickElement(page.searchButton);
-//
-//    }
+        helper.enterText(page.employeeNameTextbox, employeeName);
 
-//    private int getStatusIndex(String status) {
-//
-//        switch (status.toLowerCase()) {
-//
-//        case "pending approval":
-//            return 1;
-//
-//        case "scheduled":
-//            return 2;
-//
-//        case "taken":
-//            return 3;
-//
-//        default:
-//            return 1;
-//        }
-//
-//    }
-//
-//    public void enterFromDate(String fromDate) {
-//
-//        helper.waitForElement(page.fromDateTextbox);
-//
-//        page.fromDateTextbox.sendKeys(Keys.CONTROL + "a");
-//        page.fromDateTextbox.sendKeys(Keys.DELETE);
-//        page.fromDateTextbox.sendKeys(fromDate);
-//
-//    }
-//
-//    public void enterToDate(String toDate) {
-//
-//        helper.waitForElement(page.toDateTextbox);
-//
-//        page.toDateTextbox.sendKeys(Keys.CONTROL + "a");
-//        page.toDateTextbox.sendKeys(Keys.DELETE);
-//        page.toDateTextbox.sendKeys(toDate);
-//
-//    }
+        helper.waitForElement(page.employeeSuggestion);
+
+        helper.pressDownAndEnter(1);
+
+        helper.clickElement(page.searchButton);
+
+    }
+
+    public void filterLeaveRequestByStatus(String status) {
+
+        helper.clickElement(page.statusDropdown);
+
+        helper.waitForElement(page.statusList);
+
+        helper.pressDownAndEnter(getStatusIndex(status));
+
+        helper.clickElement(page.searchButton);
+
+    }
+
+    private int getStatusIndex(String status) {
+
+        switch (status.toLowerCase()) {
+
+        case "pending approval":
+            return 1;
+
+        case "scheduled":
+            return 2;
+
+        case "taken":
+            return 3;
+
+        default:
+            return 1;
+        }
+
+    }
+
+    public void enterFromDate(String fromDate) {
+
+        helper.waitForElement(page.fromDateTextbox);
+
+        page.fromDateTextbox.sendKeys(Keys.CONTROL + "a");
+        page.fromDateTextbox.sendKeys(Keys.DELETE);
+        page.fromDateTextbox.sendKeys(fromDate);
+
+    }
+
+    public void enterToDate(String toDate) {
+
+        helper.waitForElement(page.toDateTextbox);
+
+        page.toDateTextbox.sendKeys(Keys.CONTROL + "a");
+        page.toDateTextbox.sendKeys(Keys.DELETE);
+        page.toDateTextbox.sendKeys(toDate);
+
+    }
 
     public boolean verifySearchResultDisplayed() {
         try {
@@ -107,19 +107,19 @@ public class LeaveListActions extends BaseActions {
         return false;
     }
 
-//    public boolean verifyNoRecordFound() {
-//
-//        try {
-//
-//            helper.waitForElement(page.noRecordFound);
-//            return page.noRecordFound.isDisplayed();
-//
-//        } catch (Exception e) {
-//
-//            return false;
-//
-//        }
+    public boolean verifyNoRecordFound() {
 
- //   }
+        try {
+
+            helper.waitForElement(page.noRecordFound);
+            return page.noRecordFound.isDisplayed();
+
+        } catch (Exception e) {
+
+            return false;
+
+        }
+
+    }
 
 }

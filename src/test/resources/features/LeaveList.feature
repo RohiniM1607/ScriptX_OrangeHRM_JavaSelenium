@@ -15,5 +15,15 @@ Feature: Rohini_01Jun2026_OrangeHRM_LeaveList
   Scenario: View all employee leave requests
     When user clicks Search button
     Then all employee leave requests should be displayed
+    
+  @Search_Employee
+  Scenario Outline: Search leave request by employee name
+    When user searches leave request using "<Employee Name>"
+    Then leave requests of "<Employee Name>" should be displayed
+
+    Examples:
+      | Employee Name  |
+      | Orange Test |
+      | Ranga Akunuri |
 
   
