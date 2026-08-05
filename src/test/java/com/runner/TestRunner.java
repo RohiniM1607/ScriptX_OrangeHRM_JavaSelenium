@@ -6,6 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
+
         features = "src/test/resources/features/",
         glue = {"com.stepdefinitions", "com.hooks"},
         plugin = { 
@@ -16,12 +17,8 @@ import io.cucumber.testng.CucumberOptions;
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true,
-<<<<<<< HEAD
         publish = true,
         tags = "@Rohini"
-=======
-        publish = true
->>>>>>> da1f8d4f9d4ae7f3bd061cbb5f2a253bbd2bc62a
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
