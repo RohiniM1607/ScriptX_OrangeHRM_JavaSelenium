@@ -12597,3 +12597,1521 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-07-09 17:25:18.954 [TestNG-PoolService-3] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Invalid_search_by_leaving_mandatory_field_blank_2026-07-09_172518.png
 [INFO ] 2026-07-09 17:25:18.954 [TestNG-PoolService-3] HelperClass - Closing browser
 >>>>>>> b1c48272aea3b6dc71051f80f015f2199af6b357
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-10] Hooks - Starting Scenario: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-1] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-9] Hooks - Starting Scenario: Create user with password mismatch
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-5] Hooks - Starting Scenario: Create user without mandatory fields
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-3] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-8] Hooks - Starting Scenario: Create user with password mismatch
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-4] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-6] Hooks - Starting Scenario: Create user with duplicate username
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-7] Hooks - Starting Scenario: Create user with duplicate username
+[INFO ] 2026-08-04 19:33:19.504 [TestNG-PoolService-2] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-7] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-10] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-6] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-4] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-9] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-3] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-8] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:19.556 [TestNG-PoolService-5] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:33:35.603 [TestNG-PoolService-7] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.607 [TestNG-PoolService-8] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.608 [TestNG-PoolService-6] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.608 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.612 [TestNG-PoolService-3] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.614 [TestNG-PoolService-10] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.618 [TestNG-PoolService-5] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.638 [TestNG-PoolService-4] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.639 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:35.639 [TestNG-PoolService-9] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:33:36.148 [TestNG-PoolService-5] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.244 [TestNG-PoolService-7] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.244 [TestNG-PoolService-5] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.303 [TestNG-PoolService-8] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.303 [TestNG-PoolService-4] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.320 [TestNG-PoolService-7] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.351 [TestNG-PoolService-4] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.358 [TestNG-PoolService-8] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.386 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.406 [TestNG-PoolService-9] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.425 [TestNG-PoolService-10] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.460 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.467 [TestNG-PoolService-6] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.489 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.528 [TestNG-PoolService-10] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.595 [TestNG-PoolService-9] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.634 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:36.712 [TestNG-PoolService-3] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:33:36.763 [TestNG-PoolService-6] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:37.062 [TestNG-PoolService-3] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:33:40.077 [TestNG-PoolService-7] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:33:40.078 [TestNG-PoolService-7] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:02.077 [TestNG-PoolService-3] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:02.083 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:03.678 [TestNG-PoolService-10] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:03.678 [TestNG-PoolService-10] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:05.727 [TestNG-PoolService-3] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:34:05.727 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:06.492 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:06.493 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:08.286 [TestNG-PoolService-10] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:34:08.287 [TestNG-PoolService-10] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:08.949 [TestNG-PoolService-10] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:08.950 [TestNG-PoolService-10] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:09.675 [TestNG-PoolService-4] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:09.676 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:10.262 [TestNG-PoolService-5] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:10.262 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:14.855 [TestNG-PoolService-5] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:34:14.855 [TestNG-PoolService-5] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:15.614 [TestNG-PoolService-2] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:15.617 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:15.797 [TestNG-PoolService-4] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:34:15.802 [TestNG-PoolService-4] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:15.834 [TestNG-PoolService-3] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:34:15.835 [TestNG-PoolService-3] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:15.836 [TestNG-PoolService-3] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:17.580 [TestNG-PoolService-6] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:17.581 [TestNG-PoolService-6] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:17.923 [TestNG-PoolService-5] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:17.923 [TestNG-PoolService-5] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:18.090 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:18.090 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:19.487 [TestNG-PoolService-10] EmployeeEntitlementActions - Navigating to Employee Entitlements page
+[INFO ] 2026-08-04 19:34:19.487 [TestNG-PoolService-10] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:19.487 [TestNG-PoolService-10] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:20.558 [TestNG-PoolService-2] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:34:20.559 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:20.929 [TestNG-PoolService-7] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:34:20.930 [TestNG-PoolService-7] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:21.118 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:21.118 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:21.477 [TestNG-PoolService-7] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:21.479 [TestNG-PoolService-7] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:22.142 [TestNG-PoolService-5] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:34:22.142 [TestNG-PoolService-5] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:22.142 [TestNG-PoolService-5] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:23.892 [TestNG-PoolService-4] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:34:23.904 [TestNG-PoolService-4] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:23.905 [TestNG-PoolService-4] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:24.727 [TestNG-PoolService-6] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:34:24.727 [TestNG-PoolService-6] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:25.730 [TestNG-PoolService-6] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:34:25.730 [TestNG-PoolService-6] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:34:31.729 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:31.729 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:34:36.026 [TestNG-PoolService-3] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 19:34:36.027 [TestNG-PoolService-3] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:34:36.028 [TestNG-PoolService-3] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 19:34:36.028 [TestNG-PoolService-3] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:34:36.368 [TestNG-PoolService-3] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_193436.png
+[INFO ] 2026-08-04 19:34:36.369 [TestNG-PoolService-3] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:34:36.928 [TestNG-PoolService-3] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-08-04 19:34:36.928 [TestNG-PoolService-3] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:34:39.742 [TestNG-PoolService-3] HelperClass - Maximize the Browser window
+[ERROR] 2026-08-04 19:34:39.764 [TestNG-PoolService-10] EmployeeEntitlementActions - Failed to navigate to Employee Entitlements page
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not visible.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56468}, goog:processID: 1744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56468/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80f61bd50eae804b832bda2bcec04b21
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.utilities.HelperClass.waitForElementToBeClickable(HelperClass.java:65)
+	at com.utilities.HelperClass.clickElement(HelperClass.java:83)
+	at com.pages.EmployeeEntitlementPage.navigateToLeaveEntitlementsPage(EmployeeEntitlementPage.java:65)
+	at com.actions.EmployeeEntitlementActions.navigateToEmployeeEntitlementsPage(EmployeeEntitlementActions.java:33)
+	at com.stepdefinitions.EmployeeEntitlementSteps.user_is_on_orange_hrm_leave_entitlements_page(EmployeeEntitlementSteps.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:55)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[INFO ] 2026-08-04 19:34:39.810 [TestNG-PoolService-10] Hooks - Ending Scenario: Search employee entitlement by employee name leave type and leave period
+[ERROR] 2026-08-04 19:34:39.813 [TestNG-PoolService-10] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:34:39.814 [TestNG-PoolService-10] HelperClass - Scenario failed: Search employee entitlement by employee name leave type and leave period
+[INFO ] 2026-08-04 19:34:39.815 [TestNG-PoolService-10] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:34:39.886 [TestNG-PoolService-3] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:34:39.894 [TestNG-PoolService-3] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:34:40.178 [TestNG-PoolService-10] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Search_employee_entitlement_by_employee_name_leave_type_and_leave_period_2026-08-04_193440.png
+[INFO ] 2026-08-04 19:34:40.178 [TestNG-PoolService-10] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:34:40.762 [TestNG-PoolService-10] Hooks - Starting Scenario: Search entitlement with invalid employee name
+[INFO ] 2026-08-04 19:34:40.763 [TestNG-PoolService-10] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:34:42.415 [TestNG-PoolService-5] Hooks - Ending Scenario: Create user without mandatory fields
+[ERROR] 2026-08-04 19:34:42.416 [TestNG-PoolService-5] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:34:42.417 [TestNG-PoolService-5] HelperClass - Scenario failed: Create user without mandatory fields
+[INFO ] 2026-08-04 19:34:42.472 [TestNG-PoolService-5] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:34:42.863 [TestNG-PoolService-10] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:34:43.039 [TestNG-PoolService-5] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_without_mandatory_fields_2026-08-04_193443.png
+[INFO ] 2026-08-04 19:34:43.040 [TestNG-PoolService-5] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:34:43.080 [TestNG-PoolService-10] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:34:43.097 [TestNG-PoolService-10] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:34:43.936 [TestNG-PoolService-5] Hooks - Starting Scenario: Search entitlement without employee name
+[INFO ] 2026-08-04 19:34:43.936 [TestNG-PoolService-5] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:34:44.048 [TestNG-PoolService-4] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 19:34:44.048 [TestNG-PoolService-4] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:34:44.048 [TestNG-PoolService-4] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 19:34:44.049 [TestNG-PoolService-4] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:34:44.329 [TestNG-PoolService-4] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_193444.png
+[INFO ] 2026-08-04 19:34:44.330 [TestNG-PoolService-4] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:34:44.965 [TestNG-PoolService-3] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:34:44.966 [TestNG-PoolService-3] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:35:23.295 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:35:23.310 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:35:26.032 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:35:26.066 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:35:26.079 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:35:47.419 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:35:47.420 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:35:48.259 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:35:48.260 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:35:48.769 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:35:48.771 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:35:50.779 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:35:50.780 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:35:50.780 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:36:11.071 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 19:36:11.086 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:36:11.087 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 19:36:11.088 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:36:11.570 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_193611.png
+[INFO ] 2026-08-04 19:36:11.571 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:36:11.950 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:36:11.951 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:36:13.709 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:36:13.753 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:36:13.764 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:36:24.921 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:36:24.936 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:36:26.004 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:36:26.005 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:36:26.378 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:36:26.378 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:38:22.049 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 19:38:22.068 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:38:24.888 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:38:24.929 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:38:24.944 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:38:41.159 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:38:41.160 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:38:43.613 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:38:43.614 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:38:43.871 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:38:43.871 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:38:44.147 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:38:44.148 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:39:04.273 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-08-04 19:39:04.283 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:39:04.284 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-04 19:39:04.286 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:39:04.632 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-04_193904.png
+[INFO ] 2026-08-04 19:39:04.633 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:39:05.224 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:39:05.224 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:39:06.558 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:39:06.626 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:39:06.632 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:39:22.761 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:39:22.761 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:39:25.485 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:39:25.485 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:39:25.739 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:39:25.739 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:39:30.082 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:39:30.082 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:39:30.082 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:39:50.403 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 19:39:50.404 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:39:50.405 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 19:39:50.406 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:39:50.723 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_193950.png
+[INFO ] 2026-08-04 19:39:50.723 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:39:51.139 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:39:51.140 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:39:52.758 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:39:52.816 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:39:52.833 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:40:01.148 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:40:01.150 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:40:02.257 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:40:02.257 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:40:02.491 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:40:02.491 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:40:04.165 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:40:04.166 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:40:04.166 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:40:24.339 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 19:40:24.340 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:40:24.340 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 19:40:24.341 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:40:24.656 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_194024.png
+[INFO ] 2026-08-04 19:40:24.657 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:40:25.062 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:40:25.063 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:40:26.642 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:40:26.686 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:40:26.691 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:40:35.246 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:40:35.247 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:40:36.249 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:40:36.249 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:40:36.497 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:40:36.498 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:40:38.128 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:40:38.128 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:40:38.128 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:40:58.230 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 19:40:58.231 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:40:58.232 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 19:40:58.232 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:40:58.422 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_194058.png
+[INFO ] 2026-08-04 19:40:58.423 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 19:40:58.798 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 19:40:58.798 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 19:41:00.095 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 19:41:00.150 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 19:41:00.154 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 19:41:06.518 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 19:41:06.518 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:41:07.647 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 19:41:07.647 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 19:41:07.885 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:41:07.885 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:41:09.683 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 19:41:09.683 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 19:41:09.683 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 19:41:30.087 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 19:41:30.087 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 19:41:30.087 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 19:41:30.088 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 19:41:30.381 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_194130.png
+[INFO ] 2026-08-04 19:41:30.381 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:14:10.328 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:14:10.366 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:14:14.050 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:14:14.112 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:14:14.126 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:14:21.806 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:14:21.807 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:14:22.705 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:14:22.706 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:14:23.101 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:14:23.101 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:14:24.949 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:14:24.949 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:14:27.819 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:14:27.819 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:14:29.007 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:14:29.008 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:14:52.405 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:14:52.405 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:14:53.415 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:14:53.416 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:14:53.908 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:14:53.909 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:14:54.968 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:14:54.973 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:14:54.973 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:14:55.653 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:14:55.654 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:14:57.752 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:14:57.802 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:14:57.812 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:15:31.384 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:15:31.388 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:15:33.160 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:15:33.161 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:15:33.541 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:15:33.542 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:15:36.501 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 20:15:36.503 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:15:36.503 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:15:39.246 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-04 20:15:39.247 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:15:39.247 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:15:40.905 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-04 20:15:40.906 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:15:41.845 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-04 20:15:41.845 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-08-04 20:15:41.846 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:15:41.846 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:15:43.461 [main] CreateUserCredentialsActions - Employee Name: Employee 1
+[INFO ] 2026-08-04 20:15:43.462 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:15:43.463 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:15:54.231 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:15:54.232 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:15:54.232 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:15:54.233 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:15:54.733 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_201554.png
+[INFO ] 2026-08-04 20:15:54.734 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:15:55.285 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:15:55.285 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:15:56.792 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:15:56.876 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:15:56.885 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:16:04.676 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:16:04.682 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:16:05.675 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:16:05.676 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:16:06.014 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:06.015 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:08.065 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 20:16:08.066 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:08.066 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:10.525 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-04 20:16:10.526 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:10.532 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:12.082 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-04 20:16:12.084 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:16:12.863 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-04 20:16:12.866 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-08-04 20:16:12.866 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:12.867 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:13.738 [main] CreateUserCredentialsActions - Employee Name: Admin 1
+[INFO ] 2026-08-04 20:16:13.739 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:13.739 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:24.199 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:16:24.200 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:16:24.200 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:16:24.201 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:16:24.574 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_201624.png
+[INFO ] 2026-08-04 20:16:24.574 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:16:25.068 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:16:25.068 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:16:33.725 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:16:33.874 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:16:33.889 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:16:47.755 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:16:47.755 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:16:49.619 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:16:49.620 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:16:50.176 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:50.176 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:52.600 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 20:16:52.600 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:52.601 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:55.649 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-04 20:16:55.650 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:55.650 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:16:57.873 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-04 20:16:57.873 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:16:58.798 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-04 20:16:58.798 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-08-04 20:16:58.799 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:16:58.799 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:00.320 [main] CreateUserCredentialsActions - Employee Name: Employee 2
+[INFO ] 2026-08-04 20:17:00.323 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:00.324 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:11.137 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:17:11.137 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:17:11.138 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:17:11.138 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:17:11.730 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_201711.png
+[INFO ] 2026-08-04 20:17:11.731 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:17:12.202 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:17:12.202 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:17:14.192 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:17:14.244 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:17:14.252 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:17:22.460 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:17:22.461 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:23.974 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:17:23.975 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:24.388 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:24.389 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:26.992 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 20:17:26.993 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:26.993 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:30.023 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-04 20:17:30.024 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:30.025 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:32.165 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-04 20:17:32.166 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:34.033 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-04 20:17:34.034 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-08-04 20:17:34.034 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:34.035 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:35.137 [main] CreateUserCredentialsActions - Employee Name: Admin 2
+[INFO ] 2026-08-04 20:17:35.137 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:35.138 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:37.113 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:37.696 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-08-04 20:17:37.696 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:37.698 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:38.600 [main] CreateUserCredentialsActions - Generated unique username: Admin@21785854858600
+[INFO ] 2026-08-04 20:17:38.601 [main] HelperClass - Entering text: Admin@21785854858600
+[INFO ] 2026-08-04 20:17:38.601 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:39.172 [main] HelperClass - Entering text: Admin2@123
+[INFO ] 2026-08-04 20:17:39.174 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:39.715 [main] HelperClass - Entering text: Admin2@123
+[INFO ] 2026-08-04 20:17:39.715 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:40.293 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-08-04 20:17:40.294 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:17:40.295 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:17:40.534 [main] CreateUserCredentialsActions - Verifying success message is displayed
+[INFO ] 2026-08-04 20:17:40.535 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:17:44.222 [main] Hooks - Ending Scenario: Create user login credential
+[INFO ] 2026-08-04 20:17:44.222 [main] HelperClass - Scenario passed: Create user login credential
+[INFO ] 2026-08-04 20:17:44.222 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:18:23.484 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:18:23.505 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:18:26.575 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:18:26.614 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:18:26.622 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:18:33.004 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:18:33.004 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:18:33.720 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:18:33.720 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:18:34.138 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:18:34.139 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:18:34.619 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:18:34.623 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:18:55.095 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-08-04 20:18:55.099 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:18:55.100 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:18:55.101 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:18:55.528 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-04_201855.png
+[INFO ] 2026-08-04 20:18:55.529 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:18:55.980 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:18:55.980 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:18:57.567 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:18:57.616 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:18:57.622 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:19:06.350 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:19:06.352 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:19:07.736 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:19:07.736 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:19:08.008 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:19:08.008 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:19:12.178 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 20:19:12.179 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:19:12.179 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:19:32.314 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:19:32.315 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:19:32.316 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:19:32.316 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:19:32.620 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_201932.png
+[INFO ] 2026-08-04 20:19:32.621 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:19:33.040 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:19:33.041 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:19:34.728 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:19:34.768 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:19:34.772 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:19:42.028 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:19:42.028 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:19:43.390 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:19:43.390 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:19:43.841 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:19:43.842 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:19:45.856 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 20:19:45.857 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:19:45.858 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:20:06.139 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:20:06.145 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:20:06.146 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:20:06.147 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:20:06.472 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_202006.png
+[INFO ] 2026-08-04 20:20:06.473 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:20:06.864 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:20:06.864 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:20:08.413 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:20:08.461 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:20:08.464 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:23:08.514 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:23:08.517 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:23:08.517 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:23:08.517 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:23:35.325 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_202335.png
+[INFO ] 2026-08-04 20:23:35.326 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:23:35.708 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:23:35.709 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:23:37.226 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:23:37.267 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:23:37.270 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:23:43.370 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:23:43.371 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:23:44.998 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:23:44.998 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:23:45.649 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:23:45.649 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:23:47.856 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-04 20:23:47.857 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:23:47.857 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:24:08.241 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:24:08.246 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:24:08.246 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:24:08.247 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:24:08.547 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_202408.png
+[INFO ] 2026-08-04 20:24:08.547 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:48:50.397 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:48:50.410 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:48:54.061 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:48:54.113 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:48:54.122 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:49:04.399 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:49:04.403 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:49:06.259 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:49:06.259 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:49:06.497 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:49:06.497 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:49:06.741 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:49:06.742 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:49:27.009 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-08-04 20:49:27.014 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:49:27.015 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:49:27.016 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:49:27.387 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-04_204927.png
+[INFO ] 2026-08-04 20:49:27.388 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:49:27.834 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:49:27.834 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:49:29.115 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:49:29.161 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:49:29.171 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:49:35.789 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:49:35.790 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:49:37.279 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:49:37.279 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:49:37.612 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:49:37.612 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:49:39.550 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:49:39.550 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:49:39.551 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:49:39.551 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:49:39.783 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_204939.png
+[INFO ] 2026-08-04 20:49:39.784 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:49:40.139 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:49:40.140 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:49:41.787 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:49:41.831 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:49:41.837 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:49:48.364 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:49:48.365 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:49:49.611 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:49:49.788 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:49:50.256 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:49:50.256 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:49:52.206 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:49:52.207 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:49:52.207 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:49:52.208 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:49:52.448 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_204952.png
+[INFO ] 2026-08-04 20:49:52.448 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:49:52.803 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:49:52.804 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:49:54.562 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:49:54.600 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:49:54.606 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:50:01.878 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:50:01.882 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:50:03.196 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:50:03.196 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:50:03.679 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:50:03.680 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:50:06.014 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:50:06.015 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:50:06.015 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:50:06.016 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:50:06.267 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_205006.png
+[INFO ] 2026-08-04 20:50:06.267 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:50:06.608 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:50:06.609 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:50:08.439 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:50:08.481 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:50:08.486 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:50:16.463 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:50:16.465 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:50:17.918 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:50:17.919 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:50:18.345 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:50:18.346 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:50:20.473 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:50:20.475 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:50:20.476 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:50:20.477 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:50:20.724 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_205020.png
+[INFO ] 2026-08-04 20:50:20.725 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:55:39.869 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:55:39.902 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:55:44.086 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:55:44.144 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:55:44.151 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:55:51.879 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:55:51.880 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:55:52.718 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:55:52.719 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:55:53.148 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:55:53.148 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:55:53.694 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:55:53.697 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:56:14.383 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-08-04 20:56:14.388 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:56:14.388 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-04 20:56:14.389 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:56:14.691 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-04_205614.png
+[INFO ] 2026-08-04 20:56:14.692 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:56:15.192 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:56:15.193 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:56:16.451 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:56:16.508 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:56:16.518 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:56:23.383 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:56:23.384 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:56:24.810 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:56:24.811 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:56:25.450 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:56:25.451 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:56:27.807 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:56:27.808 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:56:27.808 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:56:27.808 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:56:28.076 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_205628.png
+[INFO ] 2026-08-04 20:56:28.077 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:56:28.401 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:56:28.401 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:56:30.225 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:56:30.280 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:56:30.285 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:56:36.651 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:56:36.651 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:56:38.192 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:56:38.193 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:56:38.737 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:56:38.737 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:56:40.811 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:56:40.812 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:56:40.812 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:56:40.813 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:56:41.060 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_205641.png
+[INFO ] 2026-08-04 20:56:41.061 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:56:41.445 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:56:41.446 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:56:43.384 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:56:43.451 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:56:43.457 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:56:50.372 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:56:50.373 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:56:51.774 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:56:51.774 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:56:52.220 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:56:52.221 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:56:54.580 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:56:54.582 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:56:54.583 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:56:54.583 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:56:54.823 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_205654.png
+[INFO ] 2026-08-04 20:56:54.823 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 20:56:55.175 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 20:56:55.176 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 20:56:57.128 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 20:56:57.164 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 20:56:57.173 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 20:57:04.077 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 20:57:04.080 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:57:05.774 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 20:57:05.775 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 20:57:06.280 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 20:57:06.281 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 20:57:08.426 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 20:57:08.426 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 20:57:08.427 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 20:57:08.427 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 20:57:08.675 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_205708.png
+[INFO ] 2026-08-04 20:57:08.676 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:32:08.926 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 21:32:08.941 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:32:12.553 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:32:12.592 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:32:12.602 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:32:20.493 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:32:20.493 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:32:21.341 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 21:32:21.341 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:32:21.707 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:32:21.708 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:32:21.960 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:32:21.961 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:32:42.310 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-08-04 21:32:42.312 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:32:42.312 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-04 21:32:42.312 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:32:42.543 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-04_213242.png
+[INFO ] 2026-08-04 21:32:42.543 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:32:43.011 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:32:43.011 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:32:45.012 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:32:45.066 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:32:45.077 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:32:53.254 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:32:53.255 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:32:54.424 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 21:32:54.425 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:32:54.764 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:32:54.764 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:32:56.663 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 21:32:56.663 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:32:56.664 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 21:32:56.664 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:32:56.900 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_213256.png
+[INFO ] 2026-08-04 21:32:56.900 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:32:57.258 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:32:57.259 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:32:59.148 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:32:59.192 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:32:59.198 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:33:05.484 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:33:05.492 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:33:06.839 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 21:33:06.839 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:33:07.171 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:33:07.172 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:33:09.529 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 21:33:09.530 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:33:09.530 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 21:33:09.531 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:33:09.785 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_213309.png
+[INFO ] 2026-08-04 21:33:09.785 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:33:10.156 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:33:10.157 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:33:12.159 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:33:12.201 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:33:12.209 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:33:18.294 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:33:18.294 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:33:19.816 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 21:33:19.816 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:33:20.235 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:33:20.235 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:33:23.052 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 21:33:23.053 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:33:23.055 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 21:33:23.056 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:33:23.292 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_213323.png
+[INFO ] 2026-08-04 21:33:23.293 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:33:23.634 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:33:23.635 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:33:25.679 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:33:25.714 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:33:25.718 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:33:31.369 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:33:31.370 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:33:32.679 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 21:33:32.679 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:33:33.031 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:33:33.032 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:33:35.325 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 21:33:35.325 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:33:35.326 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 21:33:35.327 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:33:35.595 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_213335.png
+[INFO ] 2026-08-04 21:33:35.596 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:35:23.233 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-04 21:35:23.251 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:35:26.393 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:35:26.435 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:35:26.443 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:35:33.711 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:35:33.712 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:35:34.649 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-04 21:35:34.650 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:35:35.042 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:35:35.043 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:35:35.561 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-04 21:35:35.562 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-04 21:35:55.894 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-08-04 21:35:55.902 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:35:55.903 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-04 21:35:55.904 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:35:56.315 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-04_213556.png
+[INFO ] 2026-08-04 21:35:56.316 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:35:56.855 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:35:56.856 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:35:58.728 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:35:58.842 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:35:58.849 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:38:58.942 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 21:38:58.946 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:38:58.947 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 21:38:58.947 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:40:59.189 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_214059.png
+[INFO ] 2026-08-04 21:40:59.195 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:40:59.640 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:40:59.641 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:41:01.589 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:41:01.666 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:41:01.676 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:41:06.816 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:41:06.817 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:43:22.521 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 21:43:22.524 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:43:22.525 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 21:43:22.525 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:43:22.701 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_214322.png
+[INFO ] 2026-08-04 21:43:22.702 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:43:23.057 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:43:23.058 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:43:24.639 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:43:24.699 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:43:24.704 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-04 21:45:27.544 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-04 21:45:27.550 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-04 21:45:58.345 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-04 21:45:58.345 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-04 21:45:58.347 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-04 21:45:58.347 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-04 21:45:58.603 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-04_214558.png
+[INFO ] 2026-08-04 21:45:58.605 [main] HelperClass - Closing browser
+[INFO ] 2026-08-04 21:45:59.028 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-04 21:45:59.029 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-04 21:46:01.260 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-04 21:46:01.316 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-04 21:46:01.322 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:03:10.744 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-05 12:03:10.808 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:03:12.197 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-05 12:03:12.214 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:03:17.522 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:03:17.567 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:03:17.582 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:03:17.595 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:03:17.711 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:03:17.750 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:03:24.096 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:03:24.096 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:03:24.096 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:24.096 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:24.659 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:03:24.660 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:24.681 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:03:24.682 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:24.998 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:24.998 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:03:25.009 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:25.009 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:03:25.295 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:25.309 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:25.309 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:03:25.310 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:03:45.470 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-05 12:03:45.470 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[ERROR] 2026-08-05 12:03:45.474 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:03:45.474 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-05 12:03:45.475 [main] HelperClass - Capturing screenshot for failed scenario
+[ERROR] 2026-08-05 12:03:45.474 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:03:45.475 [main] HelperClass - Scenario failed: Add leave entitlement successfully
+[INFO ] 2026-08-05 12:03:45.476 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:03:45.866 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-05_120345.png
+[INFO ] 2026-08-05 12:03:45.867 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:03:45.867 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Add_leave_entitlement_successfully_2026-08-05_120345.png
+[INFO ] 2026-08-05 12:03:45.868 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:03:46.464 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:03:46.464 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:03:46.507 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:03:46.507 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:03:48.647 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:03:48.647 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:03:48.763 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:03:48.764 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:03:48.785 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:03:48.799 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:03:54.782 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:03:54.783 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:54.968 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:03:54.968 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:56.121 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:03:56.128 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:56.269 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:03:56.270 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:03:56.445 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:56.446 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:03:56.530 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:56.530 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:03:58.278 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:03:58.280 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:03:59.295 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:59.295 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:03:59.302 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:03:59.303 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:04:19.686 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:04:19.692 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:04:19.693 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:04:19.694 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:04:19.870 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:04:19.876 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:04:19.877 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:04:19.877 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:04:20.026 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120420.png
+[INFO ] 2026-08-05 12:04:20.026 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:04:20.162 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120420.png
+[INFO ] 2026-08-05 12:04:20.162 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:04:20.510 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:04:20.511 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:04:20.574 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:04:20.574 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:04:22.278 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:04:22.283 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:04:22.374 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:04:22.388 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:04:22.418 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:04:22.447 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:04:31.816 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:04:31.817 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:04:33.836 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:04:33.836 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:04:34.131 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:04:34.133 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:04:36.464 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:04:38.077 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:04:38.078 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:04:58.629 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:04:58.630 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:04:58.630 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:04:58.630 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:04:58.845 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120458.png
+[INFO ] 2026-08-05 12:04:58.845 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:04:59.175 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:04:59.176 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:05:00.803 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:05:00.823 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:05:00.824 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:05:00.880 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:05:00.885 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:05:03.408 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:05:03.452 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:05:03.461 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:05:06.204 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:05:06.205 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:05:07.319 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:05:07.320 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:05:07.553 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:05:07.553 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:05:08.888 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:05:08.888 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:05:09.507 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:05:09.935 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:05:09.936 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:05:10.247 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:05:10.248 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:05:10.288 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:05:10.288 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:05:12.438 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:05:13.656 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:05:13.657 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:05:30.384 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:05:30.384 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:05:30.384 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:05:30.384 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:05:30.626 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120530.png
+[INFO ] 2026-08-05 12:05:30.626 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:05:31.280 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:05:31.280 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:05:33.141 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:05:33.174 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:05:33.178 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:05:33.985 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:05:33.988 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:05:33.989 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:05:33.989 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:05:34.267 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120534.png
+[INFO ] 2026-08-05 12:05:34.268 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:05:34.644 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:05:34.644 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:05:35.924 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:05:35.968 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:05:35.973 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:05:45.991 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:05:45.992 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:05:47.616 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:05:47.616 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:05:47.940 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:05:47.940 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:05:49.972 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:05:51.163 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:05:51.164 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:06:01.336 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:06:01.340 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:06:03.446 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:06:03.446 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:06:03.806 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:06:03.806 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:06:07.534 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:06:08.488 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:06:08.489 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:06:11.410 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:06:11.415 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:06:11.416 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:06:11.417 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:06:11.722 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120611.png
+[INFO ] 2026-08-05 12:06:11.722 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:06:29.089 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:06:29.090 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:06:29.091 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:06:29.091 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:06:29.394 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120629.png
+[INFO ] 2026-08-05 12:06:29.395 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:06:31.359 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:06:31.360 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:06:32.996 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:06:33.037 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:06:33.039 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:08:17.949 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:08:17.954 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:08:21.390 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:08:21.390 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:08:21.792 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:08:21.792 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:08:27.131 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:08:28.386 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:08:28.387 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:08:48.885 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:08:48.885 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:08:48.885 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:08:48.885 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:08:49.062 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120849.png
+[INFO ] 2026-08-05 12:08:49.063 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:08:49.445 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:08:49.447 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:08:51.405 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:08:51.443 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:08:51.448 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:09:02.122 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:09:02.132 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:09:04.372 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:09:04.372 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:09:04.621 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:09:04.621 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:09:09.305 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:09:11.866 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:09:11.868 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:09:32.356 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:09:32.356 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:09:32.356 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:09:32.357 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:09:32.643 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_120932.png
+[INFO ] 2026-08-05 12:09:32.644 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:13:49.700 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:13:49.714 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:13:51.882 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:13:51.928 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:13:51.936 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:14:02.105 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:14:02.109 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:14:03.346 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:14:03.347 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:14:03.624 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:14:03.624 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:14:09.343 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:14:32.051 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:14:32.056 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:14:32.057 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:14:32.057 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:14:32.308 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_121432.png
+[INFO ] 2026-08-05 12:14:32.308 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:14:32.660 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:14:32.661 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:14:34.089 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:14:34.130 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:14:34.137 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:14:41.135 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:14:41.135 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:14:43.039 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:14:43.039 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:14:43.423 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:14:43.424 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:14:46.806 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:15:08.045 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:15:08.049 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:15:08.049 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:15:08.050 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:15:08.360 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_121508.png
+[INFO ] 2026-08-05 12:15:08.360 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:15:08.779 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:15:08.779 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:15:10.656 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:15:10.700 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:15:10.704 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:15:17.681 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:15:17.681 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:15:18.889 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:15:18.889 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:15:19.230 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:15:19.231 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:15:22.182 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:16:44.704 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:16:44.719 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:16:47.249 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:16:47.294 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:16:47.302 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:16:55.507 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:16:55.508 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:16:57.578 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:16:57.579 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:16:58.137 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:16:58.138 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:17:02.600 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:17:24.248 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:17:24.252 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:17:24.253 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:17:24.253 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:17:24.668 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_121724.png
+[INFO ] 2026-08-05 12:17:24.669 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:17:25.149 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:17:25.150 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:17:26.797 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:17:26.845 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:17:26.848 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:17:33.442 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:17:33.443 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:17:34.781 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:17:34.781 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:17:35.079 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:17:35.079 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:17:39.607 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:18:01.813 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:18:01.818 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:18:01.819 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:18:01.819 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:18:02.166 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_121802.png
+[INFO ] 2026-08-05 12:18:02.167 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:18:02.627 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:18:02.627 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:18:04.452 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:18:04.488 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:18:04.491 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:18:11.995 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:18:11.997 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:18:15.311 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:18:15.312 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:18:15.703 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:18:15.703 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:18:22.923 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:18:45.629 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:18:45.629 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:18:45.629 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:18:45.630 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:18:45.916 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_121845.png
+[INFO ] 2026-08-05 12:18:45.917 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:18:46.288 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:18:46.288 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:18:47.628 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:18:47.670 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:18:47.672 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:18:56.846 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:18:56.846 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:18:59.061 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:18:59.062 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:18:59.482 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:18:59.484 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:19:08.454 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:19:31.180 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:19:31.181 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:19:31.181 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:19:31.181 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:19:31.561 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_121931.png
+[INFO ] 2026-08-05 12:19:31.561 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:53:40.452 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:53:40.478 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:53:43.190 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:53:43.224 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:53:43.232 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:53:53.103 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:53:53.104 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:53:56.767 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:53:56.767 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:53:57.168 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:53:57.169 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:54:05.289 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:54:27.823 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:54:27.828 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:54:27.829 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:54:27.829 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:54:28.221 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_125428.png
+[INFO ] 2026-08-05 12:54:28.222 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:54:28.640 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:54:28.641 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:54:30.431 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:54:30.525 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:54:30.531 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:54:39.606 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:54:39.608 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:54:41.168 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:54:41.168 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:54:41.625 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:54:41.626 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:54:47.380 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:55:09.364 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:55:09.371 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:55:09.371 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:55:09.372 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:55:09.722 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_125509.png
+[INFO ] 2026-08-05 12:55:09.722 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:55:10.232 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:55:10.233 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:55:11.768 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:55:11.811 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:55:11.815 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:55:18.688 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:55:18.689 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:55:20.928 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:55:20.929 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:55:21.154 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:55:21.154 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:55:23.847 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:55:45.736 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:55:45.737 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:55:45.738 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:55:45.738 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:55:46.046 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_125546.png
+[INFO ] 2026-08-05 12:55:46.046 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 12:55:46.499 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 12:55:46.499 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 12:55:48.133 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-05 12:55:48.193 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-05 12:55:48.196 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-05 12:55:56.679 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 12:55:56.680 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:55:57.857 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 12:55:57.857 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 12:55:58.194 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 12:55:58.195 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 12:56:01.328 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 12:56:23.582 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 12:56:23.583 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 12:56:23.584 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 12:56:23.584 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 12:56:23.830 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_125623.png
+[INFO ] 2026-08-05 12:56:23.831 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 14:14:16.913 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 14:14:17.058 [main] HelperClass - Launching Chrome browser in headed mode
+[INFO ] 2026-08-05 14:17:42.542 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 14:17:42.554 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 14:18:22.119 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 14:18:22.122 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:18:23.676 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 14:18:23.677 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:18:24.190 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:18:24.191 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:18:26.698 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 14:18:27.778 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:18:27.779 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:18:29.451 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-05 14:18:29.455 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:18:29.456 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:18:31.385 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-05 14:18:31.386 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:18:32.131 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-05 14:18:32.131 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-08-05 14:18:32.132 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:18:32.132 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:18:33.481 [main] CreateUserCredentialsActions - Employee Name: Employee 1
+[INFO ] 2026-08-05 14:18:33.481 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:18:33.482 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:18:43.991 [main] Hooks - Ending Scenario: Create user login credential
+[ERROR] 2026-08-05 14:18:43.996 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-05 14:18:43.997 [main] HelperClass - Scenario failed: Create user login credential
+[INFO ] 2026-08-05 14:18:43.997 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-05 14:18:44.775 [main] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\3_Automation_Java\target\screenshots\Create_user_login_credential_2026-08-05_141844.png
+[INFO ] 2026-08-05 14:18:44.776 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 14:18:45.260 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 14:18:45.261 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 14:23:08.526 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 14:23:08.542 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 14:23:22.218 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 14:23:22.219 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:23.666 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 14:23:23.666 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:24.098 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:23:24.098 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:23:26.398 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 14:23:27.884 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:23:27.885 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:23:30.196 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-05 14:23:30.196 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:23:30.198 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:23:32.198 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-05 14:23:32.198 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:33.179 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-05 14:23:33.179 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-08-05 14:23:33.179 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:23:33.180 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:23:34.524 [main] CreateUserCredentialsActions - Employee Name: Employee 1
+[INFO ] 2026-08-05 14:23:34.525 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:23:34.525 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:23:36.683 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:37.294 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-08-05 14:23:37.295 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:23:37.295 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:23:38.138 [main] CreateUserCredentialsActions - Generated unique username: Employee@11785920018138
+[INFO ] 2026-08-05 14:23:38.139 [main] HelperClass - Entering text: Employee@11785920018138
+[INFO ] 2026-08-05 14:23:38.140 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:38.515 [main] HelperClass - Entering text: Employee1@123
+[INFO ] 2026-08-05 14:23:38.516 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:38.862 [main] HelperClass - Entering text: Employee1@123
+[INFO ] 2026-08-05 14:23:38.863 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:39.114 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-08-05 14:23:39.115 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:23:39.115 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:23:39.305 [main] CreateUserCredentialsActions - Verifying success message is displayed
+[INFO ] 2026-08-05 14:23:39.306 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:23:43.113 [main] Hooks - Ending Scenario: Create user login credential
+[INFO ] 2026-08-05 14:23:43.115 [main] HelperClass - Scenario passed: Create user login credential
+[INFO ] 2026-08-05 14:23:43.115 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 14:23:43.704 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 14:23:43.705 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 14:24:03.955 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 14:24:03.960 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:05.505 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 14:24:05.506 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:05.860 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:05.860 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:08.665 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 14:24:09.816 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:09.817 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:12.123 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-05 14:24:12.124 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:12.124 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:14.971 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-05 14:24:14.971 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:15.814 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-05 14:24:15.815 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-08-05 14:24:15.815 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:15.815 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:16.523 [main] CreateUserCredentialsActions - Employee Name: Admin 1
+[INFO ] 2026-08-05 14:24:16.523 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:16.525 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:18.400 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:18.969 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-08-05 14:24:18.969 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:18.969 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:19.720 [main] CreateUserCredentialsActions - Generated unique username: Admin@11785920059720
+[INFO ] 2026-08-05 14:24:19.721 [main] HelperClass - Entering text: Admin@11785920059720
+[INFO ] 2026-08-05 14:24:19.721 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:19.984 [main] HelperClass - Entering text: Admin1@123
+[INFO ] 2026-08-05 14:24:19.984 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:20.217 [main] HelperClass - Entering text: Admin1@123
+[INFO ] 2026-08-05 14:24:20.217 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:20.489 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-08-05 14:24:20.489 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:20.490 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:20.676 [main] CreateUserCredentialsActions - Verifying success message is displayed
+[INFO ] 2026-08-05 14:24:20.676 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:22.678 [main] Hooks - Ending Scenario: Create user login credential
+[INFO ] 2026-08-05 14:24:22.678 [main] HelperClass - Scenario passed: Create user login credential
+[INFO ] 2026-08-05 14:24:22.679 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 14:24:23.045 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 14:24:23.045 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 14:24:33.504 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 14:24:33.505 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:35.152 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 14:24:35.153 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:35.544 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:35.545 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:37.539 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 14:24:38.683 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:38.683 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:40.260 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-05 14:24:40.261 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:40.262 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:42.245 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-05 14:24:42.247 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:42.942 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-05 14:24:42.942 [main] CreateUserCredentialsActions - Role: ESS
+[INFO ] 2026-08-05 14:24:42.942 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:42.943 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:44.261 [main] CreateUserCredentialsActions - Employee Name: Employee 2
+[INFO ] 2026-08-05 14:24:44.262 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:44.262 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:46.287 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:46.899 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-08-05 14:24:46.900 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:46.900 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:47.908 [main] CreateUserCredentialsActions - Generated unique username: Employee@21785920087908
+[INFO ] 2026-08-05 14:24:47.908 [main] HelperClass - Entering text: Employee@21785920087908
+[INFO ] 2026-08-05 14:24:47.908 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:48.155 [main] HelperClass - Entering text: Employee2@123
+[INFO ] 2026-08-05 14:24:48.155 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:48.467 [main] HelperClass - Entering text: Employee2@123
+[INFO ] 2026-08-05 14:24:48.467 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:48.985 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-08-05 14:24:48.986 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:24:48.987 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:24:49.390 [main] CreateUserCredentialsActions - Verifying success message is displayed
+[INFO ] 2026-08-05 14:24:49.391 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:24:51.513 [main] Hooks - Ending Scenario: Create user login credential
+[INFO ] 2026-08-05 14:24:51.513 [main] HelperClass - Scenario passed: Create user login credential
+[INFO ] 2026-08-05 14:24:51.513 [main] HelperClass - Closing browser
+[INFO ] 2026-08-05 14:24:51.983 [main] Hooks - Starting Scenario: Create user login credential
+[INFO ] 2026-08-05 14:24:51.984 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-05 14:25:58.384 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-05 14:25:58.385 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:00.088 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-05 14:26:00.089 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:00.254 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:26:00.254 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:26:02.948 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-08-05 14:26:03.614 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:26:03.614 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:26:05.483 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-08-05 14:26:05.483 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:26:05.484 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:26:07.184 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-08-05 14:26:07.184 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:07.962 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-08-05 14:26:07.963 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-08-05 14:26:07.963 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:26:07.963 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:26:08.713 [main] CreateUserCredentialsActions - Employee Name: Admin 2
+[INFO ] 2026-08-05 14:26:08.713 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:26:08.714 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:26:10.351 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:10.902 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-08-05 14:26:10.903 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:26:10.903 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:26:11.603 [main] CreateUserCredentialsActions - Generated unique username: Admin@21785920171603
+[INFO ] 2026-08-05 14:26:11.604 [main] HelperClass - Entering text: Admin@21785920171603
+[INFO ] 2026-08-05 14:26:11.604 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:11.821 [main] HelperClass - Entering text: Admin2@123
+[INFO ] 2026-08-05 14:26:11.821 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:12.034 [main] HelperClass - Entering text: Admin2@123
+[INFO ] 2026-08-05 14:26:12.035 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:12.209 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-08-05 14:26:12.210 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-05 14:26:12.210 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-05 14:26:12.349 [main] CreateUserCredentialsActions - Verifying success message is displayed
+[INFO ] 2026-08-05 14:26:12.349 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-05 14:26:14.435 [main] Hooks - Ending Scenario: Create user login credential
+[INFO ] 2026-08-05 14:26:14.436 [main] HelperClass - Scenario passed: Create user login credential
+[INFO ] 2026-08-05 14:26:14.436 [main] HelperClass - Closing browser

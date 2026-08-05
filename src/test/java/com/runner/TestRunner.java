@@ -13,13 +13,13 @@ import io.cucumber.testng.CucumberOptions;
 				        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm" },
         features = "src/test/resources/features/",
         monochrome = true,
-        tags = "@LeaveList"
+        tags = "@Valid and @Rohini"
         )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
     @Override
-    @DataProvider(parallel = true)
+    @DataProvider(parallel = false)
     public Object[][] scenarios() {
         return super.scenarios();
     }
