@@ -23,9 +23,8 @@ public class EmployeeEntitlementSteps {
         Assert.assertTrue(employeeEntitlementActions.verifyEmployeeEntitlementsPageDisplayed(),"Employee Entitlements page is not displayed");
     }
 
-    @When("user searches employee entitlement")
-    public void user_searches_employee_entitlement(DataTable dataTable) throws IOException {
-
+    @When("user searches employee entitlement using CSV file {string}")
+    public void user_searches_employee_entitlement_using_csv_file(String fileName, DataTable dataTable) throws IOException {
         employeeEntitlementActions.searchEmployeeEntitlement(dataTable);
     }
 
@@ -45,8 +44,8 @@ public class EmployeeEntitlementSteps {
         Assert.assertTrue(employeeEntitlementActions.verifyInvalidEmployeeValidationDisplayed(), "Invalid employee name validation message is not displayed");
     }
 
-    @When("user searches entitlement without employee name")
-    public void user_searches_entitlement_without_employee_name() throws IOException {
+    @When("user searches entitlement without employee name from Excel file {string}")
+    public void user_searches_entitlement_without_employee_name_from_excel_file(String fileName) throws IOException {
         employeeEntitlementActions.searchWithoutEmployeeName();
     }
 
