@@ -3,8 +3,6 @@ package com.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.utilities.HelperClass;
-
 public class LoginPage extends BasePage {
 
 	@FindBy(name = "username")
@@ -40,6 +38,20 @@ public class LoginPage extends BasePage {
 	public String getErrorMessage() {
 		helper.waitForElement(errorMessage);
 		return errorMessage.getText();
+	}
+
+	public boolean isLoginSuccessful() {
+
+		try {
+
+			helper.waitForElement(profileDropdown);
+
+			return profileDropdown.isDisplayed();
+
+		} catch (Exception e) {
+
+			return false;
+		}
 	}
 
 	public void clickProfileDropdown() {

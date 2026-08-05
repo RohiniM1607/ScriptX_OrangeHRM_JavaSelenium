@@ -33,9 +33,10 @@ public class Search_user_Steps {
     }
 
     @Then("the Admin can see the searched username details")
-    public void the_admin_can_see_the_searched_username_details( ) {
+    public void the_admin_can_see_the_searched_username_details() {
         
     }
+
     @Then("the Admin can see the searched {string} details")
     public void the_admin_can_see_the_searched_details(String UsersName) {
     	sa.verifyUsernameResult(UsersName);

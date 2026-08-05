@@ -1,5 +1,7 @@
 package com.actions;
+
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -8,8 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.pages.ContactDetailsPage;
-import com.utilities.HelperClass;
 import com.utilities.ConfigReader;
+import com.utilities.HelperClass;
 
 public class ContactDetailsActions {
 
@@ -55,7 +57,14 @@ public class ContactDetailsActions {
         contactDetailsPage.zipCode.sendKeys(testData.getData("zip"));
 
         contactDetailsPage.country.click();
-        selectDropdown(testData.getData("country"));
+        wait.until(ExpectedConditions.visibilityOf(contactDetailsPage.dropdownListbox));
+        List<WebElement> countryOptions = wait.until(ExpectedConditions.visibilityOfAllElements(contactDetailsPage.dropdownOptions));
+        for (WebElement option : countryOptions) {
+            if (option.getText().trim().equalsIgnoreCase(testData.getData("country"))) {
+                option.click();
+                break;
+            }
+        }
 
         contactDetailsPage.homeTelephone.click();
         contactDetailsPage.homeTelephone.sendKeys(Keys.CONTROL + "a");
@@ -78,25 +87,18 @@ public class ContactDetailsActions {
         contactDetailsPage.workEmail.sendKeys(testData.getData("workEmail"));
     }
 
-    public void selectDropdown(String value) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='listbox']//span[text()='" + value + "']"))).click();
-    }
-
     public void clickSave() {
         wait.until(ExpectedConditions.elementToBeClickable(contactDetailsPage.btnSave));
         contactDetailsPage.btnSave.click();
     }
 
     public void clickAddAttachment() {
-
         wait.until(ExpectedConditions.elementToBeClickable(contactDetailsPage.addIcon));
         contactDetailsPage.addIcon.click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
     }
 
     public void uploadAttachment() {
-
-        String filePath = System.getProperty("user.dir")+ "\\src\\test\\resources\\testfile.txt";
+        String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\testfile.txt";
         WebElement fileInput = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
         fileInput.sendKeys(filePath);
         wait.until(ExpectedConditions.attributeContains(fileInput, "value", "testfile.txt"));

@@ -51,21 +51,7 @@ public class PIMActions extends BaseActions {
 
 	public void searchEmployeeById(String employeeId) {
 
-		pimPage.enterSearchEmployeeName(employeeId);
-
-		pimPage.clickSearchButton();
-	}
-
-	public void searchInvalidEmployeeName(String employeeName) {
-
-		pimPage.enterSearchEmployeeName(employeeName);
-
-		pimPage.clickSearchButton();
-	}
-
-	public void searchInvalidEmployeeId(String employeeId) {
-
-		pimPage.enterSearchEmployeeName(employeeId);
+		pimPage.enterSearchEmployeeId(employeeId);
 
 		pimPage.clickSearchButton();
 	}
@@ -78,5 +64,22 @@ public class PIMActions extends BaseActions {
 	public boolean verifyNoRecordsFound() {
 
 		return pimPage.isNoRecordFoundDisplayed();
+	}
+
+	/**
+	 * Wait until PIM page is loaded
+	 */
+	public boolean verifyPIMPageLoaded() {
+
+		try {
+
+			pimPage.clickPIMMenu();
+
+			return true;
+
+		} catch (Exception e) {
+
+			return false;
+		}
 	}
 }

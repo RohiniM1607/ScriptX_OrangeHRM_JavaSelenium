@@ -34,37 +34,48 @@ public class PIMStepDefinition {
 	}
 
 	@When("admin creates employees with following data")
-	public void admin_creates_employees_with_following_data(DataTable dataTable) {
+	public void admin_creates_employees_with_following_data(DataTable dataTable) throws InterruptedException {
 
-		for (Map<String, String> data : dataTable.asMaps()) {
+		List<Map<String, String>> employees = dataTable.asMaps(String.class, String.class);
 
-			String firstName = data.get("firstName");
-			String lastName = data.get("lastName");
-			String employeeId = data.get("employeeId");
-			String result = data.get("result");
+		for (Map<String, String> data : employees) {
+
+			String firstName = data.get("firstName") == null ? "" : data.get("firstName");
+
+			String lastName = data.get("lastName") == null ? "" : data.get("lastName");
+
+			String baseEmployeeId = data.get("employeeId") == null ? "" : data.get("employeeId");
+
+			String expectedResult = data.get("result") == null ? "" : data.get("result");
+
+			String employeeId = "";
+
+			if (baseEmployeeId != null && !baseEmployeeId.trim().isEmpty()) {
+
+				employeeId = baseEmployeeId + (System.currentTimeMillis() % 100);
+			}
+
+			System.out.println("Creating Employee : " + firstName + " | " + employeeId);
 
 			pim.navigateToAddEmployee();
-
-			if (firstName == null)
-				firstName = "";
-
-			if (lastName == null)
-				lastName = "";
-
-			if (employeeId == null)
-				employeeId = "";
 
 			pim.enterEmployeeDetails(firstName, lastName, employeeId);
 
 			pim.clickSaveButton();
 
-			if (result.equalsIgnoreCase("success")) {
+			Thread.sleep(2000);
 
-				Assert.assertTrue(pim.verifyEmployeeCreated());
+			if (expectedResult.equalsIgnoreCase("success")) {
 
-			} else {
+				Assert.assertTrue(pim.verifyEmployeeCreated(), "Employee creation failed for : " + firstName);
 
-				Assert.assertTrue(pim.verifyRequiredMessage());
+			} else if (expectedResult.equalsIgnoreCase("required")) {
+
+				Assert.assertTrue(pim.verifyRequiredMessage(), "Required message not displayed");
+
+			} else if (expectedResult.equalsIgnoreCase("failed")) {
+
+				Assert.assertFalse(pim.verifyEmployeeCreated(), "Employee should not be created for : " + firstName);
 			}
 		}
 	}
@@ -84,11 +95,9 @@ public class PIMStepDefinition {
 
 		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
 
+		String employeeName = data[0][0].toString();
 
-			String employeeName = data[0][0].toString();
-
-			pim.searchEmployeeByName(employeeName);
-		
+		pim.searchEmployeeByName(employeeName);
 	}
 
 	@When("admin searches employee by employee ID")
@@ -96,12 +105,9 @@ public class PIMStepDefinition {
 
 		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
 
-		
+		String employeeId = data[1][1].toString();
 
-			String employeeId = data[1][1].toString();
-
-			pim.searchEmployeeById(employeeId);
-		
+		pim.searchEmployeeById(employeeId);
 	}
 
 	@When("admin searches employee with invalid employee name")
@@ -109,12 +115,9 @@ public class PIMStepDefinition {
 
 		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
 
-		
+		String employeeName = data[2][0].toString();
 
-			String employeeName = data[2][0].toString();
-
-			pim.searchInvalidEmployeeName(employeeName);
-		
+		pim.searchEmployeeByName(employeeName);
 	}
 
 	@When("admin searches employee with invalid employee ID")
@@ -122,12 +125,9 @@ public class PIMStepDefinition {
 
 		Object[][] data = excel.getExcelData("src/test/resources/testdata/PIMData.xlsx", "SearchEmployee");
 
-		
+		String employeeId = data[3][1].toString();
 
-			String employeeId = data[3][1].toString();
-
-			pim.searchInvalidEmployeeId(employeeId);
-		
+		pim.searchEmployeeById(employeeId);
 	}
 
 	@Then("employee search result should be displayed")

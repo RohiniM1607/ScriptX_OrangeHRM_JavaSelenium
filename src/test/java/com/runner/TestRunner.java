@@ -7,11 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/features/",
-        glue = {
-                "com.stepdefinitions",
-                "com.hooks"
-        },
-        plugin = {
+        glue = {"com.stepdefinitions", "com.hooks"},
+        plugin = { 
                 "pretty",
                 "html:target/CucumberReports/Cucumber.html",
                 "json:target/CucumberReports/Cucumber.json",
@@ -19,15 +16,20 @@ import io.cucumber.testng.CucumberOptions;
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true,
+<<<<<<< HEAD
         publish = true,
         tags = "@Rohini"
+=======
+        publish = true
+>>>>>>> da1f8d4f9d4ae7f3bd061cbb5f2a253bbd2bc62a
 )
+
 public class TestRunner extends AbstractTestNGCucumberTests {
 
-	@Override
-	@DataProvider(parallel = true)
-	public Object[][] scenarios(){
-		return super.scenarios();
-	}
-}
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 
+}

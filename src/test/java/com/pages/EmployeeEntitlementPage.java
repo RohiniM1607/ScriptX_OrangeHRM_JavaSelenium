@@ -106,28 +106,51 @@ public class EmployeeEntitlementPage extends BasePage {
 
     public void selectLeaveType(String leaveType) {
         helper.clickElement(leaveTypeDropdown);
-        if (leaveType.equalsIgnoreCase("CAN - Maternity")) {
-            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
-        } 
+
+        if (leaveType.equalsIgnoreCase("CAN - Bereavement")) {
+            helper.pressDownAndEnter(1);
+        }
+        else if (leaveType.equalsIgnoreCase("CAN - FMLA")) {
+            helper.pressDownAndEnter(2);
+        }
+        else if (leaveType.equalsIgnoreCase("CAN - Maternity")) {
+            helper.pressDownAndEnter(3);
+        }
         else if (leaveType.equalsIgnoreCase("CAN - Personal")) {
-            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
+            helper.pressDownAndEnter(4);
         }
         else if (leaveType.equalsIgnoreCase("CAN - Vacation")) {
-            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
-        } 
-        else {
-            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
+            helper.pressDownAndEnter(5);
         }
     }
 
     public void selectLeavePeriod(String leavePeriod) {
         helper.clickElement(leavePeriodDropdown);
 
-        By optionLocator = By.xpath("(//div[@class='oxd-select-text-input'])[2]");
-        WebElement option = helper.waitForElementLocated(optionLocator);
-
-        js.executeScript("arguments[0].scrollIntoView(true);", option);
-        js.executeScript("arguments[0].click();", option);
+        if (leavePeriod.equalsIgnoreCase("01-01-2020 - 31-12-2020")) {
+            helper.pressDownAndEnter(1);
+        }
+        else if (leavePeriod.equalsIgnoreCase("01-01-2021 - 31-12-2021")) {
+            helper.pressDownAndEnter(2);
+        }
+        else if (leavePeriod.equalsIgnoreCase("01-01-2022 - 31-12-2022")) {
+            helper.pressDownAndEnter(3);
+        }
+        else if (leavePeriod.equalsIgnoreCase("01-01-2023 - 31-12-2023")) {
+            helper.pressDownAndEnter(4);
+        }
+        else if (leavePeriod.equalsIgnoreCase("01-01-2024 - 31-12-2024")) {
+            helper.pressDownAndEnter(5);
+        }
+        else if (leavePeriod.equalsIgnoreCase("01-01-2025 - 31-12-2025")) {
+            helper.pressDownAndEnter(6);
+        }
+        else if (leavePeriod.equalsIgnoreCase("01-01-2026 - 31-12-2026")) {
+            helper.pressDownAndEnter(7);
+        }
+        else if (leavePeriod.equalsIgnoreCase("01-01-2027 - 31-12-2027")) {
+            helper.pressDownAndEnter(8);
+        }
     }
 
     public void clickSearchButton() {

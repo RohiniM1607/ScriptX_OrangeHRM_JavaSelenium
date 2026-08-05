@@ -8,12 +8,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class PIMPage extends BasePage {
 
-	JavascriptExecutor js = (JavascriptExecutor) driver;
-
-	@FindBy(xpath = "//span[text()='PIM']")
+	@FindBy(xpath = "//span[normalize-space()='PIM']")
 	WebElement pimMenu;
 
-	@FindBy(xpath = "//a[text()='Add Employee']")
+	@FindBy(xpath = "//a[normalize-space()='Add Employee']")
 	WebElement addEmployeeMenu;
 
 	@FindBy(name = "firstName")
@@ -37,10 +35,13 @@ public class PIMPage extends BasePage {
 	@FindBy(xpath = "(//input[@placeholder='Type for hints...'])[1]")
 	WebElement employeeNameSearchTxt;
 
-	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[2]/button[2]")
+	@FindBy(xpath = "(//input[contains(@class,'oxd-input')])[2]")
+	WebElement employeeIdSearchTxt;
+
+	@FindBy(xpath = "//button[@type='submit']")
 	WebElement searchBtn;
 
-	@FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']")
+	@FindBy(xpath = "//div[@class='oxd-table-body']")
 	WebElement searchResultTable;
 
 	@FindBy(xpath = "//*[text()='No Records Found']")
@@ -48,7 +49,11 @@ public class PIMPage extends BasePage {
 
 	public void clickByJS(WebElement element) {
 
-		helper.waitForElementToBeClickable(element);
+		helper.waitForElement(element);
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		js.executeScript("arguments[0].scrollIntoView({block:'center'});", element);
 
 		js.executeScript("arguments[0].click();", element);
 	}
@@ -64,10 +69,14 @@ public class PIMPage extends BasePage {
 
 	public void clickPIMMenu() {
 
+		helper.waitForElement(pimMenu);
+
 		clickByJS(pimMenu);
 	}
 
 	public void clickAddEmployee() {
+
+		helper.waitForElement(addEmployeeMenu);
 
 		clickByJS(addEmployeeMenu);
 	}
@@ -99,9 +108,8 @@ public class PIMPage extends BasePage {
 			helper.waitForElement(personalDetailsHeader);
 
 			return personalDetailsHeader.isDisplayed();
-		}
 
-		catch (Exception e) {
+		} catch (Exception e) {
 
 			return false;
 		}
@@ -117,6 +125,11 @@ public class PIMPage extends BasePage {
 		enterText(employeeNameSearchTxt, employeeName);
 	}
 
+	public void enterSearchEmployeeId(String employeeId) {
+
+		enterText(employeeIdSearchTxt, employeeId);
+	}
+
 	public void clickSearchButton() {
 
 		clickByJS(searchBtn);
@@ -129,9 +142,8 @@ public class PIMPage extends BasePage {
 			helper.waitForElement(searchResultTable);
 
 			return searchResultTable.isDisplayed();
-		}
 
-		catch (Exception e) {
+		} catch (Exception e) {
 
 			return false;
 		}
@@ -140,12 +152,12 @@ public class PIMPage extends BasePage {
 	public boolean isNoRecordFoundDisplayed() {
 
 		try {
-			
-			helper.waitForElement(noRecordsFoundTxt);
-			return noRecordsFoundTxt.isDisplayed();
-		}
 
-		catch (Exception e) {
+			helper.waitForElement(noRecordsFoundTxt);
+
+			return noRecordsFoundTxt.isDisplayed();
+
+		} catch (Exception e) {
 
 			return false;
 		}

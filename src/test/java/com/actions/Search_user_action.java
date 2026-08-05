@@ -23,7 +23,6 @@ public class Search_user_action {
 
     public void clickAdminMenu() {
         sp.Admin_page.click();
-        //wait.until(ExpectedConditions.visibilityOf(sp.system_user));
     }
 
     public void enterUsername(String UserName) {
@@ -36,8 +35,7 @@ public class Search_user_action {
     	 sp.search_btn.click();
     }
 
-    public void verifyUsernameResult(String UserName ) {
-        //String Expected_username = testData.getData("username");
+    public void verifyUsernameResult(String UserName) {
         wait.until(ExpectedConditions.visibilityOf(sp.username_record));
         Assert.assertEquals(UserName, sp.username_record.getText());
     }
@@ -45,13 +43,13 @@ public class Search_user_action {
     public void selectUserRole() {
     	String role = testData.getData("role");
     	sp.userRole.click();
-    	for(WebElement option : sp.userRoleOptions) {
-            if(option.getText().equalsIgnoreCase(role)) {
+    	wait.until(ExpectedConditions.visibilityOfAllElements(sp.userRoleOptions));
+    	for (WebElement option : sp.userRoleOptions) {
+            if (option.getText().equalsIgnoreCase(role)) {
                 option.click();
                 break;
             }
     	}
-
     }
 
     public void verifyUserRoleResult() {
@@ -61,15 +59,19 @@ public class Search_user_action {
     }
 
     public void enterEmployeeName(String employeeName) {
-        //String expectedEmployeeName = testData.getData("employeeName");
         helper.clickElement(sp.employeeName);
         sp.employeeName.sendKeys(employeeName);
-       
-        
+        wait.until(ExpectedConditions.visibilityOf(sp.listbox));
+        wait.until(ExpectedConditions.visibilityOfAllElements(sp.employeeSuggestions));
+        for (WebElement option : sp.employeeSuggestions) {
+            if (option.getText().trim().equalsIgnoreCase(employeeName.trim())) {
+                option.click();
+                break;
+            }
+        }
     }
 
     public void verifyEmployeeNameResult(String employeeName) {
-        //String expectedEmployeeName = testData.getData("employeeName");
         wait.until(ExpectedConditions.visibilityOf(sp.employeeName_record));
         Assert.assertEquals(employeeName, sp.employeeName_record.getText());
     }

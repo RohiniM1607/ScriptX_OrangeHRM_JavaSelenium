@@ -1,18 +1,18 @@
 @Jagadeep_K_C
 Feature: Jagadeep_15-05-2026_ScriptX_OrangeHRm_PIM_Functionality
-
-	Description: This feature tests create and search of employee
+  Description: This feature tests create and search of employee
 
   @CreateEmployee
   Scenario: Create employee with multiple data combinations
     Given admin is logged into OrangeHRM
     When admin creates employees with following data
       | firstName | lastName | employeeId | result   |
-      | Jagadeep  | KC       | 9011       | success  |
       | Rohit     | Kumar    | 9012       | success  |
+      | Admin     | 1        | 1982       | success  |
+      | Employee  | 1        | 6734       | success  |
       | Anand     | Kumar    | 9013       | success  |
       |           |          |            | required |
-      | Jaga@123  | K%C      | 9014       | success  |
+      | Jaga@123  | K%C      | 9014       | success   |
 
   @SearchByEmployeeName
   Scenario: Search employee by employee name

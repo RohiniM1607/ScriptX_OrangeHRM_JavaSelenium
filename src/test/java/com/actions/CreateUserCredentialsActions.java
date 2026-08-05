@@ -2,81 +2,158 @@ package com.actions;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 
 import com.pages.CreateUserCredentialsPage;
 
 public class CreateUserCredentialsActions {
 
-    private static final Logger logger = LogManager.getLogger(CreateUserCredentialsActions.class);
+	private static final Logger logger = LogManager.getLogger(CreateUserCredentialsActions.class);
 
-    CreateUserCredentialsPage createUserPage;
+	CreateUserCredentialsPage createUserPage;
 
-    public CreateUserCredentialsActions() {
-        createUserPage = new CreateUserCredentialsPage();
-    }
+	public CreateUserCredentialsActions() {
+		createUserPage = new CreateUserCredentialsPage();
+	}
 
-    public void navigateToAdminUserManagementPage() {
-        logger.info("Navigating to Admin User Management page");
-        createUserPage.navigateToAdmin();
-    }
+	public void navigateToAdminUserManagementPage() {
+		logger.info("Navigating to Admin User Management page");
+		createUserPage.navigateToAdmin();
+	}
 
-    public void clickAddButton() {
-        logger.info("Clicking Add button");
-        createUserPage.clickAddBtn();
-    }
+	public void clickAddButton() {
+		logger.info("Clicking Add button");
+		createUserPage.clickAddBtn();
+	}
 
-    public boolean verifyAddUserPageDisplayed() {
-        logger.info("Verifying Add User page is displayed");
-        return createUserPage.isAddUserPageDisplayed();
-    }
+	public boolean verifyAddUserPageDisplayed() {
+		logger.info("Verifying Add User page is displayed");
+		return createUserPage.isAddUserPageDisplayed();
+	}
 
-    public void enterUserCredentialDetails(String role, String employeeName, String status,
-                                           String username, String password, String confirmPassword) {
+	public void enterUserCredentialDetails(String role, String employeeName, String status, String username,
+			String password, String confirmPassword) {
 
-        logger.info("Entering user credential details");
+		logger.info("Entering user credential details");
 
-        if (role != null && !role.trim().isEmpty()) {
-            logger.info("Role: " + role);
-            createUserPage.selectUserRole(role);
-        }
+		if (role != null && !role.trim().isEmpty()) {
+			logger.info("Role: " + role);
+			createUserPage.selectUserRole(role);
+		}
 
-        if (employeeName != null && !employeeName.trim().isEmpty()) {
-            logger.info("Employee Name: " + employeeName);
-            createUserPage.enterEmployeeName(employeeName);
-        }
+		if (employeeName != null && !employeeName.trim().isEmpty()) {
+			logger.info("Employee Name: " + employeeName);
+			createUserPage.enterEmployeeName(employeeName);
+		}
 
-        if (status != null && !status.trim().isEmpty()) {
-            logger.info("Status: " + status);
-            createUserPage.selectStatus(status);
-        }
+		if (status != null && !status.trim().isEmpty()) {
+			logger.info("Status: " + status);
+			createUserPage.selectStatus(status);
+		}
 
-        if (username != null && !username.trim().isEmpty()) {
-            String uniqueUsername = username + System.currentTimeMillis();
-            logger.info("Generated unique username: " + uniqueUsername);
-            createUserPage.enterUsername(uniqueUsername);
-        }
+		if (username != null && !username.trim().isEmpty()) {
+			String uniqueUsername = username + System.currentTimeMillis();
+			logger.info("Generated unique username: " + uniqueUsername);
+			createUserPage.enterUsername(uniqueUsername);
+		}
 
-        if (password != null && !password.trim().isEmpty()) {
-            createUserPage.enterPassword(password);
-        }
+		if (password != null && !password.trim().isEmpty()) {
+			createUserPage.enterPassword(password);
+		}
 
-        if (confirmPassword != null && !confirmPassword.trim().isEmpty()) {
-            createUserPage.enterConfirmPassword(confirmPassword);
-        }
-    }
+		if (confirmPassword != null && !confirmPassword.trim().isEmpty()) {
+			createUserPage.enterConfirmPassword(confirmPassword);
+		}
+	}
 
-    public void clickSaveButton() {
-        logger.info("Clicking Save button");
-        createUserPage.clickSaveButton();
-    }
+	public void duplicateUserCredentialDetails(String role, String employeeName, String status, String username,
+			String password, String confirmPassword) {
 
-    public boolean verifySuccessMessageDisplayed() {
-        logger.info("Verifying success message is displayed");
-        return createUserPage.isSuccessMessageDisplayed();
-    }
+		logger.info("Entering user credential details");
 
-    public boolean verifyRequiredValidationMessageDisplayed() {
-        logger.info("Verifying required validation message is displayed");
-        return createUserPage.isRequiredValidationMessageDisplayed();
-    }
+		if (role != null && !role.trim().isEmpty()) {
+			logger.info("Role: " + role);
+			createUserPage.selectUserRole(role);
+		}
+
+		if (employeeName != null && !employeeName.trim().isEmpty()) {
+			logger.info("Employee Name: " + employeeName);
+			createUserPage.enterEmployeeName(employeeName);
+		}
+
+		if (status != null && !status.trim().isEmpty()) {
+			logger.info("Status: " + status);
+			createUserPage.selectStatus(status);
+		}
+
+		if (username != null && !username.trim().isEmpty()) {
+			createUserPage.enterUsername(username);
+		}
+
+		if (password != null && !password.trim().isEmpty()) {
+			createUserPage.enterPassword(password);
+		}
+
+		if (confirmPassword != null && !confirmPassword.trim().isEmpty()) {
+			createUserPage.enterConfirmPassword(confirmPassword);
+		}
+	}
+	
+	public void passwordMismatchUserCredentialDetails(String role, String employeeName, String status,
+	        String username, String password, String confirmPassword) {
+
+	    logger.info("Entering user credential details with password mismatch");
+
+	    if (role != null && !role.trim().isEmpty()) {
+	        logger.info("Role: " + role);
+	        createUserPage.selectUserRole(role);
+	    }
+
+	    if (employeeName != null && !employeeName.trim().isEmpty()) {
+	        logger.info("Employee Name: " + employeeName);
+	        createUserPage.enterEmployeeName(employeeName);
+	    }
+
+	    if (status != null && !status.trim().isEmpty()) {
+	        logger.info("Status: " + status);
+	        createUserPage.selectStatus(status);
+	    }
+
+	    if (username != null && !username.trim().isEmpty()) {
+	        String uniqueUsername = username + System.currentTimeMillis();
+	        logger.info("Generated unique username: " + uniqueUsername);
+	        createUserPage.enterUsername(uniqueUsername);
+	    }
+
+	    if (password != null && !password.trim().isEmpty()) {
+	        createUserPage.enterPassword(password);
+	    }
+
+	    if (confirmPassword != null && !confirmPassword.trim().isEmpty()) {
+	        createUserPage.enterConfirmPassword(confirmPassword);
+	    }
+	}
+
+	public void clickSaveButton() {
+		logger.info("Clicking Save button");
+		createUserPage.clickSaveButton();
+	}
+
+	public boolean verifySuccessMessageDisplayed() {
+		logger.info("Verifying success message is displayed");
+		return createUserPage.isSuccessMessageDisplayed();
+	}
+
+	public boolean verifyRequiredValidationMessageDisplayed() {
+		logger.info("Verifying required validation message is displayed");
+		return createUserPage.isRequiredValidationMessageDisplayed();
+	}
+
+	public void verifyDuplicateUsernameValidationMessage() {
+		Assert.assertTrue(createUserPage.isDuplicateUsernameValidationMessageDisplayed());
+	}
+	
+	public void verifyPasswordMismatchValidationMessage() {
+	    Assert.assertTrue(createUserPage.isPasswordMismatchValidationMessageDisplayed());
+	}
 }

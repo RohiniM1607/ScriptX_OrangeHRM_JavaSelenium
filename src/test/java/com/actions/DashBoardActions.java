@@ -43,4 +43,18 @@ public class DashBoardActions {
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuContactDetails));
         dashBoardPage.menuContactDetails.click();
     }
+    
+    public void navigateToEmergencyContacts() {
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
+        dashBoardPage.menuMyInfo.click();
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuEmergencyContacts));
+        dashBoardPage.menuEmergencyContacts.click();
+    }
+
+	public void navigateToDependents() {
+		wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
+        dashBoardPage.menuMyInfo.click();
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuDependents));
+        dashBoardPage.menuDependents.click();
+	}
 }
