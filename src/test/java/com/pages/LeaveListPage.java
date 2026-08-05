@@ -1,101 +1,46 @@
 package com.pages;
 
-import org.openqa.selenium.Keys;
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LeaveListPage extends BasePage {
 
-    public LeaveListPage() {
-        super();
-    }
-
     @FindBy(xpath = "//span[text()='Leave']")
-    WebElement leaveMenu;
+    public WebElement leaveMenu;
 
     @FindBy(xpath = "//a[text()='Leave List']")
-    WebElement leaveListMenu;
+    public WebElement leaveListMenu;
 
-    @FindBy(xpath = "//h5[text()='Leave List']")
-    WebElement leaveListTitle;
+    @FindBy(xpath = "//input[@placeholder='Type for hints...']")
+    public WebElement employeeNameTextbox;
 
-    @FindBy(xpath = "(//div[@class='oxd-select-text-input'])[1]")
-    WebElement leaveStatusDropdown;
-
-    @FindBy(xpath = "//button[@type='submit']")
-    WebElement searchButton;
-
-    @FindBy(xpath = "//div[@class='orangehrm-container']")
-    WebElement searchResultContainer;
-    
     @FindBy(xpath = "(//input[@placeholder='yyyy-dd-mm'])[1]")
-    WebElement fromDate;
+    public WebElement fromDateTextbox;
 
     @FindBy(xpath = "(//input[@placeholder='yyyy-dd-mm'])[2]")
-    WebElement toDate;
+    public WebElement toDateTextbox;
 
+    @FindBy(xpath = "(//div[contains(@class,'oxd-select-text')])[1]")
+    public WebElement statusDropdown;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement searchButton;
+
+    @FindBy(xpath = "//div[@class='oxd-table-body']")
+    public WebElement resultTable;
+
+    @FindBy(xpath = "//div[@class='oxd-table-card']")
+    public List<WebElement> resultRows;
+
+    @FindBy(xpath = "//span[text()='No Records Found']")
+    public WebElement noRecordFound;
     
-
-    public void navigateToLeaveListPage() {
-
-        helper.clickElement(leaveMenu);
-        helper.clickElement(leaveListMenu);
-    }
-
-    public boolean isLeaveListPageDisplayed() {
-
-        helper.waitForElement(leaveListTitle);
-        return leaveListTitle.isDisplayed();
-    }
-
-    public void selectLeaveStatus(String status) {
-
-        helper.clickElement(leaveStatusDropdown);
-
-        if(status.equalsIgnoreCase("Pending Approval")) {
-
-            helper.pressDownAndEnter(1);
-        }
-        else if(status.equalsIgnoreCase("Scheduled")) {
-
-            helper.pressDownAndEnter(2);
-        }
-        else if(status.equalsIgnoreCase("Taken")) {
-
-            helper.pressDownAndEnter(3);
-        }
-    }
-
-    public void clickSearchButton() {
-
-        helper.clickElement(searchButton);
-    }
-
-    public boolean isSearchResultDisplayed() {
-
-        helper.waitForElement(searchResultContainer);
-        return searchResultContainer.isDisplayed();
-    }
+    @FindBy(xpath="//div[@role='listbox']")
+    public WebElement employeeSuggestion;
     
-    public void enterFromDate(String date) {
+    @FindBy(xpath="//div[@role='listbox']")
+    public WebElement statusList;
 
-        helper.waitForElement(fromDate);
-
-        fromDate.sendKeys(Keys.CONTROL + "a");
-        fromDate.sendKeys(Keys.DELETE);
-
-        fromDate.sendKeys(date);
-    }
-
-    public void enterToDate(String date) {
-
-        helper.waitForElement(toDate);
-
-        toDate.sendKeys(Keys.CONTROL + "a");
-        toDate.sendKeys(Keys.DELETE);
-
-        toDate.sendKeys(date);
-    }
-
-    
 }

@@ -19,8 +19,11 @@ public class CreateUserCredentialsPage extends BasePage {
         super();
         this.actions = new Actions(driver);
     }
+    
+    @FindBy(xpath = "//h6[text()='Dashboard']")
+    private WebElement dashboardHeader;
 
-    @FindBy(xpath = "//span[text()='Admin']")
+    @FindBy(xpath = "//a[contains(@href,'admin')]")
     WebElement adminMenu;
 
     @FindBy(xpath = "//button[normalize-space()='Add']")
@@ -63,6 +66,10 @@ public class CreateUserCredentialsPage extends BasePage {
     WebElement passwordMismatchValidationMessage;
 
     public void navigateToAdmin() {
+        helper.waitForElementVisible(dashboardHeader);
+        helper.waitForElementVisible(adminMenu);
+//        System.out.println("Admin displayed : " + adminMenu.isDisplayed());
+//        System.out.println("Admin enabled   : " + adminMenu.isEnabled());
         helper.clickElement(adminMenu);
     }
 
