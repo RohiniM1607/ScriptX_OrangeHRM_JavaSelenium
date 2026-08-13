@@ -1,12 +1,12 @@
 Feature: Reshma_15May2026_ScriptX_OrangeHRM File for Dependents
 
   Background:
-    Given Employee launches OrangeHRM login page
-    When Employee enters valid "username" and "password" using employee credentials
+    Given Employee is on OrangeHRM login page
+    When Employee enters valid username and password
       | username   | password      |
       | Renukkka R | RenukkkaR@123 |
-    And Employee clicks on login link
-    And Employee is on Dashboard page
+    And Employee clicks on login button
+    And the Employee is on the Dashboard page
 
   @ReshmaDependents @Reshma
   Scenario Outline: Add dependent details with valid data

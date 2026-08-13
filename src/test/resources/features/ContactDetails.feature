@@ -1,12 +1,12 @@
 Feature: Reshma_19May2026_ScriptX_OrangeHRM File for ContactDetails
 
   Background:
-    Given Employee is on the OrangeHRM login page
-    When Employee enters valid "username" and "password"
+    Given Employee is on OrangeHRM login page
+    When Employee enters valid username and password
       | username   | password      |
       | Renukkka R | RenukkkaR@123 |
-    And Employee clicks on the login button
-    And the Employee is on Dashboard page
+    And Employee clicks on login button
+    And the Employee is on the Dashboard page
 
   @ReshmaContactDetails @Reshma
   Scenario: Update contact details and add attachment successfully

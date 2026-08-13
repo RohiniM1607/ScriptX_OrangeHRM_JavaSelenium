@@ -24,36 +24,6 @@ public class DependentsStepDefinition {
     DashBoardActions dashBoardActions;
     DependentsActions dependentsActions;
 
-    @Given("Employee launches OrangeHRM login page")
-    public void employee_launches_orange_hrm_login_page() {
-        log.info("Launching OrangeHRM login page");
-        loginActions = new LoginActions();
-        loginPage = new LoginPage();
-    }
-
-    @When("Employee enters valid {string} and {string} using employee credentials")
-    public void employee_enters_valid_and_using_employee_credentials(String userKey, String passKey, DataTable dataTable) {
-
-        List<Map<String, String>> credentials = dataTable.asMaps(String.class, String.class);
-
-        String username = credentials.get(0).get(userKey).trim();
-        String password = credentials.get(0).get(passKey).trim();
-
-        loginPage.enterUsername(username);
-        loginPage.enterPassword(password);
-    }
-
-    @And("Employee clicks on login link")
-    public void employee_clicks_on_login_link() {
-        loginActions.clickLogin();
-    }
-
-    @And("Employee is on Dashboard page")
-    public void employee_is_on_dashboard_page() {
-        dashBoardActions = new DashBoardActions();
-        Assert.assertTrue(dashBoardActions.isDashboardDisplayed(), "Dashboard not displayed");
-    }
-
     @When("Employee navigates to Dependents page")
     public void employee_navigates_to_dependents_page() {
         dashBoardActions = new DashBoardActions();
@@ -89,7 +59,6 @@ public class DependentsStepDefinition {
         dashBoardActions = new DashBoardActions();
         dashBoardActions.navigateToMyInfo();
         dashBoardActions.navigateToDependents();
-
         dependentsActions = new DependentsActions();
     }
 

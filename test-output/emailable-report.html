@@ -9,11 +9,369 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">44,502</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">10</td><td class="num">127,610</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.runner.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1781513067203</td><td rowspan="2">37960</td></tr><tr class="passedeven"><td><a href="#m1">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="10">com.runner.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="10">1786614995790</td><td rowspan="10">90937</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m6">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m7">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m8">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m9">runScenario</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verify leave status for applied leave&quot;</td><td>&quot;Employee Leave List&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verify remaining leave balance&quot;</td><td>&quot;Employee Leave List&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add attachment in Emergency Contacts page&quot;</td><td>&quot;Reshma_21May2026_ScriptX_OrangeHRM File for EmergencyContacts&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/EmergencyContacts.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc4f29afbfb95283f6cdd8c3be9e84a, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62248}, goog:processID: 34120, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62248/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebc4f29afbfb95283f6cdd8c3be9e84a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Upload attachment on Contact Details page&quot;</td><td>&quot;Reshma_19May2026_ScriptX_OrangeHRM File for ContactDetails&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/ContactDetails.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c301eb59e64b007c84b6ce202bb30e1c, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62254}, goog:processID: 16920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62254/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c301eb59e64b007c84b6ce202bb30e1c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Update personal details with valid data&quot;</td><td>&quot;Reshma_15May2026_ScriptX_OrangeHRM File for PersonalDetails&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/PersonalDetails.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6004da329d289c607e2f0853af0f16d3, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62251}, goog:processID: 36912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62251/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6004da329d289c607e2f0853af0f16d3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add dependent details with valid data&quot;</td><td>&quot;Reshma_15May2026_ScriptX_OrangeHRM File for Dependents&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/Dependents.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3fb405ff2846ccaa917e0d7e79dda3e9, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62246}, goog:processID: 28780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62246/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fb405ff2846ccaa917e0d7e79dda3e9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Upload a valid attachment in Dependents section&quot;</td><td>&quot;Reshma_15May2026_ScriptX_OrangeHRM File for Dependents&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/Dependents.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0041e5ed3a3fadc8b3db89ddf87fcbf, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62253}, goog:processID: 14308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62253/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0041e5ed3a3fadc8b3db89ddf87fcbf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Upload profile picture successfully&quot;</td><td>&quot;Reshma_15May2026_ScriptX_OrangeHRM File for PersonalDetails&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/PersonalDetails.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5abd7f44255e0214cdb7d3008655eda9, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62247}, goog:processID: 34232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62247/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5abd7f44255e0214cdb7d3008655eda9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Update contact details and add attachment successfully&quot;</td><td>&quot;Reshma_19May2026_ScriptX_OrangeHRM File for ContactDetails&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/ContactDetails.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78f7e0297d2562fd1e7ddcbb3e943335, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62252}, goog:processID: 29084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62252/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78f7e0297d2562fd1e7ddcbb3e943335
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add dependent details with valid data&quot;</td><td>&quot;Reshma_15May2026_ScriptX_OrangeHRM File for Dependents&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/Dependents.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b51f4215124bc9b66b2cf289e0b2680c, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62250}, goog:processID: 20532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62250/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b51f4215124bc9b66b2cf289e0b2680c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Upload an invalid file size in Dependents Attachments section&quot;</td><td>&quot;Reshma_15May2026_ScriptX_OrangeHRM File for Dependents&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/Dependents.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85c12488141ddb1ac4ce08d7dcd64895, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62245}, goog:processID: 32032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62245/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85c12488141ddb1ac4ce08d7dcd64895
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add emergency contact with valid data&quot;</td><td>&quot;Reshma_21May2026_ScriptX_OrangeHRM File for EmergencyContacts&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text() = &apos;Dashboard&apos;]&apos;
+(tried for 20 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.actions.DashBoardActions.isDashboardDisplayed(DashBoardActions.java:36)
+	at com.stepdefinitions.PersonalDetailsStepDefinition.the_employee_is_on_the_dashboard_page(PersonalDetailsStepDefinition.java:60)
+	at ✽.the Employee is on the Dashboard page(file:///C:/Users/Reshma/git/ScriptX_OrangeHRM/src/test/resources/features/EmergencyContacts.feature:9)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text() = &apos;Dashboard&apos;]&quot;}
+  (Session info: chrome=151.0.7922.137)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b0fb618d4845add1e4c5b5ae2cc50ba, findElement {using=xpath, value=//span[text() = &apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.137, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Reshma\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62249}, goog:processID: 24708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62249/devtoo..., se:cdpVersion: 151.0.7922.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b0fb618d4845add1e4c5b5ae2cc50ba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

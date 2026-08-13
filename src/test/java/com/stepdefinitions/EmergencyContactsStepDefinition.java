@@ -29,39 +29,6 @@ public class EmergencyContactsStepDefinition {
     DashBoardActions dashBoardActions;
     EmergencyContactsActions emergencyContactsActions;
 
-    @Given("Employee launches the OrangeHRM login")
-    public void employee_launches_the_orange_hrm_login() {
-        log.info("Navigating to OrangeHRM login page");
-        loginActions = new LoginActions();
-        loginPage = new LoginPage();
-    }
-
-    @When("Employee enters the valid {string} and {string}")
-    public void employee_enters_the_valid_and(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-        List<Map<String, String>> credentials = dataTable.asMaps(String.class, String.class);
-        String username = credentials.get(0).get("username").trim();
-        String password = credentials.get(0).get("password").trim();
-        log.info("Entering username: {}", username);
-        loginPage.enterUsername(username);
-        log.info("Entering password");
-        loginPage.enterPassword(password);
-    }
-
-    @When("the Employee clicks on the login link")
-    public void the_employee_clicks_on_the_login_link() {
-        log.info("Clicking the Login button");
-        loginActions.clickLogin();
-    }
-
-    @When("Employee is on the Dashboard page")
-    public void employee_is_on_the_dashboard_page() {
-        log.info("Verifying Dashboard is displayed");
-        dashBoardActions = new DashBoardActions();
-        boolean isDashboardVisible = dashBoardActions.isDashboardDisplayed();
-        Assert.assertTrue(isDashboardVisible, "Dashboard is not displayed!");
-        log.info("Dashboard displayed successfully");
-    }
-
     @When("Employee navigates to Emergency Contacts page")
     public void employee_navigates_to_emergency_contacts_page() {
         log.info("Navigating to Emergency Contacts page");

@@ -1,12 +1,12 @@
 Feature: Reshma_21May2026_ScriptX_OrangeHRM File for EmergencyContacts
 
   Background:
-    Given Employee launches the OrangeHRM login
-    When Employee enters the valid "username" and "password"
+    Given Employee is on OrangeHRM login page
+    When Employee enters valid username and password
       | username   | password      |
       | Renukkka R | RenukkkaR@123 |
-    And the Employee clicks on the login link
-    And Employee is on the Dashboard page
+    And Employee clicks on login button
+    And the Employee is on the Dashboard page
 
   @ReshmaEmergencyContactAdd @Reshma
   Scenario: Add emergency contact with valid data
