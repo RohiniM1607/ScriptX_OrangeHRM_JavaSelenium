@@ -1,5 +1,5 @@
 @Jagadeep_K_C
-Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Buzz_feature
+Feature: Jagadeep_ScriptX_OrangeHRm_Buzz_feature
 
   Background:
     Given admin is logged into OrangeHRM Buzz page
@@ -21,3 +21,7 @@ Feature: Jagadeep_13-05-2026_ScriptX_OrangeHRm_Buzz_feature
   Scenario: Delete a buzz post successfully
     When admin creates and deletes a buzz post
     Then the buzz post should be removed from the feed
+    
+  Scenario: Edit a buzz post successfully
+    When admin creates and edits a buzz post
+    Then the buzz post should display the updated content
