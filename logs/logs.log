@@ -9999,3 +9999,244 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-06-15 14:15:04.882 [TestNG-PoolService-1] Hooks - Ending Scenario: Verify leave status for applied leave
 [INFO ] 2026-06-15 14:15:04.882 [TestNG-PoolService-1] HelperClass - Scenario passed: Verify leave status for applied leave
 [INFO ] 2026-06-15 14:15:04.883 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:13:25.959 [TestNG-PoolService-1] Hooks - Starting Scenario: Verify leave status for applied leave
+[INFO ] 2026-08-14 17:13:25.959 [TestNG-PoolService-2] Hooks - Starting Scenario: Verify remaining leave balance
+[INFO ] 2026-08-14 17:13:25.973 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:13:25.973 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:13:30.124 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:13:30.165 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:13:30.171 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:13:30.465 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:13:30.489 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:13:30.491 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:13:44.246 [TestNG-PoolService-1] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:13:44.246 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:13:47.219 [TestNG-PoolService-1] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:13:47.219 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:13:47.294 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:13:47.294 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:13:49.590 [TestNG-PoolService-2] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:13:49.590 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:13:54.504 [TestNG-PoolService-2] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:13:54.504 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:13:54.583 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:13:54.583 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:15:07.119 [TestNG-PoolService-1] Hooks - Ending Scenario: Verify leave status for applied leave
+[ERROR] 2026-08-14 17:15:07.121 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:15:07.121 [TestNG-PoolService-1] HelperClass - Scenario failed: Verify leave status for applied leave
+[INFO ] 2026-08-14 17:15:07.121 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:15:07.321 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Verify_leave_status_for_applied_leave_2026-08-14_171507.png
+[INFO ] 2026-08-14 17:15:07.322 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:15:12.046 [TestNG-PoolService-2] Hooks - Ending Scenario: Verify remaining leave balance
+[ERROR] 2026-08-14 17:15:12.046 [TestNG-PoolService-2] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:15:12.047 [TestNG-PoolService-2] HelperClass - Scenario failed: Verify remaining leave balance
+[INFO ] 2026-08-14 17:15:12.047 [TestNG-PoolService-2] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:15:12.267 [TestNG-PoolService-2] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Verify_remaining_leave_balance_2026-08-14_171512.png
+[INFO ] 2026-08-14 17:15:12.267 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:16:11.783 [TestNG-PoolService-1] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:16:11.795 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:16:13.010 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:16:13.050 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:16:13.053 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:16:19.502 [TestNG-PoolService-1] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:16:19.502 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:16:20.296 [TestNG-PoolService-1] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:16:20.296 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:16:20.369 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:16:20.369 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:16:20.439 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:16:33.832 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:16:34.660 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:16:34.660 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:16:35.796 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:16:38.016 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:16:38.016 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:16:39.148 [TestNG-PoolService-1] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:16:39.150 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:16:39.150 [TestNG-PoolService-1] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:16:39.150 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:16:39.378 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_171639.png
+[INFO ] 2026-08-14 17:16:39.379 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:25:36.665 [TestNG-PoolService-1] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:25:36.678 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:25:37.980 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:25:38.016 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:25:38.023 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:25:42.526 [TestNG-PoolService-1] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:25:42.526 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:25:43.625 [TestNG-PoolService-1] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:25:43.625 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:25:43.709 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:25:43.709 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:25:43.788 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:25:53.045 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:25:54.299 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:25:54.299 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:25:56.104 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:26:17.500 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:26:17.501 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:26:27.684 [TestNG-PoolService-1] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:26:27.685 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:26:27.685 [TestNG-PoolService-1] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:26:27.685 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:26:27.862 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_172627.png
+[INFO ] 2026-08-14 17:26:27.862 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:27:43.230 [main] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:27:43.238 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:27:44.388 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:27:44.419 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:27:44.423 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:27:48.637 [main] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:27:48.637 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:27:49.076 [main] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:27:49.076 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:27:49.146 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:27:49.146 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:27:49.211 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:27:51.675 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:27:52.062 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:27:52.062 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:27:52.628 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:28:13.655 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:28:13.656 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:28:23.813 [main] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:28:23.814 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:28:23.814 [main] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:28:23.814 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:28:23.982 [main] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_172823.png
+[INFO ] 2026-08-14 17:28:23.982 [main] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:29:24.918 [main] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:29:24.927 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:29:26.061 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:29:26.098 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:29:26.102 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:29:30.485 [main] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:29:30.485 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:29:30.937 [main] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:29:30.937 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:29:31.006 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:29:31.008 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:29:31.079 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:29:33.323 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:29:33.717 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:29:33.718 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:29:34.279 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:29:55.288 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:29:55.288 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:30:05.426 [main] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:30:05.428 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:30:05.429 [main] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:30:05.429 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:30:05.596 [main] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_173005.png
+[INFO ] 2026-08-14 17:30:05.597 [main] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:31:48.016 [TestNG-PoolService-1] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:31:48.030 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:31:49.281 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:31:49.324 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:31:49.329 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:31:55.287 [TestNG-PoolService-1] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:31:55.287 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:31:55.625 [TestNG-PoolService-1] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:31:55.625 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:31:55.698 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:31:55.698 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:31:55.778 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:32:27.716 [TestNG-PoolService-1] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:32:27.718 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:32:27.718 [TestNG-PoolService-1] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:32:27.719 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:32:27.896 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_173227.png
+[INFO ] 2026-08-14 17:32:27.897 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:34:32.598 [TestNG-PoolService-1] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:34:32.610 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:34:33.844 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:34:33.875 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:34:33.879 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:34:41.709 [TestNG-PoolService-1] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:34:41.709 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:34:42.066 [TestNG-PoolService-1] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:34:42.066 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:34:42.140 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:34:42.140 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:34:42.216 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:34:45.453 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:34:45.863 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:34:45.863 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:34:47.273 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:35:09.028 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:35:09.028 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:35:29.596 [TestNG-PoolService-1] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:35:29.598 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:35:29.598 [TestNG-PoolService-1] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:35:29.598 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:35:29.796 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_173529.png
+[INFO ] 2026-08-14 17:35:29.796 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:36:44.071 [main] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:36:44.080 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:36:45.228 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:36:45.261 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:36:45.264 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:37:36.721 [main] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:37:36.722 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:37:39.154 [main] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:37:39.154 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:37:39.237 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:37:39.237 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:37:39.310 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:37:47.209 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:37:48.352 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:37:48.352 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:37:49.719 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:38:12.178 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:38:12.179 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:38:22.331 [main] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:38:22.332 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:38:22.333 [main] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:38:22.333 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:38:22.504 [main] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_173822.png
+[INFO ] 2026-08-14 17:38:22.504 [main] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:38:40.746 [TestNG-PoolService-1] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:38:40.758 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:38:41.964 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:38:42.003 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:38:42.007 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:38:46.581 [TestNG-PoolService-1] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:38:46.581 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:38:47.422 [TestNG-PoolService-1] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:38:47.423 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:38:47.495 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:38:47.495 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:38:47.572 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:38:55.326 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:38:56.285 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:38:56.285 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:38:57.442 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:39:20.445 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:39:20.446 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:39:30.598 [TestNG-PoolService-1] Hooks - Ending Scenario: Apply leave successfully
+[ERROR] 2026-08-14 17:39:30.600 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 17:39:30.600 [TestNG-PoolService-1] HelperClass - Scenario failed: Apply leave successfully
+[INFO ] 2026-08-14 17:39:30.600 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 17:39:30.782 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Subha Shree\git\ScriptX_OrangeHRM\target\screenshots\Apply_leave_successfully_2026-08-14_173930.png
+[INFO ] 2026-08-14 17:39:30.782 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-14 17:40:35.946 [TestNG-PoolService-1] Hooks - Starting Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:40:35.963 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 17:40:37.201 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 17:40:37.229 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 17:40:37.233 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 17:40:42.229 [TestNG-PoolService-1] HelperClass - Entering text: Rajaa
+[INFO ] 2026-08-14 17:40:42.229 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:40:43.033 [TestNG-PoolService-1] HelperClass - Entering text: Raja@123!!
+[INFO ] 2026-08-14 17:40:43.033 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:40:43.105 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:40:43.105 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:40:43.177 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:41:01.219 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:41:02.671 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:41:02.671 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:41:04.401 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 17:41:27.705 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-14 17:41:27.705 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 17:41:32.072 [TestNG-PoolService-1] Hooks - Ending Scenario: Apply leave successfully
+[INFO ] 2026-08-14 17:41:32.073 [TestNG-PoolService-1] HelperClass - Scenario passed: Apply leave successfully
+[INFO ] 2026-08-14 17:41:32.073 [TestNG-PoolService-1] HelperClass - Closing browser

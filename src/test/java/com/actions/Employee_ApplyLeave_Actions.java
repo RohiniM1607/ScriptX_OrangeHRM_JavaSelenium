@@ -44,6 +44,11 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
 
         helper.waitForElement(page.leave_type);
 
+        // Ensure the loading overlay has fully disappeared before any further interaction.
+        // Using invisibilityOfElementLocated (not invisibilityOf(page.loader)) so it re-queries
+        // the DOM by locator instead of relying on a possibly-stale WebElement reference.
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-form-loader")));
+
         System.out.println("Apply Leave page loaded successfully.");
     }
     
@@ -87,7 +92,11 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
 
     public void leaveType_field(String expectedType) {
 
-    	helper.clickElement(page.leave_type);
+        // Wait for the loading overlay to disappear before clicking the leave type dropdown.
+        // This is what was intercepting the click in the failing run.
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-form-loader")));
+
+        helper.clickElement(page.leave_type);
 		wait.until(ExpectedConditions.visibilityOf(page.empOption));
 		//wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
 
