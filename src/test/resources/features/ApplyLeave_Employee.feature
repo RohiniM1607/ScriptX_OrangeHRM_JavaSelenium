@@ -14,4 +14,4 @@ Scenario Outline: Apply leave successfully
   Then the success message should display
 Examples:
     |leaveType      |from date  |To date    |
-    |CAN - Personal |2026-09-09 |2026-09-09 |
+    |CAN - Personal |2026-09-10 |2026-09-10 |
