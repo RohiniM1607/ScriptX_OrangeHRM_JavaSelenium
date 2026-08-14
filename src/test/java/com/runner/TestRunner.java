@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-        features = "src/test/resources/features/ApplyLeave_Employee.feature",
+        features = "src/test/resources/features/EmployeeLeaveList.feature",
         glue = {"com.stepdefinitions", "com.hooks"},
         plugin = {
                 "pretty",
