@@ -10275,3 +10275,47 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-08-13 15:28:28.018 [TestNG-PoolService-10] HelperClass - Capturing screenshot for failed scenario
 [INFO ] 2026-08-13 15:28:28.158 [TestNG-PoolService-10] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_profile_picture_successfully_2026-08-13_152828.png
 [INFO ] 2026-08-13 15:28:28.158 [TestNG-PoolService-10] HelperClass - Closing browser
+[INFO ] 2026-08-13 15:39:35.446 [TestNG-PoolService-1] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-13 15:39:35.446 [TestNG-PoolService-2] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-08-13 15:39:35.507 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-13 15:39:35.507 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-13 15:39:52.028 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-13 15:39:52.094 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-08-13 15:39:52.104 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-13 15:39:55.517 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-13 15:39:55.589 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-08-13 15:39:55.597 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-13 15:40:03.704 [TestNG-PoolService-1] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-13 15:40:03.772 [TestNG-PoolService-1] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-13 15:40:03.772 [TestNG-PoolService-1] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-13 15:40:03.773 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-13 15:40:05.603 [TestNG-PoolService-1] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-13 15:40:05.604 [TestNG-PoolService-1] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-13 15:40:05.604 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-13 15:40:05.857 [TestNG-PoolService-1] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-13 15:40:05.857 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-08-13 15:40:05.857 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-13 15:40:06.071 [TestNG-PoolService-1] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-13 15:40:11.752 [TestNG-PoolService-2] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-13 15:40:11.766 [TestNG-PoolService-2] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-13 15:40:11.766 [TestNG-PoolService-2] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-13 15:40:11.767 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-13 15:40:13.071 [TestNG-PoolService-2] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-13 15:40:13.071 [TestNG-PoolService-2] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-13 15:40:13.071 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-13 15:40:13.316 [TestNG-PoolService-2] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-13 15:40:13.317 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-08-13 15:40:13.317 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-13 15:40:16.852 [TestNG-PoolService-2] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-13 15:40:26.149 [TestNG-PoolService-1] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-13 15:40:26.153 [TestNG-PoolService-1] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-13 15:40:26.153 [TestNG-PoolService-1] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-13 15:40:26.154 [TestNG-PoolService-1] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-13 15:40:26.407 [TestNG-PoolService-1] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-13_154026.png
+[INFO ] 2026-08-13 15:40:26.408 [TestNG-PoolService-1] HelperClass - Closing browser
+[INFO ] 2026-08-13 15:40:36.922 [TestNG-PoolService-2] Hooks - Ending Scenario: Upload profile picture successfully
+[ERROR] 2026-08-13 15:40:36.922 [TestNG-PoolService-2] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-13 15:40:36.923 [TestNG-PoolService-2] HelperClass - Scenario failed: Upload profile picture successfully
+[INFO ] 2026-08-13 15:40:36.923 [TestNG-PoolService-2] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-13 15:40:37.111 [TestNG-PoolService-2] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_profile_picture_successfully_2026-08-13_154037.png
+[INFO ] 2026-08-13 15:40:37.111 [TestNG-PoolService-2] HelperClass - Closing browser
