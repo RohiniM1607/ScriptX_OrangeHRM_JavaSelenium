@@ -28,10 +28,10 @@ public class Employee_ApplyLeave_Page extends BasePage {
     @FindBy(xpath = "//*[contains(text(),'Day(s)')]")
     public WebElement leaveBalanceText;
 
-    @FindBy(xpath = "(//div[@class='oxd-date-input'])[1]")
-    public WebElement fromDateInput;
+   @FindBy(xpath = "(//div[contains(@class,'oxd-date-input')]//input)[1]")
+   public WebElement fromDateInput;
 
-    @FindBy(xpath = "(//div[@class='oxd-date-input'])[2]")
+    @FindBy(xpath = "(//div[contains(@class,'oxd-date-input')]//input)[2]")
     public WebElement toDateInput;
 
     @FindBy(xpath = "//textarea[@placeholder='Type here']")
