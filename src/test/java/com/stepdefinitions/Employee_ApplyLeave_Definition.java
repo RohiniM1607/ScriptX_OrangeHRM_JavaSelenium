@@ -38,6 +38,17 @@ public class Employee_ApplyLeave_Definition {
     	// Actions actions = new Actions(helper.getDriver());
   	    //actions.sendKeys(Keys.TAB).perform();
     	}
+
+    // ---- New: apply leave without selecting a leave type ----
+    @When("the user navigates to Apply Leave without selecting leave type")
+    public void the_user_navigates_to_apply_leave_without_selecting_leave_type() throws InterruptedException {
+        applyLeaveActions.navigateToApplyLeaveWithoutSelectingType();
+    }
+
+    @Then("the required field error message should display")
+    public void the_required_field_error_message_should_display() {
+        applyLeaveActions.verifyRequiredFieldErrorMessage();
+    }
     
     @And("selects {string} {string}")
     public void selects(String fromDate, String toDate) {
@@ -52,5 +63,21 @@ public class Employee_ApplyLeave_Definition {
     @Then("the success message should display")
     public void the_success_message_should_display() {
         applyLeaveActions.confirmation_message();
+    }
+
+    // ---- New: cancel an applied leave from My Leave list ----
+    @When("the user navigates to My Leave list")
+    public void the_user_navigates_to_my_leave_list() {
+        applyLeaveActions.navigateToMyLeaveList();
+    }
+
+    @And("cancels the applied leave for {string}")
+    public void cancels_the_applied_leave_for(String leaveType) {
+        applyLeaveActions.cancelAppliedLeave(leaveType);
+    }
+
+    @Then("the leave cancelled message should display")
+    public void the_leave_cancelled_message_should_display() {
+        applyLeaveActions.confirmCancelMessage();
     }
 }
