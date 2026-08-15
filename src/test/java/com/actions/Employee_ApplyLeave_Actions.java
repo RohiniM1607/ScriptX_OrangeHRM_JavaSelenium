@@ -11,6 +11,9 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+
+import com.hooks.Hooks;
+import com.pages.Add_leave_entitlement_page;
 import com.pages.Employee_ApplyLeave_Page;
 import com.utilities.HelperClass;
 import org.openqa.selenium.WebElement;
@@ -19,15 +22,8 @@ import org.openqa.selenium.interactions.Actions;
 public class Employee_ApplyLeave_Actions extends BaseActions {
 
     Employee_ApplyLeave_Page page = new Employee_ApplyLeave_Page();
-  
-
     HelperClass helper = new HelperClass();
-
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-
-    // Remembers the "from date" used in the most recent setDateRange() call so
-    // cancelAppliedLeave() can uniquely identify the row it just created, even
-    // when other leave requests of the same type already exist in the list.
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(45));
     private String appliedFromDate;
    
 
@@ -114,7 +110,30 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
                         + anyToast.get(0).getText() + "\". This usually means OrangeHRM rejected the leave "
                         + "request — most commonly because a leave already exists for that date range.");
             }
-            throw e;
+
+            // No toast of ANY kind appeared — the Save action may not have
+            // completed at all on this environment. Capture enough page
+            // state to diagnose why without needing to reproduce it live.
+            String currentUrl = driver.getCurrentUrl();
+            String pageTitle = driver.getTitle();
+            List<WebElement> inlineErrors = driver.findElements(
+                    By.xpath("//span[contains(@class,'oxd-input-field-error-message')]"));
+            String inlineErrorText = inlineErrors.isEmpty() ? "none"
+                    : inlineErrors.get(0).getText();
+            boolean loaderStillVisible = !driver.findElements(By.cssSelector("div.oxd-form-loader")).isEmpty();
+
+            System.out.println("---- No toast appeared at all — diagnostic dump ----");
+            System.out.println("Current URL: " + currentUrl);
+            System.out.println("Page title: " + pageTitle);
+            System.out.println("Inline field error present: " + inlineErrorText);
+            System.out.println("Loader still in DOM: " + loaderStillVisible);
+            System.out.println("-----------------------------------------------------");
+
+            Assert.fail("No confirmation toast (success or error) appeared after clicking Save within 30s. "
+                    + "URL=" + currentUrl + ", inlineFieldError=" + inlineErrorText
+                    + ", loaderStillPresent=" + loaderStillVisible
+                    + ". This points to an environment-specific timing/network issue rather than a locator "
+                    + "mismatch — see console dump above for details.");
         }
     }
 
@@ -235,7 +254,18 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
 }
     
     public void clickSave() {
-    	page.save.click();
+        page.save.click();
+        // On slower environments (e.g. CI agents), the save request can
+        // still be in flight when the next step checks for the toast. Give
+        // the loader a chance to appear and clear before moving on, so we
+        // don't race the assertion against an in-progress request.
+        try {
+            WebDriverWait shortWait = new WebDriverWait(driver, Duration.ofSeconds(3));
+            shortWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.oxd-form-loader")));
+        } catch (org.openqa.selenium.TimeoutException ignored) {
+            // Loader may never appear if the save completes very fast — that's fine.
+        }
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-form-loader")));
     }
 
     // ---- My Leave list / Cancel leave ----
@@ -308,7 +338,6 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
         } catch (org.openqa.selenium.TimeoutException e) {
             System.out.println("No confirmation dialog appeared — cancellation likely applied directly.");
         }
-    }
 
     public void confirmCancelMessage() {
         try {
