@@ -7,6 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -18,8 +19,15 @@ import org.openqa.selenium.interactions.Actions;
 public class Employee_ApplyLeave_Actions extends BaseActions {
 
     Employee_ApplyLeave_Page page = new Employee_ApplyLeave_Page();
+  
+
     HelperClass helper = new HelperClass();
+
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
+    // Remembers the "from date" used in the most recent setDateRange() call so
+    // cancelAppliedLeave() can uniquely identify the row it just created, even
+    // when other leave requests of the same type already exist in the list.
     private String appliedFromDate;
    
 
@@ -125,22 +133,62 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
     // re-running the suite never collides with a leave request that's already
     // sitting in the system from an earlier execution. Anything other than
     // "AUTO" is returned unchanged, so fixed dates still work if you want them.
+    //
+    // The generated date always falls between tomorrow and Dec 31 of the
+    // current year (inclusive) — it never rolls over into next year.
     public static String resolveDate(String rawDate) {
         if (rawDate == null || !rawDate.equalsIgnoreCase("AUTO")) {
             return rawDate;
         }
-        // Push far enough into the future (base offset) and add a
-        // second-precision, monotonically-changing offset so back-to-back
-        // runs on the same day still land on different calendar dates.
-        long secondsOfDayOffset = (System.currentTimeMillis() / 1000L) % 1000L;
-        LocalDate date = LocalDate.now().plusDays(365 + secondsOfDayOffset);
+
+        LocalDate today = LocalDate.now();
+        LocalDate endOfYear = LocalDate.of(today.getYear(), 12, 31);
+
+        long daysRemaining = java.time.temporal.ChronoUnit.DAYS.between(today, endOfYear);
+        // Guard against running this in late December, where there may be
+        // very few (or zero) days left in the year.
+        long range = Math.max(daysRemaining, 1);
+
+        // Pick a changing-but-bounded offset (1..range) so back-to-back runs
+        // still land on different dates, without ever leaving the current year.
+        long offset = 1 + ((System.currentTimeMillis() / 1000L) % range);
+
+        LocalDate date = today.plusDays(offset);
+
+        // Skip weekends — leave applications should land on working days.
+        // Roll a Saturday forward by 2 (to Monday), a Sunday forward by 1.
+        DayOfWeek dow = date.getDayOfWeek();
+        if (dow == DayOfWeek.SATURDAY) {
+            date = date.plusDays(2);
+        } else if (dow == DayOfWeek.SUNDAY) {
+            date = date.plusDays(1);
+        }
+
+        // Edge case: if rolling forward pushed us past Dec 31 (only possible
+        // when the range window is right at year-end), pull back to the
+        // nearest prior weekday instead so we never exceed the current year.
+        if (date.isAfter(endOfYear)) {
+            date = endOfYear;
+            while (date.getDayOfWeek() == DayOfWeek.SATURDAY || date.getDayOfWeek() == DayOfWeek.SUNDAY) {
+                date = date.minusDays(1);
+            }
+        }
+
         return date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
     }
 
     public void setDateRange(String fromDate, String toDate) {
 
-        fromDate = resolveDate(fromDate);
-        toDate = resolveDate(toDate);
+        // If both are AUTO, resolve once and reuse for both so a single-day
+        // leave request always has matching from/to dates (resolving them
+        // independently could rarely land on different seconds → different dates).
+        if ("AUTO".equalsIgnoreCase(fromDate) && "AUTO".equalsIgnoreCase(toDate)) {
+            fromDate = resolveDate(fromDate);
+            toDate = fromDate;
+        } else {
+            fromDate = resolveDate(fromDate);
+            toDate = resolveDate(toDate);
+        }
 
         this.appliedFromDate = fromDate;
 
@@ -233,14 +281,34 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
         Assert.assertNotNull("No leave request row matched leaveType='" + leaveType
                 + "' and date='" + appliedFromDate + "'. Rows currently listed: " + rows.size(), targetRow);
 
-    
+        // ---- DIAGNOSTIC (kept lightweight) ----
+        // Confirmed markup: the row has a direct button[text()='Cancel'].
+        // Uncomment below again if a future OrangeHRM version changes this shape.
+        // String rowHtml = (String) ((JavascriptExecutor) driver)
+        //         .executeScript("return arguments[0].outerHTML;", targetRow);
+        // System.out.println("Matched leave row HTML:\n" + rowHtml);
+
+        // The row itself exposes a direct "Cancel" button (visible in the
+        // diagnostic HTML: oxd-button--label-warn, text "Cancel") — separate
+        // from the "..." dropdown menu button. Target it specifically by its
+        // exact text so we never click the dropdown by accident.
         WebElement cancelBtn = targetRow.findElement(By.xpath(".//button[normalize-space()='Cancel']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", cancelBtn);
 
         System.out.println("Clicked row-level Cancel button for leave type: " + leaveType + " on " + appliedFromDate);
 
-
-   }
+        // A confirmation dialog may or may not appear depending on the app's
+        // configured leave-cancellation settings. Wait briefly for one; if it
+        // doesn't show up, assume the cancel action completed directly.
+        try {
+            WebDriverWait shortWait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            WebElement confirmBtn = shortWait.until(ExpectedConditions.elementToBeClickable(page.confirmCancelButton));
+            confirmBtn.click();
+            System.out.println("Confirmed cancellation dialog for leave type: " + leaveType + " on " + appliedFromDate);
+        } catch (org.openqa.selenium.TimeoutException e) {
+            System.out.println("No confirmation dialog appeared — cancellation likely applied directly.");
+        }
+    }
 
     public void confirmCancelMessage() {
         try {
@@ -250,7 +318,10 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
                     page.cancelSuccessMsg.isDisplayed());
             System.out.println("Leave cancellation confirmation message displayed (toast).");
         } catch (org.openqa.selenium.TimeoutException e) {
-            
+            // No toast appeared. OrangeHRM's row-level Cancel doesn't always
+            // show one — it may just update the row's status in place. Fall
+            // back to checking the row itself for "Cancelled" before failing.
+            System.out.println("No cancel toast appeared — checking row status directly instead.");
 
             List<WebElement> rows = wait.until(ExpectedConditions.visibilityOfAllElements(page.leaveListRows));
             WebElement targetRow = null;
@@ -270,7 +341,7 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
                     + " does not show a Cancelled status. Row text: \"" + rowText + "\"",
                     rowText.toLowerCase().contains("cancel"));
 
-            System.out.println("Leave cancellation confirmed via row status. Row text: " + rowText);
+            System.out.println("Leave cancellation confirmed via row status (no toast shown). Row text: " + rowText);
         }
     }
 }

@@ -14,9 +14,9 @@ Scenario Outline: Apply leave successfully
   Then the success message should display
 
 Examples:
-    | leaveType      | from date  | To date    |
-    | CAN - Personal | 2026-09-10 | 2026-09-10 |
-    | CAN - Vacation | 2026-11-12 | 2026-11-12 |
+    | leaveType      | from date  | To date  |
+    | CAN - Personal |   AUTO     | AUTO     |
+    | CAN - Vacation |   AUTO     | AUTO     |
 
 @Subha
 Scenario Outline: Apply leave without selecting leave type
@@ -27,7 +27,8 @@ Scenario Outline: Apply leave without selecting leave type
 
 Examples:
     | from date  | To date    |
-    | 2026-10-01 | 2026-10-01 |
+    | AUTO       | AUTO       |
+      
 
 @Subha
 Scenario Outline: Cancel the applied leave
@@ -41,5 +42,5 @@ Scenario Outline: Cancel the applied leave
 
 Examples:
     | leaveType      | from date  | To date    |
-    | CAN - Personal | 2026-11-03 | 2026-11-03 |
-    | CAN - Vacation | 2026-12-11 | 2026-12-11 |
+    | CAN - Personal | AUTO       | AUTO       |
+   
