@@ -11191,3 +11191,11 @@ java.io.IOException: Cannot set the file time.
 [INFO ] 2026-08-15 14:37:04.695 [main] Hooks - Ending Scenario: Upload an invalid file size in Dependents Attachments section
 [INFO ] 2026-08-15 14:37:04.696 [main] HelperClass - Scenario passed: Upload an invalid file size in Dependents Attachments section
 [INFO ] 2026-08-15 14:37:04.696 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 22:46:10.693 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-15 22:46:10.723 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 22:46:18.487 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 22:46:18.565 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 22:46:18.576 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 22:46:28.533 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-15 22:46:28.536 [main] HelperClass - Scenario passed: Add salary component details from CSV file
+[INFO ] 2026-08-15 22:46:28.536 [main] HelperClass - Closing browser
