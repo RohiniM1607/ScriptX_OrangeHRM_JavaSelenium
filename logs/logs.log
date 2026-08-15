@@ -10319,3 +10319,875 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-08-13 15:40:36.923 [TestNG-PoolService-2] HelperClass - Capturing screenshot for failed scenario
 [INFO ] 2026-08-13 15:40:37.111 [TestNG-PoolService-2] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_profile_picture_successfully_2026-08-13_154037.png
 [INFO ] 2026-08-13 15:40:37.111 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-08-14 22:43:05.789 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-14 22:43:05.807 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-14 22:43:10.372 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-14 22:43:10.432 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-14 22:43:10.441 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-14 22:44:22.330 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-14 22:44:22.344 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-14 22:44:22.345 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-14 22:44:22.345 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 22:44:23.824 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-14 22:44:23.825 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-14 22:44:23.825 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-14 22:44:24.007 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-14 22:44:24.008 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-14 22:44:24.008 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-14 22:44:24.170 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-14 22:44:44.743 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-14 22:44:44.746 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-14 22:44:44.746 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-14 22:44:44.747 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-14 22:44:44.949 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-14_224444.png
+[INFO ] 2026-08-14 22:44:44.949 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:02:36.809 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:02:36.843 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:02:40.667 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:02:40.743 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:02:40.758 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:02:50.267 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:02:50.284 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:02:50.284 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:02:50.284 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:02:51.429 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:02:51.429 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:02:51.429 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:02:51.660 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:02:51.661 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:02:51.661 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:02:51.869 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:03:06.021 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 13:03:06.027 [main] PersonalDetailsStepDefinition - Navigating to My Info page from the Dashboard
+[INFO ] 2026-08-15 13:04:06.458 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:04:06.461 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:04:06.461 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:04:06.461 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:04:06.624 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_130406.png
+[INFO ] 2026-08-15 13:04:06.624 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:14:42.603 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:14:42.626 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:14:48.160 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:14:48.294 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:14:48.314 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:14:59.676 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:14:59.688 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:14:59.688 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:14:59.689 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:15:01.963 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:15:01.965 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:15:01.965 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:15:02.199 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:15:02.200 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:15:02.200 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:15:02.372 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:15:20.783 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 13:15:20.787 [main] PersonalDetailsStepDefinition - Navigating to My Info page from the Dashboard
+[INFO ] 2026-08-15 13:16:21.194 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:16:21.197 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:16:21.197 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:16:21.197 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:16:21.366 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_131621.png
+[INFO ] 2026-08-15 13:16:21.366 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:19:05.261 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:19:05.277 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:19:07.078 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:19:07.115 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:19:07.121 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:19:41.163 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:19:41.173 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:19:41.173 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:19:41.173 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:19:42.508 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:19:42.508 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:19:42.508 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:19:42.626 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:19:42.627 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:19:42.627 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:19:42.768 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:19:42.790 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:19:42.793 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:19:42.793 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:19:42.793 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:19:46.146 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_131946.png
+[INFO ] 2026-08-15 13:19:46.146 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:21:44.568 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:21:44.581 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:21:46.411 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:21:46.466 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:21:46.476 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:21:57.614 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:21:57.624 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:21:57.625 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:21:57.625 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:21:58.538 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:21:58.539 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:21:58.539 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:21:58.697 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:21:58.697 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:21:58.698 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:21:58.831 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:22:16.810 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 13:22:16.812 [main] PersonalDetailsStepDefinition - Navigating to My Info page from the Dashboard
+[INFO ] 2026-08-15 13:23:16.973 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:23:16.975 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:23:16.976 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:23:16.976 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:23:17.123 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_132317.png
+[INFO ] 2026-08-15 13:23:17.124 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:23:17.421 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-08-15 13:23:17.421 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:23:18.399 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:23:18.445 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:23:18.461 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:23:33.826 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:23:33.828 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:23:33.828 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:23:33.828 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:23:34.917 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:23:34.918 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:23:34.918 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:23:35.026 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:23:35.026 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:23:35.026 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:23:35.132 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:23:51.857 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 13:23:51.859 [main] PersonalDetailsStepDefinition - Navigating to the Profile Picture page via My Info
+[INFO ] 2026-08-15 13:24:52.234 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[ERROR] 2026-08-15 13:24:52.235 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:24:52.235 [main] HelperClass - Scenario failed: Upload profile picture successfully
+[INFO ] 2026-08-15 13:24:52.235 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:24:52.370 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_profile_picture_successfully_2026-08-15_132452.png
+[INFO ] 2026-08-15 13:24:52.370 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:25:33.082 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:25:33.098 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:25:34.817 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:25:34.851 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:25:34.857 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:25:50.892 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:25:50.901 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:25:50.901 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:25:50.901 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:25:51.885 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:25:51.886 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:25:51.886 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:25:52.003 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:25:52.004 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:25:52.004 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:25:52.102 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:26:06.713 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 13:26:06.716 [main] PersonalDetailsStepDefinition - Navigating to My Info page from the Dashboard
+[INFO ] 2026-08-15 13:27:07.025 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:27:07.028 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:27:07.028 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:27:07.028 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:27:07.174 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_132707.png
+[INFO ] 2026-08-15 13:27:07.174 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:33:07.096 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:33:07.113 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:33:08.670 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:33:08.715 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:33:08.722 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:33:54.858 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:33:54.870 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:33:56.589 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:33:56.657 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:33:56.679 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:34:01.791 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:34:01.810 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:34:03.489 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:34:03.530 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:34:03.537 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:36:07.818 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:36:07.831 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:36:08.792 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:36:08.797 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:36:08.797 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:36:08.797 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:36:09.484 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:36:09.535 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:36:09.541 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:36:25.584 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:36:25.602 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:36:25.602 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:36:25.603 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:36:25.618 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:36:25.638 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:36:25.638 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:36:25.638 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:36:25.669 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:36:25.673 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:36:25.673 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:36:25.673 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:36:25.764 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_133625.png
+[INFO ] 2026-08-15 13:36:25.765 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:36:26.006 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_133625.png
+[INFO ] 2026-08-15 13:36:26.006 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:36:56.277 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:36:56.279 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:36:56.279 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:36:56.279 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:36:56.332 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:36:56.334 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:36:56.335 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:36:56.335 [main] HelperClass - Capturing screenshot for failed scenario
+[ERROR] 2026-08-15 13:36:56.512 [main] HelperClass - Failed to save screenshot
+java.io.IOException: Cannot set the file time.
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:886)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:909)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:811)
+	at com.utilities.HelperClass.takeScreenshotOnFailure(HelperClass.java:105)
+	at com.utilities.HelperClass.tearDown(HelperClass.java:129)
+	at com.hooks.Hooks.tearDown(Hooks.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:130)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:93)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:108)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:108)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:281)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:90)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1685)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:91)
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:79)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:79)
+	at io.cucumber.core.cli.Main.run(Main.java:87)
+	at io.cucumber.core.cli.Main.main(Main.java:30)
+[INFO ] 2026-08-15 13:36:56.518 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:36:56.518 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_133656.png
+[INFO ] 2026-08-15 13:36:56.518 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:43:45.146 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:43:45.157 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:43:47.019 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:43:47.047 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:43:47.051 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:45:39.835 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:45:39.845 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:45:39.845 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:45:39.845 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:45:44.003 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:45:44.003 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:45:44.003 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:45:44.111 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:45:44.111 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:45:44.111 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:45:44.211 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:46:14.695 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:46:14.697 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:46:14.697 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:46:14.697 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:46:14.831 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_134614.png
+[INFO ] 2026-08-15 13:46:14.831 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 13:53:30.926 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 13:53:30.935 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 13:53:32.434 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 13:53:32.483 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 13:53:32.493 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 13:54:39.954 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 13:54:39.965 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 13:54:39.966 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 13:54:39.966 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:54:46.055 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 13:54:46.055 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 13:54:46.055 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 13:54:46.169 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 13:54:46.169 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 13:54:46.169 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 13:54:46.262 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 13:55:06.357 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 13:55:06.360 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 13:55:06.360 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 13:55:06.360 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 13:55:06.500 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_135506.png
+[INFO ] 2026-08-15 13:55:06.500 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:05:47.932 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 14:05:47.947 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:05:52.621 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:05:52.660 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:05:52.667 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:05:59.540 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:05:59.550 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:05:59.551 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:05:59.551 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:06:00.183 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:06:00.184 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:06:00.185 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:06:00.312 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:06:00.312 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:06:00.312 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:06:00.422 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:06:02.353 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:06:02.355 [main] PersonalDetailsStepDefinition - Navigating to My Info page from the Dashboard
+[INFO ] 2026-08-15 14:07:02.704 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-08-15 14:07:02.707 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 14:07:02.708 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-08-15 14:07:02.708 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 14:07:02.873 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data_2026-08-15_140702.png
+[INFO ] 2026-08-15 14:07:02.873 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:08:57.390 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 14:08:57.400 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:08:59.340 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:08:59.375 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:08:59.382 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:09:09.579 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:09:09.587 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:09:09.588 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:09:09.588 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:09:10.236 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:09:10.236 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:09:10.236 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:09:10.343 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:09:10.343 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:09:10.343 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:09:10.435 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:09:12.656 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:09:12.659 [main] PersonalDetailsStepDefinition - Navigating to My Info page from the Dashboard
+[INFO ] 2026-08-15 14:09:14.656 [main] PersonalDetailsStepDefinition - Successfully landed on My Info - Personal Details page
+[INFO ] 2026-08-15 14:09:14.658 [main] PersonalDetailsStepDefinition - Updating personal details with the provided data
+[INFO ] 2026-08-15 14:09:35.841 [main] PersonalDetailsStepDefinition - Personal details fields filled successfully
+[INFO ] 2026-08-15 14:09:35.843 [main] PersonalDetailsStepDefinition - Clicking Save button to submit personal details
+[INFO ] 2026-08-15 14:09:35.929 [main] PersonalDetailsStepDefinition - Verifying success message after saving personal details
+[INFO ] 2026-08-15 14:09:36.507 [main] PersonalDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:09:36.508 [main] PersonalDetailsStepDefinition - Personal details updated successfully as expected
+[INFO ] 2026-08-15 14:09:36.509 [main] Hooks - Ending Scenario: Update personal details with valid data
+[INFO ] 2026-08-15 14:09:36.511 [main] HelperClass - Scenario passed: Update personal details with valid data
+[INFO ] 2026-08-15 14:09:36.511 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:09:36.811 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-08-15 14:09:36.812 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:09:37.732 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:09:37.824 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:09:37.834 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:09:48.476 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:09:48.479 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:09:48.480 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:09:48.480 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:09:49.098 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:09:49.098 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:09:49.098 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:09:49.201 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:09:49.201 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:09:49.201 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:09:49.301 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:09:51.133 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:09:51.135 [main] PersonalDetailsStepDefinition - Navigating to the Profile Picture page via My Info
+[INFO ] 2026-08-15 14:09:54.103 [main] PersonalDetailsStepDefinition - Successfully landed on the Profile Picture page
+[INFO ] 2026-08-15 14:09:54.106 [main] PersonalDetailsStepDefinition - Uploading profile picture using file: \\src\\test\\resources\\profile.jpg
+[INFO ] 2026-08-15 14:09:54.753 [main] PersonalDetailsStepDefinition - Profile picture sent to file input successfully
+[INFO ] 2026-08-15 14:09:54.754 [main] PersonalDetailsStepDefinition - Clicking Save button to upload the profile picture
+[INFO ] 2026-08-15 14:09:54.846 [main] PersonalDetailsStepDefinition - Verifying success message after profile picture upload
+[INFO ] 2026-08-15 14:09:58.141 [main] PersonalDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:09:58.142 [main] PersonalDetailsStepDefinition - Profile picture uploaded successfully as expected
+[INFO ] 2026-08-15 14:09:58.143 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[INFO ] 2026-08-15 14:09:58.143 [main] HelperClass - Scenario passed: Upload profile picture successfully
+[INFO ] 2026-08-15 14:09:58.143 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:10:12.738 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-08-15 14:10:12.748 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:10:14.167 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:10:14.219 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:10:14.225 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:10:20.699 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:10:20.708 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:10:20.709 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:10:20.709 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:10:21.368 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:10:21.368 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:10:21.368 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:10:21.470 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:10:21.470 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:10:21.470 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:10:21.566 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:10:23.483 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:10:23.486 [main] ContactDetailsStepDefinition - Navigating to Contact Details page from the Dashboard
+[INFO ] 2026-08-15 14:10:26.215 [main] ContactDetailsStepDefinition - Successfully landed on Contact Details page
+[INFO ] 2026-08-15 14:10:26.217 [main] ContactDetailsStepDefinition - Updating contact details from: test data
+[INFO ] 2026-08-15 14:10:50.819 [main] ContactDetailsStepDefinition - Contact details fields filled successfully from: test data
+[INFO ] 2026-08-15 14:10:50.821 [main] ContactDetailsStepDefinition - Clicking Save button to submit contact details
+[INFO ] 2026-08-15 14:10:50.925 [main] ContactDetailsStepDefinition - Verifying success message after saving contact details
+[INFO ] 2026-08-15 14:10:52.374 [main] ContactDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:10:52.374 [main] ContactDetailsStepDefinition - Contact details updated successfully as expected
+[INFO ] 2026-08-15 14:10:52.376 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-08-15 14:10:52.378 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-08-15 14:10:52.378 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:10:52.695 [main] Hooks - Starting Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-08-15 14:10:52.695 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:10:53.714 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:10:53.793 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:10:53.808 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:11:01.777 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:11:01.782 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:11:01.782 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:11:01.783 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:11:02.466 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:11:02.467 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:11:02.467 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:11:02.592 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:11:02.592 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:11:02.592 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:11:02.671 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:11:04.558 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:11:04.561 [main] ContactDetailsStepDefinition - Navigating to Contact Details page from the Dashboard
+[INFO ] 2026-08-15 14:11:07.207 [main] ContactDetailsStepDefinition - Successfully landed on Contact Details page
+[INFO ] 2026-08-15 14:11:07.210 [main] ContactDetailsStepDefinition - Clicking the Add Attachment icon
+[INFO ] 2026-08-15 14:11:07.821 [main] ContactDetailsStepDefinition - Add Attachment panel opened successfully
+[INFO ] 2026-08-15 14:11:07.825 [main] ContactDetailsStepDefinition - Uploading file: contact attachment
+[INFO ] 2026-08-15 14:11:07.869 [main] ContactDetailsStepDefinition - File uploaded successfully: contact attachment
+[INFO ] 2026-08-15 14:11:07.871 [main] ContactDetailsStepDefinition - Clicking Save button to save the attachment
+[INFO ] 2026-08-15 14:11:07.978 [main] ContactDetailsStepDefinition - Verifying success message after attachment upload
+[INFO ] 2026-08-15 14:11:08.499 [main] ContactDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:11:08.500 [main] ContactDetailsStepDefinition - Attachment uploaded successfully as expected
+[INFO ] 2026-08-15 14:11:08.501 [main] Hooks - Ending Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-08-15 14:11:08.501 [main] HelperClass - Scenario passed: Upload attachment on Contact Details page
+[INFO ] 2026-08-15 14:11:08.502 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:11:18.131 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-08-15 14:11:18.145 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:11:19.776 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:11:19.859 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:11:19.864 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:11:27.655 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:11:27.663 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:11:27.663 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:11:27.664 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:11:28.266 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:11:28.266 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:11:28.266 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:11:28.362 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:11:28.362 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:11:28.362 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:11:28.460 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:11:30.311 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:11:30.313 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-08-15 14:11:32.974 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-08-15 14:11:32.975 [main] EmergencyContactsStepDefinition - Clicking the Add Emergency Contact button
+[INFO ] 2026-08-15 14:11:34.171 [main] EmergencyContactsStepDefinition - Emergency Contact form opened
+[INFO ] 2026-08-15 14:11:34.174 [main] EmergencyContactsStepDefinition - Reading emergency contact data from Excel sheet: Sheet1
+[DEBUG] 2026-08-15 14:11:34.535 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-08-15 14:11:34.540 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-08-15 14:11:35.208 [main] EmergencyContactsStepDefinition - Filling emergency contact: Name=Renukkka R, Relationship=Spouse
+[INFO ] 2026-08-15 14:11:36.090 [main] EmergencyContactsStepDefinition - Emergency contact form filled successfully
+[INFO ] 2026-08-15 14:11:36.091 [main] EmergencyContactsStepDefinition - Clicking Save button for Emergency Contact
+[INFO ] 2026-08-15 14:11:36.219 [main] EmergencyContactsStepDefinition - Verifying success message after saving emergency contact
+[INFO ] 2026-08-15 14:11:36.801 [main] EmergencyContactsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:11:36.801 [main] EmergencyContactsStepDefinition - Emergency contact saved successfully
+[INFO ] 2026-08-15 14:11:36.803 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[INFO ] 2026-08-15 14:11:36.804 [main] HelperClass - Scenario passed: Add emergency contact with valid data
+[INFO ] 2026-08-15 14:11:36.804 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:11:37.121 [main] Hooks - Starting Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-08-15 14:11:37.122 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:11:37.874 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:11:37.923 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:11:37.929 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:11:45.338 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:11:45.342 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:11:45.342 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:11:45.342 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:11:45.944 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:11:45.944 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:11:45.944 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:11:46.041 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:11:46.041 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:11:46.041 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:11:46.123 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:11:47.837 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:11:47.838 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-08-15 14:11:50.240 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-08-15 14:11:50.241 [main] EmergencyContactsStepDefinition - Clicking Add Attachment icon in Emergency Contacts
+[INFO ] 2026-08-15 14:11:51.345 [main] EmergencyContactsStepDefinition - Attachment upload panel opened
+[INFO ] 2026-08-15 14:11:51.349 [main] EmergencyContactsStepDefinition - Uploading attachment in: Emergency Contacts
+[INFO ] 2026-08-15 14:11:51.414 [main] EmergencyContactsStepDefinition - Attachment file sent successfully in: Emergency Contacts
+[INFO ] 2026-08-15 14:11:51.417 [main] EmergencyContactsStepDefinition - Clicking Save button for attachment
+[INFO ] 2026-08-15 14:11:51.551 [main] EmergencyContactsStepDefinition - Verifying success message after saving attachment
+[INFO ] 2026-08-15 14:11:52.068 [main] EmergencyContactsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:11:52.068 [main] EmergencyContactsStepDefinition - Attachment saved successfully
+[INFO ] 2026-08-15 14:11:52.070 [main] Hooks - Ending Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-08-15 14:11:52.070 [main] HelperClass - Scenario passed: Add attachment in Emergency Contacts page
+[INFO ] 2026-08-15 14:11:52.070 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:12:20.233 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:12:20.244 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:12:21.695 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:12:21.740 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:12:21.747 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:12:26.407 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:12:26.416 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:12:26.416 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:12:26.416 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:12:27.057 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:12:27.057 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:12:27.057 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:12:27.156 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:12:27.156 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:12:27.156 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:12:27.255 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:12:29.110 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:12:47.490 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:12:47.492 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:12:47.492 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:12:47.775 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:12:47.775 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:12:48.519 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:12:48.560 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:12:48.566 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:12:52.820 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:12:52.823 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:12:52.823 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:12:52.823 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:12:53.446 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:12:53.446 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:12:53.446 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:12:53.563 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:12:53.563 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:12:53.563 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:12:53.672 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:12:55.433 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:13:12.195 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:13:12.196 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:13:12.196 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:13:12.448 [main] Hooks - Starting Scenario: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:13:12.448 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:13:13.254 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:13:13.309 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:13:13.314 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:13:17.559 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:13:17.562 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:13:17.562 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:13:17.562 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:13:18.180 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:13:18.180 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:13:18.180 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:13:18.278 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:13:18.278 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:13:18.278 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:13:18.360 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:13:20.226 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:14:07.648 [main] Hooks - Ending Scenario: Upload a valid attachment in Dependents section
+[ERROR] 2026-08-15 14:14:07.649 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 14:14:07.650 [main] HelperClass - Scenario failed: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:14:07.650 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 14:14:08.250 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_a_valid_attachment_in_Dependents_section_2026-08-15_141408.png
+[INFO ] 2026-08-15 14:14:08.250 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:14:08.512 [main] Hooks - Starting Scenario: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:14:08.513 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:14:09.405 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:14:09.451 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:14:09.455 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:14:16.577 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:14:16.579 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:14:16.579 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:14:16.579 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:14:17.205 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:14:17.206 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:14:17.206 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:14:17.300 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:14:17.300 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:14:17.300 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:14:17.385 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:14:19.449 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:14:36.307 [main] Hooks - Ending Scenario: Upload an invalid file size in Dependents Attachments section
+[ERROR] 2026-08-15 14:14:36.307 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 14:14:36.307 [main] HelperClass - Scenario failed: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:14:36.307 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 14:14:36.593 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_an_invalid_file_size_in_Dependents_Attachments_section_2026-08-15_141436.png
+[INFO ] 2026-08-15 14:14:36.593 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:17:55.595 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:17:55.607 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:17:57.194 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:17:57.257 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:17:57.263 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:18:01.740 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:18:01.750 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:18:01.751 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:18:01.751 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:18:02.370 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:18:02.370 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:18:02.370 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:18:02.475 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:18:02.475 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:18:02.475 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:18:02.572 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:18:04.356 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:18:20.982 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:18:20.984 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:18:20.984 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:18:21.314 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:18:21.314 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:18:22.119 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:18:22.173 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:18:22.185 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:18:27.134 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:18:27.137 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:18:27.138 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:18:27.138 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:18:27.753 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:18:27.753 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:18:27.753 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:18:27.848 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:18:27.848 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:18:27.848 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:18:27.941 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:18:29.624 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:18:47.253 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:18:47.253 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:18:47.253 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:18:47.591 [main] Hooks - Starting Scenario: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:18:47.591 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:18:48.362 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:18:48.403 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:18:48.408 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:18:55.097 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:18:55.100 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:18:55.101 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:18:55.101 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:18:56.470 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:18:56.470 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:18:56.470 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:18:56.567 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:18:56.567 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:18:56.567 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:18:56.644 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:19:00.165 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:19:53.855 [main] Hooks - Ending Scenario: Upload a valid attachment in Dependents section
+[ERROR] 2026-08-15 14:19:53.855 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 14:19:53.856 [main] HelperClass - Scenario failed: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:19:53.856 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 14:19:54.096 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_a_valid_attachment_in_Dependents_section_2026-08-15_141954.png
+[INFO ] 2026-08-15 14:19:54.097 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:19:54.369 [main] Hooks - Starting Scenario: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:19:54.369 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:19:55.152 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:19:55.208 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:19:55.231 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:19:59.893 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:19:59.897 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:19:59.897 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:19:59.897 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:20:00.582 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:20:00.583 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:20:00.584 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:20:00.685 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:20:00.686 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:20:00.686 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:20:00.779 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:20:02.642 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:20:19.157 [main] Hooks - Ending Scenario: Upload an invalid file size in Dependents Attachments section
+[ERROR] 2026-08-15 14:20:19.158 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 14:20:19.158 [main] HelperClass - Scenario failed: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:20:19.158 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 14:20:19.438 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_an_invalid_file_size_in_Dependents_Attachments_section_2026-08-15_142019.png
+[INFO ] 2026-08-15 14:20:19.438 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:22:39.415 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:22:39.427 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:22:40.933 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:22:40.991 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:22:41.000 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:22:49.977 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:22:49.987 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:22:49.987 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:22:49.987 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:22:50.587 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:22:50.587 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:22:50.587 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:22:50.689 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:22:50.689 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:22:50.689 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:22:50.788 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:22:52.537 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:23:10.358 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:23:10.360 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:23:10.360 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:23:10.702 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:23:10.702 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:23:11.477 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:23:11.536 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:23:11.551 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:23:18.757 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:23:18.762 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:23:18.762 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:23:18.762 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:23:19.445 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:23:19.445 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:23:19.445 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:23:19.540 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:23:19.540 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:23:19.540 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:23:19.623 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:23:21.495 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:23:39.012 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:23:39.012 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:23:39.012 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:23:39.325 [main] Hooks - Starting Scenario: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:23:39.325 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:23:40.114 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:23:40.168 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:23:40.180 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:23:45.692 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:23:45.694 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:23:45.695 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:23:45.695 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:23:46.340 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:23:46.341 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:23:46.341 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:23:46.435 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:23:46.435 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:23:46.435 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:23:46.526 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:23:48.334 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:24:24.880 [main] Hooks - Ending Scenario: Upload a valid attachment in Dependents section
+[ERROR] 2026-08-15 14:24:24.882 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 14:24:24.882 [main] HelperClass - Scenario failed: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:24:24.882 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 14:24:25.125 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_a_valid_attachment_in_Dependents_section_2026-08-15_142425.png
+[INFO ] 2026-08-15 14:24:25.126 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:24:25.419 [main] Hooks - Starting Scenario: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:24:25.419 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:24:26.229 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:24:26.281 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:24:26.288 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:24:37.170 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:24:37.174 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:24:37.174 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:24:37.174 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:24:37.802 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:24:37.803 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:24:37.803 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:24:37.897 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:24:37.897 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:24:37.897 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:24:37.995 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:24:39.774 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:24:56.522 [main] Hooks - Ending Scenario: Upload an invalid file size in Dependents Attachments section
+[ERROR] 2026-08-15 14:24:56.522 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-15 14:24:56.522 [main] HelperClass - Scenario failed: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:24:56.522 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-15 14:24:56.815 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Upload_an_invalid_file_size_in_Dependents_Attachments_section_2026-08-15_142456.png
+[INFO ] 2026-08-15 14:24:56.815 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:34:36.773 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:34:36.784 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:34:38.352 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:34:38.403 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:34:38.410 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:34:53.699 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:34:53.720 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:34:53.720 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:34:53.721 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:34:56.014 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:34:56.016 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:34:56.016 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:34:56.259 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:34:56.259 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:34:56.260 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:34:56.470 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:34:58.384 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:34:58.387 [main] DependentsStepDefinition - Navigating to Dependents page
+[INFO ] 2026-08-15 14:35:04.100 [main] DependentsStepDefinition - Successfully landed on Dependents page
+[INFO ] 2026-08-15 14:35:04.106 [main] DependentsStepDefinition - Clicking Add icon in Dependents section
+[INFO ] 2026-08-15 14:35:15.954 [main] DependentsStepDefinition - Filling dependent details - Name: Priya Sharma, Relationship: child, DOB: 1990-07-25
+[INFO ] 2026-08-15 14:35:17.051 [main] DependentsStepDefinition - Clicking Save button in Dependents section
+[INFO ] 2026-08-15 14:35:17.210 [main] DependentsStepDefinition - Verifying success message after saving dependent
+[INFO ] 2026-08-15 14:35:17.828 [main] DependentsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:35:17.830 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:35:17.832 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:35:17.832 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:35:18.276 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:35:18.276 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:35:19.410 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:35:19.463 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:35:19.470 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:35:25.823 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:35:25.830 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:35:25.831 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:35:25.831 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:35:27.171 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:35:27.171 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:35:27.172 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:35:27.427 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:35:27.427 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:35:27.427 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:35:27.659 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:35:29.793 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:35:29.796 [main] DependentsStepDefinition - Navigating to Dependents page
+[INFO ] 2026-08-15 14:35:34.895 [main] DependentsStepDefinition - Successfully landed on Dependents page
+[INFO ] 2026-08-15 14:35:34.899 [main] DependentsStepDefinition - Clicking Add icon in Dependents section
+[INFO ] 2026-08-15 14:35:46.986 [main] DependentsStepDefinition - Filling dependent details - Name: Ravi Verma, Relationship: child, DOB: 1985-11-05
+[INFO ] 2026-08-15 14:35:48.112 [main] DependentsStepDefinition - Clicking Save button in Dependents section
+[INFO ] 2026-08-15 14:35:48.274 [main] DependentsStepDefinition - Verifying success message after saving dependent
+[INFO ] 2026-08-15 14:35:49.079 [main] DependentsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:35:49.081 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[INFO ] 2026-08-15 14:35:49.081 [main] HelperClass - Scenario passed: Add dependent details with valid data
+[INFO ] 2026-08-15 14:35:49.082 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:35:49.457 [main] Hooks - Starting Scenario: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:35:49.457 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:35:50.551 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:35:50.618 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:35:50.625 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:35:59.123 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:35:59.130 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:35:59.130 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:35:59.131 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:36:00.000 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:36:00.003 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:36:00.003 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:36:00.270 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:36:00.270 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:36:00.270 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:36:00.497 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:36:03.726 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:36:03.730 [main] DependentsStepDefinition - Moving to Dependents page
+[INFO ] 2026-08-15 14:36:09.994 [main] DependentsStepDefinition - Clicking Add button in Attachments section
+[INFO ] 2026-08-15 14:36:21.855 [main] DependentsStepDefinition - Uploading attachment - FileName: testfile2.txt, Comment: Dependent proof
+[INFO ] 2026-08-15 14:36:21.975 [main] DependentsStepDefinition - Clicking Save button in Attachments section
+[INFO ] 2026-08-15 14:36:32.218 [main] DependentsStepDefinition - Verifying success message after attachment upload
+[INFO ] 2026-08-15 14:36:32.705 [main] DependentsStepDefinition - Success message received: Success
+[INFO ] 2026-08-15 14:36:32.710 [main] Hooks - Ending Scenario: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:36:32.710 [main] HelperClass - Scenario passed: Upload a valid attachment in Dependents section
+[INFO ] 2026-08-15 14:36:32.711 [main] HelperClass - Closing browser
+[INFO ] 2026-08-15 14:36:33.200 [main] Hooks - Starting Scenario: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:36:33.200 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-15 14:36:34.521 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-15 14:36:34.593 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-15 14:36:34.598 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-15 14:36:44.056 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-15 14:36:44.065 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-15 14:36:44.066 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-15 14:36:44.066 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:36:44.969 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-15 14:36:44.970 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-15 14:36:44.970 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-15 14:36:45.210 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-15 14:36:45.211 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-15 14:36:45.211 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-15 14:36:45.406 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-15 14:36:47.313 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-15 14:36:47.317 [main] DependentsStepDefinition - Navigating to Dependents page for invalid attachment test
+[INFO ] 2026-08-15 14:36:52.453 [main] DependentsStepDefinition - Clicking Add button in Attachments
+[INFO ] 2026-08-15 14:37:04.537 [main] DependentsStepDefinition - Uploading invalid attachment - FileName: Large_file.pdf
+[INFO ] 2026-08-15 14:37:04.641 [main] DependentsStepDefinition - Verifying error message for invalid file size
+[INFO ] 2026-08-15 14:37:04.694 [main] DependentsStepDefinition - Error message received: Attachment Size Exceeded
+[INFO ] 2026-08-15 14:37:04.695 [main] Hooks - Ending Scenario: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:37:04.696 [main] HelperClass - Scenario passed: Upload an invalid file size in Dependents Attachments section
+[INFO ] 2026-08-15 14:37:04.696 [main] HelperClass - Closing browser

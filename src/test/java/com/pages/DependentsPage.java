@@ -39,7 +39,7 @@ public class DependentsPage extends BasePage {
     @FindBy(xpath = "//label[text()='Comment']/following::textarea[1]")
     public WebElement commentInput;
 
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(xpath = "//button[normalize-space()='Save']")
     public WebElement saveButton1;
 
     @FindBy(xpath = "//button[normalize-space()='Cancel']")

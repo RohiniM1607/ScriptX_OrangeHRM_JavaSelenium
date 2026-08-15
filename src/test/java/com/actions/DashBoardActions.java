@@ -2,6 +2,7 @@ package com.actions;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -16,7 +17,30 @@ public class DashBoardActions {
 
     public DashBoardActions() {
         dashBoardPage = new DashBoardEmployeePage();
-        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(20));
+        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(60));
+        // ↑ Changed from 20 to 60 — demo site is slow, 20s is not enough
+    }
+
+    public boolean isDashboardDisplayed() {
+        // PRIMARY CHECK: URL-based — does not depend on any XPath at all.
+        // After successful login OrangeHRM always redirects to a URL
+        // containing "dashboard". This is the most reliable check.
+        WebDriverWait dashWait = new WebDriverWait(helper.getDriver(), 
+                                                    Duration.ofSeconds(60));
+        dashWait.until(ExpectedConditions.urlContains("dashboard"));
+
+        // SECONDARY CHECK: verify at least one known post-login element
+        // exists so we know the page actually rendered, not just redirected.
+        dashWait.until(ExpectedConditions.or(
+            ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//span[normalize-space()='My Info']")),
+            ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h6[normalize-space()='Dashboard']")),
+            ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//span[normalize-space()='Dashboard']"))
+        ));
+
+        return true;
     }
 
     public void navigateToMyInfo() {
@@ -27,23 +51,17 @@ public class DashBoardActions {
     public void navigateToProfilePicture() {
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
         dashBoardPage.menuMyInfo.click();
- 
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.Profile));
         dashBoardPage.Profile.click();
     }
 
-    public boolean isDashboardDisplayed() {
-        wait.until(ExpectedConditions.visibilityOf(dashBoardPage.dashboardHeader));
-        return dashBoardPage.dashboardHeader.isDisplayed();
-    }
-    
     public void navigateToContactDetails() {
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
         dashBoardPage.menuMyInfo.click();
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuContactDetails));
         dashBoardPage.menuContactDetails.click();
     }
-    
+
     public void navigateToEmergencyContacts() {
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
         dashBoardPage.menuMyInfo.click();
@@ -51,10 +69,17 @@ public class DashBoardActions {
         dashBoardPage.menuEmergencyContacts.click();
     }
 
-	public void navigateToDependents() {
-		wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
+    public void navigateToDependents() {
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
         dashBoardPage.menuMyInfo.click();
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuDependents));
         dashBoardPage.menuDependents.click();
-	}
+    }
+    
+    public void navigateToSalary() {
+    	wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
+        dashBoardPage.menuMyInfo.click();
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuSalary));
+        dashBoardPage.menuSalary.click();
+    }
 }

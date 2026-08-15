@@ -37,5 +37,5 @@ Feature: Reshma_15May2026_ScriptX_OrangeHRM File for Dependents
   And Employee clicks on Add button in the Attachments
   And Employee uploads invalid attachment details
     | FileName       | ErrorMessage             |
-    | Large_file.txt | Attachment Size Exceeded |
+    | Large_file.pdf | Attachment Size Exceeded |
   Then An error message should be displayed
