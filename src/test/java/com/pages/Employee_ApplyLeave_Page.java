@@ -17,6 +17,9 @@ public class Employee_ApplyLeave_Page extends BasePage {
   
     @FindBy(xpath = "//a[contains(@class,'oxd-topbar-body-nav-tab-item') and normalize-space()='Apply']")
     public WebElement applySubMenu;
+
+    @FindBy(xpath = "//a[contains(@class,'oxd-topbar-body-nav-tab-item') and normalize-space()='My Leave']")
+    public WebElement myLeaveSubMenu;
  
     
     @FindBy(xpath = "//div[@role='listbox']//span")
@@ -45,10 +48,28 @@ public class Employee_ApplyLeave_Page extends BasePage {
     
     @FindBy(xpath = "//label[text()='Leave Type']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text-input')]")
     public WebElement leave_type;
+	
+    @FindBy(xpath = "//label[text()='Leave Type']/ancestor::div[contains(@class,'oxd-input-group')]//span[contains(@class,'oxd-input-field-error-message')]")
+    public WebElement leaveTypeRequiredError;
 
     @FindBy(xpath = "//div[contains(@class,'oxd-toast') and .//p[text()='Successfully Saved']]")
     public WebElement confirm;
     
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(xpath = "//button[@type='submit' and (normalize-space()='Save' or normalize-space()='Apply')]")
     public WebElement save;
+	
+    @FindBy(xpath = "//div[contains(@class,'oxd-table-body')]//div[contains(@class,'oxd-table-row')]")
+    public List<WebElement> leaveListRows;
+
+    @FindBy(xpath = "//button[normalize-space()='Search' and @type='submit']")
+    public WebElement myLeaveSearchButton;
+
+    @FindBy(xpath = "//button[normalize-space()='Yes, Cancel']")
+    public WebElement confirmCancelButton;
+
+    @FindBy(xpath = "//button[normalize-space()='No, Cancel']")
+    public WebElement dismissCancelButton;
+
+    @FindBy(xpath = "//div[contains(@class,'oxd-toast--success')]//p[contains(text(),'Successfully')]")
+    public WebElement cancelSuccessMsg;
 }
