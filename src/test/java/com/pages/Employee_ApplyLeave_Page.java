@@ -48,7 +48,9 @@ public class Employee_ApplyLeave_Page extends BasePage {
     
     @FindBy(xpath = "//label[text()='Leave Type']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text-input')]")
     public WebElement leave_type;
-	
+
+    // Required-field validation message shown under the Leave Type field
+    // when Save is clicked without picking a leave type.
     @FindBy(xpath = "//label[text()='Leave Type']/ancestor::div[contains(@class,'oxd-input-group')]//span[contains(@class,'oxd-input-field-error-message')]")
     public WebElement leaveTypeRequiredError;
 
@@ -57,19 +59,26 @@ public class Employee_ApplyLeave_Page extends BasePage {
     
     @FindBy(xpath = "//button[@type='submit' and (normalize-space()='Save' or normalize-space()='Apply')]")
     public WebElement save;
-	
+
+    // ---- My Leave list / Cancel leave elements ----
+
+    // Each row of the "My Leave" leave request list/table.
     @FindBy(xpath = "//div[contains(@class,'oxd-table-body')]//div[contains(@class,'oxd-table-row')]")
     public List<WebElement> leaveListRows;
 
+    // Search button on the My Leave list's date-range filter panel.
     @FindBy(xpath = "//button[normalize-space()='Search' and @type='submit']")
     public WebElement myLeaveSearchButton;
 
+    // Confirmation dialog shown after clicking the row-level Cancel button
+    // (only appears if leave-cancellation confirmation is enabled in settings).
     @FindBy(xpath = "//button[normalize-space()='Yes, Cancel']")
     public WebElement confirmCancelButton;
 
     @FindBy(xpath = "//button[normalize-space()='No, Cancel']")
     public WebElement dismissCancelButton;
 
+    // Toast shown after a leave request is successfully cancelled.
     @FindBy(xpath = "//div[contains(@class,'oxd-toast--success')]//p[contains(text(),'Successfully')]")
     public WebElement cancelSuccessMsg;
 }
