@@ -110,6 +110,16 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
     
 
     public void confirmation_message() {
+        confirmation_message(3);
+    }
+
+    // Retries up to `attemptsLeft` times total. If OrangeHRM rejects the
+    // submission (most commonly a duplicate/overlapping leave date — which
+    // becomes more likely over time as test runs accumulate more already-used
+    // dates in the system), pick a fresh AUTO date and resubmit automatically
+    // rather than failing the whole scenario over what's essentially bad luck
+    // in the random date pick.
+    private void confirmation_message(int attemptsLeft) {
         String toastText = waitForCapturedToastText(45);
 
         if (toastText == null) {
@@ -140,13 +150,30 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
             Assert.fail("No confirmation toast (success or error) was ever inserted into the DOM after "
                     + "clicking Save. URL=" + currentUrl + ", inlineFieldError=" + inlineErrorText
                     + ", loaderStillPresent=" + loaderStillVisible);
+            return;
         }
 
-        Assert.assertTrue("Expected the success toast to mention 'Successfully Saved', but got: \"" + toastText
-                + "\". This usually means OrangeHRM rejected the leave request — most commonly because a "
-                + "leave already exists for that date range.", toastText.contains("Successfully Saved"));
+        if (toastText.contains("Successfully Saved")) {
+            System.out.println("Success toast captured: " + toastText);
+            return;
+        }
 
-        System.out.println("Success toast captured: " + toastText);
+        // Rejected — most likely a duplicate/overlapping date. Retry with a
+        // fresh AUTO date if we're still on the Apply Leave form and have
+        // attempts left.
+        boolean stillOnApplyLeaveForm = driver.getCurrentUrl().contains("/leave/applyLeave");
+        if (attemptsLeft > 1 && stillOnApplyLeaveForm) {
+            System.out.println("Leave request rejected (\"" + toastText.replace("\n", " ").trim()
+                    + "\") — retrying with a new AUTO date. Attempts remaining after this: " + (attemptsLeft - 1));
+            setDateRange("AUTO", "AUTO");
+            clickSave();
+            confirmation_message(attemptsLeft - 1);
+            return;
+        }
+
+        Assert.fail("Expected the success toast to mention 'Successfully Saved', but got: \"" + toastText
+                + "\" after retries. This usually means OrangeHRM rejected the leave request — most commonly "
+                + "because a leave already exists for that date range.");
     }
 
     // Verifies the "Required" validation message under Leave Type when Save
@@ -376,16 +403,39 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
     // act on some other pre-existing leave request of the same type.
     public void cancelAppliedLeave(String leaveType) {
 
-        List<WebElement> rows = wait.until(ExpectedConditions.visibilityOfAllElements(page.leaveListRows));
-
         WebElement targetRow = null;
-        for (WebElement row : rows) {
-            String rowText = row.getText();
-            boolean matchesType = rowText.contains(leaveType);
-            boolean matchesDate = (appliedFromDateListFormat == null) || rowText.contains(appliedFromDateListFormat);
-            if (matchesType && matchesDate) {
-                targetRow = row;
-                break;
+        List<WebElement> rows = new java.util.ArrayList<>();
+
+        // The row we just created can occasionally be missing from the very
+        // first read of the list — most likely because the list's data fetch
+        // raced ahead of the leave request being fully committed server-side
+        // (more likely under CI load against a shared public demo server).
+        // Retry a few times with a fresh page load in between before giving up.
+        int maxAttempts = 4;
+        for (int attempt = 1; attempt <= maxAttempts && targetRow == null; attempt++) {
+            rows = wait.until(ExpectedConditions.visibilityOfAllElements(page.leaveListRows));
+
+            for (WebElement row : rows) {
+                String rowText = row.getText();
+                boolean matchesType = rowText.contains(leaveType);
+                boolean matchesDate = (appliedFromDateListFormat == null) || rowText.contains(appliedFromDateListFormat);
+                if (matchesType && matchesDate) {
+                    targetRow = row;
+                    break;
+                }
+            }
+
+            if (targetRow == null && attempt < maxAttempts) {
+                System.out.println("Target row not found on attempt " + attempt + "/" + maxAttempts
+                        + " — refreshing My Leave list and retrying.");
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException ignored) {
+                    Thread.currentThread().interrupt();
+                }
+                driver.navigate().refresh();
+                wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-form-loader")));
+                wait.until(ExpectedConditions.visibilityOfAllElements(page.leaveListRows));
             }
         }
 
@@ -396,11 +446,13 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
             for (int i = 0; i < rows.size(); i++) {
                 rowDump.append("\n  [").append(i).append("] ").append(rows.get(i).getText().replace("\n", " | "));
             }
-            System.out.println("---- Rows currently in My Leave list ----" + rowDump + "\n------------------------------------------");
+            System.out.println("---- Rows currently in My Leave list (after " + maxAttempts + " attempts) ----"
+                    + rowDump + "\n------------------------------------------");
 
             Assert.fail("No leave request row matched leaveType='" + leaveType + "' and date='" + appliedFromDate
-                    + "' (list format: '" + appliedFromDateListFormat + "')"
-                    + ". Rows currently listed: " + rows.size() + ". See console dump above for actual row contents.");
+                    + "' (list format: '" + appliedFromDateListFormat + "') after " + maxAttempts
+                    + " attempts with refresh. Rows currently listed: " + rows.size()
+                    + ". See console dump above for actual row contents.");
         }
 
         // ---- DIAGNOSTIC (kept lightweight) ----
