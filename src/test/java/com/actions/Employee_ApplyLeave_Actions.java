@@ -32,6 +32,13 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
     // cancelAppliedLeave() can uniquely identify the row it just created, even
     // when other leave requests of the same type already exist in the list.
     private String appliedFromDate;
+
+    // The My Leave list table renders dates as yyyy-dd-MM (day/month swapped
+    // relative to the yyyy-MM-dd we type into the input field — confirmed by
+    // the row dump: an applied "2026-12-30" shows up in the list as
+    // "2026-30-12"). Row-matching must compare against THIS format, not
+    // appliedFromDate directly.
+    private String appliedFromDateListFormat;
    
 
     public void navigateToApplyLeave() throws InterruptedException {
@@ -171,11 +178,16 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
         long daysRemaining = java.time.temporal.ChronoUnit.DAYS.between(today, endOfYear);
         // Guard against running this in late December, where there may be
         // very few (or zero) days left in the year.
-        long range = Math.max(daysRemaining, 1);
+        int range = (int) Math.max(daysRemaining, 1);
 
-        // Pick a changing-but-bounded offset (1..range) so back-to-back runs
-        // still land on different dates, without ever leaving the current year.
-        long offset = 1 + ((System.currentTimeMillis() / 1000L) % range);
+        // Use ThreadLocalRandom rather than (epochSeconds % range): that old
+        // approach repeats with a period of only `range` seconds (~130s for
+        // an August run), so two scenarios started within ~2 minutes of each
+        // other — very common with parallel execution — could land on the
+        // EXACT same date and collide. ThreadLocalRandom gives each call an
+        // independent pick, seeded per-thread, so concurrent/rapid calls
+        // essentially never collide with each other.
+        int offset = 1 + java.util.concurrent.ThreadLocalRandom.current().nextInt(range);
 
         LocalDate date = today.plusDays(offset);
 
@@ -201,6 +213,25 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
         return date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
     }
 
+    // Converts a yyyy-MM-dd date (what we type into the date input and what
+    // resolveDate() produces) into yyyy-dd-MM — the format the My Leave list
+    // table actually renders dates in. Falls back to the original string if
+    // parsing fails for any reason (e.g. a literal, non-standard fixed date
+    // was passed in), so this never throws and breaks the flow.
+    private static String toListDisplayFormat(String isoDate) {
+        if (isoDate == null) {
+            return null;
+        }
+        try {
+            LocalDate parsed = LocalDate.parse(isoDate, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            return parsed.format(DateTimeFormatter.ofPattern("yyyy-dd-MM"));
+        } catch (Exception e) {
+            System.out.println("Could not convert '" + isoDate + "' to list display format — "
+                    + "falling back to original string for row matching.");
+            return isoDate;
+        }
+    }
+
     public void setDateRange(String fromDate, String toDate) {
 
         // If both are AUTO, resolve once and reuse for both so a single-day
@@ -215,6 +246,7 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
         }
 
         this.appliedFromDate = fromDate;
+        this.appliedFromDateListFormat = toListDisplayFormat(fromDate);
 
         // Defensive wait: don't assume the date fields are already rendered
         // just because a previous step finished — wait for them here too, so
@@ -350,14 +382,26 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
         for (WebElement row : rows) {
             String rowText = row.getText();
             boolean matchesType = rowText.contains(leaveType);
-            boolean matchesDate = (appliedFromDate == null) || rowText.contains(appliedFromDate);
+            boolean matchesDate = (appliedFromDateListFormat == null) || rowText.contains(appliedFromDateListFormat);
             if (matchesType && matchesDate) {
                 targetRow = row;
                 break;
             }
         }
-        Assert.assertNotNull("No leave request row matched leaveType='" + leaveType
-                + "' and date='" + appliedFromDate + "'. Rows currently listed: " + rows.size(), targetRow);
+
+        if (targetRow == null) {
+            // Dump what actually IS in the list so a future mismatch (wrong
+            // date format, unexpected filter reset, etc.) is self-explanatory.
+            StringBuilder rowDump = new StringBuilder();
+            for (int i = 0; i < rows.size(); i++) {
+                rowDump.append("\n  [").append(i).append("] ").append(rows.get(i).getText().replace("\n", " | "));
+            }
+            System.out.println("---- Rows currently in My Leave list ----" + rowDump + "\n------------------------------------------");
+
+            Assert.fail("No leave request row matched leaveType='" + leaveType + "' and date='" + appliedFromDate
+                    + "' (list format: '" + appliedFromDateListFormat + "')"
+                    + ". Rows currently listed: " + rows.size() + ". See console dump above for actual row contents.");
+        }
 
         // ---- DIAGNOSTIC (kept lightweight) ----
         // Confirmed markup: the row has a direct button[text()='Cancel'].
@@ -411,14 +455,14 @@ public class Employee_ApplyLeave_Actions extends BaseActions {
         WebElement targetRow = null;
         for (WebElement row : rows) {
             String rowText = row.getText();
-            boolean matchesDate = (appliedFromDate == null) || rowText.contains(appliedFromDate);
+            boolean matchesDate = (appliedFromDateListFormat == null) || rowText.contains(appliedFromDateListFormat);
             if (matchesDate) {
                 targetRow = row;
                 break;
             }
         }
         Assert.assertNotNull("No cancel toast appeared, and could not find the leave row for date "
-                + appliedFromDate + " to verify its status.", targetRow);
+                + appliedFromDate + " (list format: " + appliedFromDateListFormat + ") to verify its status.", targetRow);
 
         String rowText = targetRow.getText();
         Assert.assertTrue("No cancel toast appeared, and the row for date " + appliedFromDate

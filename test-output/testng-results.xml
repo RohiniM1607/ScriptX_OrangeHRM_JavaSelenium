@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-15T12:45:16 IST" name="OrangeHRM Suite" finished-at="2026-08-15T12:47:16 IST" duration-ms="119844">
+  <suite started-at="2026-08-17T09:12:40 IST" name="OrangeHRM Suite" finished-at="2026-08-17T09:13:45 IST" duration-ms="64905">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@35088e87]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@3eee3e2b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-08-15T12:45:16 IST" name="OrangeHRM Test" finished-at="2026-08-15T12:47:16 IST" duration-ms="119844">
+    <test started-at="2026-08-17T09:12:40 IST" name="OrangeHRM Test" finished-at="2026-08-17T09:13:45 IST" duration-ms="64905">
       <class name="com.runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.TestRunner@35088e87]" started-at="2026-08-15T12:45:16 IST" name="setUpClass" finished-at="2026-08-15T12:45:18 IST" duration-ms="1450" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.TestRunner@3eee3e2b]" started-at="2026-08-17T09:12:40 IST" name="setUpClass" finished-at="2026-08-17T09:12:42 IST" duration-ms="1456" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1431267b]]>
+                <![CDATA[org.testng.TestRunner@77134e08]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@35088e87]" started-at="2026-08-15T12:45:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-15T12:45:44 IST" duration-ms="26057" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@3eee3e2b]" started-at="2026-08-17T09:12:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-17T09:13:42 IST" duration-ms="59911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cancel the applied leave"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Updated_Subhashree_14Aug2026_ScriptX_OrangeHRM File for ApplyLeave_Employee"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@3eee3e2b]" started-at="2026-08-17T09:12:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-17T09:13:09 IST" duration-ms="26741" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@35088e87]" started-at="2026-08-15T12:45:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-15T12:45:59 IST" duration-ms="41584" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@3eee3e2b]" started-at="2026-08-17T09:12:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-17T09:13:19 IST" duration-ms="37494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@35088e87]" started-at="2026-08-15T12:45:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-15T12:45:55 IST" duration-ms="36904" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@3eee3e2b]" started-at="2026-08-17T09:12:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-17T09:13:21 IST" duration-ms="39368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,67 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@35088e87]" started-at="2026-08-15T12:45:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-15T12:47:12 IST" duration-ms="113627" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Cancel the applied leave"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Updated_Subhashree_14Aug2026_ScriptX_OrangeHRM File for ApplyLeave_Employee"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'oxd-toast') and .//p[text()='Successfully Saved']]'
-(tried for 30 seconds with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'oxd-toast') and .//p[text()='Successfully Saved']]'
-(tried for 30 seconds with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at com.actions.Employee_ApplyLeave_Actions.confirmation_message(Employee_ApplyLeave_Actions.java:106)
-at com.stepdefinitions.Employee_ApplyLeave_Definition.the_success_message_should_display(Employee_ApplyLeave_Definition.java:65)
-at ✽.the success message should display(file:///C:/Users/Subha%20Shree/git/ScriptX_OrangeHRM/src/test/resources/features/ApplyLeave_Employee.feature:38)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-toast') and .//p[text()='Successfully Saved']]"}
-  (Session info: chrome=151.0.7922.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a2d926ca9f5adca048ec12849bad766f, findElement {value=//div[contains(@class,'oxd-toast') and .//p[text()='Successfully Saved']], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.138, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59344}, goog:processID: 23104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59344/devtoo..., se:cdpVersion: 151.0.7922.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2d926ca9f5adca048ec12849bad766f
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.TestRunner@35088e87]" started-at="2026-08-15T12:47:12 IST" name="tearDownClass" finished-at="2026-08-15T12:47:16 IST" duration-ms="4698" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.TestRunner@3eee3e2b]" started-at="2026-08-17T09:13:42 IST" name="tearDownClass" finished-at="2026-08-17T09:13:45 IST" duration-ms="3463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
