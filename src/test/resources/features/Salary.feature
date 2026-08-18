@@ -1,12 +1,12 @@
 Feature: Reshma_15May2026_ScriptX_OrangeHRM File for Salary
 
   Background:
-    Given Employee is on the OrangeHRM login page
-    When Employee enters valid "username" and "password"
+    Given Employee is on OrangeHRM login page
+    When Employee enters valid username and password
       | username   | password      |
       | Renukkka R | RenukkkaR@123 |
-    And Employee clicks on the login button
-    And the Employee is on Dashboard page
+    And Employee clicks on login button
+    And the Employee is on the Dashboard page
 
   @ReshmaSalary @Reshma
   Scenario: Add salary component details from CSV file

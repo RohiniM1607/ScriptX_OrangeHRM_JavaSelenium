@@ -11199,3 +11199,33 @@ java.io.IOException: Cannot set the file time.
 [INFO ] 2026-08-15 22:46:28.533 [main] Hooks - Ending Scenario: Add salary component details from CSV file
 [INFO ] 2026-08-15 22:46:28.536 [main] HelperClass - Scenario passed: Add salary component details from CSV file
 [INFO ] 2026-08-15 22:46:28.536 [main] HelperClass - Closing browser
+[INFO ] 2026-08-18 23:47:16.936 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-18 23:47:16.958 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-18 23:47:20.702 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-18 23:47:20.771 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-18 23:47:20.781 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-18 23:47:28.555 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-18 23:47:28.557 [main] HelperClass - Scenario passed: Add salary component details from CSV file
+[INFO ] 2026-08-18 23:47:28.557 [main] HelperClass - Closing browser
+[INFO ] 2026-08-18 23:48:10.936 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-18 23:48:10.954 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-18 23:48:13.384 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-18 23:48:13.473 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-18 23:48:13.482 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-18 23:48:18.239 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-18 23:48:18.254 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-18 23:48:18.254 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-18 23:48:18.254 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-18 23:48:19.005 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-18 23:48:19.005 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-18 23:48:19.005 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-18 23:48:19.158 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-18 23:48:19.158 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-18 23:48:19.159 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-18 23:48:19.265 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-18 23:49:19.516 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[ERROR] 2026-08-18 23:49:19.518 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-18 23:49:19.518 [main] HelperClass - Scenario failed: Add salary component details from CSV file
+[INFO ] 2026-08-18 23:49:19.518 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-18 23:49:19.879 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_salary_component_details_from_CSV_file_2026-08-18_234919.png
+[INFO ] 2026-08-18 23:49:19.879 [main] HelperClass - Closing browser
