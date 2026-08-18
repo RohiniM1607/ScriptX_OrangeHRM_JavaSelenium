@@ -1,20 +1,27 @@
 package com.pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class EmployeeLeaveMyEntitlement_Page extends BasePage {
 
     Actions actions;
     JavascriptExecutor js;
+    WebDriverWait wait;
 
     public EmployeeLeaveMyEntitlement_Page() {
         super();
 
         this.actions = new Actions(driver);
         this.js = (JavascriptExecutor) driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     // =========================
@@ -149,45 +156,73 @@ public class EmployeeLeaveMyEntitlement_Page extends BasePage {
 
         clickLeavePeriodDropdown();
 
-        if (leavePeriod.equalsIgnoreCase("2020-01-01 - 2020-31-12")) {
+        /*
+         * Leave period dropdown starts from the first year.
+         *
+         * Example:
+         *
+         * 2020 -> HOME + 0 DOWN
+         * 2021 -> HOME + 1 DOWN
+         * 2022 -> HOME + 2 DOWN
+         * 2023 -> HOME + 3 DOWN
+         * 2024 -> HOME + 4 DOWN
+         * 2025 -> HOME + 5 DOWN
+         * 2026 -> HOME + 6 DOWN
+         * 2027 -> HOME + 7 DOWN
+         *
+         * HOME is important because 2026 is selected by default
+         * in the Jenkins environment.
+         */
 
-            helper.pressDownAndEnter(1);
+        int year;
 
-        } else if (leavePeriod.equalsIgnoreCase("2021-01-01 - 2021-31-12")) {
+        try {
 
-            helper.pressDownAndEnter(2);
+            year = Integer.parseInt(
+                    leavePeriod.substring(0, 4)
+            );
 
-        } else if (leavePeriod.equalsIgnoreCase("2022-01-01 - 2022-31-12")) {
+        } catch (Exception e) {
 
-            helper.pressDownAndEnter(3);
+            throw new IllegalArgumentException(
+                    "Invalid leave period format: " + leavePeriod
+            );
+        }
 
-        } else if (leavePeriod.equalsIgnoreCase("2023-01-01 - 2023-31-12")) {
+        int firstYear = 2020;
 
-            helper.pressDownAndEnter(4);
+        int downCount = year - firstYear;
 
-        } else if (leavePeriod.equalsIgnoreCase("2024-01-01 - 2024-31-12")) {
-
-            helper.pressDownAndEnter(5);
-
-        } else if (leavePeriod.equalsIgnoreCase("2025-01-01 - 2025-31-12")) {
-
-            helper.pressDownAndEnter(6);
-
-        } else if (leavePeriod.equalsIgnoreCase("2026-01-01 - 2026-31-12")) {
-
-            helper.pressDownAndEnter(7);
-
-        } else if (leavePeriod.equalsIgnoreCase("2027-01-01 - 2027-31-12")) {
-
-            helper.pressDownAndEnter(8);
-
-        } else {
+        if (downCount < 0 || downCount > 7) {
 
             throw new IllegalArgumentException(
                     "Unsupported leave period: " + leavePeriod
             );
         }
 
+        /*
+         * Move to the first option.
+         *
+         * This avoids depending on the currently selected year.
+         */
+        actions.sendKeys(Keys.HOME).perform();
+
+        /*
+         * Move to required year.
+         */
+        for (int i = 0; i < downCount; i++) {
+
+            actions.sendKeys(Keys.ARROW_DOWN).perform();
+        }
+
+        /*
+         * Select the highlighted option.
+         */
+        actions.sendKeys(Keys.ENTER).perform();
+
+        /*
+         * Verify that correct period was selected.
+         */
         verifySelectedLeavePeriod(leavePeriod);
     }
 
@@ -199,14 +234,18 @@ public class EmployeeLeaveMyEntitlement_Page extends BasePage {
 
         helper.waitForElement(leavePeriodDropdown);
 
-        String actualLeavePeriod = leavePeriodDropdown.getText().trim();
+        String actualLeavePeriod = leavePeriodDropdown
+                .getText()
+                .trim();
 
         System.out.println(
-                "Expected Leave Period: " + expectedLeavePeriod
+                "Expected Leave Period: "
+                        + expectedLeavePeriod
         );
 
         System.out.println(
-                "Actual Leave Period: " + actualLeavePeriod
+                "Actual Leave Period: "
+                        + actualLeavePeriod
         );
 
         if (!actualLeavePeriod.equalsIgnoreCase(expectedLeavePeriod)) {
