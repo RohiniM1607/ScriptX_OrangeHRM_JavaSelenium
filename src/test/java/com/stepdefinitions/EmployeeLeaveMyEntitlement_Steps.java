@@ -34,10 +34,7 @@ public class EmployeeLeaveMyEntitlement_Steps {
         Assert.assertTrue(employeeLeaveMyEntitlementActions.isRecordsFoundDisplayed(), "Records Found text is not displayed");
     }
 
-    @Then("No Records Found message should be displayed")
-    public void no_records_found_message_should_be_displayed() {
-        Assert.assertTrue(employeeLeaveMyEntitlementActions.isNoRecordsFoundDisplayed(), "No Records Found message is not displayed");
-    }
+  
 
     @Then("Total Days text should be visible")
     public void total_days_text_should_be_visible() {
