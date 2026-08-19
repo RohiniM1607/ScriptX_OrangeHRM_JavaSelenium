@@ -6,7 +6,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features/",
+
+        features = "src/test/resources/features/Add_leave_entitlement.feature",
+
         glue = {"com.stepdefinitions", "com.hooks"},
         plugin = { 
                 "pretty",
@@ -17,7 +19,7 @@ import io.cucumber.testng.CucumberOptions;
         },
         monochrome = true,
         publish = true,
-        tags = "@Rohini"
+        tags = "@myl"
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
