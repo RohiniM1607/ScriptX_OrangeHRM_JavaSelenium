@@ -63,43 +63,7 @@ public class ReportActions {
         reportToPage.supervisorSaveButton.click();
     }
 
-    // ── Subordinate ─────────────────────────────────────────────────────
-
-    public void clickAddSubordinate() {
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(
-                By.cssSelector("div.oxd-loading-spinner-container")));
-        wait.until(ExpectedConditions.elementToBeClickable(
-                reportToPage.addSubordinateButton));
-        reportToPage.addSubordinateButton.click();
-    }
-
-    public void fillSubordinateDetails(String subordinateName, String reportingMethod) {
-        wait.until(ExpectedConditions.visibilityOf(reportToPage.subordinateNameInput));
-        reportToPage.subordinateNameInput.click();
-        reportToPage.subordinateNameInput.sendKeys(subordinateName);
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//div[@role='listbox']")));
-        List<WebElement> suggestions = wait.until(
-                ExpectedConditions.visibilityOfAllElements(
-                        reportToPage.autoCompleteOptions));
-        for (WebElement suggestion : suggestions) {
-            if (suggestion.getText().trim().equalsIgnoreCase(subordinateName)) {
-                suggestion.click();
-                break;
-            }
-        }
-
-        selectReportingMethod(
-                reportToPage.subordinateReportingMethodDropdown, reportingMethod);
-    }
-
-    public void clickSaveSubordinate() {
-        wait.until(ExpectedConditions.elementToBeClickable(
-                reportToPage.subordinateSaveButton));
-        reportToPage.subordinateSaveButton.click();
-    }
-
+   
     // ── Shared ──────────────────────────────────────────────────────────
 
     private void selectReportingMethod(WebElement dropdown, String value) {
