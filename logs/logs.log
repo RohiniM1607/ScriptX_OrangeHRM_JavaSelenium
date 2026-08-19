@@ -11573,5 +11573,89 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-08-19 08:47:04.321 [TestNG-PoolService-2] HelperClass - Closing browser
 [INFO ] 2026-08-19 08:48:37.964 [TestNG-PoolService-3] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_Leave_entitlement_with_invalid_employee_name_2026-08-19_084837.png
 [INFO ] 2026-08-19 08:48:37.966 [TestNG-PoolService-3] HelperClass - Closing browser
-=======
->>>>>>> 3595cdf0774fdde6205e38eb6431db4db9adac91
+[INFO ] 2026-08-19 10:42:01.153 [main] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-19 10:42:01.169 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 10:42:56.936 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-19 10:42:56.937 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:42:58.000 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-19 10:42:58.000 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:42:58.104 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:42:58.105 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:01.177 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:01.178 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:03.460 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:03.460 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:04.124 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:04.124 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:26.033 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:26.033 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:26.324 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:26.324 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:26.505 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:26.505 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:27.212 [main] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-08-19 10:43:27.217 [main] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-08-19 10:43:27.217 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 10:43:27.595 [main] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-08-19 10:43:27.595 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 10:43:42.733 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-19 10:43:42.733 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:43:45.535 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-19 10:43:45.535 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:43:45.702 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:45.702 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:45.891 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:45.891 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:54.621 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:54.621 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:55.117 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:55.117 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:56.280 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:56.280 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:57.691 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:57.692 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:57.777 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:43:57.778 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:43:57.864 [main] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-08-19 10:43:57.864 [main] HelperClass - Scenario passed: Add leave entitlement without mandatory fields
+[INFO ] 2026-08-19 10:43:57.864 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 10:43:58.079 [main] Hooks - Starting Scenario: Add Leave entitlement with invalid employee name
+[INFO ] 2026-08-19 10:43:58.079 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 10:44:13.745 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-19 10:44:13.746 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:44:14.838 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-19 10:44:14.838 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:44:14.915 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:14.915 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:44:14.972 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:14.973 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:44:19.769 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:19.769 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:44:20.454 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:20.454 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:44:32.147 [main] Hooks - Ending Scenario: Add Leave entitlement with invalid employee name
+[INFO ] 2026-08-19 10:44:32.147 [main] HelperClass - Scenario passed: Add Leave entitlement with invalid employee name
+[INFO ] 2026-08-19 10:44:32.147 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 10:44:32.538 [main] Hooks - Starting Scenario: Entering exceeding entitlement value
+[INFO ] 2026-08-19 10:44:32.538 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 10:44:46.058 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-08-19 10:44:46.058 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:44:49.695 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-08-19 10:44:49.700 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 10:44:49.853 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:49.853 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:44:52.458 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:52.458 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:44:55.173 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:55.173 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:44:55.948 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:44:55.949 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:45:18.184 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:45:18.191 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:45:18.464 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:45:18.464 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:45:18.704 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 10:45:18.704 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 10:45:18.911 [main] Hooks - Ending Scenario: Entering exceeding entitlement value
+[INFO ] 2026-08-19 10:45:18.911 [main] HelperClass - Scenario passed: Entering exceeding entitlement value
+[INFO ] 2026-08-19 10:45:18.911 [main] HelperClass - Closing browser
