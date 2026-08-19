@@ -14,7 +14,7 @@ Feature: Rohini_19May2026_OrangeHRM_EmployeeEntitlement
 
   @Rohini @Employee_Details
   Scenario: Search employee entitlement by employee name leave type and leave period
-    When user searches employee entitlement
+    When user searches employee entitlement using CSV file "EmployeeEntitlement"
       | fieldName    |
       | employeeName |
       | leaveType    |
@@ -33,5 +33,5 @@ Feature: Rohini_19May2026_OrangeHRM_EmployeeEntitlement
 
   @Rohini @Without_Employee_Name
   Scenario: Search entitlement without employee name
-    When user searches entitlement without employee name
+    When user searches entitlement without employee name from Excel file "EmployeeEntitlement"
     Then required employee name validation should be displayed

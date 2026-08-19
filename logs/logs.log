@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [INFO ] 2026-05-18 10:38:45.061 [main] Hooks - Starting Scenario: Add leave entitlement successfully
 [INFO ] 2026-05-18 10:38:45.064 [main] HelperClass - Launching Chrome browser
 [INFO ] 2026-05-18 10:38:48.442 [main] HelperClass - Maximize the Browser window
@@ -11572,3 +11573,5 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-08-19 08:47:04.321 [TestNG-PoolService-2] HelperClass - Closing browser
 [INFO ] 2026-08-19 08:48:37.964 [TestNG-PoolService-3] HelperClass - Screenshot saved at: C:\Users\Mylambigai\Selenium_basic\ScriptX_OrangeHRM\target\screenshots\Add_Leave_entitlement_with_invalid_employee_name_2026-08-19_084837.png
 [INFO ] 2026-08-19 08:48:37.966 [TestNG-PoolService-3] HelperClass - Closing browser
+=======
+>>>>>>> 3595cdf0774fdde6205e38eb6431db4db9adac91

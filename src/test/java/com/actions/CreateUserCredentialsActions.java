@@ -18,6 +18,7 @@ public class CreateUserCredentialsActions {
 
 	public void navigateToAdminUserManagementPage() {
 		logger.info("Navigating to Admin User Management page");
+		
 		createUserPage.navigateToAdmin();
 	}
 

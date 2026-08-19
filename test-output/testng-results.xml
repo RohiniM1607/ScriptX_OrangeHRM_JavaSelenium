@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -15,21 +16,48 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@2446597e]]>
+=======
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-05T14:23:04 IST" name="Default suite" finished-at="2026-08-05T14:26:17 IST" duration-ms="193388">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@6f8e8894]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-08-05T14:23:04 IST" name="Default test" finished-at="2026-08-05T14:26:17 IST" duration-ms="193388">
+      <class name="com.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.TestRunner@6f8e8894]" started-at="2026-08-05T14:23:04 IST" name="setUpClass" finished-at="2026-08-05T14:23:06 IST" duration-ms="2261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b850bb7]]>
+>>>>>>> 3595cdf0774fdde6205e38eb6431db4db9adac91
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@7bbbb6a8]" started-at="2026-08-19T08:41:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-19T08:45:50 IST" duration-ms="248241" status="FAIL">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Add leave entitlement successfully"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@6f8e8894]" started-at="2026-08-05T14:23:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-05T14:23:43 IST" duration-ms="36792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user login credential"]]>
+>>>>>>> 3595cdf0774fdde6205e38eb6431db4db9adac91
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Mylambigai_13May2026_ScriptX_OrangeHRM File for Add leave entitlement"]]>
               </value>
             </param>
@@ -89,10 +117,25 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
             <param index="0">
               <value>
                 <![CDATA["Add leave entitlement without mandatory fields"]]>
+=======
+                <![CDATA["Rohini_14May2026_OrangeHRM_Create User Credential"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@6f8e8894]" started-at="2026-08-05T14:23:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-05T14:24:23 IST" duration-ms="39350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user login credential"]]>
+>>>>>>> 3595cdf0774fdde6205e38eb6431db4db9adac91
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Mylambigai_13May2026_ScriptX_OrangeHRM File for Add leave entitlement"]]>
               </value>
             </param>
@@ -133,10 +176,25 @@ at ✽.Admin clicks on Entitlements and Admin selects Add Entitlements(file:///C
             <param index="0">
               <value>
                 <![CDATA["Entering exceeding entitlement value"]]>
+=======
+                <![CDATA["Rohini_14May2026_OrangeHRM_Create User Credential"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@6f8e8894]" started-at="2026-08-05T14:24:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-05T14:24:51 IST" duration-ms="28928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user login credential"]]>
+>>>>>>> 3595cdf0774fdde6205e38eb6431db4db9adac91
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Mylambigai_13May2026_ScriptX_OrangeHRM File for Add leave entitlement"]]>
               </value>
             </param>
@@ -314,6 +372,32 @@ at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.IllegalStateException -->
+=======
+                <![CDATA["Rohini_14May2026_OrangeHRM_Create User Credential"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@6f8e8894]" started-at="2026-08-05T14:24:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-05T14:26:14 IST" duration-ms="82696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user login credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Rohini_14May2026_OrangeHRM_Create User Credential"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.TestRunner@6f8e8894]" started-at="2026-08-05T14:26:14 IST" name="tearDownClass" finished-at="2026-08-05T14:26:17 IST" duration-ms="3191" status="PASS">
+>>>>>>> 3595cdf0774fdde6205e38eb6431db4db9adac91
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
