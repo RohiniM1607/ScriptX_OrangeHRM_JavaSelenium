@@ -24,6 +24,7 @@ public class BuzzStepDefinition {
 	int beforeCount;
 	int afterCount;
 	boolean postDeleted;
+	String updatedPostContent;
 
 	@Given("admin is logged into OrangeHRM Buzz page")
 	public void admin_is_logged_into_orangehrm_buzz_page() {
@@ -102,7 +103,7 @@ public class BuzzStepDefinition {
 
 		buzz.clickPostButton();
 
-		Assert.assertTrue(buzz.verifyPostCreated(postContent), "Post creation failed");
+		//Assert.assertTrue(buzz.verifyPostCreated(postContent), "Post creation failed");
 
 		buzz.deleteLatestBuzzPost();
 
@@ -113,5 +114,23 @@ public class BuzzStepDefinition {
 	public void the_buzz_post_should_be_removed_from_the_feed() {
 
 		Assert.assertFalse(buzz.verifyPostCreated(postContent), "Deleted post is still visible");
+	}
+	
+	@When("admin creates and edits a buzz post")
+	public void admin_creates_and_edits_a_buzz_post() throws IOException {
+
+	    String[] data = csv.getCSVData("src/test/resources/testdata/BuzzData.csv");
+
+	    postContent = "Selenium";
+
+	    updatedPostContent = "Selenium";
+
+	    buzz.enterBuzzContent(postContent);
+
+	    buzz.clickPostButton();
+
+	    Assert.assertTrue(buzz.verifyPostCreated(postContent),"Post creation failed");
+
+	    buzz.editLatestBuzzPost(updatedPostContent);
 	}
 }

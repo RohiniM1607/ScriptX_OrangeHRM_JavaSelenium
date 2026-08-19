@@ -28,6 +28,15 @@ public class BuzzPage extends BasePage {
 
 	@FindBy(xpath = "//button[contains(.,'Yes, Delete')]")
 	WebElement confirmDeleteBtn;
+	
+	@FindBy(xpath = "//p[text()='Edit Post']")
+	WebElement editPostOption;
+
+	@FindBy(xpath = "//*[@id=\"Buzz Newsfeed\"]/div[2]/div/div/div/form/div[1]/div[2]/div/textarea")
+	WebElement editTextArea;
+
+	@FindBy(xpath = "//*[@id=\"Buzz Newsfeed\"]/div[2]/div/div/div/form/div[3]/button")
+	WebElement savePostBtn;
 
 	public void clickByJS(WebElement element) {
 
@@ -119,5 +128,39 @@ public class BuzzPage extends BasePage {
 	    clickDeletePost();
 
 	    clickConfirmDelete();
+	}
+	
+	public void clickEditPost() {
+
+	    helper.waitForElement(editPostOption);
+
+	    clickByJS(editPostOption);
+	}
+
+	public void updatePostContent(String updatedContent) {
+
+	    helper.waitForElement(editTextArea);
+
+	    editTextArea.clear();
+
+	    editTextArea.sendKeys(updatedContent);
+	}
+
+	public void clickSavePost() {
+
+	    helper.waitForElement(savePostBtn);
+
+	    clickByJS(savePostBtn);
+	}
+
+	public void editLatestPost(String updatedContent) {
+
+	    clickPostOptions();
+
+	    clickEditPost();
+
+	    updatePostContent(updatedContent);
+
+	    clickSavePost();
 	}
 }

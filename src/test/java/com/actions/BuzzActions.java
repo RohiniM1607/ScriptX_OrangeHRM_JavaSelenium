@@ -40,4 +40,9 @@ public class BuzzActions extends BaseActions {
 
 	    buzzPage.deleteLatestPost();
 	}
+	
+	public void editLatestBuzzPost(String updatedContent) {
+
+	    buzzPage.editLatestPost(updatedContent);
+	}
 }
