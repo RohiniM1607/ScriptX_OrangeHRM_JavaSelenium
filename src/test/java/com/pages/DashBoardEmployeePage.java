@@ -20,4 +20,7 @@ public class DashBoardEmployeePage extends BasePage {
     @FindBy(xpath = "//a[normalize-space()='Emergency Contacts']")
     public WebElement menuEmergencyContacts;
 
+    @FindBy(xpath = "//a[normalize-space()='Dependents']")
+    public WebElement menuDependents;
+
 }

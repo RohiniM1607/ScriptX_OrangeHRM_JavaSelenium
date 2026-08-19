@@ -31,24 +31,27 @@ public class HelperClass {
 	private static final Logger logger = LogManager.getLogger(HelperClass.class);
 
 	public void setupBrowser(String url, String headless) {
-		ChromeOptions options = new ChromeOptions();
-		logger.info("Launching Chrome browser in headless mode");
 
-		//options.addArguments("--headless=new");
-		options.addArguments("--window-size=1920,1080");
+	    ChromeOptions options = new ChromeOptions();
 
-		driver.set(new ChromeDriver(options));
-		if (!headless.equalsIgnoreCase("true")) {
-			logger.info("Maximize the Browser window");
-			driver.get().manage().window().maximize();
-		}
+	    if (headless.equalsIgnoreCase("true")) {
+	        logger.info("Launching Chrome browser in headless mode");
+	        options.addArguments("--headless=new");
+	        options.addArguments("--window-size=1920,1080");
+	    } else {
+	        logger.info("Launching Chrome browser in headed mode");
+	    }
 
-		logger.info("Applying implicit wait");
-		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		logger.info("Opening URL: " + url);
-		driver.get().get(url);
+	    driver.set(new ChromeDriver(options));
+
+	    if (!headless.equalsIgnoreCase("true")) {
+	        driver.get().manage().window().maximize();
+	    }
+
+	    driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+	    driver.get().get(url);
 	}
-
 	public WebDriver getDriver() {
 		return driver.get();
 	}
@@ -57,6 +60,11 @@ public class HelperClass {
 		logger.info("Waiting for element visibility");
 		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOf(element));
+	}
+	
+	public void waitForElementVisible(By locator) {
+	    WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 
 	public void waitForElementToBeClickable(WebElement element) {
@@ -70,7 +78,12 @@ public class HelperClass {
 		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(40));
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
-
+	
+	public void waitForElementVisible(WebElement element) {
+	    WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
+	    wait.until(ExpectedConditions.visibilityOf(element));
+	}
+	
 	public void enterText(WebElement element, String value) {
 		logger.info("Entering text: " + value);
 		waitForElement(element);

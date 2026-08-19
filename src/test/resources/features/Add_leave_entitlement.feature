@@ -29,3 +29,11 @@ To add leave Entitlement for Admin/Employee so that they can take leave
     Examples:
       | Employee name | Error message    |
       | Myl           | No Records Found |
+
+  @myl
+  Scenario: Entering exceeding entitlement value
+    When the admin enters details in input fields
+      | EmployeeName | LeaveType      | InvalidEntitlementValue |
+      | Ravi M B     | CAN - Personal | 10000                   |
+    And clicks on the Save button
+    Then the invalid message is displayed
