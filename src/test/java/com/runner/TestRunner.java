@@ -6,7 +6,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features/",
+
+        features = "src/test/resources/features/EmployeeLeaveMyEntitlement.feature",
         glue = {"com.stepdefinitions", "com.hooks"},
         plugin = { 
                 "pretty",
@@ -17,7 +18,7 @@ import io.cucumber.testng.CucumberOptions;
         },
         monochrome = true,
         publish = true,
-        tags = "@Rohini"
+        tags = "@SubhaEmployeeEntitlement"
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
