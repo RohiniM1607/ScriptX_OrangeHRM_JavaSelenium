@@ -36,27 +36,23 @@ public class SalaryStepDefinition {
         log.info("Total salary records read from CSV: {}", records.size());
 
         for (Map<String, String> record : records) {
-            log.info("Processing record — SalaryComponent: {}, PayGrade: {}, Amount: {}",
+            // This will now show actual values instead of null
+            log.info("Processing — SalaryComponent: {}, PayGrade: {}, PayFrequency: {}, Currency: {}, Amount: {}, Comments: {}",
                     record.get("SalaryComponent"),
                     record.get("PayGrade"),
-                    record.get("Amount"));
+                    record.get("PayFrequency"),
+                    record.get("Currency"),
+                    record.get("Amount"),
+                    record.get("Comments"));
 
-            // Click Add for each CSV row
             salaryActions.clickAddButton();
-
-            // Fill form fields from the CSV row
             salaryActions.fillSalaryDetails(record);
-
-            // Save
             salaryActions.clickSave();
 
-            // Assert success after every record
             String message = salaryActions.getSuccessMessage();
             log.info("Success message: {}", message);
             Assert.assertEquals(message, "Success",
-                    "Salary save failed for component: " + record.get("SalaryComponent"));
-
-            log.info("Salary record saved: {}", record.get("SalaryComponent"));
+                    "Salary save failed for: " + record.get("SalaryComponent"));
         }
     }
 

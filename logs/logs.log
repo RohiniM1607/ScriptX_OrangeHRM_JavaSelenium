@@ -11229,3 +11229,134 @@ java.io.IOException: Cannot set the file time.
 [INFO ] 2026-08-18 23:49:19.518 [main] HelperClass - Capturing screenshot for failed scenario
 [INFO ] 2026-08-18 23:49:19.879 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_salary_component_details_from_CSV_file_2026-08-18_234919.png
 [INFO ] 2026-08-18 23:49:19.879 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 21:57:10.201 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-19 21:57:10.221 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 21:57:19.094 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-19 21:57:19.187 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-19 21:57:19.202 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-19 21:57:30.922 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-19 21:57:30.938 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-19 21:57:30.938 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-19 21:57:30.938 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 21:57:32.415 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-19 21:57:32.416 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-19 21:57:32.416 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 21:57:32.645 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-19 21:57:32.645 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 21:57:32.645 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 21:57:32.786 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-19 21:57:35.682 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-19 21:57:35.686 [main] SalaryStepDefinition - Navigating to Salary page
+[INFO ] 2026-08-19 21:57:39.141 [main] SalaryStepDefinition - Successfully landed on Salary page
+[INFO ] 2026-08-19 21:57:39.168 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[ERROR] 2026-08-19 21:57:39.173 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-19 21:57:39.174 [main] HelperClass - Scenario failed: Add salary component details from CSV file
+[INFO ] 2026-08-19 21:57:39.175 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-19 21:57:39.434 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_salary_component_details_from_CSV_file_2026-08-19_215739.png
+[INFO ] 2026-08-19 21:57:39.434 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 22:41:13.081 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-19 22:41:13.093 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 22:41:15.549 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-19 22:41:15.597 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-19 22:41:15.605 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-19 22:41:22.451 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-19 22:41:22.461 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-19 22:41:22.461 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-19 22:41:22.461 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 22:41:23.145 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-19 22:41:23.145 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-19 22:41:23.145 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 22:41:23.251 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-19 22:41:23.251 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 22:41:23.251 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 22:41:23.339 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-19 22:41:25.873 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-19 22:41:25.874 [main] SalaryStepDefinition - Navigating to Salary page
+[INFO ] 2026-08-19 22:41:29.809 [main] SalaryStepDefinition - Successfully landed on Salary page
+[INFO ] 2026-08-19 22:41:29.830 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[ERROR] 2026-08-19 22:41:29.832 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-19 22:41:29.832 [main] HelperClass - Scenario failed: Add salary component details from CSV file
+[INFO ] 2026-08-19 22:41:29.832 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-19 22:41:30.118 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_salary_component_details_from_CSV_file_2026-08-19_224130.png
+[INFO ] 2026-08-19 22:41:30.118 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 22:56:42.805 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-19 22:56:42.814 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 22:56:44.416 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-19 22:56:44.517 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-19 22:56:44.521 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-19 22:57:08.717 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-19 22:57:08.732 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-19 22:57:08.732 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-19 22:57:08.732 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 22:57:09.982 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-19 22:57:09.983 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-19 22:57:09.983 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 22:57:10.087 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-19 22:57:10.087 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 22:57:10.087 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 22:57:10.181 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-19 22:57:13.457 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-19 22:57:13.459 [main] SalaryStepDefinition - Navigating to Salary page
+[INFO ] 2026-08-19 22:57:17.128 [main] SalaryStepDefinition - Successfully landed on Salary page
+[INFO ] 2026-08-19 22:57:17.133 [main] SalaryStepDefinition - Total salary records read from CSV: 2
+[INFO ] 2026-08-19 22:57:17.135 [main] SalaryStepDefinition - Processing record — SalaryComponent: null, PayGrade: , Amount: 
+[INFO ] 2026-08-19 22:58:00.413 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[ERROR] 2026-08-19 22:58:00.415 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-19 22:58:00.416 [main] HelperClass - Scenario failed: Add salary component details from CSV file
+[INFO ] 2026-08-19 22:58:00.416 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-19 22:58:00.679 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_salary_component_details_from_CSV_file_2026-08-19_225800.png
+[INFO ] 2026-08-19 22:58:00.679 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 23:05:54.274 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-19 23:05:54.287 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 23:05:56.010 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-19 23:05:56.064 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-19 23:05:56.073 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-19 23:06:05.490 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-19 23:06:05.499 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-19 23:06:05.500 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-19 23:06:05.500 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 23:06:06.219 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-19 23:06:06.219 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-19 23:06:06.219 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 23:06:06.326 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-19 23:06:06.326 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 23:06:06.326 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 23:06:06.421 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-19 23:06:08.220 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-19 23:06:08.222 [main] SalaryStepDefinition - Navigating to Salary page
+[INFO ] 2026-08-19 23:06:10.932 [main] SalaryStepDefinition - Successfully landed on Salary page
+[INFO ] 2026-08-19 23:06:10.937 [main] SalaryStepDefinition - Total salary records read from CSV: 2
+[INFO ] 2026-08-19 23:06:10.937 [main] SalaryStepDefinition - Processing — SalaryComponent: null, PayGrade: , PayFrequency: , Currency: , Amount: , Comments: null
+[INFO ] 2026-08-19 23:06:43.106 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[ERROR] 2026-08-19 23:06:43.108 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-19 23:06:43.108 [main] HelperClass - Scenario failed: Add salary component details from CSV file
+[INFO ] 2026-08-19 23:06:43.108 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-19 23:06:43.458 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_salary_component_details_from_CSV_file_2026-08-19_230643.png
+[INFO ] 2026-08-19 23:06:43.459 [main] HelperClass - Closing browser
+[INFO ] 2026-08-19 23:12:08.787 [main] Hooks - Starting Scenario: Add salary component details from CSV file
+[INFO ] 2026-08-19 23:12:08.801 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-08-19 23:12:10.506 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-08-19 23:12:10.560 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-08-19 23:12:10.567 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 2026-08-19 23:12:20.040 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-08-19 23:12:20.052 [main] PersonalDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-08-19 23:12:20.052 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-08-19 23:12:20.052 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 23:12:20.769 [main] PersonalDetailsStepDefinition - Entering password
+[INFO ] 2026-08-19 23:12:20.770 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-08-19 23:12:20.770 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-08-19 23:12:20.880 [main] PersonalDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-08-19 23:12:20.880 [main] HelperClass - Clicking on element
+[INFO ] 2026-08-19 23:12:20.880 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-08-19 23:12:20.974 [main] PersonalDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-08-19 23:12:23.320 [main] PersonalDetailsStepDefinition - Dashboard is displayed successfully
+[INFO ] 2026-08-19 23:12:23.322 [main] SalaryStepDefinition - Navigating to Salary page
+[INFO ] 2026-08-19 23:12:26.134 [main] SalaryStepDefinition - Successfully landed on Salary page
+[INFO ] 2026-08-19 23:12:26.137 [main] SalaryStepDefinition - Total salary records read from CSV: 1
+[INFO ] 2026-08-19 23:12:26.137 [main] SalaryStepDefinition - Processing — SalaryComponent: Basic Pay, PayGrade: GS-10, PayFrequency: Monthly, Currency: United States Dollar, Amount: 5000, Comments: Basic monthly pay for GS-10
+[INFO ] 2026-08-19 23:13:08.833 [main] Hooks - Ending Scenario: Add salary component details from CSV file
+[ERROR] 2026-08-19 23:13:08.835 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-08-19 23:13:08.836 [main] HelperClass - Scenario failed: Add salary component details from CSV file
+[INFO ] 2026-08-19 23:13:08.836 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-08-19 23:13:09.362 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_salary_component_details_from_CSV_file_2026-08-19_231309.png
+[INFO ] 2026-08-19 23:13:09.363 [main] HelperClass - Closing browser

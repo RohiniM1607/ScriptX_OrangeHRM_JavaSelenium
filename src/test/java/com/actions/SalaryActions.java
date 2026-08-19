@@ -36,21 +36,37 @@ public class SalaryActions {
                 + File.separator + "src"
                 + File.separator + "test"
                 + File.separator + "resources"
-                + File.separator + "salary_data.csv";
+                + File.separator + "testdata"
+                + File.separator + "SalaryData.csv";
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+        try (BufferedReader br = new BufferedReader(
+                new java.io.InputStreamReader(
+                    new java.io.FileInputStream(filePath), "UTF-8"))) {
+
             String headerLine = br.readLine();
             if (headerLine == null) return records;
 
+            // Fix 1a: Strip BOM character if present (common in Windows-saved CSV files)
+            // BOM is an invisible character at the start of UTF-8 files saved by Excel/Notepad
+            headerLine = headerLine.replace("\uFEFF", "").trim();
+
             String[] headers = headerLine.split(",");
+
+            // Trim each header to remove any hidden whitespace
+            for (int i = 0; i < headers.length; i++) {
+                headers[i] = headers[i].trim();
+            }
+
             String line;
             while ((line = br.readLine()) != null) {
-                // Handle values that may contain commas inside quotes
+                if (line.trim().isEmpty()) continue; // skip blank lines
+
+                // Handle quoted values containing commas
                 String[] values = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
                 Map<String, String> row = new HashMap<>();
                 for (int i = 0; i < headers.length; i++) {
-                    row.put(headers[i].trim(),
-                            i < values.length ? values[i].trim().replace("\"", "") : "");
+                    String value = i < values.length ? values[i].trim().replace("\"", "") : "";
+                    row.put(headers[i], value);
                 }
                 records.add(row);
             }

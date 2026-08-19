@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 public class SalaryPage extends BasePage {
 
     // "+ Add" button inside Assigned Salary Components section
-    @FindBy(xpath = "//button[normalize-space()='Add']")
-    public WebElement addButton;
+	@FindBy(xpath = "//button[contains(normalize-space(),'Add')]")
+	public WebElement addButton;
 
     // Salary Component — text input (required)
     @FindBy(xpath = "//label[text()='Salary Component']/following::input[1]")
